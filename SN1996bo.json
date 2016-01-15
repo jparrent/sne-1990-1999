@@ -627,6 +627,7 @@
             {
                 "deredshifted": false,
                 "dereddened": false,
+                "instrument": "fast",
                 "timeunit": "MJD",
                 "time": 50390.27,
                 "waveunit": "Angstrom",
@@ -13758,6 +13759,7 @@
             {
                 "deredshifted": false,
                 "dereddened": false,
+                "instrument": "fast",
                 "timeunit": "MJD",
                 "time": 50392.24,
                 "waveunit": "Angstrom",
@@ -26884,6 +26886,7 @@
             {
                 "deredshifted": false,
                 "dereddened": false,
+                "instrument": "fast",
                 "timeunit": "MJD",
                 "time": 50394.15,
                 "waveunit": "Angstrom",
@@ -40005,6 +40008,7 @@
             {
                 "deredshifted": false,
                 "dereddened": false,
+                "instrument": "fast",
                 "timeunit": "MJD",
                 "time": 50396.28,
                 "waveunit": "Angstrom",
@@ -53121,6 +53125,7 @@
             {
                 "deredshifted": false,
                 "dereddened": false,
+                "instrument": "fast",
                 "timeunit": "MJD",
                 "time": 50398.27,
                 "waveunit": "Angstrom",

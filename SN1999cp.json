@@ -1355,6 +1355,7 @@
             {
                 "deredshifted": false,
                 "dereddened": false,
+                "instrument": "fast",
                 "timeunit": "MJD",
                 "time": 51348.19,
                 "waveunit": "Angstrom",
@@ -14106,6 +14107,7 @@
             {
                 "deredshifted": false,
                 "dereddened": false,
+                "instrument": "fast",
                 "timeunit": "MJD",
                 "time": 51349.28,
                 "waveunit": "Angstrom",
@@ -26397,6 +26399,7 @@
             {
                 "deredshifted": false,
                 "dereddened": false,
+                "instrument": "fast",
                 "timeunit": "MJD",
                 "time": 51351.2,
                 "waveunit": "Angstrom",

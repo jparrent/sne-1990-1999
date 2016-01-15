@@ -265,6 +265,7 @@
             {
                 "deredshifted": false,
                 "dereddened": false,
+                "instrument": "fast",
                 "timeunit": "MJD",
                 "time": 50775.19,
                 "waveunit": "Angstrom",
@@ -13016,6 +13017,7 @@
             {
                 "deredshifted": false,
                 "dereddened": false,
+                "instrument": "fast",
                 "timeunit": "MJD",
                 "time": 50776.09,
                 "waveunit": "Angstrom",
@@ -25767,6 +25769,7 @@
             {
                 "deredshifted": false,
                 "dereddened": false,
+                "instrument": "fast",
                 "timeunit": "MJD",
                 "time": 50777.11,
                 "waveunit": "Angstrom",
@@ -38518,6 +38521,7 @@
             {
                 "deredshifted": false,
                 "dereddened": false,
+                "instrument": "fast",
                 "timeunit": "MJD",
                 "time": 50778.14,
                 "waveunit": "Angstrom",
@@ -51269,6 +51273,7 @@
             {
                 "deredshifted": false,
                 "dereddened": false,
+                "instrument": "fast",
                 "timeunit": "MJD",
                 "time": 50781.11,
                 "waveunit": "Angstrom",
@@ -64020,6 +64025,7 @@
             {
                 "deredshifted": false,
                 "dereddened": false,
+                "instrument": "fast",
                 "timeunit": "MJD",
                 "time": 50786.11,
                 "waveunit": "Angstrom",
@@ -76771,6 +76777,7 @@
             {
                 "deredshifted": false,
                 "dereddened": false,
+                "instrument": "fast",
                 "timeunit": "MJD",
                 "time": 50788.11,
                 "waveunit": "Angstrom",
@@ -89522,6 +89529,7 @@
             {
                 "deredshifted": false,
                 "dereddened": false,
+                "instrument": "fast",
                 "timeunit": "MJD",
                 "time": 50810.12,
                 "waveunit": "Angstrom",

@@ -1444,6 +1444,7 @@
             {
                 "deredshifted": false,
                 "dereddened": false,
+                "instrument": "fast",
                 "timeunit": "MJD",
                 "time": 51368.45,
                 "waveunit": "Angstrom",
