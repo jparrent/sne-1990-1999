@@ -15,20 +15,59 @@
                 "alias": "2"
             },
             {
-                "name": "<a href='http://www.rochesterastronomy.org/snimages/snredshiftall.html'>Latest Supernovae</a>",
+                "name": "http://graspa.oapd.inaf.it/cgi-bin/sncat.php",
                 "alias": "3",
                 "secondary": true
             },
             {
+                "name": "<a href='http://www.rochesterastronomy.org/snimages/snredshiftall.html'>Latest Supernovae</a>",
+                "alias": "4",
+                "secondary": true
+            },
+            {
                 "name": "<a href='http://www.cbat.eps.harvard.edu/iauc/06100/06138.html'>IAUC 6138</a>",
-                "alias": "4"
+                "alias": "5"
             },
             {
                 "name": "<a href='http://adsabs.harvard.edu/abs/2012A%26A...538A.120L'>2012A&A...538A.120L</a>",
-                "alias": "5"
+                "alias": "6"
             }
         ],
+        "claimedtype": [
+            {
+                "type": "IIn",
+                "source": "3"
+            },
+            {
+                "type": "II P",
+                "source": "4"
+            }
+        ],
+        "discoverday": "22",
+        "discoverer": "Robert Evans",
+        "discovermonth": "2",
+        "discoveryear": "1995",
+        "galdec": "-051910",
+        "galra": "044344",
+        "host": "NGC 1643",
+        "hvel": "4873",
+        "lumdist": "73.444",
+        "maxabsmag": "-18.83",
+        "maxappmag": "15.5",
+        "maxday": "22",
+        "maxmonth": "2",
+        "maxyear": "1995",
+        "redshift": "0.01639",
+        "sndec": "-05:18:53.8",
+        "snra": "04:43:44.22",
         "photometry": [
+            {
+                "timeunit": "MJD",
+                "time": "49770.5",
+                "band": "",
+                "abmag": "15.5",
+                "source": "5,4"
+            },
             {
                 "timeunit": "MJD",
                 "time": "49776.1",
@@ -462,33 +501,7 @@
                 "band": "V",
                 "abmag": "21.44",
                 "source": "1,2"
-            },
-            {
-                "timeunit": "MJD",
-                "time": "49770.5",
-                "band": "",
-                "abmag": "15.5",
-                "source": "4,3"
             }
-        ],
-        "spectra": [],
-        "discoveryear": "1995",
-        "discoverday": "22",
-        "discovermonth": "2",
-        "host": "NGC 1643",
-        "claimedtype": "IIP",
-        "hvel": "4873",
-        "galra": "044344",
-        "galdec": "-051910",
-        "snra": "04:43:44.22",
-        "sndec": "-05:18:53.8",
-        "discoverer": "Robert Evans",
-        "maxyear": "1995",
-        "maxmonth": "2",
-        "maxday": "22",
-        "maxappmag": "15.5",
-        "redshift": "0.01639",
-        "lumdist": "73.44",
-        "maxabsmag": "-18.83"
+        ]
     }
 }

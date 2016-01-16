@@ -6,37 +6,46 @@
         ],
         "sources": [
             {
-                "name": "<a href='http://www.rochesterastronomy.org/snimages/snredshiftall.html'>Latest Supernovae</a>",
+                "name": "http://graspa.oapd.inaf.it/cgi-bin/sncat.php",
                 "alias": "1",
                 "secondary": true
             },
             {
+                "name": "<a href='http://www.rochesterastronomy.org/snimages/snredshiftall.html'>Latest Supernovae</a>",
+                "alias": "2",
+                "secondary": true
+            },
+            {
                 "name": "<a href='http://adsabs.harvard.edu/abs/2012A%26A...538A.120L'>2012A&A...538A.120L</a>",
-                "alias": "2"
+                "alias": "3"
             }
         ],
+        "claimedtype": [
+            {
+                "type": "II",
+                "source": "1,2"
+            }
+        ],
+        "discoverday": "21",
+        "discoverer": "LOSS",
+        "discovermonth": "4",
+        "discoveryear": "1998",
+        "galdec": "+641419",
+        "galra": "092130",
+        "host": "IC 2458",
+        "hvel": "1448",
+        "lumdist": "21.5085",
+        "redshift": "0.004842",
+        "sndec": "+64:14:25.4",
+        "snra": "09:21:30.498",
         "photometry": [
             {
                 "timeunit": "MJD",
                 "time": "50924.0",
                 "band": "",
                 "abmag": "17.6",
-                "source": "2"
+                "source": "3"
             }
-        ],
-        "spectra": [],
-        "discoveryear": "1998",
-        "discoverday": "21",
-        "discovermonth": "4",
-        "host": "IC 2458",
-        "claimedtype": "II",
-        "hvel": "1448",
-        "galra": "092130",
-        "galdec": "+641419",
-        "snra": "09:21:30.498",
-        "sndec": "+64:14:25.4",
-        "discoverer": "LOSS",
-        "redshift": "0.004842",
-        "lumdist": "21.51"
+        ]
     }
 }

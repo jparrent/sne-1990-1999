@@ -20,20 +20,55 @@
                 "secondary": true
             },
             {
-                "name": "<a href='http://www.rochesterastronomy.org/snimages/snredshiftall.html'>Latest Supernovae</a>",
+                "name": "http://graspa.oapd.inaf.it/cgi-bin/sncat.php",
                 "alias": "4",
                 "secondary": true
             },
             {
+                "name": "<a href='http://www.rochesterastronomy.org/snimages/snredshiftall.html'>Latest Supernovae</a>",
+                "alias": "5",
+                "secondary": true
+            },
+            {
                 "name": "<a href='http://www.cbat.eps.harvard.edu/iauc/06400/06492.html'>IAUC 6492</a>",
-                "alias": "5"
+                "alias": "6"
             },
             {
                 "name": "<a href='http://adsabs.harvard.edu/abs/2012A%26A...538A.120L'>2012A&A...538A.120L</a>",
-                "alias": "6"
+                "alias": "7"
             }
         ],
+        "claimedtype": [
+            {
+                "type": "Ia",
+                "source": "4,5"
+            }
+        ],
+        "discoverday": "10",
+        "discoverer": "Christian Pollas",
+        "discovermonth": "10",
+        "discoveryear": "1996",
+        "galdec": "+112340",
+        "galra": "003617",
+        "host": "A003617+1123",
+        "hvel": "10800",
+        "lumdist": "166.9",
+        "maxabsmag": "-19.23",
+        "maxappmag": "16.88",
+        "maxday": "17",
+        "maxmonth": "10",
+        "maxyear": "1996",
+        "redshift": "0.0367",
+        "sndec": "+11:23:40.5",
+        "snra": "00:36:17.97",
         "photometry": [
+            {
+                "timeunit": "MJD",
+                "time": "50366.5",
+                "band": "",
+                "abmag": "17.4",
+                "source": "6,5"
+            },
             {
                 "timeunit": "MJD",
                 "time": "50373.3",
@@ -385,13 +420,6 @@
                 "abmag": "18.47",
                 "aberr": "0.05",
                 "source": "1,2"
-            },
-            {
-                "timeunit": "MJD",
-                "time": "50366.5",
-                "band": "",
-                "abmag": "17.4",
-                "source": "5,4"
             }
         ],
         "spectra": [
@@ -13525,7 +13553,8 @@
                         "2.4904243e-16",
                         "2.3407706e-17"
                     ]
-                ]
+                ],
+                "source": "1"
             },
             {
                 "deredshifted": false,
@@ -26657,7 +26686,8 @@
                         "3.1854678e-16",
                         "0.0000000e+00"
                     ]
-                ]
+                ],
+                "source": "1"
             },
             {
                 "deredshifted": false,
@@ -39789,7 +39819,8 @@
                         "1.5661639e-16",
                         "2.4277672e-17"
                     ]
-                ]
+                ],
+                "source": "1"
             },
             {
                 "deredshifted": false,
@@ -52911,26 +52942,9 @@
                         "1.3626981e-16",
                         "2.2449616e-17"
                     ]
-                ]
+                ],
+                "source": "1"
             }
-        ],
-        "discoveryear": "1996",
-        "maxday": "17",
-        "maxmonth": "10",
-        "host": "A003617+1123",
-        "claimedtype": "Ia",
-        "hvel": "10800",
-        "galra": "003617",
-        "galdec": "+112340",
-        "snra": "00:36:17.97",
-        "sndec": "+11:23:40.5",
-        "discoverer": "Christian Pollas",
-        "discoverday": "10",
-        "discovermonth": "10",
-        "maxyear": "1996",
-        "maxappmag": "16.88",
-        "redshift": "0.0367",
-        "lumdist": "166.9",
-        "maxabsmag": "-19.23"
+        ]
     }
 }

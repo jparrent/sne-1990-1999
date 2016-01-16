@@ -6,37 +6,46 @@
         ],
         "sources": [
             {
-                "name": "<a href='http://www.rochesterastronomy.org/snimages/snredshiftall.html'>Latest Supernovae</a>",
+                "name": "http://graspa.oapd.inaf.it/cgi-bin/sncat.php",
                 "alias": "1",
                 "secondary": true
             },
             {
+                "name": "<a href='http://www.rochesterastronomy.org/snimages/snredshiftall.html'>Latest Supernovae</a>",
+                "alias": "2",
+                "secondary": true
+            },
+            {
                 "name": "<a href='http://adsabs.harvard.edu/abs/2012A%26A...538A.120L'>2012A&A...538A.120L</a>",
-                "alias": "2"
+                "alias": "3"
             }
         ],
+        "claimedtype": [
+            {
+                "type": "Ia",
+                "source": "1,2"
+            }
+        ],
+        "discoverday": "10",
+        "discoverer": "Roberto Antezana",
+        "discovermonth": "11",
+        "discoveryear": "1999",
+        "galdec": "-201748",
+        "galra": "010510",
+        "host": "APMBGC 541+003+027",
+        "hvel": "16200",
+        "lumdist": "256.4",
+        "redshift": "0.0556",
+        "sndec": "-20:17:48.1",
+        "snra": "01:05:10.87",
         "photometry": [
             {
                 "timeunit": "MJD",
                 "time": "51492.0",
                 "band": "V",
                 "abmag": "17.5",
-                "source": "2"
+                "source": "3"
             }
-        ],
-        "spectra": [],
-        "discoveryear": "1999",
-        "discoverday": "10",
-        "discovermonth": "11",
-        "host": "APMBGC 541+003+027",
-        "claimedtype": "Ia",
-        "hvel": "16200",
-        "galra": "010510",
-        "galdec": "-201748",
-        "snra": "01:05:10.87",
-        "sndec": "-20:17:48.1",
-        "discoverer": "Roberto Antezana",
-        "redshift": "0.05558",
-        "lumdist": "256.3"
+        ]
     }
 }

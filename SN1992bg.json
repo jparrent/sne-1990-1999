@@ -15,20 +15,59 @@
                 "alias": "2"
             },
             {
-                "name": "<a href='http://www.rochesterastronomy.org/snimages/snredshiftall.html'>Latest Supernovae</a>",
+                "name": "http://graspa.oapd.inaf.it/cgi-bin/sncat.php",
                 "alias": "3",
                 "secondary": true
             },
             {
+                "name": "<a href='http://www.rochesterastronomy.org/snimages/snredshiftall.html'>Latest Supernovae</a>",
+                "alias": "4",
+                "secondary": true
+            },
+            {
                 "name": "<a href='http://www.cbat.eps.harvard.edu/iauc/05600/05645.html'>IAUC 5645</a>",
-                "alias": "4"
+                "alias": "5"
             },
             {
                 "name": "<a href='http://adsabs.harvard.edu/abs/2012A%26A...538A.120L'>2012A&A...538A.120L</a>",
-                "alias": "5"
+                "alias": "6"
             }
         ],
+        "claimedtype": [
+            {
+                "type": "Ia",
+                "source": "3"
+            },
+            {
+                "type": "Ia-92bg",
+                "source": "4"
+            }
+        ],
+        "discoverday": "20",
+        "discoverer": "Roberto Antezana",
+        "discovermonth": "10",
+        "discoveryear": "1992",
+        "galdec": "-623108",
+        "galra": "074156",
+        "host": "A074156-6231",
+        "hvel": "10500",
+        "lumdist": "162.3",
+        "maxabsmag": "-18.72",
+        "maxappmag": "17.33",
+        "maxday": "24",
+        "maxmonth": "10",
+        "maxyear": "1992",
+        "redshift": "0.0357",
+        "sndec": "-62:31:08.8",
+        "snra": "07:41:56.53",
         "photometry": [
+            {
+                "timeunit": "MJD",
+                "time": "48915.5",
+                "band": "",
+                "abmag": "17.8",
+                "source": "5,4"
+            },
             {
                 "timeunit": "MJD",
                 "time": "48919.3",
@@ -350,33 +389,7 @@
                 "band": "V",
                 "abmag": "19.94",
                 "source": "1,2"
-            },
-            {
-                "timeunit": "MJD",
-                "time": "48915.5",
-                "band": "",
-                "abmag": "17.8",
-                "source": "4,3"
             }
-        ],
-        "spectra": [],
-        "discoveryear": "1992",
-        "maxday": "24",
-        "maxmonth": "10",
-        "host": "A074156-6231",
-        "claimedtype": "Ia-92bg",
-        "hvel": "10500",
-        "galra": "074156",
-        "galdec": "-623108",
-        "snra": "07:41:56.53",
-        "sndec": "-62:31:08.8",
-        "discoverer": "Roberto Antezana",
-        "discoverday": "20",
-        "discovermonth": "10",
-        "redshift": "0.03566",
-        "maxyear": "1992",
-        "maxappmag": "17.33",
-        "lumdist": "162.1",
-        "maxabsmag": "-18.72"
+        ]
     }
 }

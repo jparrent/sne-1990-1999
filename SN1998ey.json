@@ -15,15 +15,47 @@
                 "alias": "2"
             },
             {
-                "name": "<a href='http://www.rochesterastronomy.org/snimages/snredshiftall.html'>Latest Supernovae</a>",
+                "name": "http://graspa.oapd.inaf.it/cgi-bin/sncat.php",
                 "alias": "3",
                 "secondary": true
             },
             {
+                "name": "<a href='http://www.rochesterastronomy.org/snimages/snredshiftall.html'>Latest Supernovae</a>",
+                "alias": "4",
+                "secondary": true
+            },
+            {
                 "name": "<a href='http://adsabs.harvard.edu/abs/2012A%26A...538A.120L'>2012A&A...538A.120L</a>",
-                "alias": "4"
+                "alias": "5"
             }
         ],
+        "claimedtype": [
+            {
+                "type": "Ic",
+                "source": "3"
+            },
+            {
+                "type": "Ic P",
+                "source": "4"
+            }
+        ],
+        "discoverday": "4",
+        "discoverer": "Ron Arbour",
+        "discovermonth": "12",
+        "discoveryear": "1998",
+        "galdec": "+264305",
+        "galra": "213002",
+        "host": "NGC 7080",
+        "hvel": "4806",
+        "lumdist": "72.401",
+        "maxabsmag": "-17.799",
+        "maxappmag": "16.5",
+        "maxday": "8",
+        "maxmonth": "12",
+        "maxyear": "1998",
+        "redshift": "0.01616",
+        "sndec": "+26:43:21.4",
+        "snra": "21:30:00.67",
         "photometry": [
             {
                 "timeunit": "MJD",
@@ -46,25 +78,6 @@
                 "abmag": "16.5",
                 "source": "1,2"
             }
-        ],
-        "spectra": [],
-        "discoveryear": "1998",
-        "discoverday": "4",
-        "discovermonth": "12",
-        "host": "NGC 7080",
-        "claimedtype": "Ic-pec",
-        "hvel": "4806",
-        "galra": "213002",
-        "galdec": "+264305",
-        "snra": "21:30:00.67",
-        "sndec": "+26:43:21.4",
-        "discoverer": "Ron Arbour",
-        "maxyear": "1998",
-        "maxmonth": "12",
-        "maxday": "8",
-        "maxappmag": "16.5",
-        "redshift": "0.01616",
-        "lumdist": "72.4",
-        "maxabsmag": "-17.8"
+        ]
     }
 }

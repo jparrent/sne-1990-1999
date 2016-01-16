@@ -6,28 +6,32 @@
         ],
         "sources": [
             {
+                "name": "http://graspa.oapd.inaf.it/cgi-bin/sncat.php",
+                "alias": "1",
+                "secondary": true
+            },
+            {
                 "name": "<a href='http://adsabs.harvard.edu/abs/2012A%26A...538A.120L'>2012A&A...538A.120L</a>",
-                "alias": "1"
+                "alias": "2"
             }
         ],
+        "discoverday": "3",
+        "discoverer": "MACHO",
+        "discovermonth": 11,
+        "discoveryear": "1998",
+        "galdec": "-711418",
+        "galra": "055019",
+        "host": "GH09-02",
+        "sndec": "-711413.5",
+        "snra": "055016.87",
         "photometry": [
             {
                 "timeunit": "MJD",
                 "time": "51120.0",
                 "band": "V",
                 "abmag": "18.6",
-                "source": "1"
+                "source": "2"
             }
-        ],
-        "spectra": [],
-        "discoveryear": "1998",
-        "discoverday": "3",
-        "discovermonth": 11,
-        "host": "GH09-02",
-        "galra": "055019",
-        "galdec": "-711418",
-        "snra": "055016.87",
-        "sndec": "-711413.5",
-        "discoverer": "MACHO"
+        ]
     }
 }

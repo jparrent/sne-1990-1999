@@ -6,45 +6,55 @@
         ],
         "sources": [
             {
-                "name": "<a href='http://www.rochesterastronomy.org/snimages/snredshiftall.html'>Latest Supernovae</a>",
+                "name": "http://graspa.oapd.inaf.it/cgi-bin/sncat.php",
                 "alias": "1",
                 "secondary": true
             },
             {
+                "name": "<a href='http://www.rochesterastronomy.org/snimages/snredshiftall.html'>Latest Supernovae</a>",
+                "alias": "2",
+                "secondary": true
+            },
+            {
                 "name": "<a href='http://www.cbat.eps.harvard.edu/iauc/06600/06654.html'>IAUC 6654</a>",
-                "alias": "2"
+                "alias": "3"
             },
             {
                 "name": "<a href='http://adsabs.harvard.edu/abs/2012A%26A...538A.120L'>2012A&A...538A.120L</a>",
-                "alias": "3"
+                "alias": "4"
             }
         ],
+        "claimedtype": [
+            {
+                "type": "?",
+                "source": "1"
+            }
+        ],
+        "discoverday": "5",
+        "discoverer": "Mount Stromlo",
+        "discovermonth": "5",
+        "discoveryear": "1997",
+        "galdec": "-284848",
+        "galra": "125337",
+        "host": "A125337-2848",
+        "hvel": "21000",
+        "lumdist": "341",
+        "maxabsmag": "-17.1",
+        "maxappmag": "20.6",
+        "maxday": "5",
+        "maxmonth": "5",
+        "maxyear": "1997",
+        "redshift": "0.073",
+        "sndec": "-28:48:48.5",
+        "snra": "12:53:37.03",
         "photometry": [
             {
                 "timeunit": "MJD",
                 "time": "50573.5",
                 "band": "",
                 "abmag": "20.6",
-                "source": "2,1"
+                "source": "3,2"
             }
-        ],
-        "spectra": [],
-        "discoveryear": "1997",
-        "discoverday": "5",
-        "discovermonth": "5",
-        "host": "A125337-2848",
-        "hvel": "21000",
-        "galra": "125337",
-        "galdec": "-284848",
-        "snra": "12:53:37.03",
-        "sndec": "-28:48:48.5",
-        "discoverer": "Mount Stromlo",
-        "maxyear": "1997",
-        "maxmonth": "5",
-        "maxday": "5",
-        "maxappmag": "20.6",
-        "redshift": "0.07268",
-        "lumdist": "339.1",
-        "maxabsmag": "-17.05"
+        ]
     }
 }

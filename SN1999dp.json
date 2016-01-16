@@ -15,15 +15,43 @@
                 "alias": "2"
             },
             {
-                "name": "<a href='http://www.rochesterastronomy.org/snimages/snredshiftall.html'>Latest Supernovae</a>",
+                "name": "http://graspa.oapd.inaf.it/cgi-bin/sncat.php",
                 "alias": "3",
                 "secondary": true
             },
             {
+                "name": "<a href='http://www.rochesterastronomy.org/snimages/snredshiftall.html'>Latest Supernovae</a>",
+                "alias": "4",
+                "secondary": true
+            },
+            {
                 "name": "<a href='http://adsabs.harvard.edu/abs/2012A%26A...538A.120L'>2012A&A...538A.120L</a>",
-                "alias": "4"
+                "alias": "5"
             }
         ],
+        "claimedtype": [
+            {
+                "type": "II",
+                "source": "3,4"
+            }
+        ],
+        "discoverday": "18",
+        "discoverer": "LOSS",
+        "discovermonth": "8",
+        "discoveryear": "1999",
+        "galdec": "+693154",
+        "galra": "042921",
+        "host": "UGC 3046",
+        "hvel": "4670",
+        "lumdist": "70.32",
+        "maxabsmag": "-16.04",
+        "maxappmag": "18.2",
+        "maxday": "18",
+        "maxmonth": "8",
+        "maxyear": "1999",
+        "redshift": "0.0157",
+        "sndec": "+69:32:00.6",
+        "snra": "04:29:16.66",
         "photometry": [
             {
                 "timeunit": "MJD",
@@ -46,25 +74,6 @@
                 "abmag": "18.2",
                 "source": "1,2"
             }
-        ],
-        "spectra": [],
-        "discoveryear": "1999",
-        "discoverday": "18",
-        "discovermonth": "8",
-        "host": "UGC 3046",
-        "claimedtype": "II",
-        "hvel": "4670",
-        "galra": "042921",
-        "galdec": "+693154",
-        "snra": "04:29:16.66",
-        "sndec": "+69:32:00.6",
-        "discoverer": "LOSS",
-        "redshift": "0.0157",
-        "maxyear": "1999",
-        "maxmonth": "8",
-        "maxday": "18",
-        "maxappmag": "18.2",
-        "lumdist": "70.32",
-        "maxabsmag": "-16.04"
+        ]
     }
 }

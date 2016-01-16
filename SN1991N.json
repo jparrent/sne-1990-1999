@@ -19,20 +19,59 @@
                 "alias": "3"
             },
             {
-                "name": "<a href='http://www.rochesterastronomy.org/snimages/snredshiftall.html'>Latest Supernovae</a>",
+                "name": "http://graspa.oapd.inaf.it/cgi-bin/sncat.php",
                 "alias": "4",
                 "secondary": true
             },
             {
+                "name": "<a href='http://www.rochesterastronomy.org/snimages/snredshiftall.html'>Latest Supernovae</a>",
+                "alias": "5",
+                "secondary": true
+            },
+            {
                 "name": "<a href='http://www.cbat.eps.harvard.edu/iauc/05200/05227.html'>IAUC 5227</a>",
-                "alias": "5"
+                "alias": "6"
             },
             {
                 "name": "<a href='http://adsabs.harvard.edu/abs/2012A%26A...538A.120L'>2012A&A...538A.120L</a>",
-                "alias": "6"
+                "alias": "7"
             }
         ],
+        "claimedtype": [
+            {
+                "type": "Ic",
+                "source": "4"
+            },
+            {
+                "type": "Ic/b",
+                "source": "5"
+            }
+        ],
+        "discoverday": "28",
+        "discoverer": "Saul Perlmutter",
+        "discovermonth": "3",
+        "discoveryear": "1991",
+        "galdec": "+533008",
+        "galra": "103846",
+        "host": "NGC 3310",
+        "hvel": "989",
+        "lumdist": "14.64",
+        "maxabsmag": "-16.93",
+        "maxappmag": "13.9",
+        "maxday": "2",
+        "maxmonth": "4",
+        "maxyear": "1991",
+        "redshift": "0.0033",
+        "sndec": "+53:30:04.7",
+        "snra": "10:38:46.37",
         "photometry": [
+            {
+                "timeunit": "MJD",
+                "time": "48343.5",
+                "band": "",
+                "abmag": "15.0",
+                "source": "6,5"
+            },
             {
                 "timeunit": "MJD",
                 "time": "48344.4",
@@ -116,33 +155,7 @@
                 "band": "V",
                 "abmag": "15.3",
                 "source": "1,2"
-            },
-            {
-                "timeunit": "MJD",
-                "time": "48343.5",
-                "band": "",
-                "abmag": "15.0",
-                "source": "5,4"
             }
-        ],
-        "spectra": [],
-        "discoveryear": "1991",
-        "maxday": "2",
-        "maxmonth": "4",
-        "host": "NGC 3310",
-        "claimedtype": "Ic/b",
-        "hvel": "989",
-        "galra": "103846",
-        "galdec": "+533008",
-        "snra": "10:38:46.37",
-        "sndec": "+53:30:04.7",
-        "discoverer": "Saul Perlmutter",
-        "discoverday": "28",
-        "discovermonth": "3",
-        "maxyear": "1991",
-        "maxappmag": "13.9",
-        "redshift": "0.003304",
-        "lumdist": "14.66",
-        "maxabsmag": "-16.93"
+        ]
     }
 }

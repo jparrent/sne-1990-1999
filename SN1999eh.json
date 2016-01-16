@@ -6,37 +6,46 @@
         ],
         "sources": [
             {
-                "name": "<a href='http://www.rochesterastronomy.org/snimages/snredshiftall.html'>Latest Supernovae</a>",
+                "name": "http://graspa.oapd.inaf.it/cgi-bin/sncat.php",
                 "alias": "1",
                 "secondary": true
             },
             {
+                "name": "<a href='http://www.rochesterastronomy.org/snimages/snredshiftall.html'>Latest Supernovae</a>",
+                "alias": "2",
+                "secondary": true
+            },
+            {
                 "name": "<a href='http://adsabs.harvard.edu/abs/2012A%26A...538A.120L'>2012A&A...538A.120L</a>",
-                "alias": "2"
+                "alias": "3"
             }
         ],
+        "claimedtype": [
+            {
+                "type": "Ib",
+                "source": "1,2"
+            }
+        ],
+        "discoverday": "12",
+        "discoverer": "Mark Armstrong",
+        "discovermonth": "10",
+        "discoveryear": "1999",
+        "galdec": "+330725",
+        "galra": "090933",
+        "host": "NGC 2770",
+        "hvel": "1955",
+        "lumdist": "29.1021",
+        "redshift": "0.006543",
+        "sndec": "+33:07:16.9",
+        "snra": "09:09:32.67",
         "photometry": [
             {
                 "timeunit": "MJD",
                 "time": "51463.0",
                 "band": "",
                 "abmag": "17.5",
-                "source": "2"
+                "source": "3"
             }
-        ],
-        "spectra": [],
-        "discoveryear": "1999",
-        "discoverday": "12",
-        "discovermonth": "10",
-        "host": "NGC 2770",
-        "claimedtype": "Ib",
-        "hvel": "1955",
-        "galra": "090933",
-        "galdec": "+330725",
-        "snra": "09:09:32.67",
-        "sndec": "+33:07:16.9",
-        "discoverer": "Mark Armstrong",
-        "redshift": "0.006543",
-        "lumdist": "29.1"
+        ]
     }
 }

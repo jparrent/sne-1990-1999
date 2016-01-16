@@ -15,20 +15,55 @@
                 "alias": "2"
             },
             {
-                "name": "<a href='http://www.rochesterastronomy.org/snimages/snredshiftall.html'>Latest Supernovae</a>",
+                "name": "http://graspa.oapd.inaf.it/cgi-bin/sncat.php",
                 "alias": "3",
                 "secondary": true
             },
             {
+                "name": "<a href='http://www.rochesterastronomy.org/snimages/snredshiftall.html'>Latest Supernovae</a>",
+                "alias": "4",
+                "secondary": true
+            },
+            {
                 "name": "<a href='http://www.cbat.eps.harvard.edu/iauc/05400/05467.html'>IAUC 5467</a>",
-                "alias": "4"
+                "alias": "5"
             },
             {
                 "name": "<a href='http://adsabs.harvard.edu/abs/2012A%26A...538A.120L'>2012A&A...538A.120L</a>",
-                "alias": "5"
+                "alias": "6"
             }
         ],
+        "claimedtype": [
+            {
+                "type": "Ia",
+                "source": "3,4"
+            }
+        ],
+        "discoverday": "2",
+        "discoverer": "Marina Wischnjewsky",
+        "discovermonth": "3",
+        "discoveryear": "1992",
+        "galdec": "-263824",
+        "galra": "100900",
+        "host": "A100900-2638",
+        "hvel": "13380",
+        "lumdist": "209.09",
+        "maxabsmag": "-18.202",
+        "maxappmag": "18.4",
+        "maxday": "2",
+        "maxmonth": "3",
+        "maxyear": "1992",
+        "redshift": "0.04567",
+        "sndec": "-26:38:24.4",
+        "snra": "10:09:00.30",
         "photometry": [
+            {
+                "timeunit": "MJD",
+                "time": "48683.5",
+                "band": "",
+                "abmag": "18.4",
+                "source": "5,4"
+            },
             {
                 "timeunit": "MJD",
                 "time": "48686.28",
@@ -196,33 +231,7 @@
                 "band": "V",
                 "abmag": "20.59",
                 "source": "1,2"
-            },
-            {
-                "timeunit": "MJD",
-                "time": "48683.5",
-                "band": "",
-                "abmag": "18.4",
-                "source": "4,3"
             }
-        ],
-        "spectra": [],
-        "discoveryear": "1992",
-        "maxday": "2",
-        "maxmonth": "3",
-        "host": "A100900-2638",
-        "claimedtype": "Ia",
-        "hvel": "13380",
-        "galra": "100900",
-        "galdec": "-263824",
-        "snra": "10:09:00.30",
-        "sndec": "-26:38:24.4",
-        "discoverer": "Marina Wischnjewsky",
-        "discoverday": "2",
-        "discovermonth": "3",
-        "maxyear": "1992",
-        "maxappmag": "18.4",
-        "redshift": "0.04567",
-        "lumdist": "209.1",
-        "maxabsmag": "-18.2"
+        ]
     }
 }

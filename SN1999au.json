@@ -6,46 +6,55 @@
         ],
         "sources": [
             {
-                "name": "<a href='http://www.rochesterastronomy.org/snimages/snredshiftall.html'>Latest Supernovae</a>",
+                "name": "http://graspa.oapd.inaf.it/cgi-bin/sncat.php",
                 "alias": "1",
                 "secondary": true
             },
             {
+                "name": "<a href='http://www.rochesterastronomy.org/snimages/snredshiftall.html'>Latest Supernovae</a>",
+                "alias": "2",
+                "secondary": true
+            },
+            {
                 "name": "<a href='http://www.cbat.eps.harvard.edu/iauc/07100/07130.html#Item1'>IAUC 7130</a>",
-                "alias": "2"
+                "alias": "3"
             },
             {
                 "name": "<a href='http://adsabs.harvard.edu/abs/2012A%26A...538A.120L'>2012A&A...538A.120L</a>",
-                "alias": "3"
+                "alias": "4"
             }
         ],
+        "claimedtype": [
+            {
+                "type": "Ia",
+                "source": "1,2"
+            }
+        ],
+        "discoverday": "8",
+        "discoverer": "Wise Observatory",
+        "discovermonth": "3",
+        "discoveryear": "1999",
+        "galdec": "-072209",
+        "galra": "085858",
+        "host": "A085858-0722",
+        "hvel": "34900",
+        "lumdist": "599",
+        "maxabsmag": "-19.7",
+        "maxappmag": "19.2",
+        "maxday": "8",
+        "maxmonth": "3",
+        "maxyear": "1999",
+        "redshift": "0.124",
+        "sndec": "-07:22:09.9",
+        "snra": "08:58:58.01",
         "photometry": [
             {
                 "timeunit": "MJD",
                 "time": "51245.5",
                 "band": "",
                 "abmag": "19.2",
-                "source": "2,1"
+                "source": "3,2"
             }
-        ],
-        "spectra": [],
-        "discoveryear": "1999",
-        "discoverday": "8",
-        "discovermonth": "3",
-        "host": "A085858-0722",
-        "claimedtype": "Ia",
-        "redshift": "0.124",
-        "galra": "085858",
-        "galdec": "-072209",
-        "snra": "08:58:58.01",
-        "sndec": "-07:22:09.9",
-        "discoverer": "Wise Observatory",
-        "maxyear": "1999",
-        "maxmonth": "3",
-        "maxday": "8",
-        "maxappmag": "19.2",
-        "hvel": "34890",
-        "lumdist": "598.7",
-        "maxabsmag": "-19.69"
+        ]
     }
 }

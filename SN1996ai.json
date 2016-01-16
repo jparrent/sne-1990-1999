@@ -28,16 +28,58 @@
                 "alias": "5"
             },
             {
-                "name": "<a href='http://www.rochesterastronomy.org/snimages/snredshiftall.html'>Latest Supernovae</a>",
+                "name": "http://graspa.oapd.inaf.it/cgi-bin/sncat.php",
                 "alias": "6",
                 "secondary": true
             },
             {
+                "name": "<a href='http://www.rochesterastronomy.org/snimages/snredshiftall.html'>Latest Supernovae</a>",
+                "alias": "7",
+                "secondary": true
+            },
+            {
                 "name": "<a href='http://adsabs.harvard.edu/abs/2012A%26A...538A.120L'>2012A&A...538A.120L</a>",
-                "alias": "7"
+                "alias": "8"
             }
         ],
+        "claimedtype": [
+            {
+                "type": "Ia",
+                "source": "6,7"
+            }
+        ],
+        "discoverday": "16",
+        "discoverer": "Claudio Bottari",
+        "discovermonth": "6",
+        "discoveryear": "1996",
+        "galdec": "+370329",
+        "galra": "131056",
+        "host": "NGC 5005",
+        "hvel": "992",
+        "lumdist": "14.686",
+        "maxabsmag": "-17.335",
+        "maxappmag": "13.5",
+        "maxday": "20",
+        "maxmonth": "6",
+        "maxyear": "1996",
+        "redshift": "0.00331",
+        "sndec": "+37:03:35.4",
+        "snra": "13:10:58.13",
         "photometry": [
+            {
+                "timeunit": "MJD",
+                "time": "50250.86",
+                "band": "V",
+                "abmag": "14.5",
+                "source": "3,4"
+            },
+            {
+                "timeunit": "MJD",
+                "time": "50250.88",
+                "band": "V",
+                "abmag": "14.5",
+                "source": "3,4"
+            },
             {
                 "timeunit": "MJD",
                 "time": "50253.5",
@@ -72,6 +114,41 @@
             },
             {
                 "timeunit": "MJD",
+                "time": "50254.0",
+                "band": "B",
+                "abmag": "16.5",
+                "source": "3,5"
+            },
+            {
+                "timeunit": "MJD",
+                "time": "50254.0",
+                "band": "I",
+                "abmag": "13.5",
+                "source": "3,5"
+            },
+            {
+                "timeunit": "MJD",
+                "time": "50254.0",
+                "band": "R",
+                "abmag": "14.5",
+                "source": "3,5"
+            },
+            {
+                "timeunit": "MJD",
+                "time": "50254.0",
+                "band": "V",
+                "abmag": "15",
+                "source": "3,5"
+            },
+            {
+                "timeunit": "MJD",
+                "time": "50254.3",
+                "band": "V",
+                "abmag": "15.2",
+                "source": "3,4"
+            },
+            {
+                "timeunit": "MJD",
                 "time": "50254.5",
                 "band": "B",
                 "abmag": "16.97",
@@ -101,6 +178,13 @@
                 "abmag": "14.02",
                 "aberr": "0.02",
                 "source": "1,2"
+            },
+            {
+                "timeunit": "MJD",
+                "time": "50254.91",
+                "band": "V",
+                "abmag": "13.8",
+                "source": "3,4"
             },
             {
                 "timeunit": "MJD",
@@ -445,62 +529,6 @@
                 "abmag": "15.04",
                 "aberr": "0.02",
                 "source": "1,2"
-            },
-            {
-                "timeunit": "MJD",
-                "time": "50250.86",
-                "band": "V",
-                "abmag": "14.5",
-                "source": "3,4"
-            },
-            {
-                "timeunit": "MJD",
-                "time": "50250.88",
-                "band": "V",
-                "abmag": "14.5",
-                "source": "3,4"
-            },
-            {
-                "timeunit": "MJD",
-                "time": "50254.0",
-                "band": "B",
-                "abmag": "16.5",
-                "source": "3,5"
-            },
-            {
-                "timeunit": "MJD",
-                "time": "50254.0",
-                "band": "I",
-                "abmag": "13.5",
-                "source": "3,5"
-            },
-            {
-                "timeunit": "MJD",
-                "time": "50254.0",
-                "band": "R",
-                "abmag": "14.5",
-                "source": "3,5"
-            },
-            {
-                "timeunit": "MJD",
-                "time": "50254.0",
-                "band": "V",
-                "abmag": "15",
-                "source": "3,5"
-            },
-            {
-                "timeunit": "MJD",
-                "time": "50254.3",
-                "band": "V",
-                "abmag": "15.2",
-                "source": "3,4"
-            },
-            {
-                "timeunit": "MJD",
-                "time": "50254.91",
-                "band": "V",
-                "abmag": "13.8",
-                "source": "3,4"
             }
         ],
         "spectra": [
@@ -12265,7 +12293,8 @@
                         "8880.78",
                         "3.6664410e-15"
                     ]
-                ]
+                ],
+                "source": "1"
             },
             {
                 "deredshifted": false,
@@ -25397,7 +25426,8 @@
                         "3.1056192e-15",
                         "1.0201803e-16"
                     ]
-                ]
+                ],
+                "source": "1"
             },
             {
                 "deredshifted": false,
@@ -38529,7 +38559,8 @@
                         "2.7748816e-15",
                         "7.6790543e-17"
                     ]
-                ]
+                ],
+                "source": "1"
             },
             {
                 "deredshifted": false,
@@ -62971,7 +63002,8 @@
                         "-1.5416822e-16",
                         "1.4170070e-16"
                     ]
-                ]
+                ],
+                "source": "1"
             },
             {
                 "deredshifted": false,
@@ -76113,7 +76145,8 @@
                         "2.4121792e-15",
                         "7.9855324e-17"
                     ]
-                ]
+                ],
+                "source": "1"
             },
             {
                 "deredshifted": false,
@@ -89260,7 +89293,8 @@
                         "1.0310872e-15",
                         "5.1098981e-17"
                     ]
-                ]
+                ],
+                "source": "1"
             },
             {
                 "deredshifted": false,
@@ -102407,26 +102441,9 @@
                         "2.2542922e-15",
                         "6.1865966e-17"
                     ]
-                ]
+                ],
+                "source": "1"
             }
-        ],
-        "discoveryear": "1996",
-        "maxday": "20",
-        "maxmonth": "6",
-        "host": "NGC 5005",
-        "claimedtype": "Ia",
-        "hvel": "992",
-        "galra": "131056",
-        "galdec": "+370329",
-        "snra": "13:10:58.13",
-        "sndec": "+37:03:35.4",
-        "discoverer": "Claudio Bottari",
-        "discoverday": "16",
-        "discovermonth": "6",
-        "maxyear": "1996",
-        "maxappmag": "13.5",
-        "redshift": "0.003314",
-        "lumdist": "14.7",
-        "maxabsmag": "-17.34"
+        ]
     }
 }

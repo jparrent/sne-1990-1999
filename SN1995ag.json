@@ -6,46 +6,55 @@
         ],
         "sources": [
             {
-                "name": "<a href='http://www.rochesterastronomy.org/snimages/snredshiftall.html'>Latest Supernovae</a>",
+                "name": "http://graspa.oapd.inaf.it/cgi-bin/sncat.php",
                 "alias": "1",
                 "secondary": true
             },
             {
+                "name": "<a href='http://www.rochesterastronomy.org/snimages/snredshiftall.html'>Latest Supernovae</a>",
+                "alias": "2",
+                "secondary": true
+            },
+            {
                 "name": "<a href='http://www.cbat.eps.harvard.edu/iauc/06200/06244.html'>IAUC 6244</a>",
-                "alias": "2"
+                "alias": "3"
             },
             {
                 "name": "<a href='http://adsabs.harvard.edu/abs/2012A%26A...538A.120L'>2012A&A...538A.120L</a>",
-                "alias": "3"
+                "alias": "4"
             }
         ],
+        "claimedtype": [
+            {
+                "type": "II",
+                "source": "1,2"
+            }
+        ],
+        "discoverday": "27",
+        "discoverer": "Jean Mueller",
+        "discovermonth": "9",
+        "discoveryear": "1995",
+        "galdec": "+731539",
+        "galra": "215624",
+        "host": "UGC 11861",
+        "hvel": "1483",
+        "lumdist": "22.0302",
+        "maxabsmag": "-14.7151",
+        "maxappmag": "17",
+        "maxday": "27",
+        "maxmonth": "9",
+        "maxyear": "1995",
+        "redshift": "0.004959",
+        "sndec": "+73:15:13.6",
+        "snra": "21:56:19.38",
         "photometry": [
             {
                 "timeunit": "MJD",
                 "time": "49987.5",
                 "band": "",
                 "abmag": "17.0",
-                "source": "2,1"
+                "source": "3,2"
             }
-        ],
-        "spectra": [],
-        "discoveryear": "1995",
-        "discoverday": "27",
-        "discovermonth": "9",
-        "host": "UGC 11861",
-        "claimedtype": "II",
-        "hvel": "1483",
-        "galra": "215624",
-        "galdec": "+731539",
-        "snra": "21:56:19.38",
-        "sndec": "+73:15:13.6",
-        "discoverer": "Jean Mueller",
-        "maxyear": "1995",
-        "maxmonth": "9",
-        "maxday": "27",
-        "maxappmag": "17",
-        "redshift": "0.004959",
-        "lumdist": "22.03",
-        "maxabsmag": "-14.72"
+        ]
     }
 }

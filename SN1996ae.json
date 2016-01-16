@@ -6,37 +6,46 @@
         ],
         "sources": [
             {
-                "name": "<a href='http://www.rochesterastronomy.org/snimages/snredshiftall.html'>Latest Supernovae</a>",
+                "name": "http://graspa.oapd.inaf.it/cgi-bin/sncat.php",
                 "alias": "1",
                 "secondary": true
             },
             {
+                "name": "<a href='http://www.rochesterastronomy.org/snimages/snredshiftall.html'>Latest Supernovae</a>",
+                "alias": "2",
+                "secondary": true
+            },
+            {
                 "name": "<a href='http://adsabs.harvard.edu/abs/2012A%26A...538A.120L'>2012A&A...538A.120L</a>",
-                "alias": "2"
+                "alias": "3"
             }
         ],
+        "claimedtype": [
+            {
+                "type": "IIn",
+                "source": "1,2"
+            }
+        ],
+        "discoverday": "21",
+        "discoverer": "Vagnozzi, G. Piermarini, and V. Russo, S. Lucia Observatory",
+        "discovermonth": "5",
+        "discoveryear": "1996",
+        "galdec": "+033240",
+        "galra": "145358",
+        "host": "NGC 5775",
+        "hvel": "1563",
+        "lumdist": "23.2255",
+        "redshift": "0.005227",
+        "sndec": "+03:31:46.3",
+        "snra": "14:53:59.81",
         "photometry": [
             {
                 "timeunit": "MJD",
                 "time": "50224.0",
                 "band": "",
                 "abmag": "16.5",
-                "source": "2"
+                "source": "3"
             }
-        ],
-        "spectra": [],
-        "discoveryear": "1996",
-        "discoverday": "21",
-        "discovermonth": "5",
-        "host": "NGC 5775",
-        "claimedtype": "IIn",
-        "hvel": "1563",
-        "galra": "145358",
-        "galdec": "+033240",
-        "snra": "14:53:59.81",
-        "sndec": "+03:31:46.3",
-        "discoverer": "Vagnozzi, G. Piermarini, and V. Russo, S. Lucia Observatory",
-        "redshift": "0.005227",
-        "lumdist": "23.23"
+        ]
     }
 }

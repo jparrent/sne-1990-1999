@@ -19,80 +19,45 @@
                 "alias": "3"
             },
             {
-                "name": "<a href='http://www.rochesterastronomy.org/snimages/snredshiftall.html'>Latest Supernovae</a>",
+                "name": "http://graspa.oapd.inaf.it/cgi-bin/sncat.php",
                 "alias": "4",
                 "secondary": true
             },
             {
+                "name": "<a href='http://www.rochesterastronomy.org/snimages/snredshiftall.html'>Latest Supernovae</a>",
+                "alias": "5",
+                "secondary": true
+            },
+            {
                 "name": "<a href='http://adsabs.harvard.edu/abs/2012A%26A...538A.120L'>2012A&A...538A.120L</a>",
-                "alias": "5"
+                "alias": "6"
             }
         ],
+        "claimedtype": [
+            {
+                "type": "II",
+                "source": "4,5"
+            }
+        ],
+        "discoverday": "21",
+        "discoverer": "BAO Supernova Survey",
+        "discovermonth": "1",
+        "discoveryear": "1999",
+        "ebv": "0.0166",
+        "galdec": "+583344",
+        "galra": "112832",
+        "host": "NGC 3690",
+        "hvel": "3033",
+        "lumdist": "45.359",
+        "maxabsmag": "-16.623",
+        "maxappmag": "16.66",
+        "maxday": "28",
+        "maxmonth": "3",
+        "maxyear": "1999",
+        "redshift": "0.01017",
+        "sndec": "+58:33:38.7",
+        "snra": "11:28:28.42",
         "photometry": [
-            {
-                "timeunit": "MJD",
-                "time": "51232.4",
-                "band": "B",
-                "abmag": "18.026",
-                "aberr": "0.037",
-                "source": "1"
-            },
-            {
-                "timeunit": "MJD",
-                "time": "51232.4",
-                "band": "V",
-                "abmag": "17.105",
-                "aberr": "0.066",
-                "source": "1"
-            },
-            {
-                "timeunit": "MJD",
-                "time": "51241.4",
-                "band": "B",
-                "abmag": "18.078",
-                "aberr": "0.087",
-                "source": "1"
-            },
-            {
-                "timeunit": "MJD",
-                "time": "51241.4",
-                "band": "V",
-                "abmag": "17.119",
-                "aberr": "0.062",
-                "source": "1"
-            },
-            {
-                "timeunit": "MJD",
-                "time": "51242.4",
-                "band": "B",
-                "abmag": "18.05",
-                "aberr": "0.065",
-                "source": "1"
-            },
-            {
-                "timeunit": "MJD",
-                "time": "51242.4",
-                "band": "V",
-                "abmag": "17.045",
-                "aberr": "0.039",
-                "source": "1"
-            },
-            {
-                "timeunit": "MJD",
-                "time": "51247.4",
-                "band": "B",
-                "abmag": "18.066",
-                "aberr": "0.061",
-                "source": "1"
-            },
-            {
-                "timeunit": "MJD",
-                "time": "51247.4",
-                "band": "V",
-                "abmag": "17.033",
-                "aberr": "0.043",
-                "source": "1"
-            },
             {
                 "timeunit": "MJD",
                 "time": "51199.05",
@@ -144,6 +109,54 @@
             },
             {
                 "timeunit": "MJD",
+                "time": "51232.4",
+                "band": "B",
+                "abmag": "18.026",
+                "aberr": "0.037",
+                "source": "1"
+            },
+            {
+                "timeunit": "MJD",
+                "time": "51232.4",
+                "band": "V",
+                "abmag": "17.105",
+                "aberr": "0.066",
+                "source": "1"
+            },
+            {
+                "timeunit": "MJD",
+                "time": "51241.4",
+                "band": "B",
+                "abmag": "18.078",
+                "aberr": "0.087",
+                "source": "1"
+            },
+            {
+                "timeunit": "MJD",
+                "time": "51241.4",
+                "band": "V",
+                "abmag": "17.119",
+                "aberr": "0.062",
+                "source": "1"
+            },
+            {
+                "timeunit": "MJD",
+                "time": "51242.4",
+                "band": "B",
+                "abmag": "18.05",
+                "aberr": "0.065",
+                "source": "1"
+            },
+            {
+                "timeunit": "MJD",
+                "time": "51242.4",
+                "band": "V",
+                "abmag": "17.045",
+                "aberr": "0.039",
+                "source": "1"
+            },
+            {
+                "timeunit": "MJD",
                 "time": "51246.04",
                 "band": "R",
                 "abmag": "17.06",
@@ -155,6 +168,22 @@
                 "band": "V",
                 "abmag": "17.11",
                 "source": "2,3"
+            },
+            {
+                "timeunit": "MJD",
+                "time": "51247.4",
+                "band": "B",
+                "abmag": "18.066",
+                "aberr": "0.061",
+                "source": "1"
+            },
+            {
+                "timeunit": "MJD",
+                "time": "51247.4",
+                "band": "V",
+                "abmag": "17.033",
+                "aberr": "0.043",
+                "source": "1"
             },
             {
                 "timeunit": "MJD",
@@ -247,26 +276,6 @@
                 "abmag": "17.35",
                 "source": "2,3"
             }
-        ],
-        "spectra": [],
-        "redshift": "0.01017",
-        "ebv": "0.0166",
-        "discoveryear": "1999",
-        "discoverday": "21",
-        "discovermonth": "1",
-        "host": "NGC 3690",
-        "claimedtype": "II",
-        "hvel": "3033",
-        "galra": "112832",
-        "galdec": "+583344",
-        "snra": "11:28:28.42",
-        "sndec": "+58:33:38.7",
-        "discoverer": "BAO Supernova Survey",
-        "maxyear": "1999",
-        "maxmonth": "3",
-        "maxday": "28",
-        "maxappmag": "16.66",
-        "lumdist": "45.36",
-        "maxabsmag": "-16.62"
+        ]
     }
 }

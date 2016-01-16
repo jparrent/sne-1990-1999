@@ -6,22 +6,50 @@
         ],
         "sources": [
             {
-                "name": "<a href='http://www.rochesterastronomy.org/snimages/snredshiftall.html'>Latest Supernovae</a>",
+                "name": "http://graspa.oapd.inaf.it/cgi-bin/sncat.php",
                 "alias": "1",
                 "secondary": true
             },
             {
+                "name": "<a href='http://www.rochesterastronomy.org/snimages/snredshiftall.html'>Latest Supernovae</a>",
+                "alias": "2",
+                "secondary": true
+            },
+            {
                 "name": "<a href='http://adsabs.harvard.edu/abs/2012A%26A...538A.120L'>2012A&A...538A.120L</a>",
-                "alias": "2"
+                "alias": "3"
+            },
+            {
+                "name": "<a href='https://www.cfa.harvard.edu/supernova/SNarchive.html'>CfA Supernova Archive</a>",
+                "alias": "4",
+                "secondary": true
             }
         ],
+        "claimedtype": [
+            {
+                "type": "Ia",
+                "source": "1,2"
+            }
+        ],
+        "discoverday": "10",
+        "discoverer": "LOSS",
+        "discovermonth": "5",
+        "discoveryear": "1999",
+        "galdec": "+570804",
+        "galra": "112851",
+        "host": "A112851+5708",
+        "hvel": "23400",
+        "lumdist": "382.1",
+        "redshift": "0.0814",
+        "sndec": "+57:08:04.0",
+        "snra": "11:28:51.57",
         "photometry": [
             {
                 "timeunit": "MJD",
                 "time": "51314.0",
                 "band": "",
                 "abmag": "18.3",
-                "source": "2"
+                "source": "3"
             }
         ],
         "spectra": [
@@ -12775,21 +12803,9 @@
                         "1.3835700e-16",
                         "2.2457849e-17"
                     ]
-                ]
+                ],
+                "source": "4"
             }
-        ],
-        "discoveryear": "1999",
-        "discoverday": "10",
-        "discovermonth": "5",
-        "host": "A112851+5708",
-        "claimedtype": "Ia",
-        "hvel": "23400",
-        "galra": "112851",
-        "galdec": "+570804",
-        "snra": "11:28:51.57",
-        "sndec": "+57:08:04.0",
-        "discoverer": "LOSS",
-        "redshift": "0.08135",
-        "lumdist": "381.9"
+        ]
     }
 }

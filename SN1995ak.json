@@ -20,20 +20,55 @@
                 "secondary": true
             },
             {
-                "name": "<a href='http://www.rochesterastronomy.org/snimages/snredshiftall.html'>Latest Supernovae</a>",
+                "name": "http://graspa.oapd.inaf.it/cgi-bin/sncat.php",
                 "alias": "4",
                 "secondary": true
             },
             {
+                "name": "<a href='http://www.rochesterastronomy.org/snimages/snredshiftall.html'>Latest Supernovae</a>",
+                "alias": "5",
+                "secondary": true
+            },
+            {
                 "name": "<a href='http://www.cbat.eps.harvard.edu/iauc/06200/06254.html'>IAUC 6254</a>",
-                "alias": "5"
+                "alias": "6"
             },
             {
                 "name": "<a href='http://adsabs.harvard.edu/abs/2012A%26A...538A.120L'>2012A&A...538A.120L</a>",
-                "alias": "6"
+                "alias": "7"
             }
         ],
+        "claimedtype": [
+            {
+                "type": "Ia",
+                "source": "4,5"
+            }
+        ],
+        "discoverday": "26",
+        "discoverer": "Christian Pollas",
+        "discovermonth": "10",
+        "discoveryear": "1995",
+        "galdec": "+031348",
+        "galra": "024549",
+        "host": "IC 1844",
+        "hvel": "6811",
+        "lumdist": "103.48",
+        "maxabsmag": "-19.254",
+        "maxappmag": "15.82",
+        "maxday": "3",
+        "maxmonth": "11",
+        "maxyear": "1995",
+        "redshift": "0.02298",
+        "sndec": "+03:13:50.1",
+        "snra": "02:45:48.83",
         "photometry": [
+            {
+                "timeunit": "MJD",
+                "time": "50016.5",
+                "band": "",
+                "abmag": "16.4",
+                "source": "6,5"
+            },
             {
                 "timeunit": "MJD",
                 "time": "50024.29",
@@ -521,13 +556,6 @@
                 "abmag": "18.68",
                 "aberr": "0.03",
                 "source": "1,2"
-            },
-            {
-                "timeunit": "MJD",
-                "time": "50016.5",
-                "band": "",
-                "abmag": "16.4",
-                "source": "5,4"
             }
         ],
         "spectra": [
@@ -13786,7 +13814,8 @@
                         "2.4372158e-16",
                         "0.0000000e+00"
                     ]
-                ]
+                ],
+                "source": "1"
             },
             {
                 "deredshifted": false,
@@ -27038,7 +27067,8 @@
                         "2.7442968e-16",
                         "1.7146729e-17"
                     ]
-                ]
+                ],
+                "source": "1"
             },
             {
                 "deredshifted": false,
@@ -40300,7 +40330,8 @@
                         "2.7942664e-16",
                         "1.7147335e-17"
                     ]
-                ]
+                ],
+                "source": "1"
             },
             {
                 "deredshifted": false,
@@ -53547,7 +53578,8 @@
                         "1.8539000e-16",
                         "0.0000000e+00"
                     ]
-                ]
+                ],
+                "source": "1"
             },
             {
                 "deredshifted": false,
@@ -66744,7 +66776,8 @@
                         "9.1278805e-17",
                         "1.1959257e-17"
                     ]
-                ]
+                ],
+                "source": "1"
             },
             {
                 "deredshifted": false,
@@ -79906,26 +79939,9 @@
                         "1.7648421e-16",
                         "9.2732373e-18"
                     ]
-                ]
+                ],
+                "source": "1"
             }
-        ],
-        "discoveryear": "1995",
-        "maxday": "3",
-        "maxmonth": "11",
-        "host": "IC 1844",
-        "claimedtype": "Ia",
-        "hvel": "6811",
-        "galra": "024549",
-        "galdec": "+031348",
-        "snra": "02:45:48.83",
-        "sndec": "+03:13:50.1",
-        "discoverer": "Christian Pollas",
-        "discoverday": "26",
-        "discovermonth": "10",
-        "maxyear": "1995",
-        "maxappmag": "15.82",
-        "redshift": "0.02298",
-        "lumdist": "103.5",
-        "maxabsmag": "-19.25"
+        ]
     }
 }

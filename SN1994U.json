@@ -6,46 +6,55 @@
         ],
         "sources": [
             {
-                "name": "<a href='http://www.rochesterastronomy.org/snimages/snredshiftall.html'>Latest Supernovae</a>",
+                "name": "http://graspa.oapd.inaf.it/cgi-bin/sncat.php",
                 "alias": "1",
                 "secondary": true
             },
             {
+                "name": "<a href='http://www.rochesterastronomy.org/snimages/snredshiftall.html'>Latest Supernovae</a>",
+                "alias": "2",
+                "secondary": true
+            },
+            {
                 "name": "<a href='http://www.cbat.eps.harvard.edu/iauc/06000/06011.html'>IAUC 6011</a>",
-                "alias": "2"
+                "alias": "3"
             },
             {
                 "name": "<a href='http://adsabs.harvard.edu/abs/2012A%26A...538A.120L'>2012A&A...538A.120L</a>",
-                "alias": "3"
+                "alias": "4"
             }
         ],
+        "claimedtype": [
+            {
+                "type": "Ia",
+                "source": "1,2"
+            }
+        ],
+        "discoverday": "26",
+        "discoverer": "Barker",
+        "discovermonth": "6",
+        "discoveryear": "1994",
+        "galdec": "-075648",
+        "galra": "130456",
+        "host": "NGC 4948",
+        "hvel": "1329",
+        "lumdist": "19.7301",
+        "maxabsmag": "-17.4756",
+        "maxappmag": "14",
+        "maxday": "26",
+        "maxmonth": "6",
+        "maxyear": "1994",
+        "redshift": "0.004443",
+        "sndec": "-07:56:51.5",
+        "snra": "13:04:56.13",
         "photometry": [
             {
                 "timeunit": "MJD",
                 "time": "49529.5",
                 "band": "",
                 "abmag": "14.0",
-                "source": "2,1"
+                "source": "3,2"
             }
-        ],
-        "spectra": [],
-        "discoveryear": "1994",
-        "discoverday": "26",
-        "discovermonth": "6",
-        "host": "NGC 4948",
-        "claimedtype": "Ia",
-        "hvel": "1329",
-        "galra": "130456",
-        "galdec": "-075648",
-        "snra": "13:04:56.13",
-        "sndec": "-07:56:51.5",
-        "discoverer": "Barker",
-        "maxyear": "1994",
-        "maxmonth": "6",
-        "maxday": "26",
-        "maxappmag": "14",
-        "redshift": "0.004443",
-        "lumdist": "19.73",
-        "maxabsmag": "-17.48"
+        ]
     }
 }

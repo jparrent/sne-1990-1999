@@ -6,26 +6,59 @@
         ],
         "sources": [
             {
-                "name": "<a href='http://www.rochesterastronomy.org/snimages/snredshiftall.html'>Latest Supernovae</a>",
+                "name": "http://graspa.oapd.inaf.it/cgi-bin/sncat.php",
                 "alias": "1",
                 "secondary": true
             },
             {
+                "name": "<a href='http://www.rochesterastronomy.org/snimages/snredshiftall.html'>Latest Supernovae</a>",
+                "alias": "2",
+                "secondary": true
+            },
+            {
                 "name": "<a href='http://www.cbat.eps.harvard.edu/iauc/06500/06522.html'>IAUC 6522</a>",
-                "alias": "2"
+                "alias": "3"
             },
             {
                 "name": "<a href='http://adsabs.harvard.edu/abs/2012A%26A...538A.120L'>2012A&A...538A.120L</a>",
-                "alias": "3"
+                "alias": "4"
+            },
+            {
+                "name": "<a href='https://www.cfa.harvard.edu/supernova/SNarchive.html'>CfA Supernova Archive</a>",
+                "alias": "5",
+                "secondary": true
             }
         ],
+        "claimedtype": [
+            {
+                "type": "Ia",
+                "source": "1,2"
+            }
+        ],
+        "discoverday": "13",
+        "discoverer": "BAO Supernova Survey",
+        "discovermonth": "12",
+        "discoveryear": "1996",
+        "galdec": "+682739",
+        "galra": "055826",
+        "host": "UGC 3379",
+        "hvel": "4114",
+        "lumdist": "61.808",
+        "maxabsmag": "-17.455",
+        "maxappmag": "16.5",
+        "maxday": "13",
+        "maxmonth": "12",
+        "maxyear": "1996",
+        "redshift": "0.01382",
+        "sndec": "+68:27:12.1",
+        "snra": "05:58:24.96",
         "photometry": [
             {
                 "timeunit": "MJD",
                 "time": "50430.5",
                 "band": "",
                 "abmag": "16.5",
-                "source": "2,1"
+                "source": "3,2"
             }
         ],
         "spectra": [
@@ -13139,7 +13172,8 @@
                         "3.3442793e-16",
                         "2.6990215e-17"
                     ]
-                ]
+                ],
+                "source": "5"
             },
             {
                 "deredshifted": false,
@@ -26251,7 +26285,8 @@
                         "4.1818363e-16",
                         "3.0040653e-17"
                     ]
-                ]
+                ],
+                "source": "5"
             },
             {
                 "deredshifted": false,
@@ -39383,7 +39418,8 @@
                         "4.2482734e-16",
                         "2.5561913e-17"
                     ]
-                ]
+                ],
+                "source": "5"
             },
             {
                 "deredshifted": false,
@@ -52515,7 +52551,8 @@
                         "3.4863963e-16",
                         "3.1440530e-17"
                     ]
-                ]
+                ],
+                "source": "5"
             },
             {
                 "deredshifted": false,
@@ -65647,7 +65684,8 @@
                         "2.4197902e-16",
                         "2.6626443e-17"
                     ]
-                ]
+                ],
+                "source": "5"
             },
             {
                 "deredshifted": false,
@@ -78774,26 +78812,9 @@
                         "2.7971077e-16",
                         "2.1769287e-17"
                     ]
-                ]
+                ],
+                "source": "5"
             }
-        ],
-        "discoveryear": "1996",
-        "discoverday": "13",
-        "discovermonth": "12",
-        "host": "UGC 3379",
-        "claimedtype": "Ia",
-        "hvel": "4114",
-        "galra": "055826",
-        "galdec": "+682739",
-        "snra": "05:58:24.96",
-        "sndec": "+68:27:12.1",
-        "discoverer": "BAO Supernova Survey",
-        "maxyear": "1996",
-        "maxmonth": "12",
-        "maxday": "13",
-        "maxappmag": "16.5",
-        "redshift": "0.01382",
-        "lumdist": "61.81",
-        "maxabsmag": "-17.46"
+        ]
     }
 }

@@ -20,20 +20,51 @@
                 "secondary": true
             },
             {
-                "name": "<a href='http://www.rochesterastronomy.org/snimages/snredshiftall.html'>Latest Supernovae</a>",
+                "name": "http://graspa.oapd.inaf.it/cgi-bin/sncat.php",
                 "alias": "4",
                 "secondary": true
             },
             {
+                "name": "<a href='http://www.rochesterastronomy.org/snimages/snredshiftall.html'>Latest Supernovae</a>",
+                "alias": "5",
+                "secondary": true
+            },
+            {
                 "name": "<a href='http://www.cbat.eps.harvard.edu/iauc/06000/06007.html'>IAUC 6007</a>",
-                "alias": "5"
+                "alias": "6"
             },
             {
                 "name": "<a href='http://adsabs.harvard.edu/abs/2012A%26A...538A.120L'>2012A&A...538A.120L</a>",
-                "alias": "6"
+                "alias": "7"
             }
         ],
+        "claimedtype": [
+            {
+                "type": "Ia",
+                "source": "4,5"
+            }
+        ],
+        "discoverday": "10",
+        "discoverer": "Peters, Challis",
+        "discovermonth": "6",
+        "discoveryear": "1994",
+        "galdec": "-020944",
+        "galra": "132131",
+        "host": "PGC0046640",
+        "maxappmag": "16",
+        "maxday": "10",
+        "maxmonth": "6",
+        "maxyear": "1994",
+        "sndec": "-02:09:01.6",
+        "snra": "13:18:59.84",
         "photometry": [
+            {
+                "timeunit": "MJD",
+                "time": "49513.5",
+                "band": "",
+                "abmag": "16.0",
+                "source": "6,5"
+            },
             {
                 "timeunit": "MJD",
                 "time": "49514.30",
@@ -313,13 +344,6 @@
                 "abmag": "19.39",
                 "aberr": "0.12",
                 "source": "1,2"
-            },
-            {
-                "timeunit": "MJD",
-                "time": "49513.5",
-                "band": "",
-                "abmag": "16.0",
-                "source": "5,4"
             }
         ],
         "spectra": [
@@ -13688,7 +13712,8 @@
                         "3.0098871e-16",
                         "7.2135934e-17"
                     ]
-                ]
+                ],
+                "source": "1"
             },
             {
                 "deredshifted": false,
@@ -27060,7 +27085,8 @@
                         "2.8382459e-17",
                         "1.8800575e-17"
                     ]
-                ]
+                ],
+                "source": "1"
             },
             {
                 "deredshifted": false,
@@ -37231,7 +37257,8 @@
                         "8572.69",
                         "1.4848277e-17"
                     ]
-                ]
+                ],
+                "source": "1"
             },
             {
                 "deredshifted": false,
@@ -50598,7 +50625,8 @@
                         "2.3644718e-16",
                         "5.9540884e-17"
                     ]
-                ]
+                ],
+                "source": "1"
             },
             {
                 "deredshifted": false,
@@ -63965,22 +63993,9 @@
                         "1.4521276e-16",
                         "3.1897986e-17"
                     ]
-                ]
+                ],
+                "source": "1"
             }
-        ],
-        "discoveryear": "1994",
-        "maxday": "10",
-        "maxmonth": "6",
-        "host": "PGC0046640",
-        "claimedtype": "Ia",
-        "galra": "132131",
-        "galdec": "-020944",
-        "snra": "13:18:59.84",
-        "sndec": "-02:09:01.6",
-        "discoverer": "Peters, Challis",
-        "discoverday": "10",
-        "discovermonth": "6",
-        "maxyear": "1994",
-        "maxappmag": "16"
+        ]
     }
 }

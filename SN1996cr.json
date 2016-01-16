@@ -6,46 +6,55 @@
         ],
         "sources": [
             {
-                "name": "<a href='http://www.rochesterastronomy.org/snimages/snredshiftall.html'>Latest Supernovae</a>",
+                "name": "http://graspa.oapd.inaf.it/cgi-bin/sncat.php",
                 "alias": "1",
                 "secondary": true
             },
             {
+                "name": "<a href='http://www.rochesterastronomy.org/snimages/snredshiftall.html'>Latest Supernovae</a>",
+                "alias": "2",
+                "secondary": true
+            },
+            {
                 "name": "<a href='http://www.cbat.eps.harvard.edu/iauc/08800/08823.html#Item2'>IAUC 8823</a>",
-                "alias": "2"
+                "alias": "3"
             },
             {
                 "name": "<a href='http://adsabs.harvard.edu/abs/2012A%26A...538A.120L'>2012A&A...538A.120L</a>",
-                "alias": "3"
+                "alias": "4"
             }
         ],
+        "claimedtype": [
+            {
+                "type": "IIn",
+                "source": "1,2"
+            }
+        ],
+        "discoverday": "18",
+        "discoverer": "Columbia Astrophysics Laboratory",
+        "discovermonth": "3",
+        "discoveryear": "1996",
+        "galdec": "-652020",
+        "galra": "141310",
+        "host": "ESO 97-G13",
+        "hvel": "380",
+        "lumdist": "5.759",
+        "maxabsmag": "-12.2",
+        "maxappmag": "16.6",
+        "maxday": "18",
+        "maxmonth": "3",
+        "maxyear": "1996",
+        "redshift": "0.0013",
+        "sndec": "-65:20:44.4",
+        "snra": "14:13:10.01",
         "photometry": [
             {
                 "timeunit": "MJD",
                 "time": "50160.5",
                 "band": "",
                 "abmag": "16.6",
-                "source": "2,1"
+                "source": "3,2"
             }
-        ],
-        "spectra": [],
-        "discoveryear": "1996",
-        "discoverday": "18",
-        "discovermonth": "3",
-        "host": "ESO 97-G13",
-        "claimedtype": "IIn",
-        "hvel": "380",
-        "galra": "141310",
-        "galdec": "-652020",
-        "snra": "14:13:10.01",
-        "sndec": "-65:20:44.4",
-        "discoverer": "Columbia Astrophysics Laboratory",
-        "redshift": "0.001268",
-        "maxyear": "1996",
-        "maxmonth": "3",
-        "maxday": "18",
-        "maxappmag": "16.6",
-        "lumdist": "5.617",
-        "maxabsmag": "-12.15"
+        ]
     }
 }

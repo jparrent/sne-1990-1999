@@ -15,20 +15,55 @@
                 "alias": "2"
             },
             {
-                "name": "<a href='http://www.rochesterastronomy.org/snimages/snredshiftall.html'>Latest Supernovae</a>",
+                "name": "http://graspa.oapd.inaf.it/cgi-bin/sncat.php",
                 "alias": "3",
                 "secondary": true
             },
             {
+                "name": "<a href='http://www.rochesterastronomy.org/snimages/snredshiftall.html'>Latest Supernovae</a>",
+                "alias": "4",
+                "secondary": true
+            },
+            {
                 "name": "<a href='http://www.cbat.eps.harvard.edu/iauc/05600/05630.html'>IAUC 5630</a>",
-                "alias": "4"
+                "alias": "5"
             },
             {
                 "name": "<a href='http://adsabs.harvard.edu/abs/2012A%26A...538A.120L'>2012A&A...538A.120L</a>",
-                "alias": "5"
+                "alias": "6"
             }
         ],
+        "claimedtype": [
+            {
+                "type": "Ia",
+                "source": "3,4"
+            }
+        ],
+        "discoverday": "3",
+        "discoverer": "Roberto Antezana",
+        "discovermonth": "10",
+        "discoveryear": "1992",
+        "galdec": "-393341",
+        "galra": "030516",
+        "host": "ESO 300-G9",
+        "hvel": "5700",
+        "lumdist": "85.3",
+        "maxabsmag": "-19.7",
+        "maxappmag": "15",
+        "maxday": "3",
+        "maxmonth": "10",
+        "maxyear": "1992",
+        "redshift": "0.019",
+        "sndec": "-39:33:39.7",
+        "snra": "03:05:17.28",
         "photometry": [
+            {
+                "timeunit": "MJD",
+                "time": "48898.5",
+                "band": "",
+                "abmag": "15.0",
+                "source": "5,4"
+            },
             {
                 "timeunit": "MJD",
                 "time": "48901.21",
@@ -1043,33 +1078,7 @@
                 "band": "V",
                 "abmag": "22.19",
                 "source": "1,2"
-            },
-            {
-                "timeunit": "MJD",
-                "time": "48898.5",
-                "band": "",
-                "abmag": "15.0",
-                "source": "4,3"
             }
-        ],
-        "spectra": [],
-        "discoveryear": "1992",
-        "maxday": "3",
-        "maxmonth": "10",
-        "host": "ESO 300-G9",
-        "claimedtype": "Ia",
-        "hvel": "5700",
-        "galra": "030516",
-        "galdec": "-393341",
-        "snra": "03:05:17.28",
-        "sndec": "-39:33:39.7",
-        "discoverer": "Roberto Antezana",
-        "discoverday": "3",
-        "discovermonth": "10",
-        "redshift": "0.0192",
-        "maxyear": "1992",
-        "maxappmag": "15",
-        "lumdist": "86.22",
-        "maxabsmag": "-19.68"
+        ]
     }
 }

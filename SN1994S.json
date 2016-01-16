@@ -20,20 +20,55 @@
                 "secondary": true
             },
             {
-                "name": "<a href='http://www.rochesterastronomy.org/snimages/snredshiftall.html'>Latest Supernovae</a>",
+                "name": "http://graspa.oapd.inaf.it/cgi-bin/sncat.php",
                 "alias": "4",
                 "secondary": true
             },
             {
+                "name": "<a href='http://www.rochesterastronomy.org/snimages/snredshiftall.html'>Latest Supernovae</a>",
+                "alias": "5",
+                "secondary": true
+            },
+            {
                 "name": "<a href='http://www.cbat.eps.harvard.edu/iauc/06000/06005.html'>IAUC 6005</a>",
-                "alias": "5"
+                "alias": "6"
             },
             {
                 "name": "<a href='http://adsabs.harvard.edu/abs/2012A%26A...538A.120L'>2012A&A...538A.120L</a>",
-                "alias": "6"
+                "alias": "7"
             }
         ],
+        "claimedtype": [
+            {
+                "type": "Ia",
+                "source": "4,5"
+            }
+        ],
+        "discoverday": "3",
+        "discoverer": "Mitchell",
+        "discovermonth": "6",
+        "discoveryear": "1994",
+        "galdec": "+290811",
+        "galra": "123123",
+        "host": "NGC 4495",
+        "hvel": "4550",
+        "lumdist": "68.5",
+        "maxabsmag": "-19.68",
+        "maxappmag": "14.5",
+        "maxday": "3",
+        "maxmonth": "6",
+        "maxyear": "1994",
+        "redshift": "0.0153",
+        "sndec": "+29:08:04.2",
+        "snra": "12:31:21.86",
         "photometry": [
+            {
+                "timeunit": "MJD",
+                "time": "49506.5",
+                "band": "",
+                "abmag": "14.5",
+                "source": "6,5"
+            },
             {
                 "timeunit": "MJD",
                 "time": "49513.20",
@@ -329,13 +364,6 @@
                 "abmag": "16.65",
                 "aberr": "0.10",
                 "source": "1,2"
-            },
-            {
-                "timeunit": "MJD",
-                "time": "49506.5",
-                "band": "",
-                "abmag": "14.5",
-                "source": "5,4"
             }
         ],
         "spectra": [
@@ -13704,7 +13732,8 @@
                         "1.4615076e-15",
                         "4.1280874e-17"
                     ]
-                ]
+                ],
+                "source": "1"
             },
             {
                 "deredshifted": false,
@@ -24043,7 +24072,8 @@
                         "8607.10",
                         "5.5764261e-16"
                     ]
-                ]
+                ],
+                "source": "1"
             },
             {
                 "deredshifted": false,
@@ -37410,7 +37440,8 @@
                         "1.1846678e-15",
                         "6.2096366e-17"
                     ]
-                ]
+                ],
+                "source": "1"
             },
             {
                 "deredshifted": false,
@@ -50777,26 +50808,9 @@
                         "5.7338635e-16",
                         "4.2136483e-17"
                     ]
-                ]
+                ],
+                "source": "1"
             }
-        ],
-        "discoveryear": "1994",
-        "maxday": "3",
-        "maxmonth": "6",
-        "host": "NGC 4495",
-        "claimedtype": "Ia",
-        "hvel": "4550",
-        "galra": "123123",
-        "galdec": "+290811",
-        "snra": "12:31:21.86",
-        "sndec": "+29:08:04.2",
-        "discoverer": "Mitchell",
-        "discoverday": "3",
-        "discovermonth": "6",
-        "redshift": "0.01529",
-        "maxyear": "1994",
-        "maxappmag": "14.5",
-        "lumdist": "68.46",
-        "maxabsmag": "-19.68"
+        ]
     }
 }

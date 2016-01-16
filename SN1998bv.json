@@ -6,46 +6,55 @@
         ],
         "sources": [
             {
-                "name": "<a href='http://www.rochesterastronomy.org/snimages/snredshiftall.html'>Latest Supernovae</a>",
+                "name": "http://graspa.oapd.inaf.it/cgi-bin/sncat.php",
                 "alias": "1",
                 "secondary": true
             },
             {
+                "name": "<a href='http://www.rochesterastronomy.org/snimages/snredshiftall.html'>Latest Supernovae</a>",
+                "alias": "2",
+                "secondary": true
+            },
+            {
                 "name": "<a href='http://www.cbat.eps.harvard.edu/iauc/06900/06900.html'>IAUC 6900</a>",
-                "alias": "2"
+                "alias": "3"
             },
             {
                 "name": "<a href='http://adsabs.harvard.edu/abs/2012A%26A...538A.120L'>2012A&A...538A.120L</a>",
-                "alias": "3"
+                "alias": "4"
             }
         ],
+        "claimedtype": [
+            {
+                "type": "II P",
+                "source": "1,2"
+            }
+        ],
+        "discoverday": "5",
+        "discoverer": "Kniazev et al.",
+        "discovermonth": "4",
+        "discoveryear": "1998",
+        "galdec": "+474236",
+        "galra": "103825",
+        "host": "HS1035+4758",
+        "hvel": "1500",
+        "lumdist": "22.2",
+        "maxabsmag": "-14.6",
+        "maxappmag": "17.1",
+        "maxday": "5",
+        "maxmonth": "4",
+        "maxyear": "1998",
+        "redshift": "0.005",
+        "sndec": "+47:42:32.8",
+        "snra": "10:38:25.40",
         "photometry": [
             {
                 "timeunit": "MJD",
                 "time": "50908.5",
                 "band": "",
                 "abmag": "17.1",
-                "source": "2,1"
+                "source": "3,2"
             }
-        ],
-        "spectra": [],
-        "discoveryear": "1998",
-        "discoverday": "5",
-        "discovermonth": "4",
-        "host": "HS1035+4758",
-        "claimedtype": "IIP",
-        "hvel": "1500",
-        "galra": "103825",
-        "galdec": "+474236",
-        "snra": "10:38:25.40",
-        "sndec": "+47:42:32.8",
-        "discoverer": "Kniazev et al.",
-        "maxyear": "1998",
-        "maxmonth": "4",
-        "maxday": "5",
-        "maxappmag": "17.1",
-        "redshift": "0.005016",
-        "lumdist": "22.28",
-        "maxabsmag": "-14.64"
+        ]
     }
 }

@@ -6,46 +6,55 @@
         ],
         "sources": [
             {
-                "name": "<a href='http://www.rochesterastronomy.org/snimages/snredshiftall.html'>Latest Supernovae</a>",
+                "name": "http://graspa.oapd.inaf.it/cgi-bin/sncat.php",
                 "alias": "1",
                 "secondary": true
             },
             {
+                "name": "<a href='http://www.rochesterastronomy.org/snimages/snredshiftall.html'>Latest Supernovae</a>",
+                "alias": "2",
+                "secondary": true
+            },
+            {
                 "name": "<a href='http://www.cbat.eps.harvard.edu/iauc/07200/07258.html#Item1'>IAUC 7258</a>",
-                "alias": "2"
+                "alias": "3"
             },
             {
                 "name": "<a href='http://adsabs.harvard.edu/abs/2012A%26A...538A.120L'>2012A&A...538A.120L</a>",
-                "alias": "3"
+                "alias": "4"
             }
         ],
+        "claimedtype": [
+            {
+                "type": "Ia",
+                "source": "1,2"
+            }
+        ],
+        "discoverday": "7",
+        "discoverer": "European Supernova Cosmology Consortium",
+        "discovermonth": "9",
+        "discoveryear": "1999",
+        "galdec": "-000753",
+        "galra": "010705",
+        "host": "A010705-0007",
+        "hvel": "68800",
+        "lumdist": "1380",
+        "maxabsmag": "-17.9",
+        "maxappmag": "22.8",
+        "maxday": "7",
+        "maxmonth": "9",
+        "maxyear": "1999",
+        "redshift": "0.263",
+        "sndec": "-00:07:53.8",
+        "snra": "01:07:05.94",
         "photometry": [
             {
                 "timeunit": "MJD",
                 "time": "51428.5",
                 "band": "",
                 "abmag": "22.8",
-                "source": "2,1"
+                "source": "3,2"
             }
-        ],
-        "spectra": [],
-        "discoveryear": "1999",
-        "maxday": "7",
-        "maxmonth": "9",
-        "host": "A010705-0007",
-        "claimedtype": "Ia",
-        "redshift": "0.263",
-        "galra": "010705",
-        "galdec": "-000753",
-        "snra": "01:07:05.94",
-        "sndec": "-00:07:53.8",
-        "discoverer": "European Supernova Cosmology Consortium",
-        "discoverday": "7",
-        "discovermonth": "9",
-        "maxyear": "1999",
-        "maxappmag": "22.8",
-        "hvel": "68750",
-        "lumdist": "1377",
-        "maxabsmag": "-17.9"
+        ]
     }
 }

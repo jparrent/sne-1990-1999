@@ -15,20 +15,55 @@
                 "alias": "2"
             },
             {
-                "name": "<a href='http://www.rochesterastronomy.org/snimages/snredshiftall.html'>Latest Supernovae</a>",
+                "name": "http://graspa.oapd.inaf.it/cgi-bin/sncat.php",
                 "alias": "3",
                 "secondary": true
             },
             {
+                "name": "<a href='http://www.rochesterastronomy.org/snimages/snredshiftall.html'>Latest Supernovae</a>",
+                "alias": "4",
+                "secondary": true
+            },
+            {
                 "name": "<a href='http://www.cbat.eps.harvard.edu/iauc/05600/05686.html'>IAUC 5686</a>",
-                "alias": "4"
+                "alias": "5"
             },
             {
                 "name": "<a href='http://adsabs.harvard.edu/abs/2012A%26A...538A.120L'>2012A&A...538A.120L</a>",
-                "alias": "5"
+                "alias": "6"
             }
         ],
+        "claimedtype": [
+            {
+                "type": "Ia",
+                "source": "3,4"
+            }
+        ],
+        "discoverday": "27",
+        "discoverer": "L. E. Gonzalez",
+        "discovermonth": "12",
+        "discoveryear": "1992",
+        "galdec": "-371618",
+        "galra": "032927",
+        "host": "A032927-3716",
+        "hvel": "19200",
+        "lumdist": "307.5",
+        "maxabsmag": "-19.44",
+        "maxappmag": "18",
+        "maxday": "27",
+        "maxmonth": "12",
+        "maxyear": "1992",
+        "redshift": "0.0662",
+        "sndec": "-37:16:18.9",
+        "snra": "03:29:27.20",
         "photometry": [
+            {
+                "timeunit": "MJD",
+                "time": "48983.5",
+                "band": "",
+                "abmag": "18.0",
+                "source": "5,4"
+            },
             {
                 "timeunit": "MJD",
                 "time": "48987.23",
@@ -273,33 +308,7 @@
                 "band": "V",
                 "abmag": "20.69",
                 "source": "1,2"
-            },
-            {
-                "timeunit": "MJD",
-                "time": "48983.5",
-                "band": "",
-                "abmag": "18.0",
-                "source": "4,3"
             }
-        ],
-        "spectra": [],
-        "discoveryear": "1992",
-        "maxday": "27",
-        "maxmonth": "12",
-        "host": "A032927-3716",
-        "claimedtype": "Ia",
-        "hvel": "19200",
-        "galra": "032927",
-        "galdec": "-371618",
-        "snra": "03:29:27.20",
-        "sndec": "-37:16:18.9",
-        "discoverer": "L. E. Gonzalez",
-        "discoverday": "27",
-        "discovermonth": "12",
-        "redshift": "0.06623",
-        "maxyear": "1992",
-        "maxappmag": "18",
-        "lumdist": "307.7",
-        "maxabsmag": "-19.44"
+        ]
     }
 }

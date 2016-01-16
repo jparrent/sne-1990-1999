@@ -6,22 +6,50 @@
         ],
         "sources": [
             {
-                "name": "<a href='http://www.rochesterastronomy.org/snimages/snredshiftall.html'>Latest Supernovae</a>",
+                "name": "http://graspa.oapd.inaf.it/cgi-bin/sncat.php",
                 "alias": "1",
                 "secondary": true
             },
             {
+                "name": "<a href='http://www.rochesterastronomy.org/snimages/snredshiftall.html'>Latest Supernovae</a>",
+                "alias": "2",
+                "secondary": true
+            },
+            {
                 "name": "<a href='http://adsabs.harvard.edu/abs/2012A%26A...538A.120L'>2012A&A...538A.120L</a>",
-                "alias": "2"
+                "alias": "3"
+            },
+            {
+                "name": "<a href='https://www.cfa.harvard.edu/supernova/SNarchive.html'>CfA Supernova Archive</a>",
+                "alias": "4",
+                "secondary": true
             }
         ],
+        "claimedtype": [
+            {
+                "type": "Ia",
+                "source": "1,2"
+            }
+        ],
+        "discoverday": "9",
+        "discoverer": "Tom Boles",
+        "discovermonth": "4",
+        "discoveryear": "1999",
+        "galdec": "+722515",
+        "galra": "171137",
+        "host": "A171137+7225",
+        "hvel": "14960",
+        "lumdist": "235.39",
+        "redshift": "0.05121",
+        "sndec": "+72:25:15.5",
+        "snra": "17:11:37.77",
         "photometry": [
             {
                 "timeunit": "MJD",
                 "time": "51277.0",
                 "band": "",
                 "abmag": "17",
-                "source": "2"
+                "source": "3"
             }
         ],
         "spectra": [
@@ -12775,7 +12803,8 @@
                         "5.0177203e-17",
                         "1.7432991e-17"
                     ]
-                ]
+                ],
+                "source": "4"
             },
             {
                 "deredshifted": false,
@@ -25527,21 +25556,9 @@
                         "5.9022500e-17",
                         "1.7452334e-17"
                     ]
-                ]
+                ],
+                "source": "4"
             }
-        ],
-        "discoveryear": "1999",
-        "discoverday": "9",
-        "discovermonth": "4",
-        "host": "A171137+7225",
-        "claimedtype": "Ia",
-        "hvel": "14960",
-        "galra": "171137",
-        "galdec": "+722515",
-        "snra": "17:11:37.77",
-        "sndec": "+72:25:15.5",
-        "discoverer": "Tom Boles",
-        "redshift": "0.05121",
-        "lumdist": "235.4"
+        ]
     }
 }

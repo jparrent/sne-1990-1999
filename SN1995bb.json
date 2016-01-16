@@ -6,20 +6,47 @@
         ],
         "sources": [
             {
-                "name": "<a href='http://www.rochesterastronomy.org/snimages/snredshiftall.html'>Latest Supernovae</a>",
+                "name": "http://graspa.oapd.inaf.it/cgi-bin/sncat.php",
                 "alias": "1",
                 "secondary": true
             },
             {
+                "name": "<a href='http://www.rochesterastronomy.org/snimages/snredshiftall.html'>Latest Supernovae</a>",
+                "alias": "2",
+                "secondary": true
+            },
+            {
                 "name": "<a href='http://www.cbat.eps.harvard.edu/iauc/06200/06271.html'>IAUC 6271</a>",
-                "alias": "2"
+                "alias": "3"
             },
             {
                 "name": "<a href='http://adsabs.harvard.edu/abs/2012A%26A...538A.120L'>2012A&A...538A.120L</a>",
-                "alias": "3"
+                "alias": "4"
+            },
+            {
+                "name": "<a href='https://www.cfa.harvard.edu/supernova/SNarchive.html'>CfA Supernova Archive</a>",
+                "alias": "5",
+                "secondary": true
             }
         ],
-        "photometry": [],
+        "claimedtype": [
+            {
+                "type": "Ic",
+                "source": "1,2"
+            }
+        ],
+        "discoverday": "29",
+        "discoverer": "Tokarz, Garnavich",
+        "discovermonth": "11",
+        "discoveryear": "1995",
+        "galdec": "+122453",
+        "galra": "001617",
+        "host": "A001617+1224",
+        "hvel": "1740",
+        "lumdist": "25.872",
+        "redshift": "0.00582",
+        "sndec": "+12:24:53.4",
+        "snra": "00:16:17.64",
         "spectra": [
             {
                 "deredshifted": false,
@@ -10602,7 +10629,8 @@
                         "7583.7402",
                         "0.098915398"
                     ]
-                ]
+                ],
+                "source": "5"
             },
             {
                 "deredshifted": false,
@@ -21141,7 +21169,8 @@
                         "7567.5700",
                         "0.066002406"
                     ]
-                ]
+                ],
+                "source": "5"
             },
             {
                 "deredshifted": false,
@@ -31680,21 +31709,9 @@
                         "7567.5700",
                         "0.10978153"
                     ]
-                ]
+                ],
+                "source": "5"
             }
-        ],
-        "discoveryear": "1995",
-        "discoverday": "29",
-        "discovermonth": "11",
-        "host": "A001617+1224",
-        "claimedtype": "Ic",
-        "hvel": "1740",
-        "galra": "001617",
-        "galdec": "+122453",
-        "snra": "00:16:17.64",
-        "sndec": "+12:24:53.4",
-        "discoverer": "Tokarz, Garnavich",
-        "redshift": "0.005821",
-        "lumdist": "25.88"
+        ]
     }
 }

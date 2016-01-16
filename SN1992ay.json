@@ -6,46 +6,59 @@
         ],
         "sources": [
             {
-                "name": "<a href='http://www.rochesterastronomy.org/snimages/snredshiftall.html'>Latest Supernovae</a>",
+                "name": "http://graspa.oapd.inaf.it/cgi-bin/sncat.php",
                 "alias": "1",
                 "secondary": true
             },
             {
+                "name": "<a href='http://www.rochesterastronomy.org/snimages/snredshiftall.html'>Latest Supernovae</a>",
+                "alias": "2",
+                "secondary": true
+            },
+            {
                 "name": "<a href='http://www.cbat.eps.harvard.edu/iauc/05600/05619.html'>IAUC 5619</a>",
-                "alias": "2"
+                "alias": "3"
             },
             {
                 "name": "<a href='http://adsabs.harvard.edu/abs/2012A%26A...538A.120L'>2012A&A...538A.120L</a>",
-                "alias": "3"
+                "alias": "4"
             }
         ],
+        "claimedtype": [
+            {
+                "type": "IIn",
+                "source": "1"
+            },
+            {
+                "type": "II P",
+                "source": "2"
+            }
+        ],
+        "discoverday": "19",
+        "discoverer": "Roberto Antezana",
+        "discovermonth": "9",
+        "discoveryear": "1992",
+        "galdec": "-462407",
+        "galra": "043019",
+        "host": "A043019-4624",
+        "hvel": "18600",
+        "lumdist": "297.3",
+        "maxabsmag": "-18.87",
+        "maxappmag": "18.5",
+        "maxday": "19",
+        "maxmonth": "9",
+        "maxyear": "1992",
+        "redshift": "0.0641",
+        "sndec": "-46:24:07.0",
+        "snra": "04:30:19.10",
         "photometry": [
             {
                 "timeunit": "MJD",
                 "time": "48884.5",
                 "band": "",
                 "abmag": "18.5",
-                "source": "2,1"
+                "source": "3,2"
             }
-        ],
-        "spectra": [],
-        "discoveryear": "1992",
-        "discoverday": "19",
-        "discovermonth": "9",
-        "host": "A043019-4624",
-        "claimedtype": "IIP",
-        "hvel": "18600",
-        "galra": "043019",
-        "galdec": "-462407",
-        "snra": "04:30:19.10",
-        "sndec": "-46:24:07.0",
-        "discoverer": "Roberto Antezana",
-        "maxyear": "1992",
-        "maxmonth": "9",
-        "maxday": "19",
-        "maxappmag": "18.5",
-        "redshift": "0.06409",
-        "lumdist": "297.3",
-        "maxabsmag": "-18.87"
+        ]
     }
 }

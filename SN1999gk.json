@@ -15,20 +15,55 @@
                 "alias": "2"
             },
             {
-                "name": "<a href='http://www.rochesterastronomy.org/snimages/snredshiftall.html'>Latest Supernovae</a>",
+                "name": "http://graspa.oapd.inaf.it/cgi-bin/sncat.php",
                 "alias": "3",
                 "secondary": true
             },
             {
+                "name": "<a href='http://www.rochesterastronomy.org/snimages/snredshiftall.html'>Latest Supernovae</a>",
+                "alias": "4",
+                "secondary": true
+            },
+            {
                 "name": "<a href='http://www.cbat.eps.harvard.edu/iauc/07300/07332.html#Item1'>IAUC 7332</a>",
-                "alias": "4"
+                "alias": "5"
             },
             {
                 "name": "<a href='http://adsabs.harvard.edu/abs/2012A%26A...538A.120L'>2012A&A...538A.120L</a>",
-                "alias": "5"
+                "alias": "6"
             }
         ],
+        "claimedtype": [
+            {
+                "type": "II",
+                "source": "3,4"
+            }
+        ],
+        "discoverday": "26",
+        "discoverer": "P. Berlind,",
+        "discovermonth": "12",
+        "discoveryear": "1999",
+        "galdec": "-003340",
+        "galra": "124351",
+        "host": "NGC 4653",
+        "hvel": "2547",
+        "lumdist": "38.0062",
+        "maxabsmag": "-17.4993",
+        "maxappmag": "15.4",
+        "maxday": "3",
+        "maxmonth": "1",
+        "maxyear": "2000",
+        "redshift": "0.008532",
+        "sndec": "-00:32:55.4",
+        "snra": "12:43:51.91",
         "photometry": [
+            {
+                "timeunit": "MJD",
+                "time": "51538.5",
+                "band": "",
+                "abmag": "15.5",
+                "source": "5,4"
+            },
             {
                 "timeunit": "MJD",
                 "time": "51539.81",
@@ -84,33 +119,7 @@
                 "band": "R",
                 "abmag": "16.5",
                 "source": "1,2"
-            },
-            {
-                "timeunit": "MJD",
-                "time": "51538.5",
-                "band": "",
-                "abmag": "15.5",
-                "source": "4,3"
             }
-        ],
-        "spectra": [],
-        "discoveryear": "1999",
-        "discoverday": "26",
-        "discovermonth": "12",
-        "host": "NGC 4653",
-        "claimedtype": "II",
-        "hvel": "2547",
-        "galra": "124351",
-        "galdec": "-003340",
-        "snra": "12:43:51.91",
-        "sndec": "-00:32:55.4",
-        "discoverer": "P. Berlind,",
-        "redshift": "0.008532",
-        "maxyear": "2000",
-        "maxmonth": "1",
-        "maxday": "3",
-        "maxappmag": "15.4",
-        "lumdist": "38.01",
-        "maxabsmag": "-17.5"
+        ]
     }
 }

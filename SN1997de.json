@@ -6,37 +6,46 @@
         ],
         "sources": [
             {
-                "name": "<a href='http://www.rochesterastronomy.org/snimages/snredshiftall.html'>Latest Supernovae</a>",
+                "name": "http://graspa.oapd.inaf.it/cgi-bin/sncat.php",
                 "alias": "1",
                 "secondary": true
             },
             {
+                "name": "<a href='http://www.rochesterastronomy.org/snimages/snredshiftall.html'>Latest Supernovae</a>",
+                "alias": "2",
+                "secondary": true
+            },
+            {
                 "name": "<a href='http://adsabs.harvard.edu/abs/2012A%26A...538A.120L'>2012A&A...538A.120L</a>",
-                "alias": "2"
+                "alias": "3"
             }
         ],
+        "claimedtype": [
+            {
+                "type": "Ia",
+                "source": "1,2"
+            }
+        ],
+        "discoverday": "27",
+        "discoverer": "Alexander Wassilieff",
+        "discovermonth": "8",
+        "discoveryear": "1997",
+        "galdec": "-603003",
+        "galra": "191823",
+        "host": "NGC 6769",
+        "hvel": "3863",
+        "lumdist": "57.97",
+        "redshift": "0.01297",
+        "sndec": "-60:29:42.0",
+        "snra": "19:18:20.82",
         "photometry": [
             {
                 "timeunit": "MJD",
                 "time": "50687.0",
                 "band": "",
                 "abmag": "18.2",
-                "source": "2"
+                "source": "3"
             }
-        ],
-        "spectra": [],
-        "discoveryear": "1997",
-        "discoverday": "27",
-        "discovermonth": "8",
-        "host": "NGC 6769",
-        "claimedtype": "Ia",
-        "hvel": "3863",
-        "galra": "191823",
-        "galdec": "-603003",
-        "snra": "19:18:20.82",
-        "sndec": "-60:29:42.0",
-        "discoverer": "Alexander Wassilieff",
-        "redshift": "0.01297",
-        "lumdist": "57.97"
+        ]
     }
 }

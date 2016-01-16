@@ -15,15 +15,48 @@
                 "alias": "2"
             },
             {
-                "name": "<a href='http://www.rochesterastronomy.org/snimages/snredshiftall.html'>Latest Supernovae</a>",
+                "name": "http://graspa.oapd.inaf.it/cgi-bin/sncat.php",
                 "alias": "3",
                 "secondary": true
             },
             {
+                "name": "<a href='http://www.rochesterastronomy.org/snimages/snredshiftall.html'>Latest Supernovae</a>",
+                "alias": "4",
+                "secondary": true
+            },
+            {
                 "name": "<a href='http://adsabs.harvard.edu/abs/2012A%26A...538A.120L'>2012A&A...538A.120L</a>",
-                "alias": "4"
+                "alias": "5"
+            },
+            {
+                "name": "<a href='https://www.cfa.harvard.edu/supernova/SNarchive.html'>CfA Supernova Archive</a>",
+                "alias": "6",
+                "secondary": true
             }
         ],
+        "claimedtype": [
+            {
+                "type": "Ia",
+                "source": "3,4"
+            }
+        ],
+        "discoverday": "24",
+        "discoverer": "Mike Schwartz",
+        "discovermonth": "5",
+        "discoveryear": "1999",
+        "galdec": "+330233",
+        "galra": "133329",
+        "host": "UGC 8539",
+        "hvel": "7313",
+        "lumdist": "111.4",
+        "maxabsmag": "-19.43",
+        "maxappmag": "15.8",
+        "maxday": "7",
+        "maxmonth": "6",
+        "maxyear": "1999",
+        "redshift": "0.0247",
+        "sndec": "+33:03:22.9",
+        "snra": "13:33:29.71",
         "photometry": [
             {
                 "timeunit": "MJD",
@@ -12833,7 +12866,8 @@
                         "1.3947999e-16",
                         "2.0447410e-17"
                     ]
-                ]
+                ],
+                "source": "6"
             },
             {
                 "deredshifted": false,
@@ -25585,7 +25619,8 @@
                         "1.3175200e-16",
                         "2.0726815e-17"
                     ]
-                ]
+                ],
+                "source": "6"
             },
             {
                 "deredshifted": false,
@@ -38337,26 +38372,9 @@
                         "1.2467099e-16",
                         "1.5621278e-17"
                     ]
-                ]
+                ],
+                "source": "6"
             }
-        ],
-        "discoveryear": "1999",
-        "discoverday": "24",
-        "discovermonth": "5",
-        "host": "UGC 8539",
-        "claimedtype": "Ia",
-        "hvel": "7313",
-        "galra": "133329",
-        "galdec": "+330233",
-        "snra": "13:33:29.71",
-        "sndec": "+33:03:22.9",
-        "discoverer": "Mike Schwartz",
-        "redshift": "0.0247",
-        "maxyear": "1999",
-        "maxmonth": "6",
-        "maxday": "7",
-        "maxappmag": "15.8",
-        "lumdist": "111.4",
-        "maxabsmag": "-19.43"
+        ]
     }
 }

@@ -6,46 +6,55 @@
         ],
         "sources": [
             {
-                "name": "<a href='http://www.rochesterastronomy.org/snimages/snredshiftall.html'>Latest Supernovae</a>",
+                "name": "http://graspa.oapd.inaf.it/cgi-bin/sncat.php",
                 "alias": "1",
                 "secondary": true
             },
             {
+                "name": "<a href='http://www.rochesterastronomy.org/snimages/snredshiftall.html'>Latest Supernovae</a>",
+                "alias": "2",
+                "secondary": true
+            },
+            {
                 "name": "<a href='http://www.cbat.eps.harvard.edu/iauc/06800/06826.html#Item1'>IAUC 6826</a>",
-                "alias": "2"
+                "alias": "3"
             },
             {
                 "name": "<a href='http://adsabs.harvard.edu/abs/2012A%26A...538A.120L'>2012A&A...538A.120L</a>",
-                "alias": "3"
+                "alias": "4"
             }
         ],
+        "claimedtype": [
+            {
+                "type": "II",
+                "source": "1,2"
+            }
+        ],
+        "discoverday": "22",
+        "discoverer": "CfA Supernova group",
+        "discovermonth": "2",
+        "discoveryear": "1998",
+        "galdec": "+301853",
+        "galra": "111437",
+        "host": "UGC 6271",
+        "hvel": "2022",
+        "lumdist": "30.108",
+        "maxabsmag": "-16.3934",
+        "maxappmag": "16",
+        "maxday": "22",
+        "maxmonth": "2",
+        "maxyear": "1998",
+        "redshift": "0.006768",
+        "sndec": "+30:18:51.7",
+        "snra": "11:14:37.03",
         "photometry": [
             {
                 "timeunit": "MJD",
                 "time": "50866.5",
                 "band": "",
                 "abmag": "16.0",
-                "source": "2,1"
+                "source": "3,2"
             }
-        ],
-        "spectra": [],
-        "discoveryear": "1998",
-        "discoverday": "22",
-        "discovermonth": "2",
-        "host": "UGC 6271",
-        "claimedtype": "II",
-        "hvel": "2022",
-        "galra": "111437",
-        "galdec": "+301853",
-        "snra": "11:14:37.03",
-        "sndec": "+30:18:51.7",
-        "discoverer": "CfA Supernova group",
-        "redshift": "0.006768",
-        "maxyear": "1998",
-        "maxmonth": "2",
-        "maxday": "22",
-        "maxappmag": "16",
-        "lumdist": "30.11",
-        "maxabsmag": "-16.39"
+        ]
     }
 }

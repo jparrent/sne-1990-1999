@@ -6,26 +6,59 @@
         ],
         "sources": [
             {
-                "name": "<a href='http://www.rochesterastronomy.org/snimages/snredshiftall.html'>Latest Supernovae</a>",
+                "name": "http://graspa.oapd.inaf.it/cgi-bin/sncat.php",
                 "alias": "1",
                 "secondary": true
             },
             {
+                "name": "<a href='http://www.rochesterastronomy.org/snimages/snredshiftall.html'>Latest Supernovae</a>",
+                "alias": "2",
+                "secondary": true
+            },
+            {
                 "name": "<a href='http://www.cbat.eps.harvard.edu/iauc/07000/07061.html#Item3'>IAUC 7061</a>",
-                "alias": "2"
+                "alias": "3"
             },
             {
                 "name": "<a href='http://adsabs.harvard.edu/abs/2012A%26A...538A.120L'>2012A&A...538A.120L</a>",
-                "alias": "3"
+                "alias": "4"
+            },
+            {
+                "name": "<a href='https://www.cfa.harvard.edu/supernova/SNarchive.html'>CfA Supernova Archive</a>",
+                "alias": "5",
+                "secondary": true
             }
         ],
+        "claimedtype": [
+            {
+                "type": "Ia",
+                "source": "1,2"
+            }
+        ],
+        "discoverday": "24",
+        "discoverer": "Jean Mueller",
+        "discovermonth": "11",
+        "discoveryear": "1998",
+        "galdec": "+644352",
+        "galra": "074143",
+        "host": "MCG +11-10-16",
+        "hvel": "11200",
+        "lumdist": "173.5",
+        "maxabsmag": "-17.7",
+        "maxappmag": "18.5",
+        "maxday": "24",
+        "maxmonth": "11",
+        "maxyear": "1998",
+        "redshift": "0.0381",
+        "sndec": "+64:44:02.3",
+        "snra": "07:41:42.287",
         "photometry": [
             {
                 "timeunit": "MJD",
                 "time": "51141.5",
                 "band": "",
                 "abmag": "18.5",
-                "source": "2,1"
+                "source": "3,2"
             }
         ],
         "spectra": [
@@ -12779,26 +12812,9 @@
                         "1.7610799e-17",
                         "1.2574735e-17"
                     ]
-                ]
+                ],
+                "source": "5"
             }
-        ],
-        "discoveryear": "1998",
-        "discoverday": "24",
-        "discovermonth": "11",
-        "host": "MCG +11-10-16",
-        "claimedtype": "Ia",
-        "hvel": "11200",
-        "galra": "074143",
-        "galdec": "+644352",
-        "snra": "07:41:42.287",
-        "sndec": "+64:44:02.3",
-        "discoverer": "Jean Mueller",
-        "redshift": "0.03808",
-        "maxyear": "1998",
-        "maxmonth": "11",
-        "maxday": "24",
-        "maxappmag": "18.5",
-        "lumdist": "173.4",
-        "maxabsmag": "-17.7"
+        ]
     }
 }

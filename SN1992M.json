@@ -6,42 +6,51 @@
         ],
         "sources": [
             {
-                "name": "<a href='http://www.rochesterastronomy.org/snimages/snredshiftall.html'>Latest Supernovae</a>",
+                "name": "http://graspa.oapd.inaf.it/cgi-bin/sncat.php",
                 "alias": "1",
                 "secondary": true
             },
             {
+                "name": "<a href='http://www.rochesterastronomy.org/snimages/snredshiftall.html'>Latest Supernovae</a>",
+                "alias": "2",
+                "secondary": true
+            },
+            {
                 "name": "<a href='http://www.cbat.eps.harvard.edu/iauc/05400/05473.html'>IAUC 5473</a>",
-                "alias": "2"
+                "alias": "3"
             },
             {
                 "name": "<a href='http://adsabs.harvard.edu/abs/2012A%26A...538A.120L'>2012A&A...538A.120L</a>",
-                "alias": "3"
+                "alias": "4"
             }
         ],
+        "claimedtype": [
+            {
+                "type": "Ia",
+                "source": "1,2"
+            }
+        ],
+        "discoverday": "24",
+        "discoverer": "Jean Mueller",
+        "discovermonth": "2",
+        "discoveryear": "1992",
+        "galdec": "+452556",
+        "galra": "071509",
+        "host": "A071509+4525",
+        "maxappmag": "18",
+        "maxday": "24",
+        "maxmonth": "2",
+        "maxyear": "1992",
+        "sndec": "+45:25:50.0",
+        "snra": "07:15:09.6",
         "photometry": [
             {
                 "timeunit": "MJD",
                 "time": "48676.5",
                 "band": "",
                 "abmag": "18.0",
-                "source": "2,1"
+                "source": "3,2"
             }
-        ],
-        "spectra": [],
-        "discoveryear": "1992",
-        "discoverday": "24",
-        "discovermonth": "2",
-        "host": "A071509+4525",
-        "claimedtype": "Ia",
-        "galra": "071509",
-        "galdec": "+452556",
-        "snra": "07:15:09.6",
-        "sndec": "+45:25:50.0",
-        "discoverer": "Jean Mueller",
-        "maxyear": "1992",
-        "maxmonth": "2",
-        "maxday": "24",
-        "maxappmag": "18"
+        ]
     }
 }

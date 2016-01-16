@@ -6,39 +6,48 @@
         ],
         "sources": [
             {
-                "name": "<a href='http://www.rochesterastronomy.org/snimages/snredshiftall.html'>Latest Supernovae</a>",
+                "name": "http://graspa.oapd.inaf.it/cgi-bin/sncat.php",
                 "alias": "1",
                 "secondary": true
             },
             {
+                "name": "<a href='http://www.rochesterastronomy.org/snimages/snredshiftall.html'>Latest Supernovae</a>",
+                "alias": "2",
+                "secondary": true
+            },
+            {
                 "name": "<a href='http://adsabs.harvard.edu/abs/2012A%26A...538A.120L'>2012A&A...538A.120L</a>",
-                "alias": "2"
+                "alias": "3"
             }
         ],
+        "claimedtype": [
+            {
+                "type": "Ia",
+                "source": "1,2"
+            }
+        ],
+        "discoverday": "29",
+        "discoverer": "Marina Wischnjewsky",
+        "discovermonth": "12",
+        "discoveryear": "1997",
+        "galdec": "-563659",
+        "galra": "041753",
+        "host": "IC 2060",
+        "hvel": "6686",
+        "lumdist": "101.56",
+        "maxday": "25",
+        "maxmonth": 12,
+        "redshift": "0.02256",
+        "sndec": "-56:36:58.2",
+        "snra": "04:17:53.49",
         "photometry": [
             {
                 "timeunit": "MJD",
                 "time": "50811.0",
                 "band": "B",
                 "abmag": "16.5",
-                "source": "2"
+                "source": "3"
             }
-        ],
-        "spectra": [],
-        "discoveryear": "1997",
-        "maxday": "25",
-        "maxmonth": 12,
-        "host": "IC 2060",
-        "claimedtype": "Ia",
-        "hvel": "6686",
-        "galra": "041753",
-        "galdec": "-563659",
-        "snra": "04:17:53.49",
-        "sndec": "-56:36:58.2",
-        "discoverer": "Marina Wischnjewsky",
-        "discoverday": "29",
-        "discovermonth": "12",
-        "redshift": "0.02256",
-        "lumdist": "101.6"
+        ]
     }
 }

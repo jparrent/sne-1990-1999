@@ -6,46 +6,59 @@
         ],
         "sources": [
             {
-                "name": "<a href='http://www.rochesterastronomy.org/snimages/snredshiftall.html'>Latest Supernovae</a>",
+                "name": "http://graspa.oapd.inaf.it/cgi-bin/sncat.php",
                 "alias": "1",
                 "secondary": true
             },
             {
+                "name": "<a href='http://www.rochesterastronomy.org/snimages/snredshiftall.html'>Latest Supernovae</a>",
+                "alias": "2",
+                "secondary": true
+            },
+            {
                 "name": "<a href='http://www.cbat.eps.harvard.edu/iauc/07300/07311.html#Item2'>IAUC 7311</a>",
-                "alias": "2"
+                "alias": "3"
             },
             {
                 "name": "<a href='http://adsabs.harvard.edu/abs/2012A%26A...538A.120L'>2012A&A...538A.120L</a>",
-                "alias": "3"
+                "alias": "4"
             }
         ],
+        "claimedtype": [
+            {
+                "type": "Ia",
+                "source": "1"
+            },
+            {
+                "type": "Ia?",
+                "source": "2"
+            }
+        ],
+        "discoverday": "3",
+        "discoverer": "Supernova Cosmology Project",
+        "discovermonth": "10",
+        "discoveryear": "1999",
+        "galdec": "-001136",
+        "galra": "223729",
+        "host": "A223729-0011",
+        "hvel": "160000",
+        "lumdist": "5300",
+        "maxabsmag": "-20",
+        "maxappmag": "23.8",
+        "maxday": "3",
+        "maxmonth": "10",
+        "maxyear": "1999",
+        "redshift": "0.82",
+        "sndec": "-00:11:36.1",
+        "snra": "22:37:29.64",
         "photometry": [
             {
                 "timeunit": "MJD",
                 "time": "51454.5",
                 "band": "",
                 "abmag": "23.8",
-                "source": "2,1"
+                "source": "3,2"
             }
-        ],
-        "spectra": [],
-        "discoveryear": "1999",
-        "discoverday": "3",
-        "discovermonth": "10",
-        "host": "A223729-0011",
-        "claimedtype": "Ia?",
-        "redshift": "0.82",
-        "galra": "223729",
-        "galdec": "-001136",
-        "snra": "22:37:29.64",
-        "sndec": "-00:11:36.1",
-        "discoverer": "Supernova Cosmology Project",
-        "maxyear": "1999",
-        "maxmonth": "10",
-        "maxday": "3",
-        "maxappmag": "23.8",
-        "hvel": "160800",
-        "lumdist": "5320",
-        "maxabsmag": "-19.83"
+        ]
     }
 }

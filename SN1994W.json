@@ -39,19 +39,51 @@
                 "alias": "8"
             },
             {
-                "name": "<a href='http://www.rochesterastronomy.org/snimages/snredshiftall.html'>Latest Supernovae</a>",
+                "name": "http://graspa.oapd.inaf.it/cgi-bin/sncat.php",
                 "alias": "9",
                 "secondary": true
             },
             {
+                "name": "<a href='http://www.rochesterastronomy.org/snimages/snredshiftall.html'>Latest Supernovae</a>",
+                "alias": "10",
+                "secondary": true
+            },
+            {
                 "name": "<a href='http://www.cbat.eps.harvard.edu/iauc/06000/06042.html'>IAUC 6042</a>",
-                "alias": "10"
+                "alias": "11"
             },
             {
                 "name": "<a href='http://adsabs.harvard.edu/abs/2012A%26A...538A.120L'>2012A&A...538A.120L</a>",
-                "alias": "11"
+                "alias": "12"
             }
         ],
+        "claimedtype": [
+            {
+                "type": "IIn P",
+                "source": "9"
+            },
+            {
+                "type": "II P",
+                "source": "10"
+            }
+        ],
+        "discoverday": "18",
+        "discoverer": "Cortini, Villi",
+        "discovermonth": "7",
+        "discoveryear": "1994",
+        "galdec": "+620814",
+        "galra": "120212",
+        "host": "NGC 4041",
+        "hvel": "1226",
+        "lumdist": "18.1933",
+        "maxabsmag": "-18.2996",
+        "maxappmag": "13",
+        "maxday": "8",
+        "maxmonth": "8",
+        "maxyear": "1994",
+        "redshift": "0.004098",
+        "sndec": "+62:08:32.8",
+        "snra": "12:02:10.93",
         "photometry": [
             {
                 "timeunit": "MJD",
@@ -80,6 +112,13 @@
                 "band": "R",
                 "abmag": "13.8",
                 "source": "1,2"
+            },
+            {
+                "timeunit": "MJD",
+                "time": "49561.5",
+                "band": "",
+                "abmag": "13.5",
+                "source": "11,10"
             },
             {
                 "timeunit": "MJD",
@@ -437,33 +476,7 @@
                 "band": "R",
                 "abmag": "21.15",
                 "source": "1,8"
-            },
-            {
-                "timeunit": "MJD",
-                "time": "49561.5",
-                "band": "",
-                "abmag": "13.5",
-                "source": "10,9"
             }
-        ],
-        "spectra": [],
-        "discoveryear": "1994",
-        "maxday": "8",
-        "maxmonth": "8",
-        "host": "NGC 4041",
-        "claimedtype": "IIP",
-        "hvel": "1226",
-        "galra": "120212",
-        "galdec": "+620814",
-        "snra": "12:02:10.93",
-        "sndec": "+62:08:32.8",
-        "discoverer": "Cortini, Villi",
-        "discoverday": "18",
-        "discovermonth": "7",
-        "maxyear": "1994",
-        "maxappmag": "13",
-        "redshift": "0.004098",
-        "lumdist": "18.19",
-        "maxabsmag": "-18.3"
+        ]
     }
 }

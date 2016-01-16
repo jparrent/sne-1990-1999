@@ -6,37 +6,50 @@
         ],
         "sources": [
             {
-                "name": "<a href='http://www.rochesterastronomy.org/snimages/snredshiftall.html'>Latest Supernovae</a>",
+                "name": "http://graspa.oapd.inaf.it/cgi-bin/sncat.php",
                 "alias": "1",
                 "secondary": true
             },
             {
+                "name": "<a href='http://www.rochesterastronomy.org/snimages/snredshiftall.html'>Latest Supernovae</a>",
+                "alias": "2",
+                "secondary": true
+            },
+            {
                 "name": "<a href='http://adsabs.harvard.edu/abs/2012A%26A...538A.120L'>2012A&A...538A.120L</a>",
-                "alias": "2"
+                "alias": "3"
             }
         ],
+        "claimedtype": [
+            {
+                "type": "Ib",
+                "source": "1"
+            },
+            {
+                "type": "Ib/c",
+                "source": "2"
+            }
+        ],
+        "discoverday": "12",
+        "discoverer": "Perth Astronomical Research Group",
+        "discovermonth": "3",
+        "discoveryear": "1996",
+        "galdec": "-262017",
+        "galra": "033852",
+        "host": "NGC 1398",
+        "hvel": "1491",
+        "lumdist": "22.1506",
+        "redshift": "0.004986",
+        "sndec": "-26:20:04.1",
+        "snra": "03:38:55.31",
         "photometry": [
             {
                 "timeunit": "MJD",
                 "time": "50154.0",
                 "band": "R",
                 "abmag": "16",
-                "source": "2"
+                "source": "3"
             }
-        ],
-        "spectra": [],
-        "discoveryear": "1996",
-        "discoverday": "12",
-        "discovermonth": "3",
-        "host": "NGC 1398",
-        "claimedtype": "Ib/c",
-        "hvel": "1491",
-        "galra": "033852",
-        "galdec": "-262017",
-        "snra": "03:38:55.31",
-        "sndec": "-26:20:04.1",
-        "discoverer": "Perth Astronomical Research Group",
-        "redshift": "0.004986",
-        "lumdist": "22.15"
+        ]
     }
 }

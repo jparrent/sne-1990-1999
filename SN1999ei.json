@@ -6,37 +6,46 @@
         ],
         "sources": [
             {
-                "name": "<a href='http://www.rochesterastronomy.org/snimages/snredshiftall.html'>Latest Supernovae</a>",
+                "name": "http://graspa.oapd.inaf.it/cgi-bin/sncat.php",
                 "alias": "1",
                 "secondary": true
             },
             {
+                "name": "<a href='http://www.rochesterastronomy.org/snimages/snredshiftall.html'>Latest Supernovae</a>",
+                "alias": "2",
+                "secondary": true
+            },
+            {
                 "name": "<a href='http://adsabs.harvard.edu/abs/2012A%26A...538A.120L'>2012A&A...538A.120L</a>",
-                "alias": "2"
+                "alias": "3"
             }
         ],
+        "claimedtype": [
+            {
+                "type": "Ia",
+                "source": "1,2"
+            }
+        ],
+        "discoverday": "8",
+        "discoverer": "Marina Wischnjewsky",
+        "discovermonth": "10",
+        "discoveryear": "1999",
+        "galdec": "-284157",
+        "galra": "013352",
+        "host": "A013352-2841",
+        "hvel": "9300",
+        "lumdist": "145",
+        "redshift": "0.032",
+        "sndec": "-28:41:57.0",
+        "snra": "01:33:52.30",
         "photometry": [
             {
                 "timeunit": "MJD",
                 "time": "51459.0",
                 "band": "B",
                 "abmag": "17.4",
-                "source": "2"
+                "source": "3"
             }
-        ],
-        "spectra": [],
-        "discoveryear": "1999",
-        "discoverday": "8",
-        "discovermonth": "10",
-        "host": "A013352-2841",
-        "claimedtype": "Ia",
-        "hvel": "9300",
-        "galra": "013352",
-        "galdec": "-284157",
-        "snra": "01:33:52.30",
-        "sndec": "-28:41:57.0",
-        "discoverer": "Marina Wischnjewsky",
-        "redshift": "0.03152",
-        "lumdist": "142.8"
+        ]
     }
 }

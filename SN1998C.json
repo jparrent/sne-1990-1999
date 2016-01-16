@@ -6,37 +6,46 @@
         ],
         "sources": [
             {
-                "name": "<a href='http://www.rochesterastronomy.org/snimages/snredshiftall.html'>Latest Supernovae</a>",
+                "name": "http://graspa.oapd.inaf.it/cgi-bin/sncat.php",
                 "alias": "1",
                 "secondary": true
             },
             {
+                "name": "<a href='http://www.rochesterastronomy.org/snimages/snredshiftall.html'>Latest Supernovae</a>",
+                "alias": "2",
+                "secondary": true
+            },
+            {
                 "name": "<a href='http://adsabs.harvard.edu/abs/2012A%26A...538A.120L'>2012A&A...538A.120L</a>",
-                "alias": "2"
+                "alias": "3"
             }
         ],
+        "claimedtype": [
+            {
+                "type": "II",
+                "source": "1,2"
+            }
+        ],
+        "discoverday": "21",
+        "discoverer": "BAO Supernova Survey",
+        "discovermonth": "1",
+        "discoveryear": "1998",
+        "galdec": "+412607",
+        "galra": "072333",
+        "host": "UGC 3825",
+        "hvel": "8281",
+        "lumdist": "126.6",
+        "redshift": "0.02801",
+        "sndec": "+41:26:04.2",
+        "snra": "07:23:34.638",
         "photometry": [
             {
                 "timeunit": "MJD",
                 "time": "50834.0",
                 "band": "",
                 "abmag": "18.1",
-                "source": "2"
+                "source": "3"
             }
-        ],
-        "spectra": [],
-        "discoveryear": "1998",
-        "discoverday": "21",
-        "discovermonth": "1",
-        "host": "UGC 3825",
-        "claimedtype": "II",
-        "hvel": "8281",
-        "galra": "072333",
-        "galdec": "+412607",
-        "snra": "07:23:34.638",
-        "sndec": "+41:26:04.2",
-        "discoverer": "BAO Supernova Survey",
-        "redshift": "0.02801",
-        "lumdist": "126.6"
+        ]
     }
 }

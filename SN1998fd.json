@@ -6,46 +6,55 @@
         ],
         "sources": [
             {
-                "name": "<a href='http://www.rochesterastronomy.org/snimages/snredshiftall.html'>Latest Supernovae</a>",
+                "name": "http://graspa.oapd.inaf.it/cgi-bin/sncat.php",
                 "alias": "1",
                 "secondary": true
             },
             {
+                "name": "<a href='http://www.rochesterastronomy.org/snimages/snredshiftall.html'>Latest Supernovae</a>",
+                "alias": "2",
+                "secondary": true
+            },
+            {
                 "name": "<a href='http://www.cbat.eps.harvard.edu/iauc/07000/07082.html'>IAUC 7082</a>",
-                "alias": "2"
+                "alias": "3"
             },
             {
                 "name": "<a href='http://adsabs.harvard.edu/abs/2012A%26A...538A.120L'>2012A&A...538A.120L</a>",
-                "alias": "3"
+                "alias": "4"
             }
         ],
+        "claimedtype": [
+            {
+                "type": "Ia",
+                "source": "1,2"
+            }
+        ],
+        "discoverday": "23",
+        "discoverer": "Wise Observatory Optical Transients Search",
+        "discovermonth": "12",
+        "discoveryear": "1998",
+        "galdec": "+155524",
+        "galra": "011918",
+        "host": "A011918+1555",
+        "hvel": "64000",
+        "lumdist": "1200",
+        "maxabsmag": "-19",
+        "maxappmag": "21.3",
+        "maxday": "23",
+        "maxmonth": "12",
+        "maxyear": "1998",
+        "redshift": "0.24",
+        "sndec": "+15:55:24.1",
+        "snra": "01:19:18.06",
         "photometry": [
             {
                 "timeunit": "MJD",
                 "time": "51170.5",
                 "band": "",
                 "abmag": "21.3",
-                "source": "2,1"
+                "source": "3,2"
             }
-        ],
-        "spectra": [],
-        "discoveryear": "1998",
-        "discoverday": "23",
-        "discovermonth": "12",
-        "host": "A011918+1555",
-        "claimedtype": "Ia",
-        "redshift": "0.24",
-        "galra": "011918",
-        "galdec": "+155524",
-        "snra": "01:19:18.06",
-        "sndec": "+15:55:24.1",
-        "discoverer": "Wise Observatory Optical Transients Search",
-        "maxyear": "1998",
-        "maxmonth": "12",
-        "maxday": "23",
-        "maxappmag": "21.3",
-        "hvel": "63510",
-        "lumdist": "1241",
-        "maxabsmag": "-19.17"
+        ]
     }
 }

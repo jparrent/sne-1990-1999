@@ -19,19 +19,47 @@
                 "alias": "3"
             },
             {
-                "name": "<a href='http://www.rochesterastronomy.org/snimages/snredshiftall.html'>Latest Supernovae</a>",
+                "name": "http://graspa.oapd.inaf.it/cgi-bin/sncat.php",
                 "alias": "4",
                 "secondary": true
             },
             {
+                "name": "<a href='http://www.rochesterastronomy.org/snimages/snredshiftall.html'>Latest Supernovae</a>",
+                "alias": "5",
+                "secondary": true
+            },
+            {
                 "name": "<a href='http://www.cbat.eps.harvard.edu/iauc/06800/06829.html#Item1'>IAUC 6829</a>",
-                "alias": "5"
+                "alias": "6"
             },
             {
                 "name": "<a href='http://adsabs.harvard.edu/abs/2012A%26A...538A.120L'>2012A&A...538A.120L</a>",
-                "alias": "6"
+                "alias": "7"
             }
         ],
+        "claimedtype": [
+            {
+                "type": "IIn",
+                "source": "4,5"
+            }
+        ],
+        "discoverday": "2",
+        "discoverer": "BAO Supernova Survey",
+        "discovermonth": "3",
+        "discoveryear": "1998",
+        "galdec": "+472939",
+        "galra": "114608",
+        "host": "NGC 3877",
+        "hvel": "838",
+        "lumdist": "12.42",
+        "maxabsmag": "-18.77",
+        "maxappmag": "11.7",
+        "maxday": "17",
+        "maxmonth": "3",
+        "maxyear": "1998",
+        "redshift": "0.0028",
+        "sndec": "+47:28:55.57",
+        "snra": "11:46:06.18",
         "photometry": [
             {
                 "timeunit": "MJD",
@@ -942,6 +970,13 @@
                 "band": "C",
                 "abmag": "11.8",
                 "source": "1,2"
+            },
+            {
+                "timeunit": "MJD",
+                "time": "50892.5",
+                "band": "",
+                "abmag": "11.9",
+                "source": "6,5"
             },
             {
                 "timeunit": "MJD",
@@ -3728,33 +3763,7 @@
                 "band": "V",
                 "abmag": "18.5",
                 "source": "1,2"
-            },
-            {
-                "timeunit": "MJD",
-                "time": "50892.5",
-                "band": "",
-                "abmag": "11.9",
-                "source": "5,4"
             }
-        ],
-        "spectra": [],
-        "discoveryear": "1998",
-        "maxday": "17",
-        "maxmonth": "3",
-        "host": "NGC 3877",
-        "claimedtype": "IIn",
-        "hvel": "838",
-        "galra": "114608",
-        "galdec": "+472939",
-        "snra": "11:46:06.18",
-        "sndec": "+47:28:55.57",
-        "discoverer": "BAO Supernova Survey",
-        "discoverday": "2",
-        "discovermonth": "3",
-        "maxyear": "1998",
-        "maxappmag": "11.7",
-        "redshift": "0.002799",
-        "lumdist": "12.41",
-        "maxabsmag": "-18.77"
+        ]
     }
 }

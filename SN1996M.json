@@ -6,46 +6,55 @@
         ],
         "sources": [
             {
-                "name": "<a href='http://www.rochesterastronomy.org/snimages/snredshiftall.html'>Latest Supernovae</a>",
+                "name": "http://graspa.oapd.inaf.it/cgi-bin/sncat.php",
                 "alias": "1",
                 "secondary": true
             },
             {
+                "name": "<a href='http://www.rochesterastronomy.org/snimages/snredshiftall.html'>Latest Supernovae</a>",
+                "alias": "2",
+                "secondary": true
+            },
+            {
                 "name": "<a href='http://www.cbat.eps.harvard.edu/iauc/06300/06347.html'>IAUC 6347</a>",
-                "alias": "2"
+                "alias": "3"
             },
             {
                 "name": "<a href='http://adsabs.harvard.edu/abs/2012A%26A...538A.120L'>2012A&A...538A.120L</a>",
-                "alias": "3"
+                "alias": "4"
             }
         ],
+        "claimedtype": [
+            {
+                "type": "II",
+                "source": "1,2"
+            }
+        ],
+        "discoverday": "18",
+        "discoverer": "Robert McNaught",
+        "discovermonth": "3",
+        "discoveryear": "1996",
+        "galdec": "-130111",
+        "galra": "125117",
+        "host": "A125117-1301",
+        "hvel": "6000",
+        "lumdist": "90",
+        "maxabsmag": "-17",
+        "maxappmag": "18",
+        "maxday": "18",
+        "maxmonth": "3",
+        "maxyear": "1996",
+        "redshift": "0.02",
+        "sndec": "-13:01:11.7",
+        "snra": "12:51:17.73",
         "photometry": [
             {
                 "timeunit": "MJD",
                 "time": "50160.5",
                 "band": "",
                 "abmag": "18.0",
-                "source": "2,1"
+                "source": "3,2"
             }
-        ],
-        "spectra": [],
-        "discoveryear": "1996",
-        "discoverday": "18",
-        "discovermonth": "3",
-        "host": "A125117-1301",
-        "claimedtype": "II",
-        "hvel": "6000",
-        "galra": "125117",
-        "galdec": "-130111",
-        "snra": "12:51:17.73",
-        "sndec": "-13:01:11.7",
-        "discoverer": "Robert McNaught",
-        "maxyear": "1996",
-        "maxmonth": "3",
-        "maxday": "18",
-        "maxappmag": "18",
-        "redshift": "0.02022",
-        "lumdist": "90.87",
-        "maxabsmag": "-16.79"
+        ]
     }
 }

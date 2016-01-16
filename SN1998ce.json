@@ -6,46 +6,55 @@
         ],
         "sources": [
             {
-                "name": "<a href='http://www.rochesterastronomy.org/snimages/snredshiftall.html'>Latest Supernovae</a>",
+                "name": "http://graspa.oapd.inaf.it/cgi-bin/sncat.php",
                 "alias": "1",
                 "secondary": true
             },
             {
+                "name": "<a href='http://www.rochesterastronomy.org/snimages/snredshiftall.html'>Latest Supernovae</a>",
+                "alias": "2",
+                "secondary": true
+            },
+            {
                 "name": "<a href='http://www.cbat.eps.harvard.edu/iauc/06900/06912.html#Item1'>IAUC 6912</a>",
-                "alias": "2"
+                "alias": "3"
             },
             {
                 "name": "<a href='http://adsabs.harvard.edu/abs/2012A%26A...538A.120L'>2012A&A...538A.120L</a>",
-                "alias": "3"
+                "alias": "4"
             }
         ],
+        "claimedtype": [
+            {
+                "type": "II",
+                "source": "1,2"
+            }
+        ],
+        "discoverday": "18",
+        "discoverer": "Perth Astronomical Research Group",
+        "discovermonth": "5",
+        "discoveryear": "1998",
+        "galdec": "-254924",
+        "galra": "101035",
+        "host": "MCG -4-24-19",
+        "hvel": "2518",
+        "lumdist": "37.5714",
+        "maxabsmag": "-16.8743",
+        "maxappmag": "16",
+        "maxday": "18",
+        "maxmonth": "5",
+        "maxyear": "1998",
+        "redshift": "0.008435",
+        "sndec": "-25:49:30.8",
+        "snra": "10:10:34.70",
         "photometry": [
             {
                 "timeunit": "MJD",
                 "time": "50951.5",
                 "band": "",
                 "abmag": "16.0",
-                "source": "2,1"
+                "source": "3,2"
             }
-        ],
-        "spectra": [],
-        "discoveryear": "1998",
-        "discoverday": "18",
-        "discovermonth": "5",
-        "host": "MCG -4-24-19",
-        "claimedtype": "II",
-        "hvel": "2518",
-        "galra": "101035",
-        "galdec": "-254924",
-        "snra": "10:10:34.70",
-        "sndec": "-25:49:30.8",
-        "discoverer": "Perth Astronomical Research Group",
-        "maxyear": "1998",
-        "maxmonth": "5",
-        "maxday": "18",
-        "maxappmag": "16",
-        "redshift": "0.008435",
-        "lumdist": "37.57",
-        "maxabsmag": "-16.87"
+        ]
     }
 }

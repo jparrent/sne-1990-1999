@@ -6,42 +6,51 @@
         ],
         "sources": [
             {
-                "name": "<a href='http://www.rochesterastronomy.org/snimages/snredshiftall.html'>Latest Supernovae</a>",
+                "name": "http://graspa.oapd.inaf.it/cgi-bin/sncat.php",
                 "alias": "1",
                 "secondary": true
             },
             {
+                "name": "<a href='http://www.rochesterastronomy.org/snimages/snredshiftall.html'>Latest Supernovae</a>",
+                "alias": "2",
+                "secondary": true
+            },
+            {
                 "name": "<a href='http://www.cbat.eps.harvard.edu/iauc/05800/05809.html'>IAUC 5809</a>",
-                "alias": "2"
+                "alias": "3"
             },
             {
                 "name": "<a href='http://adsabs.harvard.edu/abs/2012A%26A...538A.120L'>2012A&A...538A.120L</a>",
-                "alias": "3"
+                "alias": "4"
             }
         ],
+        "claimedtype": [
+            {
+                "type": "Ia",
+                "source": "1,2"
+            }
+        ],
+        "discoverday": "27",
+        "discoverer": "Robert McNaught",
+        "discovermonth": "5",
+        "discoveryear": "1993",
+        "galdec": "-424733",
+        "galra": "203546",
+        "host": "A203546-4247",
+        "maxappmag": "19",
+        "maxday": "27",
+        "maxmonth": "5",
+        "maxyear": "1993",
+        "sndec": "-42:47:33.4",
+        "snra": "20:35:46.94",
         "photometry": [
             {
                 "timeunit": "MJD",
                 "time": "49134.5",
                 "band": "",
                 "abmag": "19.0",
-                "source": "2,1"
+                "source": "3,2"
             }
-        ],
-        "spectra": [],
-        "discoveryear": "1993",
-        "discoverday": "27",
-        "discovermonth": "5",
-        "host": "A203546-4247",
-        "claimedtype": "Ia",
-        "galra": "203546",
-        "galdec": "-424733",
-        "snra": "20:35:46.94",
-        "sndec": "-42:47:33.4",
-        "discoverer": "Robert McNaught",
-        "maxyear": "1993",
-        "maxmonth": "5",
-        "maxday": "27",
-        "maxappmag": "19"
+        ]
     }
 }

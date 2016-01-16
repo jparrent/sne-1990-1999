@@ -24,20 +24,59 @@
                 "alias": "4"
             },
             {
-                "name": "<a href='http://www.rochesterastronomy.org/snimages/snredshiftall.html'>Latest Supernovae</a>",
+                "name": "http://graspa.oapd.inaf.it/cgi-bin/sncat.php",
                 "alias": "5",
                 "secondary": true
             },
             {
+                "name": "<a href='http://www.rochesterastronomy.org/snimages/snredshiftall.html'>Latest Supernovae</a>",
+                "alias": "6",
+                "secondary": true
+            },
+            {
                 "name": "<a href='http://www.cbat.eps.harvard.edu/iauc/06200/06278.html'>IAUC 6278</a>",
-                "alias": "6"
+                "alias": "7"
             },
             {
                 "name": "<a href='http://adsabs.harvard.edu/abs/2012A%26A...538A.120L'>2012A&A...538A.120L</a>",
-                "alias": "7"
+                "alias": "8"
             }
         ],
+        "claimedtype": [
+            {
+                "type": "Ia P",
+                "source": "5"
+            },
+            {
+                "type": "Ia",
+                "source": "6"
+            }
+        ],
+        "discoverday": "18",
+        "discoverer": "Christian Pollas",
+        "discovermonth": "12",
+        "discoveryear": "1995",
+        "galdec": "+110404",
+        "galra": "044519",
+        "host": "UGC 3151",
+        "hvel": "4615",
+        "lumdist": "69.455",
+        "maxabsmag": "-18.149",
+        "maxappmag": "16.06",
+        "maxday": "5",
+        "maxmonth": "1",
+        "maxyear": "1996",
+        "redshift": "0.01551",
+        "sndec": "+11:04:02.5",
+        "snra": "04:45:21.24",
         "photometry": [
+            {
+                "timeunit": "MJD",
+                "time": "50069.5",
+                "band": "",
+                "abmag": "18.8",
+                "source": "7,6"
+            },
             {
                 "timeunit": "MJD",
                 "time": "50077.30",
@@ -424,6 +463,20 @@
             },
             {
                 "timeunit": "MJD",
+                "time": "50100.17",
+                "band": "B",
+                "abmag": "18.19",
+                "source": "3,4"
+            },
+            {
+                "timeunit": "MJD",
+                "time": "50100.17",
+                "band": "V",
+                "abmag": "17.12",
+                "source": "3,4"
+            },
+            {
+                "timeunit": "MJD",
                 "time": "50101.11",
                 "band": "B",
                 "abmag": "18.21",
@@ -661,27 +714,6 @@
                 "abmag": "19.86",
                 "aberr": "0.04",
                 "source": "1,2"
-            },
-            {
-                "timeunit": "MJD",
-                "time": "50100.17",
-                "band": "B",
-                "abmag": "18.19",
-                "source": "3,4"
-            },
-            {
-                "timeunit": "MJD",
-                "time": "50100.17",
-                "band": "V",
-                "abmag": "17.12",
-                "source": "3,4"
-            },
-            {
-                "timeunit": "MJD",
-                "time": "50069.5",
-                "band": "",
-                "abmag": "18.8",
-                "source": "6,5"
             }
         ],
         "spectra": [
@@ -13910,7 +13942,8 @@
                         "1.5584824e-16",
                         "0.0000000e+00"
                     ]
-                ]
+                ],
+                "source": "1"
             },
             {
                 "deredshifted": false,
@@ -27107,7 +27140,8 @@
                         "1.7208583e-16",
                         "1.7105559e-17"
                     ]
-                ]
+                ],
+                "source": "1"
             },
             {
                 "deredshifted": false,
@@ -40299,7 +40333,8 @@
                         "2.2362194e-16",
                         "0.0000000e+00"
                     ]
-                ]
+                ],
+                "source": "1"
             },
             {
                 "deredshifted": false,
@@ -53496,7 +53531,8 @@
                         "4.1748478e-16",
                         "1.9031424e-17"
                     ]
-                ]
+                ],
+                "source": "1"
             },
             {
                 "deredshifted": false,
@@ -66658,7 +66694,8 @@
                         "3.1376374e-16",
                         "1.1247771e-17"
                     ]
-                ]
+                ],
+                "source": "1"
             },
             {
                 "deredshifted": false,
@@ -79820,7 +79857,8 @@
                         "2.5207687e-16",
                         "9.5369946e-18"
                     ]
-                ]
+                ],
+                "source": "1"
             },
             {
                 "deredshifted": false,
@@ -92982,7 +93020,8 @@
                         "2.4340646e-16",
                         "9.0079621e-18"
                     ]
-                ]
+                ],
+                "source": "1"
             },
             {
                 "deredshifted": false,
@@ -104253,7 +104292,8 @@
                         "9049.83",
                         "3.6264617e-17"
                     ]
-                ]
+                ],
+                "source": "1"
             },
             {
                 "deredshifted": false,
@@ -116172,26 +116212,9 @@
                         "9223.43",
                         "-1.5779966e-17"
                     ]
-                ]
+                ],
+                "source": "1"
             }
-        ],
-        "discoveryear": "1995",
-        "maxday": "5",
-        "maxmonth": "1",
-        "host": "UGC 3151",
-        "claimedtype": "Ia",
-        "hvel": "4615",
-        "galra": "044519",
-        "galdec": "+110404",
-        "snra": "04:45:21.24",
-        "sndec": "+11:04:02.5",
-        "discoverer": "Christian Pollas",
-        "discoverday": "18",
-        "discovermonth": "12",
-        "maxyear": "1996",
-        "maxappmag": "16.06",
-        "redshift": "0.01551",
-        "lumdist": "69.45",
-        "maxabsmag": "-18.15"
+        ]
     }
 }

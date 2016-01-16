@@ -23,20 +23,64 @@
                 "alias": "4"
             },
             {
-                "name": "<a href='http://www.rochesterastronomy.org/snimages/snredshiftall.html'>Latest Supernovae</a>",
+                "name": "http://graspa.oapd.inaf.it/cgi-bin/sncat.php",
                 "alias": "5",
                 "secondary": true
             },
             {
+                "name": "<a href='http://www.rochesterastronomy.org/snimages/snredshiftall.html'>Latest Supernovae</a>",
+                "alias": "6",
+                "secondary": true
+            },
+            {
                 "name": "<a href='http://www.cbat.eps.harvard.edu/iauc/06500/06552.html#Item1'>IAUC 6552</a>",
-                "alias": "6"
+                "alias": "7"
             },
             {
                 "name": "<a href='http://adsabs.harvard.edu/abs/2012A%26A...538A.120L'>2012A&A...538A.120L</a>",
-                "alias": "7"
+                "alias": "8"
+            },
+            {
+                "name": "<a href='https://www.cfa.harvard.edu/supernova/SNarchive.html'>CfA Supernova Archive</a>",
+                "alias": "9",
+                "secondary": true
             }
         ],
+        "claimedtype": [
+            {
+                "type": "Ib",
+                "source": "5"
+            },
+            {
+                "type": "Ic",
+                "source": "6"
+            }
+        ],
+        "discoverday": "31",
+        "discoverer": "Masakatsu Aoki",
+        "discovermonth": "1",
+        "discoveryear": "1997",
+        "galdec": "-031959",
+        "galra": "124813",
+        "host": "NGC 4691",
+        "hvel": "1108",
+        "lumdist": "16.4347",
+        "maxabsmag": "-18.3488",
+        "maxappmag": "12.73",
+        "maxday": "8",
+        "maxmonth": "2",
+        "maxyear": "1997",
+        "redshift": "0.003703",
+        "sndec": "-03:19:58.5",
+        "snra": "12:48:14.28",
         "photometry": [
+            {
+                "timeunit": "MJD",
+                "time": "50479.5",
+                "band": "",
+                "abmag": "13.5",
+                "source": "7,6"
+            },
             {
                 "timeunit": "MJD",
                 "time": "50483.3",
@@ -169,13 +213,6 @@
                 "band": "V",
                 "abmag": "17",
                 "source": "1,4"
-            },
-            {
-                "timeunit": "MJD",
-                "time": "50479.5",
-                "band": "",
-                "abmag": "13.5",
-                "source": "6,5"
             }
         ],
         "spectra": [
@@ -10152,7 +10189,8 @@
                         "7558.7500",
                         "1.4668614"
                     ]
-                ]
+                ],
+                "source": "9"
             },
             {
                 "deredshifted": false,
@@ -20663,7 +20701,8 @@
                         "7557.2800",
                         "4.0824480"
                     ]
-                ]
+                ],
+                "source": "9"
             },
             {
                 "deredshifted": false,
@@ -31170,7 +31209,8 @@
                         "7555.8100",
                         "2.1872592"
                     ]
-                ]
+                ],
+                "source": "9"
             },
             {
                 "deredshifted": false,
@@ -41213,7 +41253,8 @@
                         "7552.8700",
                         "3.4964104"
                     ]
-                ]
+                ],
+                "source": "9"
             },
             {
                 "deredshifted": false,
@@ -51724,7 +51765,8 @@
                         "7557.2800",
                         "2.1676676"
                     ]
-                ]
+                ],
+                "source": "9"
             },
             {
                 "deredshifted": false,
@@ -62231,26 +62273,9 @@
                         "7555.8100",
                         "1.6409372"
                     ]
-                ]
+                ],
+                "source": "9"
             }
-        ],
-        "discoveryear": "1997",
-        "discoverday": "31",
-        "discovermonth": "1",
-        "host": "NGC 4691",
-        "claimedtype": "Ic",
-        "hvel": "1108",
-        "galra": "124813",
-        "galdec": "-031959",
-        "snra": "12:48:14.28",
-        "sndec": "-03:19:58.5",
-        "discoverer": "Masakatsu Aoki",
-        "maxyear": "1997",
-        "maxmonth": "2",
-        "maxday": "8",
-        "maxappmag": "12.73",
-        "redshift": "0.003703",
-        "lumdist": "16.43",
-        "maxabsmag": "-18.35"
+        ]
     }
 }

@@ -6,46 +6,55 @@
         ],
         "sources": [
             {
-                "name": "<a href='http://www.rochesterastronomy.org/snimages/snredshiftall.html'>Latest Supernovae</a>",
+                "name": "http://graspa.oapd.inaf.it/cgi-bin/sncat.php",
                 "alias": "1",
                 "secondary": true
             },
             {
+                "name": "<a href='http://www.rochesterastronomy.org/snimages/snredshiftall.html'>Latest Supernovae</a>",
+                "alias": "2",
+                "secondary": true
+            },
+            {
                 "name": "<a href='http://www.cbat.eps.harvard.edu/iauc/05900/05988.html'>IAUC 5988</a>",
-                "alias": "2"
+                "alias": "3"
             },
             {
                 "name": "<a href='http://adsabs.harvard.edu/abs/2012A%26A...538A.120L'>2012A&A...538A.120L</a>",
-                "alias": "3"
+                "alias": "4"
             }
         ],
+        "claimedtype": [
+            {
+                "type": "Ia",
+                "source": "1,2"
+            }
+        ],
+        "discoverday": "5",
+        "discoverer": "Christian Pollas",
+        "discovermonth": "5",
+        "discoveryear": "1994",
+        "galdec": "+302239",
+        "galra": "134111",
+        "host": "Mkn 268",
+        "hvel": "11950",
+        "lumdist": "185.63",
+        "maxabsmag": "-17.843",
+        "maxappmag": "18.5",
+        "maxday": "5",
+        "maxmonth": "5",
+        "maxyear": "1994",
+        "redshift": "0.04069",
+        "sndec": "+30:22:43.6",
+        "snra": "13:41:10.98",
         "photometry": [
             {
                 "timeunit": "MJD",
                 "time": "49477.5",
                 "band": "",
                 "abmag": "18.5",
-                "source": "2,1"
+                "source": "3,2"
             }
-        ],
-        "spectra": [],
-        "discoveryear": "1994",
-        "discoverday": "5",
-        "discovermonth": "5",
-        "host": "Mkn 268",
-        "claimedtype": "Ia",
-        "hvel": "11950",
-        "galra": "134111",
-        "galdec": "+302239",
-        "snra": "13:41:10.98",
-        "sndec": "+30:22:43.6",
-        "discoverer": "Christian Pollas",
-        "redshift": "0.04069",
-        "maxyear": "1994",
-        "maxmonth": "5",
-        "maxday": "5",
-        "maxappmag": "18.5",
-        "lumdist": "185.6",
-        "maxabsmag": "-17.84"
+        ]
     }
 }

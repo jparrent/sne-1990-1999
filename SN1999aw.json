@@ -15,19 +15,47 @@
                 "alias": "2"
             },
             {
-                "name": "<a href='http://www.rochesterastronomy.org/snimages/snredshiftall.html'>Latest Supernovae</a>",
+                "name": "http://graspa.oapd.inaf.it/cgi-bin/sncat.php",
                 "alias": "3",
                 "secondary": true
             },
             {
+                "name": "<a href='http://www.rochesterastronomy.org/snimages/snredshiftall.html'>Latest Supernovae</a>",
+                "alias": "4",
+                "secondary": true
+            },
+            {
                 "name": "<a href='http://www.cbat.eps.harvard.edu/iauc/07100/07130.html#Item1'>IAUC 7130</a>",
-                "alias": "4"
+                "alias": "5"
             },
             {
                 "name": "<a href='http://adsabs.harvard.edu/abs/2012A%26A...538A.120L'>2012A&A...538A.120L</a>",
-                "alias": "5"
+                "alias": "6"
             }
         ],
+        "claimedtype": [
+            {
+                "type": "Ia",
+                "source": "3,4"
+            }
+        ],
+        "discoverday": "7",
+        "discoverer": "Wise Observatory",
+        "discovermonth": "3",
+        "discoveryear": "1999",
+        "galdec": "-060631",
+        "galra": "110136",
+        "host": "A110136-0606",
+        "hvel": "12000",
+        "lumdist": "187",
+        "maxabsmag": "-19.6",
+        "maxappmag": "16.8",
+        "maxday": "17",
+        "maxmonth": "3",
+        "maxyear": "1999",
+        "redshift": "0.041",
+        "sndec": "-06:06:31.6",
+        "snra": "11:01:36.37",
         "photometry": [
             {
                 "timeunit": "MJD",
@@ -35,6 +63,13 @@
                 "band": "R",
                 "abmag": "17.25",
                 "source": "1,2"
+            },
+            {
+                "timeunit": "MJD",
+                "time": "51245.5",
+                "band": "",
+                "abmag": "17.6",
+                "source": "5,4"
             },
             {
                 "timeunit": "MJD",
@@ -679,33 +714,7 @@
                 "band": "V",
                 "abmag": "19.24",
                 "source": "1,2"
-            },
-            {
-                "timeunit": "MJD",
-                "time": "51245.5",
-                "band": "",
-                "abmag": "17.6",
-                "source": "4,3"
             }
-        ],
-        "spectra": [],
-        "discoveryear": "1999",
-        "maxday": "17",
-        "maxmonth": "3",
-        "host": "A110136-0606",
-        "claimedtype": "Ia",
-        "hvel": "12000",
-        "galra": "110136",
-        "galdec": "-060631",
-        "snra": "11:01:36.37",
-        "sndec": "-06:06:31.6",
-        "discoverer": "Wise Observatory",
-        "discoverday": "7",
-        "discovermonth": "3",
-        "redshift": "0.04086",
-        "maxyear": "1999",
-        "maxappmag": "16.8",
-        "lumdist": "186.4",
-        "maxabsmag": "-19.55"
+        ]
     }
 }

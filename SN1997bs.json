@@ -15,11 +15,43 @@
                 "alias": "2"
             },
             {
-                "name": "<a href='http://www.rochesterastronomy.org/snimages/snredshiftall.html'>Latest Supernovae</a>",
+                "name": "http://graspa.oapd.inaf.it/cgi-bin/sncat.php",
                 "alias": "3",
+                "secondary": true
+            },
+            {
+                "name": "<a href='http://www.rochesterastronomy.org/snimages/snredshiftall.html'>Latest Supernovae</a>",
+                "alias": "4",
                 "secondary": true
             }
         ],
+        "claimedtype": [
+            {
+                "type": "IIn?",
+                "source": "3"
+            },
+            {
+                "type": "LBV",
+                "source": "4"
+            }
+        ],
+        "discoverday": "15",
+        "discoverer": "LOSS",
+        "discovermonth": "4",
+        "discoveryear": "1997",
+        "galdec": "+125930",
+        "galra": "112015",
+        "host": "M66",
+        "hvel": "726",
+        "lumdist": "10.73",
+        "maxabsmag": "-13.703",
+        "maxappmag": "16.45",
+        "maxday": "16",
+        "maxmonth": "4",
+        "maxyear": "1997",
+        "redshift": "0.00242",
+        "sndec": "+12:58:19.6",
+        "snra": "11:20:14.25",
         "photometry": [
             {
                 "timeunit": "MJD",
@@ -490,25 +522,6 @@
                 "abmag": "18.75",
                 "source": "1,2"
             }
-        ],
-        "spectra": [],
-        "discoveryear": "1997",
-        "maxday": "16",
-        "maxmonth": "4",
-        "host": "M66",
-        "claimedtype": "LBV",
-        "hvel": "726",
-        "galra": "112015",
-        "galdec": "+125930",
-        "snra": "11:20:14.25",
-        "sndec": "+12:58:19.6",
-        "discoverer": "LOSS",
-        "discoverday": "15",
-        "discovermonth": "4",
-        "maxyear": "1997",
-        "maxappmag": "16.45",
-        "redshift": "0.002425",
-        "lumdist": "10.75",
-        "maxabsmag": "-13.71"
+        ]
     }
 }

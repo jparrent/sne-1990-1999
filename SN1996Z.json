@@ -20,15 +20,43 @@
                 "secondary": true
             },
             {
-                "name": "<a href='http://www.rochesterastronomy.org/snimages/snredshiftall.html'>Latest Supernovae</a>",
+                "name": "http://graspa.oapd.inaf.it/cgi-bin/sncat.php",
                 "alias": "4",
                 "secondary": true
             },
             {
+                "name": "<a href='http://www.rochesterastronomy.org/snimages/snredshiftall.html'>Latest Supernovae</a>",
+                "alias": "5",
+                "secondary": true
+            },
+            {
                 "name": "<a href='http://adsabs.harvard.edu/abs/2012A%26A...538A.120L'>2012A&A...538A.120L</a>",
-                "alias": "5"
+                "alias": "6"
             }
         ],
+        "claimedtype": [
+            {
+                "type": "Ia",
+                "source": "4,5"
+            }
+        ],
+        "discoverday": "18",
+        "discoverer": "Wayne Johnson (aka Mr. Galaxy)",
+        "discovermonth": "5",
+        "discoveryear": "1996",
+        "galdec": "-210742",
+        "galra": "093645",
+        "host": "NGC 2935",
+        "hvel": "2275",
+        "lumdist": "33.9112",
+        "maxabsmag": "-18.5217",
+        "maxappmag": "14.13",
+        "maxday": "18",
+        "maxmonth": "5",
+        "maxyear": "1996",
+        "redshift": "0.007618",
+        "sndec": "-21:08:51.7",
+        "snra": "09:36:44.82",
         "photometry": [
             {
                 "timeunit": "MJD",
@@ -13324,7 +13352,8 @@
                         "2.1538239e-15",
                         "6.1271136e-17"
                     ]
-                ]
+                ],
+                "source": "1"
             },
             {
                 "deredshifted": false,
@@ -26466,7 +26495,8 @@
                         "1.9278536e-15",
                         "7.2381454e-17"
                     ]
-                ]
+                ],
+                "source": "1"
             },
             {
                 "deredshifted": false,
@@ -39608,7 +39638,8 @@
                         "1.7077878e-15",
                         "6.3440490e-17"
                     ]
-                ]
+                ],
+                "source": "1"
             },
             {
                 "deredshifted": false,
@@ -52755,7 +52786,8 @@
                         "8.6511308e-16",
                         "4.7774680e-17"
                     ]
-                ]
+                ],
+                "source": "1"
             },
             {
                 "deredshifted": false,
@@ -65902,7 +65934,8 @@
                         "3.0257539e-16",
                         "8.1700959e-17"
                     ]
-                ]
+                ],
+                "source": "1"
             },
             {
                 "deredshifted": false,
@@ -79044,26 +79077,9 @@
                         "1.8007715e-15",
                         "6.6066598e-17"
                     ]
-                ]
+                ],
+                "source": "1"
             }
-        ],
-        "discoveryear": "1996",
-        "maxday": "18",
-        "maxmonth": "5",
-        "host": "NGC 2935",
-        "claimedtype": "Ia",
-        "hvel": "2275",
-        "galra": "093645",
-        "galdec": "-210742",
-        "snra": "09:36:44.82",
-        "sndec": "-21:08:51.7",
-        "discoverer": "Wayne Johnson (aka Mr. Galaxy)",
-        "discoverday": "18",
-        "discovermonth": "5",
-        "maxyear": "1996",
-        "maxappmag": "14.13",
-        "redshift": "0.007618",
-        "lumdist": "33.91",
-        "maxabsmag": "-18.52"
+        ]
     }
 }

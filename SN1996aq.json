@@ -6,37 +6,46 @@
         ],
         "sources": [
             {
-                "name": "<a href='http://www.rochesterastronomy.org/snimages/snredshiftall.html'>Latest Supernovae</a>",
+                "name": "http://graspa.oapd.inaf.it/cgi-bin/sncat.php",
                 "alias": "1",
                 "secondary": true
             },
             {
+                "name": "<a href='http://www.rochesterastronomy.org/snimages/snredshiftall.html'>Latest Supernovae</a>",
+                "alias": "2",
+                "secondary": true
+            },
+            {
                 "name": "<a href='http://adsabs.harvard.edu/abs/2012A%26A...538A.120L'>2012A&A...538A.120L</a>",
-                "alias": "2"
+                "alias": "3"
             }
         ],
+        "claimedtype": [
+            {
+                "type": "Ic",
+                "source": "1,2"
+            }
+        ],
+        "discoverday": "17",
+        "discoverer": "Masakatsu Aoki",
+        "discovermonth": "8",
+        "discoveryear": "1996",
+        "galdec": "-002316",
+        "galra": "142224",
+        "host": "NGC 5584",
+        "hvel": "1602",
+        "lumdist": "23.81",
+        "redshift": "0.005358",
+        "sndec": "-00:23:24.3",
+        "snra": "14:22:22.73",
         "photometry": [
             {
                 "timeunit": "MJD",
                 "time": "50312.0",
                 "band": "V",
                 "abmag": "14.7",
-                "source": "2"
+                "source": "3"
             }
-        ],
-        "spectra": [],
-        "discoveryear": "1996",
-        "discoverday": "17",
-        "discovermonth": "8",
-        "host": "NGC 5584",
-        "claimedtype": "Ic",
-        "hvel": "1602",
-        "galra": "142224",
-        "galdec": "-002316",
-        "snra": "14:22:22.73",
-        "sndec": "-00:23:24.3",
-        "discoverer": "Masakatsu Aoki",
-        "redshift": "0.005358",
-        "lumdist": "23.81"
+        ]
     }
 }

@@ -6,46 +6,55 @@
         ],
         "sources": [
             {
-                "name": "<a href='http://www.rochesterastronomy.org/snimages/snredshiftall.html'>Latest Supernovae</a>",
+                "name": "http://graspa.oapd.inaf.it/cgi-bin/sncat.php",
                 "alias": "1",
                 "secondary": true
             },
             {
+                "name": "<a href='http://www.rochesterastronomy.org/snimages/snredshiftall.html'>Latest Supernovae</a>",
+                "alias": "2",
+                "secondary": true
+            },
+            {
                 "name": "<a href='http://www.cbat.eps.harvard.edu/iauc/07000/07097.html#Item1'>IAUC 7097</a>",
-                "alias": "2"
+                "alias": "3"
             },
             {
                 "name": "<a href='http://adsabs.harvard.edu/abs/2012A%26A...538A.120L'>2012A&A...538A.120L</a>",
-                "alias": "3"
+                "alias": "4"
             }
         ],
+        "claimedtype": [
+            {
+                "type": "Ia",
+                "source": "1,2"
+            }
+        ],
+        "discoverday": "13",
+        "discoverer": "High Z Supernova Search",
+        "discovermonth": "1",
+        "discoveryear": "1999",
+        "galdec": "-053757",
+        "galra": "092642",
+        "host": "A092642-0537",
+        "hvel": "100000",
+        "lumdist": "3000",
+        "maxabsmag": "-20",
+        "maxappmag": "23.1",
+        "maxday": "13",
+        "maxmonth": "1",
+        "maxyear": "1999",
+        "redshift": "0.5",
+        "sndec": "-05:37:57.8",
+        "snra": "09:26:42.96",
         "photometry": [
             {
                 "timeunit": "MJD",
                 "time": "51191.5",
                 "band": "",
                 "abmag": "23.1",
-                "source": "2,1"
+                "source": "3,2"
             }
-        ],
-        "spectra": [],
-        "discoveryear": "1999",
-        "discoverday": "13",
-        "discovermonth": "1",
-        "host": "A092642-0537",
-        "claimedtype": "Ia",
-        "redshift": "0.5",
-        "galra": "092642",
-        "galdec": "-053757",
-        "snra": "09:26:42.96",
-        "sndec": "-05:37:57.8",
-        "discoverer": "High Z Supernova Search",
-        "maxyear": "1999",
-        "maxmonth": "1",
-        "maxday": "13",
-        "maxappmag": "23.1",
-        "hvel": "115300",
-        "lumdist": "2918",
-        "maxabsmag": "-19.23"
+        ]
     }
 }

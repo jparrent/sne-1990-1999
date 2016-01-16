@@ -15,15 +15,47 @@
                 "alias": "2"
             },
             {
-                "name": "<a href='http://www.rochesterastronomy.org/snimages/snredshiftall.html'>Latest Supernovae</a>",
+                "name": "http://graspa.oapd.inaf.it/cgi-bin/sncat.php",
                 "alias": "3",
                 "secondary": true
             },
             {
+                "name": "<a href='http://www.rochesterastronomy.org/snimages/snredshiftall.html'>Latest Supernovae</a>",
+                "alias": "4",
+                "secondary": true
+            },
+            {
                 "name": "<a href='http://adsabs.harvard.edu/abs/2012A%26A...538A.120L'>2012A&A...538A.120L</a>",
-                "alias": "4"
+                "alias": "5"
             }
         ],
+        "claimedtype": [
+            {
+                "type": "Iac",
+                "source": "3"
+            },
+            {
+                "type": "Ib",
+                "source": "4"
+            }
+        ],
+        "discoverday": "20",
+        "discoverer": "LOSS",
+        "discovermonth": "9",
+        "discoveryear": "1999",
+        "galdec": "-212221",
+        "galra": "061622",
+        "host": "NGC 2207",
+        "hvel": "2747",
+        "lumdist": "41.0251",
+        "maxabsmag": "-15.8152",
+        "maxappmag": "17.25",
+        "maxday": "16",
+        "maxmonth": "10",
+        "maxyear": "1999",
+        "redshift": "0.009205",
+        "sndec": "-21:22:09.8",
+        "snra": "06:16:16.16",
         "photometry": [
             {
                 "timeunit": "MJD",
@@ -53,25 +85,6 @@
                 "abmag": "17.25",
                 "source": "1,2"
             }
-        ],
-        "spectra": [],
-        "discoveryear": "1999",
-        "discoverday": "20",
-        "discovermonth": "9",
-        "host": "NGC 2207",
-        "claimedtype": "Ib",
-        "hvel": "2747",
-        "galra": "061622",
-        "galdec": "-212221",
-        "snra": "06:16:16.16",
-        "sndec": "-21:22:09.8",
-        "discoverer": "LOSS",
-        "redshift": "0.009205",
-        "maxyear": "1999",
-        "maxmonth": "10",
-        "maxday": "16",
-        "maxappmag": "17.25",
-        "lumdist": "41.03",
-        "maxabsmag": "-15.82"
+        ]
     }
 }

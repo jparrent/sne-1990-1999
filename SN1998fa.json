@@ -6,22 +6,54 @@
         ],
         "sources": [
             {
-                "name": "<a href='http://www.rochesterastronomy.org/snimages/snredshiftall.html'>Latest Supernovae</a>",
+                "name": "http://graspa.oapd.inaf.it/cgi-bin/sncat.php",
                 "alias": "1",
                 "secondary": true
             },
             {
+                "name": "<a href='http://www.rochesterastronomy.org/snimages/snredshiftall.html'>Latest Supernovae</a>",
+                "alias": "2",
+                "secondary": true
+            },
+            {
                 "name": "<a href='http://adsabs.harvard.edu/abs/2012A%26A...538A.120L'>2012A&A...538A.120L</a>",
-                "alias": "2"
+                "alias": "3"
+            },
+            {
+                "name": "<a href='https://www.cfa.harvard.edu/supernova/SNarchive.html'>CfA Supernova Archive</a>",
+                "alias": "4",
+                "secondary": true
             }
         ],
+        "claimedtype": [
+            {
+                "type": "IIb",
+                "source": "1"
+            },
+            {
+                "type": "IIb-pec",
+                "source": "2"
+            }
+        ],
+        "discoverday": "25",
+        "discoverer": "LOSS",
+        "discovermonth": "12",
+        "discoveryear": "1998",
+        "galdec": "+412515",
+        "galra": "064252",
+        "host": "UGC 3513",
+        "hvel": "7316",
+        "lumdist": "111.41",
+        "redshift": "0.02471",
+        "sndec": "+41:25:18.9",
+        "snra": "06:42:51.51",
         "photometry": [
             {
                 "timeunit": "MJD",
                 "time": "51172.0",
                 "band": "",
                 "abmag": "18.2",
-                "source": "2"
+                "source": "3"
             }
         ],
         "spectra": [
@@ -10226,7 +10258,8 @@
                         "7540.50",
                         "0.0926555"
                     ]
-                ]
+                ],
+                "source": "4"
             },
             {
                 "deredshifted": false,
@@ -20429,7 +20462,8 @@
                         "7540.50",
                         "0.0688973"
                     ]
-                ]
+                ],
+                "source": "4"
             },
             {
                 "deredshifted": false,
@@ -30632,7 +30666,8 @@
                         "7540.50",
                         "0.0965262"
                     ]
-                ]
+                ],
+                "source": "4"
             },
             {
                 "deredshifted": false,
@@ -40835,21 +40870,9 @@
                         "7540.50",
                         "0.168590"
                     ]
-                ]
+                ],
+                "source": "4"
             }
-        ],
-        "discoveryear": "1998",
-        "discoverday": "25",
-        "discovermonth": "12",
-        "host": "UGC 3513",
-        "claimedtype": "IIb-pec",
-        "hvel": "7316",
-        "galra": "064252",
-        "galdec": "+412515",
-        "snra": "06:42:51.51",
-        "sndec": "+41:25:18.9",
-        "discoverer": "LOSS",
-        "redshift": "0.02471",
-        "lumdist": "111.4"
+        ]
     }
 }

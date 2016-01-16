@@ -15,15 +15,48 @@
                 "alias": "2"
             },
             {
-                "name": "<a href='http://www.rochesterastronomy.org/snimages/snredshiftall.html'>Latest Supernovae</a>",
+                "name": "http://graspa.oapd.inaf.it/cgi-bin/sncat.php",
                 "alias": "3",
                 "secondary": true
             },
             {
+                "name": "<a href='http://www.rochesterastronomy.org/snimages/snredshiftall.html'>Latest Supernovae</a>",
+                "alias": "4",
+                "secondary": true
+            },
+            {
                 "name": "<a href='http://adsabs.harvard.edu/abs/2012A%26A...538A.120L'>2012A&A...538A.120L</a>",
-                "alias": "4"
+                "alias": "5"
+            },
+            {
+                "name": "<a href='https://www.cfa.harvard.edu/supernova/SNarchive.html'>CfA Supernova Archive</a>",
+                "alias": "6",
+                "secondary": true
             }
         ],
+        "claimedtype": [
+            {
+                "type": "Ia",
+                "source": "3,4"
+            }
+        ],
+        "discoverday": "22",
+        "discoverer": "Mike Schwartz",
+        "discovermonth": "6",
+        "discoveryear": "1998",
+        "galdec": "+703207",
+        "galra": "113600",
+        "host": "NGC 3735",
+        "hvel": "2671",
+        "lumdist": "39.881",
+        "maxabsmag": "-17.204",
+        "maxappmag": "15.8",
+        "maxday": "22",
+        "maxmonth": "6",
+        "maxyear": "1998",
+        "redshift": "0.00895",
+        "sndec": "+70:32:10.2",
+        "snra": "11:35:54.44",
         "photometry": [
             {
                 "timeunit": "MJD",
@@ -12798,26 +12831,9 @@
                         "3.5637000e-16",
                         "6.2865561e-17"
                     ]
-                ]
+                ],
+                "source": "6"
             }
-        ],
-        "discoveryear": "1998",
-        "discoverday": "22",
-        "discovermonth": "6",
-        "host": "NGC 3735",
-        "claimedtype": "Ia",
-        "hvel": "2671",
-        "galra": "113600",
-        "galdec": "+703207",
-        "snra": "11:35:54.44",
-        "sndec": "+70:32:10.2",
-        "discoverer": "Mike Schwartz",
-        "redshift": "0.00895",
-        "maxyear": "1998",
-        "maxmonth": "6",
-        "maxday": "22",
-        "maxappmag": "15.8",
-        "lumdist": "39.88",
-        "maxabsmag": "-17.2"
+        ]
     }
 }

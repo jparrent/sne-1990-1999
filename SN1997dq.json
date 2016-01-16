@@ -15,15 +15,52 @@
                 "alias": "2"
             },
             {
-                "name": "<a href='http://www.rochesterastronomy.org/snimages/snredshiftall.html'>Latest Supernovae</a>",
+                "name": "http://graspa.oapd.inaf.it/cgi-bin/sncat.php",
                 "alias": "3",
                 "secondary": true
             },
             {
+                "name": "<a href='http://www.rochesterastronomy.org/snimages/snredshiftall.html'>Latest Supernovae</a>",
+                "alias": "4",
+                "secondary": true
+            },
+            {
                 "name": "<a href='http://adsabs.harvard.edu/abs/2012A%26A...538A.120L'>2012A&A...538A.120L</a>",
-                "alias": "4"
+                "alias": "5"
+            },
+            {
+                "name": "<a href='https://www.cfa.harvard.edu/supernova/SNarchive.html'>CfA Supernova Archive</a>",
+                "alias": "6",
+                "secondary": true
             }
         ],
+        "claimedtype": [
+            {
+                "type": "Ic",
+                "source": "3"
+            },
+            {
+                "type": "Ib",
+                "source": "4"
+            }
+        ],
+        "discoverday": "7",
+        "discoverer": "Masakatsu Aoki",
+        "discovermonth": "11",
+        "discoveryear": "1997",
+        "galdec": "+112817",
+        "galra": "114059",
+        "host": "NGC 3810",
+        "hvel": "958",
+        "lumdist": "14.2",
+        "maxabsmag": "-14.77",
+        "maxappmag": "15.99",
+        "maxday": "23",
+        "maxmonth": "2",
+        "maxyear": "1998",
+        "redshift": "0.0032",
+        "sndec": "+11:28:45.7",
+        "snra": "11:40:55.90",
         "photometry": [
             {
                 "timeunit": "MJD",
@@ -10326,7 +10363,8 @@
                         "7540.50",
                         "1.42827"
                     ]
-                ]
+                ],
+                "source": "6"
             },
             {
                 "deredshifted": false,
@@ -20529,7 +20567,8 @@
                         "7540.50",
                         "1.55908"
                     ]
-                ]
+                ],
+                "source": "6"
             },
             {
                 "deredshifted": false,
@@ -30732,7 +30771,8 @@
                         "7540.50",
                         "1.57596"
                     ]
-                ]
+                ],
+                "source": "6"
             },
             {
                 "deredshifted": false,
@@ -40935,7 +40975,8 @@
                         "7540.50",
                         "1.51756"
                     ]
-                ]
+                ],
+                "source": "6"
             },
             {
                 "deredshifted": false,
@@ -51138,7 +51179,8 @@
                         "7540.50",
                         "0.949846"
                     ]
-                ]
+                ],
+                "source": "6"
             },
             {
                 "deredshifted": false,
@@ -62705,7 +62747,8 @@
                         "8837.3529",
                         "3.2367776"
                     ]
-                ]
+                ],
+                "source": "6"
             },
             {
                 "deredshifted": false,
@@ -73224,26 +73267,9 @@
                         "7560.2200",
                         "1.0867859"
                     ]
-                ]
+                ],
+                "source": "6"
             }
-        ],
-        "discoveryear": "1997",
-        "discoverday": "7",
-        "discovermonth": "11",
-        "host": "NGC 3810",
-        "claimedtype": "Ib",
-        "hvel": "958",
-        "galra": "114059",
-        "galdec": "+112817",
-        "snra": "11:40:55.90",
-        "sndec": "+11:28:45.7",
-        "discoverer": "Masakatsu Aoki",
-        "redshift": "0.003201",
-        "maxyear": "1998",
-        "maxmonth": "2",
-        "maxday": "23",
-        "maxappmag": "15.99",
-        "lumdist": "14.2",
-        "maxabsmag": "-14.77"
+        ]
     }
 }

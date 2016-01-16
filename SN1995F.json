@@ -19,20 +19,64 @@
                 "alias": "3"
             },
             {
-                "name": "<a href='http://www.rochesterastronomy.org/snimages/snredshiftall.html'>Latest Supernovae</a>",
+                "name": "http://graspa.oapd.inaf.it/cgi-bin/sncat.php",
                 "alias": "4",
                 "secondary": true
             },
             {
+                "name": "<a href='http://www.rochesterastronomy.org/snimages/snredshiftall.html'>Latest Supernovae</a>",
+                "alias": "5",
+                "secondary": true
+            },
+            {
                 "name": "<a href='http://www.cbat.eps.harvard.edu/iauc/06100/06138.html'>IAUC 6138</a>",
-                "alias": "5"
+                "alias": "6"
             },
             {
                 "name": "<a href='http://adsabs.harvard.edu/abs/2012A%26A...538A.120L'>2012A&A...538A.120L</a>",
-                "alias": "6"
+                "alias": "7"
+            },
+            {
+                "name": "<a href='https://www.cfa.harvard.edu/supernova/SNarchive.html'>CfA Supernova Archive</a>",
+                "alias": "8",
+                "secondary": true
             }
         ],
+        "claimedtype": [
+            {
+                "type": "Ib",
+                "source": "4"
+            },
+            {
+                "type": "Ic",
+                "source": "5"
+            }
+        ],
+        "discoverday": "9",
+        "discoverer": "Lane, Gray",
+        "discovermonth": "2",
+        "discoveryear": "1995",
+        "galdec": "+595558",
+        "galra": "090457",
+        "host": "NGC 2726",
+        "hvel": "1514",
+        "lumdist": "22.494",
+        "maxabsmag": "-17.0603",
+        "maxappmag": "14.7",
+        "maxday": "14",
+        "maxmonth": "2",
+        "maxyear": "1995",
+        "redshift": "0.005063",
+        "sndec": "+59:55:58.7",
+        "snra": "09:04:57.40",
         "photometry": [
+            {
+                "timeunit": "MJD",
+                "time": "49757.5",
+                "band": "",
+                "abmag": "14.7",
+                "source": "6,5"
+            },
             {
                 "timeunit": "MJD",
                 "time": "49762.04",
@@ -74,13 +118,6 @@
                 "band": "R",
                 "abmag": "15.2",
                 "source": "1,2"
-            },
-            {
-                "timeunit": "MJD",
-                "time": "49757.5",
-                "band": "",
-                "abmag": "14.7",
-                "source": "5,4"
             }
         ],
         "spectra": [
@@ -9073,7 +9110,8 @@
                         "6798.6800",
                         "5.3613115e-16"
                     ]
-                ]
+                ],
+                "source": "8"
             },
             {
                 "deredshifted": false,
@@ -19552,7 +19590,8 @@
                         "7585.5200",
                         "0.44940165"
                     ]
-                ]
+                ],
+                "source": "8"
             },
             {
                 "deredshifted": false,
@@ -30035,7 +30074,8 @@
                         "7586.9900",
                         "0.43114749"
                     ]
-                ]
+                ],
+                "source": "8"
             },
             {
                 "deredshifted": false,
@@ -39734,7 +39774,8 @@
                         "7058.8300",
                         "0.22575258"
                     ]
-                ]
+                ],
+                "source": "8"
             },
             {
                 "deredshifted": false,
@@ -50037,26 +50078,9 @@
                         "8211.4125",
                         "0.27686802"
                     ]
-                ]
+                ],
+                "source": "8"
             }
-        ],
-        "discoveryear": "1995",
-        "discoverday": "9",
-        "discovermonth": "2",
-        "host": "NGC 2726",
-        "claimedtype": "Ic",
-        "hvel": "1514",
-        "galra": "090457",
-        "galdec": "+595558",
-        "snra": "09:04:57.40",
-        "sndec": "+59:55:58.7",
-        "discoverer": "Lane, Gray",
-        "maxyear": "1995",
-        "maxmonth": "2",
-        "maxday": "14",
-        "maxappmag": "14.7",
-        "redshift": "0.005063",
-        "lumdist": "22.49",
-        "maxabsmag": "-17.06"
+        ]
     }
 }

@@ -15,15 +15,43 @@
                 "alias": "2"
             },
             {
-                "name": "<a href='http://www.rochesterastronomy.org/snimages/snredshiftall.html'>Latest Supernovae</a>",
+                "name": "http://graspa.oapd.inaf.it/cgi-bin/sncat.php",
                 "alias": "3",
                 "secondary": true
             },
             {
+                "name": "<a href='http://www.rochesterastronomy.org/snimages/snredshiftall.html'>Latest Supernovae</a>",
+                "alias": "4",
+                "secondary": true
+            },
+            {
                 "name": "<a href='http://adsabs.harvard.edu/abs/2012A%26A...538A.120L'>2012A&A...538A.120L</a>",
-                "alias": "4"
+                "alias": "5"
             }
         ],
+        "claimedtype": [
+            {
+                "type": "II",
+                "source": "3,4"
+            }
+        ],
+        "discoverday": "28",
+        "discoverer": "Tim Puckett et al.",
+        "discovermonth": "7",
+        "discoveryear": "1999",
+        "galdec": "+522646",
+        "galra": "150857",
+        "host": "CGCG 274-26",
+        "hvel": "11400",
+        "lumdist": "176.8",
+        "maxabsmag": "-18.74",
+        "maxappmag": "17.5",
+        "maxday": "28",
+        "maxmonth": "7",
+        "maxyear": "1999",
+        "redshift": "0.0388",
+        "sndec": "+52:26:53.1",
+        "snra": "15:08:56.52",
         "photometry": [
             {
                 "timeunit": "MJD",
@@ -32,25 +60,6 @@
                 "abmag": "17.5",
                 "source": "1,2"
             }
-        ],
-        "spectra": [],
-        "discoveryear": "1999",
-        "discoverday": "28",
-        "discovermonth": "7",
-        "host": "CGCG 274-26",
-        "claimedtype": "II",
-        "hvel": "11400",
-        "galra": "150857",
-        "galdec": "+522646",
-        "snra": "15:08:56.52",
-        "sndec": "+52:26:53.1",
-        "discoverer": "Tim Puckett et al.",
-        "redshift": "0.03878",
-        "maxyear": "1999",
-        "maxmonth": "7",
-        "maxday": "28",
-        "maxappmag": "17.5",
-        "lumdist": "176.7",
-        "maxabsmag": "-18.74"
+        ]
     }
 }

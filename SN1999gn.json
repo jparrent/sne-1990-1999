@@ -15,19 +15,51 @@
                 "alias": "2"
             },
             {
-                "name": "<a href='http://www.rochesterastronomy.org/snimages/snredshiftall.html'>Latest Supernovae</a>",
+                "name": "http://graspa.oapd.inaf.it/cgi-bin/sncat.php",
                 "alias": "3",
                 "secondary": true
             },
             {
+                "name": "<a href='http://www.rochesterastronomy.org/snimages/snredshiftall.html'>Latest Supernovae</a>",
+                "alias": "4",
+                "secondary": true
+            },
+            {
                 "name": "<a href='http://www.cbat.eps.harvard.edu/iauc/07300/07335.html#Item1'>IAUC 7335</a>",
-                "alias": "4"
+                "alias": "5"
             },
             {
                 "name": "<a href='http://adsabs.harvard.edu/abs/2012A%26A...538A.120L'>2012A&A...538A.120L</a>",
-                "alias": "5"
+                "alias": "6"
             }
         ],
+        "claimedtype": [
+            {
+                "type": "II P",
+                "source": "3"
+            },
+            {
+                "type": "II",
+                "source": "4"
+            }
+        ],
+        "discoverday": "17",
+        "discoverer": "Italian Supernovae Search Project",
+        "discovermonth": "12",
+        "discoveryear": "1999",
+        "galdec": "+042825",
+        "galra": "122155",
+        "host": "M61",
+        "hvel": "1574",
+        "lumdist": "23.3906",
+        "maxabsmag": "-18.0452",
+        "maxappmag": "13.8",
+        "maxday": "4",
+        "maxmonth": "3",
+        "maxyear": "2000",
+        "redshift": "0.005264",
+        "sndec": "+04:27:45.6",
+        "snra": "12:21:57.02",
         "photometry": [
             {
                 "timeunit": "MJD",
@@ -98,6 +130,13 @@
                 "band": "C",
                 "abmag": "15.3",
                 "source": "1,2"
+            },
+            {
+                "timeunit": "MJD",
+                "time": "51545.5",
+                "band": "",
+                "abmag": "14.6",
+                "source": "5,4"
             },
             {
                 "timeunit": "MJD",
@@ -245,33 +284,7 @@
                 "band": "R",
                 "abmag": "17.8",
                 "source": "1,2"
-            },
-            {
-                "timeunit": "MJD",
-                "time": "51545.5",
-                "band": "",
-                "abmag": "14.6",
-                "source": "4,3"
             }
-        ],
-        "spectra": [],
-        "discoveryear": "1999",
-        "discoverday": "17",
-        "discovermonth": "12",
-        "host": "M61",
-        "claimedtype": "II",
-        "hvel": "1574",
-        "galra": "122155",
-        "galdec": "+042825",
-        "snra": "12:21:57.02",
-        "sndec": "+04:27:45.6",
-        "discoverer": "Italian Supernovae Search Project",
-        "redshift": "0.005264",
-        "maxyear": "2000",
-        "maxmonth": "3",
-        "maxday": "4",
-        "maxappmag": "13.8",
-        "lumdist": "23.39",
-        "maxabsmag": "-18.05"
+        ]
     }
 }

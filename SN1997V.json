@@ -6,41 +6,45 @@
         ],
         "sources": [
             {
-                "name": "<a href='http://www.rochesterastronomy.org/snimages/snredshiftall.html'>Latest Supernovae</a>",
+                "name": "http://graspa.oapd.inaf.it/cgi-bin/sncat.php",
                 "alias": "1",
                 "secondary": true
             },
             {
+                "name": "<a href='http://www.rochesterastronomy.org/snimages/snredshiftall.html'>Latest Supernovae</a>",
+                "alias": "2",
+                "secondary": true
+            },
+            {
                 "name": "<a href='http://www.cbat.eps.harvard.edu/iauc/06500/06549.html'>IAUC 6549</a>",
-                "alias": "2"
+                "alias": "3"
             },
             {
                 "name": "<a href='http://adsabs.harvard.edu/abs/2012A%26A...538A.120L'>2012A&A...538A.120L</a>",
-                "alias": "3"
+                "alias": "4"
             }
         ],
+        "discoverday": "7",
+        "discoverer": "Supernova Cosmology Project",
+        "discovermonth": "1",
+        "discoveryear": "1997",
+        "galdec": "-120211",
+        "galra": "031143",
+        "host": "A031143-1202",
+        "maxappmag": "21",
+        "maxday": "7",
+        "maxmonth": "1",
+        "maxyear": "1997",
+        "sndec": "-12:02:11.0",
+        "snra": "03:11:43.82",
         "photometry": [
             {
                 "timeunit": "MJD",
                 "time": "50455.5",
                 "band": "",
                 "abmag": "21.0",
-                "source": "2,1"
+                "source": "3,2"
             }
-        ],
-        "spectra": [],
-        "discoveryear": "1997",
-        "discoverday": "7",
-        "discovermonth": "1",
-        "host": "A031143-1202",
-        "galra": "031143",
-        "galdec": "-120211",
-        "snra": "03:11:43.82",
-        "sndec": "-12:02:11.0",
-        "discoverer": "Supernova Cosmology Project",
-        "maxyear": "1997",
-        "maxmonth": "1",
-        "maxday": "7",
-        "maxappmag": "21"
+        ]
     }
 }

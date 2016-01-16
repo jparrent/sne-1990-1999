@@ -6,37 +6,46 @@
         ],
         "sources": [
             {
-                "name": "<a href='http://www.rochesterastronomy.org/snimages/snredshiftall.html'>Latest Supernovae</a>",
+                "name": "http://graspa.oapd.inaf.it/cgi-bin/sncat.php",
                 "alias": "1",
                 "secondary": true
             },
             {
+                "name": "<a href='http://www.rochesterastronomy.org/snimages/snredshiftall.html'>Latest Supernovae</a>",
+                "alias": "2",
+                "secondary": true
+            },
+            {
                 "name": "<a href='http://adsabs.harvard.edu/abs/2012A%26A...538A.120L'>2012A&A...538A.120L</a>",
-                "alias": "2"
+                "alias": "3"
             }
         ],
+        "claimedtype": [
+            {
+                "type": "II",
+                "source": "1,2"
+            }
+        ],
+        "discoverday": "16",
+        "discoverer": "Alessandro Gabrijelcic",
+        "discovermonth": "1",
+        "discoveryear": "1996",
+        "galdec": "+484646",
+        "galra": "122358",
+        "host": "NGC 4357",
+        "hvel": "4252",
+        "lumdist": "63.933",
+        "redshift": "0.01429",
+        "sndec": "+48:46:42.0",
+        "snra": "12:23:56.6",
         "photometry": [
             {
                 "timeunit": "MJD",
                 "time": "50098.0",
                 "band": "",
                 "abmag": "18",
-                "source": "2"
+                "source": "3"
             }
-        ],
-        "spectra": [],
-        "discoveryear": "1996",
-        "discoverday": "16",
-        "discovermonth": "1",
-        "host": "NGC 4357",
-        "claimedtype": "II",
-        "hvel": "4252",
-        "galra": "122358",
-        "galdec": "+484646",
-        "snra": "12:23:56.6",
-        "sndec": "+48:46:42.0",
-        "discoverer": "Alessandro Gabrijelcic",
-        "redshift": "0.01429",
-        "lumdist": "63.93"
+        ]
     }
 }

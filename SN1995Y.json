@@ -6,26 +6,63 @@
         ],
         "sources": [
             {
-                "name": "<a href='http://www.rochesterastronomy.org/snimages/snredshiftall.html'>Latest Supernovae</a>",
+                "name": "http://graspa.oapd.inaf.it/cgi-bin/sncat.php",
                 "alias": "1",
                 "secondary": true
             },
             {
+                "name": "<a href='http://www.rochesterastronomy.org/snimages/snredshiftall.html'>Latest Supernovae</a>",
+                "alias": "2",
+                "secondary": true
+            },
+            {
                 "name": "<a href='http://www.cbat.eps.harvard.edu/iauc/06200/06221.html'>IAUC 6221</a>",
-                "alias": "2"
+                "alias": "3"
             },
             {
                 "name": "<a href='http://adsabs.harvard.edu/abs/2012A%26A...538A.120L'>2012A&A...538A.120L</a>",
-                "alias": "3"
+                "alias": "4"
+            },
+            {
+                "name": "<a href='https://www.cfa.harvard.edu/supernova/SNarchive.html'>CfA Supernova Archive</a>",
+                "alias": "5",
+                "secondary": true
             }
         ],
+        "claimedtype": [
+            {
+                "type": "Ia",
+                "source": "1"
+            },
+            {
+                "type": "I",
+                "source": "2"
+            }
+        ],
+        "discoverday": "27",
+        "discoverer": "Jean Mueller",
+        "discovermonth": "8",
+        "discoveryear": "1995",
+        "galdec": "+330906",
+        "galra": "011058",
+        "host": "NGC 410",
+        "hvel": "5291",
+        "lumdist": "79.892",
+        "maxabsmag": "-16.513",
+        "maxappmag": "18",
+        "maxday": "27",
+        "maxmonth": "8",
+        "maxyear": "1995",
+        "redshift": "0.01781",
+        "sndec": "+33:08:40.7",
+        "snra": "01:10:59.60",
         "photometry": [
             {
                 "timeunit": "MJD",
                 "time": "49956.5",
                 "band": "",
                 "abmag": "18.0",
-                "source": "2,1"
+                "source": "3,2"
             }
         ],
         "spectra": [
@@ -13394,7 +13431,8 @@
                         "-6.7106653e-18",
                         "1.3022295e-17"
                     ]
-                ]
+                ],
+                "source": "5"
             },
             {
                 "deredshifted": false,
@@ -25001,7 +25039,8 @@
                         "1.5912802e-16",
                         "1.0720814e-17"
                     ]
-                ]
+                ],
+                "source": "5"
             },
             {
                 "deredshifted": false,
@@ -38213,7 +38252,8 @@
                         "2.1053777e-16",
                         "1.1349145e-17"
                     ]
-                ]
+                ],
+                "source": "5"
             },
             {
                 "deredshifted": false,
@@ -51090,26 +51130,9 @@
                         "8.4937711e-17",
                         "1.1921298e-17"
                     ]
-                ]
+                ],
+                "source": "5"
             }
-        ],
-        "discoveryear": "1995",
-        "discoverday": "27",
-        "discovermonth": "8",
-        "host": "NGC 410",
-        "claimedtype": "I",
-        "hvel": "5291",
-        "galra": "011058",
-        "galdec": "+330906",
-        "snra": "01:10:59.60",
-        "sndec": "+33:08:40.7",
-        "discoverer": "Jean Mueller",
-        "maxyear": "1995",
-        "maxmonth": "8",
-        "maxday": "27",
-        "maxappmag": "18",
-        "redshift": "0.01781",
-        "lumdist": "79.89",
-        "maxabsmag": "-16.51"
+        ]
     }
 }

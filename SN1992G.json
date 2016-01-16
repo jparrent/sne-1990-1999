@@ -19,20 +19,55 @@
                 "alias": "3"
             },
             {
-                "name": "<a href='http://www.rochesterastronomy.org/snimages/snredshiftall.html'>Latest Supernovae</a>",
+                "name": "http://graspa.oapd.inaf.it/cgi-bin/sncat.php",
                 "alias": "4",
                 "secondary": true
             },
             {
+                "name": "<a href='http://www.rochesterastronomy.org/snimages/snredshiftall.html'>Latest Supernovae</a>",
+                "alias": "5",
+                "secondary": true
+            },
+            {
                 "name": "<a href='http://www.cbat.eps.harvard.edu/iauc/05400/05452.html#Item1'>IAUC 5452</a>",
-                "alias": "5"
+                "alias": "6"
             },
             {
                 "name": "<a href='http://adsabs.harvard.edu/abs/2012A%26A...538A.120L'>2012A&A...538A.120L</a>",
-                "alias": "6"
+                "alias": "7"
             }
         ],
+        "claimedtype": [
+            {
+                "type": "Ia",
+                "source": "4,5"
+            }
+        ],
+        "discoverday": "8",
+        "discoverer": "Shunji Sasaki",
+        "discovermonth": "2",
+        "discoveryear": "1992",
+        "galdec": "+371927",
+        "galra": "103616",
+        "host": "NGC 3294",
+        "hvel": "1580",
+        "lumdist": "23.462",
+        "maxabsmag": "-18.472",
+        "maxappmag": "13.38",
+        "maxday": "20",
+        "maxmonth": "2",
+        "maxyear": "1992",
+        "redshift": "0.00528",
+        "sndec": "+37:19:13.9",
+        "snra": "10:36:18.51",
         "photometry": [
+            {
+                "timeunit": "MJD",
+                "time": "48660.5",
+                "band": "",
+                "abmag": "14.0",
+                "source": "6,5"
+            },
             {
                 "timeunit": "MJD",
                 "time": "48672.5",
@@ -921,33 +956,7 @@
                 "band": "V",
                 "abmag": "17.5",
                 "source": "1,2"
-            },
-            {
-                "timeunit": "MJD",
-                "time": "48660.5",
-                "band": "",
-                "abmag": "14.0",
-                "source": "5,4"
             }
-        ],
-        "spectra": [],
-        "discoveryear": "1992",
-        "maxday": "20",
-        "maxmonth": "2",
-        "host": "NGC 3294",
-        "claimedtype": "Ia",
-        "hvel": "1580",
-        "galra": "103616",
-        "galdec": "+371927",
-        "snra": "10:36:18.51",
-        "sndec": "+37:19:13.9",
-        "discoverer": "Shunji Sasaki",
-        "discoverday": "8",
-        "discovermonth": "2",
-        "maxyear": "1992",
-        "maxappmag": "13.38",
-        "redshift": "0.005284",
-        "lumdist": "23.48",
-        "maxabsmag": "-18.47"
+        ]
     }
 }

@@ -15,15 +15,43 @@
                 "alias": "2"
             },
             {
-                "name": "<a href='http://www.rochesterastronomy.org/snimages/snredshiftall.html'>Latest Supernovae</a>",
+                "name": "http://graspa.oapd.inaf.it/cgi-bin/sncat.php",
                 "alias": "3",
                 "secondary": true
             },
             {
+                "name": "<a href='http://www.rochesterastronomy.org/snimages/snredshiftall.html'>Latest Supernovae</a>",
+                "alias": "4",
+                "secondary": true
+            },
+            {
                 "name": "<a href='http://adsabs.harvard.edu/abs/2012A%26A...538A.120L'>2012A&A...538A.120L</a>",
-                "alias": "4"
+                "alias": "5"
             }
         ],
+        "claimedtype": [
+            {
+                "type": "II",
+                "source": "3,4"
+            }
+        ],
+        "discoverday": "23",
+        "discoverer": "Shunji Sasaki",
+        "discovermonth": "12",
+        "discoveryear": "1996",
+        "galdec": "+495731",
+        "galra": "143131",
+        "host": "NGC 5673",
+        "hvel": "2166",
+        "lumdist": "32.2686",
+        "maxabsmag": "-17.3439",
+        "maxappmag": "15.2",
+        "maxday": "25",
+        "maxmonth": "12",
+        "maxyear": "1996",
+        "redshift": "0.007251",
+        "sndec": "+49:57:43.8",
+        "snra": "14:31:28.45",
         "photometry": [
             {
                 "timeunit": "MJD",
@@ -39,25 +67,6 @@
                 "abmag": "15.2",
                 "source": "1,2"
             }
-        ],
-        "spectra": [],
-        "discoveryear": "1996",
-        "discoverday": "23",
-        "discovermonth": "12",
-        "host": "NGC 5673",
-        "claimedtype": "II",
-        "hvel": "2166",
-        "galra": "143131",
-        "galdec": "+495731",
-        "snra": "14:31:28.45",
-        "sndec": "+49:57:43.8",
-        "discoverer": "Shunji Sasaki",
-        "redshift": "0.007251",
-        "maxyear": "1996",
-        "maxmonth": "12",
-        "maxday": "25",
-        "maxappmag": "15.2",
-        "lumdist": "32.27",
-        "maxabsmag": "-17.34"
+        ]
     }
 }

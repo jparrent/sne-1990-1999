@@ -6,37 +6,50 @@
         ],
         "sources": [
             {
-                "name": "<a href='http://www.rochesterastronomy.org/snimages/snredshiftall.html'>Latest Supernovae</a>",
+                "name": "http://graspa.oapd.inaf.it/cgi-bin/sncat.php",
                 "alias": "1",
                 "secondary": true
             },
             {
+                "name": "<a href='http://www.rochesterastronomy.org/snimages/snredshiftall.html'>Latest Supernovae</a>",
+                "alias": "2",
+                "secondary": true
+            },
+            {
                 "name": "<a href='http://adsabs.harvard.edu/abs/2012A%26A...538A.120L'>2012A&A...538A.120L</a>",
-                "alias": "2"
+                "alias": "3"
             }
         ],
+        "claimedtype": [
+            {
+                "type": "IIb",
+                "source": "1"
+            },
+            {
+                "type": "Ib/c",
+                "source": "2"
+            }
+        ],
+        "discoverday": "20",
+        "discoverer": "Masakatsu Aoki",
+        "discovermonth": "8",
+        "discoveryear": "1997",
+        "galdec": "+212905",
+        "galra": "160552",
+        "host": "NGC 6060",
+        "hvel": "4554",
+        "lumdist": "68.549",
+        "redshift": "0.01531",
+        "sndec": "+21:29:14.3",
+        "snra": "16:05:46.32",
         "photometry": [
             {
                 "timeunit": "MJD",
                 "time": "50680.0",
                 "band": "V",
                 "abmag": "16.4",
-                "source": "2"
+                "source": "3"
             }
-        ],
-        "spectra": [],
-        "discoveryear": "1997",
-        "discoverday": "20",
-        "discovermonth": "8",
-        "host": "NGC 6060",
-        "claimedtype": "Ib/c",
-        "hvel": "4554",
-        "galra": "160552",
-        "galdec": "+212905",
-        "snra": "16:05:46.32",
-        "sndec": "+21:29:14.3",
-        "discoverer": "Masakatsu Aoki",
-        "redshift": "0.01531",
-        "lumdist": "68.55"
+        ]
     }
 }

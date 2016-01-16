@@ -15,20 +15,55 @@
                 "alias": "2"
             },
             {
-                "name": "<a href='http://www.rochesterastronomy.org/snimages/snredshiftall.html'>Latest Supernovae</a>",
+                "name": "http://graspa.oapd.inaf.it/cgi-bin/sncat.php",
                 "alias": "3",
                 "secondary": true
             },
             {
+                "name": "<a href='http://www.rochesterastronomy.org/snimages/snredshiftall.html'>Latest Supernovae</a>",
+                "alias": "4",
+                "secondary": true
+            },
+            {
                 "name": "<a href='http://www.cbat.eps.harvard.edu/iauc/05500/05569.html'>IAUC 5569</a>",
-                "alias": "4"
+                "alias": "5"
             },
             {
                 "name": "<a href='http://adsabs.harvard.edu/abs/2012A%26A...538A.120L'>2012A&A...538A.120L</a>",
-                "alias": "5"
+                "alias": "6"
             }
         ],
+        "claimedtype": [
+            {
+                "type": "Ia",
+                "source": "3,4"
+            }
+        ],
+        "discoverday": "26",
+        "discoverer": "Robert McNaught",
+        "discovermonth": "7",
+        "discoveryear": "1992",
+        "galdec": "-512332",
+        "galra": "204554",
+        "host": "ESO 234-G69",
+        "hvel": "4377",
+        "lumdist": "65.833",
+        "maxabsmag": "-19.492",
+        "maxappmag": "14.6",
+        "maxday": "2",
+        "maxmonth": "8",
+        "maxyear": "1992",
+        "redshift": "0.01471",
+        "sndec": "-51:23:40.0",
+        "snra": "20:45:56.49",
         "photometry": [
+            {
+                "timeunit": "MJD",
+                "time": "48829.5",
+                "band": "",
+                "abmag": "16.0",
+                "source": "5,4"
+            },
             {
                 "timeunit": "MJD",
                 "time": "48832.37",
@@ -616,33 +651,7 @@
                 "band": "R",
                 "abmag": "18.82",
                 "source": "1,2"
-            },
-            {
-                "timeunit": "MJD",
-                "time": "48829.5",
-                "band": "",
-                "abmag": "16.0",
-                "source": "4,3"
             }
-        ],
-        "spectra": [],
-        "discoveryear": "1992",
-        "maxday": "2",
-        "maxmonth": "8",
-        "host": "ESO 234-G69",
-        "claimedtype": "Ia",
-        "hvel": "4377",
-        "galra": "204554",
-        "galdec": "-512332",
-        "snra": "20:45:56.49",
-        "sndec": "-51:23:40.0",
-        "discoverer": "Robert McNaught",
-        "discoverday": "26",
-        "discovermonth": "7",
-        "maxyear": "1992",
-        "maxappmag": "14.6",
-        "redshift": "0.01471",
-        "lumdist": "65.83",
-        "maxabsmag": "-19.49"
+        ]
     }
 }

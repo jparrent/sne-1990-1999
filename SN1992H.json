@@ -31,20 +31,55 @@
                 "alias": "6"
             },
             {
-                "name": "<a href='http://www.rochesterastronomy.org/snimages/snredshiftall.html'>Latest Supernovae</a>",
+                "name": "http://graspa.oapd.inaf.it/cgi-bin/sncat.php",
                 "alias": "7",
                 "secondary": true
             },
             {
+                "name": "<a href='http://www.rochesterastronomy.org/snimages/snredshiftall.html'>Latest Supernovae</a>",
+                "alias": "8",
+                "secondary": true
+            },
+            {
                 "name": "<a href='http://www.cbat.eps.harvard.edu/iauc/05400/05456.html#Item1'>IAUC 5456</a>",
-                "alias": "8"
+                "alias": "9"
             },
             {
                 "name": "<a href='http://adsabs.harvard.edu/abs/2012A%26A...538A.120L'>2012A&A...538A.120L</a>",
-                "alias": "9"
+                "alias": "10"
             }
         ],
+        "claimedtype": [
+            {
+                "type": "II",
+                "source": "7,8"
+            }
+        ],
+        "discoverday": "10",
+        "discoverer": "William Wren",
+        "discovermonth": "2",
+        "discoveryear": "1992",
+        "galdec": "+471417",
+        "galra": "135617",
+        "host": "NGC 5377",
+        "hvel": "1789",
+        "lumdist": "26.6089",
+        "maxabsmag": "-18.0651",
+        "maxappmag": "14.06",
+        "maxday": "13",
+        "maxmonth": "2",
+        "maxyear": "1992",
+        "redshift": "0.005985",
+        "sndec": "+47:14:27.0",
+        "snra": "13:56:22.2",
         "photometry": [
+            {
+                "timeunit": "MJD",
+                "time": "48662.5",
+                "band": "",
+                "abmag": "15.0",
+                "source": "9,8"
+            },
             {
                 "timeunit": "MJD",
                 "time": "48663.5",
@@ -576,33 +611,7 @@
                 "band": "V",
                 "abmag": "20.27",
                 "source": "1,3"
-            },
-            {
-                "timeunit": "MJD",
-                "time": "48662.5",
-                "band": "",
-                "abmag": "15.0",
-                "source": "8,7"
             }
-        ],
-        "spectra": [],
-        "discoveryear": "1992",
-        "discoverday": "10",
-        "discovermonth": "2",
-        "host": "NGC 5377",
-        "claimedtype": "II",
-        "hvel": "1789",
-        "galra": "135617",
-        "galdec": "+471417",
-        "discoverer": "William Wren",
-        "snra": "13:56:22.2",
-        "sndec": "+47:14:27.0",
-        "maxyear": "1992",
-        "maxmonth": "2",
-        "maxday": "13",
-        "maxappmag": "14.06",
-        "redshift": "0.005985",
-        "lumdist": "26.61",
-        "maxabsmag": "-18.07"
+        ]
     }
 }

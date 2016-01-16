@@ -6,37 +6,46 @@
         ],
         "sources": [
             {
-                "name": "<a href='http://www.rochesterastronomy.org/snimages/snredshiftall.html'>Latest Supernovae</a>",
+                "name": "http://graspa.oapd.inaf.it/cgi-bin/sncat.php",
                 "alias": "1",
                 "secondary": true
             },
             {
+                "name": "<a href='http://www.rochesterastronomy.org/snimages/snredshiftall.html'>Latest Supernovae</a>",
+                "alias": "2",
+                "secondary": true
+            },
+            {
                 "name": "<a href='http://adsabs.harvard.edu/abs/2012A%26A...538A.120L'>2012A&A...538A.120L</a>",
-                "alias": "2"
+                "alias": "3"
             }
         ],
+        "claimedtype": [
+            {
+                "type": "Ia",
+                "source": "1,2"
+            }
+        ],
+        "discoverday": "6",
+        "discoverer": "Jean Mueller",
+        "discovermonth": "6",
+        "discoveryear": "1996",
+        "galdec": "+800723",
+        "galra": "142041",
+        "host": "NGC 5640",
+        "hvel": "14210",
+        "lumdist": "222.804",
+        "redshift": "0.04856",
+        "sndec": "+80:07:21.0",
+        "snra": "14:20:39.02",
         "photometry": [
             {
                 "timeunit": "MJD",
                 "time": "50240.0",
                 "band": "",
                 "abmag": "18",
-                "source": "2"
+                "source": "3"
             }
-        ],
-        "spectra": [],
-        "discoveryear": "1996",
-        "discoverday": "6",
-        "discovermonth": "6",
-        "host": "NGC 5640",
-        "claimedtype": "Ia",
-        "hvel": "14210",
-        "galra": "142041",
-        "galdec": "+800723",
-        "snra": "14:20:39.02",
-        "sndec": "+80:07:21.0",
-        "discoverer": "Jean Mueller",
-        "redshift": "0.04856",
-        "lumdist": "222.8"
+        ]
     }
 }

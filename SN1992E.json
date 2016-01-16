@@ -6,46 +6,55 @@
         ],
         "sources": [
             {
-                "name": "<a href='http://www.rochesterastronomy.org/snimages/snredshiftall.html'>Latest Supernovae</a>",
+                "name": "http://graspa.oapd.inaf.it/cgi-bin/sncat.php",
                 "alias": "1",
                 "secondary": true
             },
             {
+                "name": "<a href='http://www.rochesterastronomy.org/snimages/snredshiftall.html'>Latest Supernovae</a>",
+                "alias": "2",
+                "secondary": true
+            },
+            {
                 "name": "<a href='http://www.cbat.eps.harvard.edu/iauc/05400/05446.html#Item1'>IAUC 5446</a>",
-                "alias": "2"
+                "alias": "3"
             },
             {
                 "name": "<a href='http://adsabs.harvard.edu/abs/2012A%26A...538A.120L'>2012A&A...538A.120L</a>",
-                "alias": "3"
+                "alias": "4"
             }
         ],
+        "claimedtype": [
+            {
+                "type": "Ia",
+                "source": "1,2"
+            }
+        ],
+        "discoverday": "26",
+        "discoverer": "Robert McNaught, Drinkwater",
+        "discovermonth": "1",
+        "discoveryear": "1992",
+        "galdec": "-595602",
+        "galra": "063517",
+        "host": "A063517-5956",
+        "hvel": "18000",
+        "lumdist": "287",
+        "maxabsmag": "-17.3",
+        "maxappmag": "20",
+        "maxday": "26",
+        "maxmonth": "1",
+        "maxyear": "1992",
+        "redshift": "0.062",
+        "sndec": "-59:56:02.8",
+        "snra": "06:35:17.12",
         "photometry": [
             {
                 "timeunit": "MJD",
                 "time": "48647.5",
                 "band": "",
                 "abmag": "20.0",
-                "source": "2,1"
+                "source": "3,2"
             }
-        ],
-        "spectra": [],
-        "discoveryear": "1992",
-        "discoverday": "26",
-        "discovermonth": "1",
-        "host": "A063517-5956",
-        "claimedtype": "Ia",
-        "hvel": "18000",
-        "galra": "063517",
-        "galdec": "-595602",
-        "snra": "06:35:17.12",
-        "sndec": "-59:56:02.8",
-        "discoverer": "Robert McNaught, Drinkwater",
-        "maxyear": "1992",
-        "maxmonth": "1",
-        "maxday": "26",
-        "maxappmag": "20",
-        "redshift": "0.06196",
-        "lumdist": "287",
-        "maxabsmag": "-17.29"
+        ]
     }
 }

@@ -6,37 +6,46 @@
         ],
         "sources": [
             {
-                "name": "<a href='http://www.rochesterastronomy.org/snimages/snredshiftall.html'>Latest Supernovae</a>",
+                "name": "http://graspa.oapd.inaf.it/cgi-bin/sncat.php",
                 "alias": "1",
                 "secondary": true
             },
             {
+                "name": "<a href='http://www.rochesterastronomy.org/snimages/snredshiftall.html'>Latest Supernovae</a>",
+                "alias": "2",
+                "secondary": true
+            },
+            {
                 "name": "<a href='http://adsabs.harvard.edu/abs/2012A%26A...538A.120L'>2012A&A...538A.120L</a>",
-                "alias": "2"
+                "alias": "3"
             }
         ],
+        "claimedtype": [
+            {
+                "type": "IIn",
+                "source": "1,2"
+            }
+        ],
+        "discoverday": "29",
+        "discoverer": "Perth Astronomical Research Group",
+        "discovermonth": "1",
+        "discoveryear": "1998",
+        "galdec": "-331030",
+        "galra": "132914",
+        "host": "NGC 5161",
+        "hvel": "2402",
+        "lumdist": "35.8236",
+        "redshift": "0.008045",
+        "sndec": "+33:10:00",
+        "snra": "13:29:02",
         "photometry": [
             {
                 "timeunit": "MJD",
                 "time": "50842.0",
                 "band": "R",
                 "abmag": "16.5",
-                "source": "2"
+                "source": "3"
             }
-        ],
-        "spectra": [],
-        "discoveryear": "1998",
-        "discoverday": "29",
-        "discovermonth": "1",
-        "host": "NGC 5161",
-        "claimedtype": "IIn",
-        "hvel": "2402",
-        "galra": "132914",
-        "galdec": "-331030",
-        "snra": "13:29:02",
-        "sndec": "+33:10:00",
-        "discoverer": "Perth Astronomical Research Group",
-        "redshift": "0.008045",
-        "lumdist": "35.82"
+        ]
     }
 }

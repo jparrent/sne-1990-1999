@@ -15,20 +15,59 @@
                 "alias": "2"
             },
             {
-                "name": "<a href='http://www.rochesterastronomy.org/snimages/snredshiftall.html'>Latest Supernovae</a>",
+                "name": "http://graspa.oapd.inaf.it/cgi-bin/sncat.php",
                 "alias": "3",
                 "secondary": true
             },
             {
+                "name": "<a href='http://www.rochesterastronomy.org/snimages/snredshiftall.html'>Latest Supernovae</a>",
+                "alias": "4",
+                "secondary": true
+            },
+            {
                 "name": "<a href='http://www.cbat.eps.harvard.edu/iauc/05700/05718.html'>IAUC 5718</a>",
-                "alias": "4"
+                "alias": "5"
             },
             {
                 "name": "<a href='http://adsabs.harvard.edu/abs/2012A%26A...538A.120L'>2012A&A...538A.120L</a>",
-                "alias": "5"
+                "alias": "6"
             }
         ],
+        "claimedtype": [
+            {
+                "type": "II L",
+                "source": "3"
+            },
+            {
+                "type": "II",
+                "source": "4"
+            }
+        ],
+        "discoverday": "4",
+        "discoverer": "Treffers, Filippenko, Leibundgut,",
+        "discovermonth": "3",
+        "discoveryear": "1993",
+        "galdec": "+583344",
+        "galra": "112832",
+        "host": "NGC 3690",
+        "hvel": "3033",
+        "lumdist": "45.359",
+        "maxabsmag": "-16.683",
+        "maxappmag": "16.6",
+        "maxday": "4",
+        "maxmonth": "3",
+        "maxyear": "1993",
+        "redshift": "0.01017",
+        "sndec": "+58:33:31.2",
+        "snra": "11:28:33.44",
         "photometry": [
+            {
+                "timeunit": "MJD",
+                "time": "49050.5",
+                "band": "",
+                "abmag": "16.6",
+                "source": "5,4"
+            },
             {
                 "timeunit": "MJD",
                 "time": "49058.9",
@@ -84,33 +123,7 @@
                 "band": "V",
                 "abmag": "17.8",
                 "source": "1,2"
-            },
-            {
-                "timeunit": "MJD",
-                "time": "49050.5",
-                "band": "",
-                "abmag": "16.6",
-                "source": "4,3"
             }
-        ],
-        "spectra": [],
-        "discoveryear": "1993",
-        "discoverday": "4",
-        "discovermonth": "3",
-        "host": "NGC 3690",
-        "claimedtype": "II",
-        "hvel": "3033",
-        "galra": "112832",
-        "galdec": "+583344",
-        "snra": "11:28:33.44",
-        "sndec": "+58:33:31.2",
-        "discoverer": "Treffers, Filippenko, Leibundgut,",
-        "maxyear": "1993",
-        "maxmonth": "3",
-        "maxday": "4",
-        "maxappmag": "16.6",
-        "redshift": "0.01017",
-        "lumdist": "45.36",
-        "maxabsmag": "-16.68"
+        ]
     }
 }

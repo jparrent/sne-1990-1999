@@ -6,46 +6,55 @@
         ],
         "sources": [
             {
-                "name": "<a href='http://www.rochesterastronomy.org/snimages/snredshiftall.html'>Latest Supernovae</a>",
+                "name": "http://graspa.oapd.inaf.it/cgi-bin/sncat.php",
                 "alias": "1",
                 "secondary": true
             },
             {
+                "name": "<a href='http://www.rochesterastronomy.org/snimages/snredshiftall.html'>Latest Supernovae</a>",
+                "alias": "2",
+                "secondary": true
+            },
+            {
                 "name": "<a href='http://www.cbat.eps.harvard.edu/iauc/06900/06925.html#Item1'>IAUC 6925</a>",
-                "alias": "2"
+                "alias": "3"
             },
             {
                 "name": "<a href='http://adsabs.harvard.edu/abs/2012A%26A...538A.120L'>2012A&A...538A.120L</a>",
-                "alias": "3"
+                "alias": "4"
             }
         ],
+        "claimedtype": [
+            {
+                "type": "Ia",
+                "source": "1,2"
+            }
+        ],
+        "discoverday": "30",
+        "discoverer": "Marina Wischnjewsky",
+        "discovermonth": "5",
+        "discoveryear": "1998",
+        "galdec": "-290617",
+        "galra": "094106",
+        "host": "ESO 434-G20",
+        "hvel": "11400",
+        "lumdist": "176.8",
+        "maxabsmag": "-19.24",
+        "maxappmag": "17",
+        "maxday": "30",
+        "maxmonth": "5",
+        "maxyear": "1998",
+        "redshift": "0.0388",
+        "sndec": "-29:06:17.7",
+        "snra": "09:41:06.00",
         "photometry": [
             {
                 "timeunit": "MJD",
                 "time": "50963.5",
                 "band": "",
                 "abmag": "17.0",
-                "source": "2,1"
+                "source": "3,2"
             }
-        ],
-        "spectra": [],
-        "discoveryear": "1998",
-        "discoverday": "30",
-        "discovermonth": "5",
-        "host": "ESO 434-G20",
-        "claimedtype": "Ia",
-        "hvel": "11400",
-        "galra": "094106",
-        "galdec": "-290617",
-        "snra": "09:41:06.00",
-        "sndec": "-29:06:17.7",
-        "discoverer": "Marina Wischnjewsky",
-        "redshift": "0.03878",
-        "maxyear": "1998",
-        "maxmonth": "5",
-        "maxday": "30",
-        "maxappmag": "17",
-        "lumdist": "176.7",
-        "maxabsmag": "-19.24"
+        ]
     }
 }
