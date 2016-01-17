@@ -6,20 +6,26 @@
         ],
         "sources": [
             {
-                "name": "<a href='https://www.cfa.harvard.edu/supernova/SNarchive.html'>CfA Supernova Archive</a>",
+                "name": "CfA Supernova Archive",
+                "url": "https://www.cfa.harvard.edu/supernova/SNarchive.html",
                 "alias": "1",
                 "secondary": true
             },
             {
-                "name": "<a href='http://adsabs.harvard.edu/abs/2006AJ....131..527J'>2006AJ....131..527J</a>",
+                "name": "2006AJ....131..527J",
+                "url": "http://adsabs.harvard.edu/abs/2006AJ....131..527J",
+                "bibcode": "2006AJ....131..527J",
                 "alias": "2"
             },
             {
-                "name": "<a href='http://heracles.astro.berkeley.edu/sndb/info'>UCB Filippenko Group's Supernova Database (SNDB)</a>",
-                "alias": "3"
+                "name": "UCB Filippenko Group's Supernova Database (SNDB)",
+                "url": "http://heracles.astro.berkeley.edu/sndb/info",
+                "alias": "3",
+                "secondary": true
             },
             {
-                "name": "<a href='http://dau.itep.ru/sn/node/72'>Sternberg Astronomical Institute Supernova Light Curve Catalogue</a>",
+                "name": "Sternberg Astronomical Institute Supernova Light Curve Catalogue",
+                "url": "http://dau.itep.ru/sn/node/72",
                 "alias": "4",
                 "secondary": true
             },
@@ -28,16 +34,20 @@
                 "alias": "5"
             },
             {
-                "name": "<a href='http://adsabs.harvard.edu/abs/2005astro.ph..9234J'>2005astro.ph..9234J</a>",
+                "name": "2005astro.ph..9234J",
+                "url": "http://adsabs.harvard.edu/abs/2005astro.ph..9234J",
+                "bibcode": "2005astro.ph..9234J",
                 "alias": "6"
             },
             {
-                "name": "http://graspa.oapd.inaf.it/cgi-bin/sncat.php",
+                "name": "Asiago Supernova Catalogue",
+                "url": "http://graspa.oapd.inaf.it/cgi-bin/sncat.php",
                 "alias": "7",
                 "secondary": true
             },
             {
-                "name": "<a href='http://www.rochesterastronomy.org/snimages/snredshiftall.html'>Latest Supernovae</a>",
+                "name": "Latest Supernovae",
+                "url": "http://www.rochesterastronomy.org/snimages/snredshiftall.html",
                 "alias": "8",
                 "secondary": true
             },
@@ -46,7 +56,9 @@
                 "alias": "9"
             },
             {
-                "name": "<a href='http://adsabs.harvard.edu/abs/2012A%26A...538A.120L'>2012A&A...538A.120L</a>",
+                "name": "2012A&A...538A.120L",
+                "url": "http://adsabs.harvard.edu/abs/2012A&A...538A.120L",
+                "bibcode": "2012A&A...538A.120L",
                 "alias": "10"
             }
         ],
