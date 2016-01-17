@@ -47,7 +47,7 @@
                 "timeunit": "MJD",
                 "time": "50183.0",
                 "band": "V",
-                "abmag": "16",
+                "abmag": "16.0",
                 "source": "3"
             }
         ]
