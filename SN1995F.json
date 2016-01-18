@@ -135,7 +135,7 @@
                 "timeunit": "MJD",
                 "time": 49772.0,
                 "waveunit": "Angstrom",
-                "fluxunit": "erg/s/cm^2/Angstrom",
+                "fluxunit": "Uncalibrated",
                 "data": [
                     [
                         "3500.0000",
@@ -9126,7 +9126,7 @@
                 "timeunit": "MJD",
                 "time": 49774.0,
                 "waveunit": "Angstrom",
-                "fluxunit": "erg/s/cm^2/Angstrom",
+                "fluxunit": "Uncalibrated",
                 "data": [
                     [
                         "3740.0000",
@@ -19605,7 +19605,7 @@
                 "timeunit": "MJD",
                 "time": 49776.0,
                 "waveunit": "Angstrom",
-                "fluxunit": "erg/s/cm^2/Angstrom",
+                "fluxunit": "Uncalibrated",
                 "data": [
                     [
                         "3740.0000",
@@ -30088,7 +30088,7 @@
                 "timeunit": "MJD",
                 "time": 49783.0,
                 "waveunit": "Angstrom",
-                "fluxunit": "erg/s/cm^2/Angstrom",
+                "fluxunit": "Uncalibrated",
                 "data": [
                     [
                         "3499.9600",
@@ -39788,7 +39788,7 @@
                 "timeunit": "MJD",
                 "time": 49808.0,
                 "waveunit": "Angstrom",
-                "fluxunit": "erg/s/cm^2/Angstrom",
+                "fluxunit": "Uncalibrated",
                 "data": [
                     [
                         "3195.0156",
