@@ -80,12 +80,8 @@
         ],
         "hvel": [
             {
-                "value": "723.0000",
-                "source": "1"
-            },
-            {
                 "value": "723",
-                "source": "6"
+                "source": "1,6"
             }
         ],
         "lumdist": "11",

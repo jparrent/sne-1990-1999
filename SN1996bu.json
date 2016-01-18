@@ -55,7 +55,7 @@
         "lumdist": "2",
         "redshift": [
             {
-                "value": "0.000400",
+                "value": "0.0004",
                 "source": "2,3"
             }
         ],

@@ -122,7 +122,7 @@
         "maxyear": "1999",
         "redshift": [
             {
-                "value": "0.012000",
+                "value": "0.012",
                 "source": "8,9"
             }
         ],
