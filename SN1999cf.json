@@ -22,28 +22,32 @@
                 "secondary": true
             },
             {
+                "name": "<a href='http://www.cbat.eps.harvard.edu/iauc/07100/07178.html#Item2'>IAUC 7178</a>",
+                "alias": "4"
+            },
+            {
                 "name": "Latest Supernovae",
                 "url": "http://www.rochesterastronomy.org/snimages/snredshiftall.html",
-                "alias": "4",
+                "alias": "5",
                 "secondary": true
             },
             {
                 "name": "2012A&A...538A.120L",
                 "url": "http://adsabs.harvard.edu/abs/2012A&A...538A.120L",
                 "bibcode": "2012A&A...538A.120L",
-                "alias": "5"
+                "alias": "6"
             },
             {
                 "name": "CfA Supernova Archive",
                 "url": "https://www.cfa.harvard.edu/supernova/SNarchive.html",
-                "alias": "6",
+                "alias": "7",
                 "secondary": true
             }
         ],
         "claimedtype": [
             {
-                "type": "Ia",
-                "source": "3,4"
+                "value": "Ia",
+                "source": "3,4,5"
             }
         ],
         "discoverday": "24",
@@ -52,15 +56,30 @@
         "discoveryear": "1999",
         "galdec": "+330233",
         "galra": "133329",
-        "host": "UGC 8539",
-        "hvel": "7313",
-        "lumdist": "111.4",
-        "maxabsmag": "-19.43",
+        "host": [
+            {
+                "value": "UGC 8539",
+                "source": "3,4,5"
+            }
+        ],
+        "hvel": [
+            {
+                "value": "7313",
+                "source": "3"
+            }
+        ],
+        "lumdist": "110",
+        "maxabsmag": "-19.4",
         "maxappmag": "15.8",
         "maxday": "7",
         "maxmonth": "6",
         "maxyear": "1999",
-        "redshift": "0.0247",
+        "redshift": [
+            {
+                "value": "0.024500",
+                "source": "4,5"
+            }
+        ],
         "sndec": "+33:03:22.9",
         "snra": "13:33:29.71",
         "photometry": [
@@ -12873,7 +12892,7 @@
                         "2.0447410e-17"
                     ]
                 ],
-                "source": "6"
+                "source": "7"
             },
             {
                 "deredshifted": false,
@@ -25626,7 +25645,7 @@
                         "2.0726815e-17"
                     ]
                 ],
-                "source": "6"
+                "source": "7"
             },
             {
                 "deredshifted": false,
@@ -38379,7 +38398,7 @@
                         "1.5621278e-17"
                     ]
                 ],
-                "source": "6"
+                "source": "7"
             }
         ]
     }

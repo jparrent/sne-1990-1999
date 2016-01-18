@@ -12,14 +12,14 @@
                 "secondary": true
             },
             {
-                "name": "Latest Supernovae",
-                "url": "http://www.rochesterastronomy.org/snimages/snredshiftall.html",
-                "alias": "2",
-                "secondary": true
+                "name": "<a href='http://www.cbat.eps.harvard.edu/iauc/07300/0712.html#Item1'>IAUC 7346</a>",
+                "alias": "2"
             },
             {
-                "name": "<a href='http://www.cbat.eps.harvard.edu/iauc/07300/0712.html#Item1'>IAUC 7346</a>",
-                "alias": "3"
+                "name": "Latest Supernovae",
+                "url": "http://www.rochesterastronomy.org/snimages/snredshiftall.html",
+                "alias": "3",
+                "secondary": true
             },
             {
                 "name": "2012A&A...538A.120L",
@@ -42,8 +42,8 @@
         ],
         "claimedtype": [
             {
-                "type": "Ia",
-                "source": "1,2,5,6"
+                "value": "Ia",
+                "source": "1,2,3,5,6"
             }
         ],
         "discoverday": "2",
@@ -52,15 +52,30 @@
         "discoveryear": "1999",
         "galdec": "+001640",
         "galra": "233035",
-        "host": "A233035+0016",
-        "hvel": "199400",
+        "host": [
+            {
+                "value": "A233035+0016",
+                "source": "1"
+            }
+        ],
+        "hvel": [
+            {
+                "value": "199400",
+                "source": "D"
+            }
+        ],
         "lumdist": "8768",
         "maxabsmag": "-20.21",
         "maxappmag": "24.5",
         "maxday": "2",
         "maxmonth": "11",
         "maxyear": "1999",
-        "redshift": "1.23",
+        "redshift": [
+            {
+                "value": "1.230000",
+                "source": "2,3"
+            }
+        ],
         "sndec": "+00:16:40.0",
         "snra": "23:30:35.80",
         "photometry": [
@@ -69,7 +84,7 @@
                 "time": "51484.5",
                 "band": "",
                 "abmag": "24.5",
-                "source": "3,2"
+                "source": "2,3"
             }
         ],
         "spectra": [

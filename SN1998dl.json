@@ -22,26 +22,30 @@
                 "secondary": true
             },
             {
+                "name": "<a href='http://www.cbat.eps.harvard.edu/iauc/06900/06992.html#Item1'>IAUC 6992</a>",
+                "alias": "4"
+            },
+            {
                 "name": "Latest Supernovae",
                 "url": "http://www.rochesterastronomy.org/snimages/snredshiftall.html",
-                "alias": "4",
+                "alias": "5",
                 "secondary": true
             },
             {
                 "name": "2012A&A...538A.120L",
                 "url": "http://adsabs.harvard.edu/abs/2012A&A...538A.120L",
                 "bibcode": "2012A&A...538A.120L",
-                "alias": "5"
+                "alias": "6"
             }
         ],
         "claimedtype": [
             {
-                "type": "II P",
+                "value": "II P",
                 "source": "3"
             },
             {
-                "type": "II",
-                "source": "4"
+                "value": "II",
+                "source": "4,5"
             }
         ],
         "discoverday": "2",
@@ -50,15 +54,30 @@
         "discoveryear": "1998",
         "galdec": "-073442",
         "galra": "024600",
-        "host": "NGC 1084",
-        "hvel": "1414",
-        "lumdist": "21.0003",
-        "maxabsmag": "-15.7111",
+        "host": [
+            {
+                "value": "NGC 1084",
+                "source": "3,4,5"
+            }
+        ],
+        "hvel": [
+            {
+                "value": "1414",
+                "source": "3"
+            }
+        ],
+        "lumdist": "21",
+        "maxabsmag": "-15.71",
         "maxappmag": "15.9",
         "maxday": "9",
         "maxmonth": "8",
         "maxyear": "1998",
-        "redshift": "0.004728",
+        "redshift": [
+            {
+                "value": "0.004728",
+                "source": "D"
+            }
+        ],
         "sndec": "-07:34:25.10",
         "snra": "02:46:01.477",
         "photometry": [

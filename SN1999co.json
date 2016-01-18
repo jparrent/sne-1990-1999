@@ -22,34 +22,38 @@
                 "secondary": true
             },
             {
+                "name": "<a href='http://www.cbat.eps.harvard.edu/iauc/07200/07205.html#Item1'>IAUC 7205</a>",
+                "alias": "4"
+            },
+            {
                 "name": "Latest Supernovae",
                 "url": "http://www.rochesterastronomy.org/snimages/snredshiftall.html",
-                "alias": "4",
+                "alias": "5",
                 "secondary": true
             },
             {
                 "name": "2012A&A...538A.120L",
                 "url": "http://adsabs.harvard.edu/abs/2012A&A...538A.120L",
                 "bibcode": "2012A&A...538A.120L",
-                "alias": "5"
+                "alias": "6"
             },
             {
                 "name": "2014MNRAS.445..554F",
                 "url": "http://adsabs.harvard.edu/abs/2014MNRAS.445..554F",
                 "bibcode": "2014MNRAS.445..554F",
-                "alias": "6"
+                "alias": "7"
             },
             {
                 "name": "UCB Filippenko Group's Supernova Database (SNDB)",
                 "url": "http://heracles.astro.berkeley.edu/sndb/info",
-                "alias": "7",
+                "alias": "8",
                 "secondary": true
             }
         ],
         "claimedtype": [
             {
-                "type": "II",
-                "source": "3,4,6,7"
+                "value": "II",
+                "source": "3,4,5,7,8"
             }
         ],
         "discoverday": "13",
@@ -58,15 +62,30 @@
         "discoveryear": "1999",
         "galdec": "-143249",
         "galra": "210319",
-        "host": "A210319-1432",
-        "hvel": "9260",
-        "lumdist": "142.3",
-        "maxabsmag": "-18.37",
+        "host": [
+            {
+                "value": "A210319-1432",
+                "source": "3"
+            }
+        ],
+        "hvel": [
+            {
+                "value": "9260",
+                "source": "3"
+            }
+        ],
+        "lumdist": "140",
+        "maxabsmag": "-18",
         "maxappmag": "17.4",
         "maxday": "18",
         "maxmonth": "6",
         "maxyear": "1999",
-        "redshift": "0.0314",
+        "redshift": [
+            {
+                "value": "0.031000",
+                "source": "4,5"
+            }
+        ],
         "sndec": "-14:32:49.0",
         "snra": "21:03:19.12",
         "photometry": [
@@ -5530,7 +5549,7 @@
                         "0.105880"
                     ]
                 ],
-                "source": "6"
+                "source": "7"
             }
         ]
     }

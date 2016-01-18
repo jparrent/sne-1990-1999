@@ -6,73 +6,102 @@
         ],
         "sources": [
             {
+                "name": "2012MNRAS.425.1789S",
+                "url": "http://adsabs.harvard.edu/abs/2012MNRAS.425.1789S",
+                "bibcode": "2012MNRAS.425.1789S",
+                "alias": "1"
+            },
+            {
                 "name": "Sternberg Astronomical Institute Supernova Light Curve Catalogue",
                 "url": "http://dau.itep.ru/sn/node/72",
-                "alias": "1",
+                "alias": "2",
                 "secondary": true
             },
             {
                 "name": "VSNET 2001",
-                "alias": "2"
+                "alias": "3"
             },
             {
                 "name": "Asiago Supernova Catalogue",
                 "url": "http://graspa.oapd.inaf.it/cgi-bin/sncat.php",
-                "alias": "3",
+                "alias": "4",
                 "secondary": true
+            },
+            {
+                "name": "<a href='http://www.cbat.eps.harvard.edu/iauc/07000/07016.html#Item1'>IAUC 7016</a>",
+                "alias": "5"
             },
             {
                 "name": "Latest Supernovae",
                 "url": "http://www.rochesterastronomy.org/snimages/snredshiftall.html",
-                "alias": "4",
+                "alias": "6",
                 "secondary": true
             },
             {
                 "name": "2012A&A...538A.120L",
                 "url": "http://adsabs.harvard.edu/abs/2012A&A...538A.120L",
                 "bibcode": "2012A&A...538A.120L",
-                "alias": "5"
+                "alias": "7"
             },
             {
                 "name": "CfA Supernova Archive",
                 "url": "https://www.cfa.harvard.edu/supernova/SNarchive.html",
-                "alias": "6",
+                "alias": "8",
                 "secondary": true
-            },
-            {
-                "name": "2012MNRAS.425.1789S",
-                "url": "http://adsabs.harvard.edu/abs/2012MNRAS.425.1789S",
-                "bibcode": "2012MNRAS.425.1789S",
-                "alias": "7"
             },
             {
                 "name": "UCB Filippenko Group's Supernova Database (SNDB)",
                 "url": "http://heracles.astro.berkeley.edu/sndb/info",
-                "alias": "8",
+                "alias": "9",
                 "secondary": true
             }
         ],
         "claimedtype": [
             {
-                "type": "Ia",
-                "source": "3,4,7,8"
+                "value": "Ia",
+                "source": "4,5,6,1,9"
             }
         ],
         "discoverday": "17",
         "discoverer": "LOSS",
         "discovermonth": "9",
         "discoveryear": "1998",
+        "ebv": [
+            {
+                "value": "0.124",
+                "source": "1"
+            }
+        ],
         "galdec": "+692243",
         "galra": "054205",
-        "host": "NGC 1961",
-        "hvel": "3983",
-        "lumdist": "59.821",
-        "maxabsmag": "-16.084",
+        "host": [
+            {
+                "value": "NGC 1961",
+                "source": "1,4,5,6"
+            }
+        ],
+        "hvel": [
+            {
+                "value": "3933",
+                "source": "1"
+            },
+            {
+                "value": "3983",
+                "source": "4"
+            }
+        ],
+        "lumdist": "58",
+        "maxabsmag": "-16",
         "maxappmag": "17.8",
         "maxday": "17",
         "maxmonth": "9",
         "maxyear": "1998",
-        "redshift": "0.01338",
+        "redshift": [
+            {
+                "value": "0.013000",
+                "source": "5,6"
+            }
+        ],
         "sndec": "+69:22:26.3",
         "snra": "05:42:12.02",
         "photometry": [
@@ -81,63 +110,63 @@
                 "time": "51073.5",
                 "band": "C",
                 "abmag": "17.8",
-                "source": "1,2"
+                "source": "2,3"
             },
             {
                 "timeunit": "MJD",
                 "time": "51075.39",
                 "band": "C",
                 "abmag": "17.8",
-                "source": "1,2"
+                "source": "2,3"
             },
             {
                 "timeunit": "MJD",
                 "time": "51080.16",
                 "band": "C",
                 "abmag": "18.1",
-                "source": "1,2"
+                "source": "2,3"
             },
             {
                 "timeunit": "MJD",
                 "time": "51085.3",
                 "band": "C",
                 "abmag": "18.2",
-                "source": "1,2"
+                "source": "2,3"
             },
             {
                 "timeunit": "MJD",
                 "time": "51088.3",
                 "band": "C",
                 "abmag": "18.3",
-                "source": "1,2"
+                "source": "2,3"
             },
             {
                 "timeunit": "MJD",
                 "time": "51091.28",
                 "band": "C",
                 "abmag": "18.6",
-                "source": "1,2"
+                "source": "2,3"
             },
             {
                 "timeunit": "MJD",
                 "time": "51094.35",
                 "band": "C",
                 "abmag": "18.6",
-                "source": "1,2"
+                "source": "2,3"
             },
             {
                 "timeunit": "MJD",
                 "time": "51096.24",
                 "band": "C",
                 "abmag": "18.4",
-                "source": "1,2"
+                "source": "2,3"
             },
             {
                 "timeunit": "MJD",
                 "time": "51101.31",
                 "band": "C",
                 "abmag": "18.6",
-                "source": "1,2"
+                "source": "2,3"
             }
         ],
         "spectra": [
@@ -12892,7 +12921,7 @@
                         "1.8882415e-17"
                     ]
                 ],
-                "source": "6"
+                "source": "8"
             },
             {
                 "deredshifted": false,
@@ -26911,7 +26940,7 @@
                         "7.22450E-02"
                     ]
                 ],
-                "source": "7"
+                "source": "1"
             }
         ]
     }

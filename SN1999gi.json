@@ -34,14 +34,14 @@
                 "secondary": true
             },
             {
-                "name": "Latest Supernovae",
-                "url": "http://www.rochesterastronomy.org/snimages/snredshiftall.html",
-                "alias": "6",
-                "secondary": true
+                "name": "<a href='http://www.cbat.eps.harvard.edu/iauc/07300/07329.html#Item1'>IAUC 7329</a>",
+                "alias": "6"
             },
             {
-                "name": "<a href='http://www.cbat.eps.harvard.edu/iauc/07300/07329.html#Item1'>IAUC 7329</a>",
-                "alias": "7"
+                "name": "Latest Supernovae",
+                "url": "http://www.rochesterastronomy.org/snimages/snredshiftall.html",
+                "alias": "7",
+                "secondary": true
             },
             {
                 "name": "2012A&A...538A.120L",
@@ -58,30 +58,50 @@
         ],
         "claimedtype": [
             {
-                "type": "II P",
+                "value": "II P",
                 "source": "5"
             },
             {
-                "type": "II",
-                "source": "6,4,9,4,9,4,9,4,9"
+                "value": "II",
+                "source": "6,7,4,9,4,9,4,9,4,9"
             }
         ],
         "discoverday": "9",
         "discoverer": "Reiki Kushida",
         "discovermonth": "12",
         "discoveryear": "1999",
-        "ebv": "0.0166",
+        "ebv": [
+            {
+                "value": "0.0166",
+                "source": "1"
+            }
+        ],
         "galdec": "+412528",
         "galra": "101817",
-        "host": "NGC 3184",
-        "hvel": "588",
-        "lumdist": "8.6873",
-        "maxabsmag": "-15.794",
+        "host": [
+            {
+                "value": "NGC 3184",
+                "source": "5,6,7"
+            }
+        ],
+        "hvel": [
+            {
+                "value": "588",
+                "source": "5"
+            }
+        ],
+        "lumdist": "8",
+        "maxabsmag": "-16",
         "maxappmag": "13.9",
         "maxday": "2",
         "maxmonth": "1",
         "maxyear": "2000",
-        "redshift": "0.00196",
+        "redshift": [
+            {
+                "value": "0.001800",
+                "source": "6,7"
+            }
+        ],
         "sndec": "+41:26:28.6",
         "snra": "10:18:16.62",
         "photometry": [
@@ -688,7 +708,7 @@
                 "time": "51543.5",
                 "band": "",
                 "abmag": "14.0",
-                "source": "7,6"
+                "source": "6,7"
             },
             {
                 "timeunit": "MJD",

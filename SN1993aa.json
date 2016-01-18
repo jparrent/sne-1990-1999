@@ -6,14 +6,14 @@
         ],
         "sources": [
             {
-                "name": "Asiago Supernova Catalogue",
-                "url": "http://graspa.oapd.inaf.it/cgi-bin/sncat.php",
-                "alias": "1",
-                "secondary": true
+                "name": "2012MNRAS.425.1789S",
+                "url": "http://adsabs.harvard.edu/abs/2012MNRAS.425.1789S",
+                "bibcode": "2012MNRAS.425.1789S",
+                "alias": "1"
             },
             {
-                "name": "Latest Supernovae",
-                "url": "http://www.rochesterastronomy.org/snimages/snredshiftall.html",
+                "name": "Asiago Supernova Catalogue",
+                "url": "http://graspa.oapd.inaf.it/cgi-bin/sncat.php",
                 "alias": "2",
                 "secondary": true
             },
@@ -22,15 +22,15 @@
                 "alias": "3"
             },
             {
+                "name": "Latest Supernovae",
+                "url": "http://www.rochesterastronomy.org/snimages/snredshiftall.html",
+                "alias": "4",
+                "secondary": true
+            },
+            {
                 "name": "2012A&A...538A.120L",
                 "url": "http://adsabs.harvard.edu/abs/2012A&A...538A.120L",
                 "bibcode": "2012A&A...538A.120L",
-                "alias": "4"
-            },
-            {
-                "name": "2012MNRAS.425.1789S",
-                "url": "http://adsabs.harvard.edu/abs/2012MNRAS.425.1789S",
-                "bibcode": "2012MNRAS.425.1789S",
                 "alias": "5"
             },
             {
@@ -42,17 +42,32 @@
         ],
         "claimedtype": [
             {
-                "type": "Ia",
-                "source": "1,2,5,6"
+                "value": "Ia",
+                "source": "2,3,4,1,6"
             }
         ],
         "discoverday": "18",
         "discoverer": "Christian Pollas",
         "discovermonth": "9",
         "discoveryear": "1993",
+        "ebv": [
+            {
+                "value": "0.041",
+                "source": "1"
+            }
+        ],
         "galdec": "-062056",
         "galra": "230322",
-        "host": "A230322-0620",
+        "host": [
+            {
+                "value": "APMUKS(BJ) B230046.41-063708.1",
+                "source": "1"
+            },
+            {
+                "value": "A230322-0620",
+                "source": "2"
+            }
+        ],
         "maxappmag": "18",
         "maxday": "18",
         "maxmonth": "9",
@@ -65,7 +80,7 @@
                 "time": "49248.5",
                 "band": "",
                 "abmag": "18.0",
-                "source": "3,2"
+                "source": "3,4"
             }
         ],
         "spectra": [
@@ -13886,7 +13901,7 @@
                         "0.231864"
                     ]
                 ],
-                "source": "5"
+                "source": "1"
             }
         ]
     }

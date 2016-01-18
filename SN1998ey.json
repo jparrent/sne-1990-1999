@@ -22,26 +22,30 @@
                 "secondary": true
             },
             {
+                "name": "<a href='http://www.cbat.eps.harvard.edu/iauc/07000/07065.html#Item1'>IAUC 7065</a>",
+                "alias": "4"
+            },
+            {
                 "name": "Latest Supernovae",
                 "url": "http://www.rochesterastronomy.org/snimages/snredshiftall.html",
-                "alias": "4",
+                "alias": "5",
                 "secondary": true
             },
             {
                 "name": "2012A&A...538A.120L",
                 "url": "http://adsabs.harvard.edu/abs/2012A&A...538A.120L",
                 "bibcode": "2012A&A...538A.120L",
-                "alias": "5"
+                "alias": "6"
             }
         ],
         "claimedtype": [
             {
-                "type": "Ic",
+                "value": "Ic",
                 "source": "3"
             },
             {
-                "type": "Ic P",
-                "source": "4"
+                "value": "Ic P",
+                "source": "4,5"
             }
         ],
         "discoverday": "4",
@@ -50,15 +54,30 @@
         "discoveryear": "1998",
         "galdec": "+264305",
         "galra": "213002",
-        "host": "NGC 7080",
-        "hvel": "4806",
-        "lumdist": "72.401",
-        "maxabsmag": "-17.799",
+        "host": [
+            {
+                "value": "NGC 7080",
+                "source": "3,4,5"
+            }
+        ],
+        "hvel": [
+            {
+                "value": "4806",
+                "source": "3"
+            }
+        ],
+        "lumdist": "72.4",
+        "maxabsmag": "-17.8",
         "maxappmag": "16.5",
         "maxday": "8",
         "maxmonth": "12",
         "maxyear": "1998",
-        "redshift": "0.01616",
+        "redshift": [
+            {
+                "value": "0.01616",
+                "source": "D"
+            }
+        ],
         "sndec": "+26:43:21.4",
         "snra": "21:30:00.67",
         "photometry": [

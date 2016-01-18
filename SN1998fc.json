@@ -6,14 +6,14 @@
         ],
         "sources": [
             {
-                "name": "Asiago Supernova Catalogue",
-                "url": "http://graspa.oapd.inaf.it/cgi-bin/sncat.php",
-                "alias": "1",
-                "secondary": true
+                "name": "2012MNRAS.425.1789S",
+                "url": "http://adsabs.harvard.edu/abs/2012MNRAS.425.1789S",
+                "bibcode": "2012MNRAS.425.1789S",
+                "alias": "1"
             },
             {
-                "name": "Latest Supernovae",
-                "url": "http://www.rochesterastronomy.org/snimages/snredshiftall.html",
+                "name": "Asiago Supernova Catalogue",
+                "url": "http://graspa.oapd.inaf.it/cgi-bin/sncat.php",
                 "alias": "2",
                 "secondary": true
             },
@@ -22,45 +22,80 @@
                 "alias": "3"
             },
             {
+                "name": "Latest Supernovae",
+                "url": "http://www.rochesterastronomy.org/snimages/snredshiftall.html",
+                "alias": "4",
+                "secondary": true
+            },
+            {
                 "name": "2012A&A...538A.120L",
                 "url": "http://adsabs.harvard.edu/abs/2012A&A...538A.120L",
                 "bibcode": "2012A&A...538A.120L",
-                "alias": "4"
+                "alias": "5"
             },
             {
                 "name": "2003AJ....125.1087G",
                 "url": "http://adsabs.harvard.edu/abs/2003AJ....125.1087G",
                 "bibcode": "2003AJ....125.1087G",
-                "alias": "5"
+                "alias": "6"
             },
             {
                 "name": "UCB Filippenko Group's Supernova Database (SNDB)",
                 "url": "http://heracles.astro.berkeley.edu/sndb/info",
-                "alias": "6",
+                "alias": "7",
                 "secondary": true
             }
         ],
         "claimedtype": [
             {
-                "type": "Ia",
-                "source": "1,2,5,6"
+                "value": "Ia",
+                "source": "2,3,4,6,7"
             }
         ],
         "discoverday": "19",
         "discoverer": "Wise Observatory Optical Transients Search",
         "discovermonth": "12",
         "discoveryear": "1998",
+        "ebv": [
+            {
+                "value": "0.116",
+                "source": "1"
+            }
+        ],
         "galdec": "+032939",
         "galra": "025912",
-        "host": "A025912+0329",
-        "hvel": "30000",
+        "host": [
+            {
+                "value": "2MASX J02591406+0329563",
+                "source": "1"
+            },
+            {
+                "value": "A025912+0329",
+                "source": "2"
+            }
+        ],
+        "hvel": [
+            {
+                "value": "32078",
+                "source": "1"
+            }
+        ],
         "lumdist": "500",
         "maxabsmag": "-20",
         "maxappmag": "20.5",
         "maxday": "19",
         "maxmonth": "12",
         "maxyear": "1998",
-        "redshift": "0.1",
+        "redshift": [
+            {
+                "value": "0.1",
+                "source": "2"
+            },
+            {
+                "value": "0.100000",
+                "source": "3,4"
+            }
+        ],
         "sndec": "+03:29:39.0",
         "snra": "02:59:12.61",
         "photometry": [
@@ -69,7 +104,7 @@
                 "time": "51166.5",
                 "band": "",
                 "abmag": "20.5",
-                "source": "3,2"
+                "source": "3,4"
             }
         ],
         "spectra": [
@@ -7590,7 +7625,7 @@
                         "0.00365746"
                     ]
                 ],
-                "source": "5"
+                "source": "6"
             }
         ]
     }

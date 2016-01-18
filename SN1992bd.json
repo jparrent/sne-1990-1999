@@ -12,14 +12,14 @@
                 "secondary": true
             },
             {
-                "name": "Latest Supernovae",
-                "url": "http://www.rochesterastronomy.org/snimages/snredshiftall.html",
-                "alias": "2",
-                "secondary": true
+                "name": "<a href='http://www.cbat.eps.harvard.edu/iauc/05600/05638.html'>IAUC 5638</a>",
+                "alias": "2"
             },
             {
-                "name": "<a href='http://www.cbat.eps.harvard.edu/iauc/05600/05638.html'>IAUC 5638</a>",
-                "alias": "3"
+                "name": "Latest Supernovae",
+                "url": "http://www.rochesterastronomy.org/snimages/snredshiftall.html",
+                "alias": "3",
+                "secondary": true
             },
             {
                 "name": "2012A&A...538A.120L",
@@ -30,8 +30,8 @@
         ],
         "claimedtype": [
             {
-                "type": "II",
-                "source": "1,2"
+                "value": "II",
+                "source": "1,2,3"
             }
         ],
         "discoverday": "11",
@@ -40,15 +40,30 @@
         "discoveryear": "1992",
         "galdec": "-301630",
         "galra": "024619",
-        "host": "NGC 1097",
-        "hvel": "1274",
-        "lumdist": "18.9104",
-        "maxabsmag": "-16.3835",
+        "host": [
+            {
+                "value": "NGC 1097",
+                "source": "1,2,3"
+            }
+        ],
+        "hvel": [
+            {
+                "value": "1274",
+                "source": "1"
+            }
+        ],
+        "lumdist": "18.91",
+        "maxabsmag": "-16.38",
         "maxappmag": "15",
         "maxday": "11",
         "maxmonth": "10",
         "maxyear": "1992",
-        "redshift": "0.004259",
+        "redshift": [
+            {
+                "value": "0.004259",
+                "source": "D"
+            }
+        ],
         "sndec": "-30:16:30.0",
         "snra": "02:46:18.9",
         "photometry": [
@@ -57,7 +72,7 @@
                 "time": "48906.5",
                 "band": "",
                 "abmag": "15.0",
-                "source": "3,2"
+                "source": "2,3"
             }
         ]
     }

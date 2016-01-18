@@ -6,24 +6,24 @@
         ],
         "sources": [
             {
+                "name": "2012MNRAS.425.1789S",
+                "url": "http://adsabs.harvard.edu/abs/2012MNRAS.425.1789S",
+                "bibcode": "2012MNRAS.425.1789S",
+                "alias": "1"
+            },
+            {
                 "name": "Sternberg Astronomical Institute Supernova Light Curve Catalogue",
                 "url": "http://dau.itep.ru/sn/node/72",
-                "alias": "1",
+                "alias": "2",
                 "secondary": true
             },
             {
                 "name": "VSNET 2001",
-                "alias": "2"
+                "alias": "3"
             },
             {
                 "name": "Asiago Supernova Catalogue",
                 "url": "http://graspa.oapd.inaf.it/cgi-bin/sncat.php",
-                "alias": "3",
-                "secondary": true
-            },
-            {
-                "name": "Latest Supernovae",
-                "url": "http://www.rochesterastronomy.org/snimages/snredshiftall.html",
                 "alias": "4",
                 "secondary": true
             },
@@ -32,15 +32,15 @@
                 "alias": "5"
             },
             {
+                "name": "Latest Supernovae",
+                "url": "http://www.rochesterastronomy.org/snimages/snredshiftall.html",
+                "alias": "6",
+                "secondary": true
+            },
+            {
                 "name": "2012A&A...538A.120L",
                 "url": "http://adsabs.harvard.edu/abs/2012A&A...538A.120L",
                 "bibcode": "2012A&A...538A.120L",
-                "alias": "6"
-            },
-            {
-                "name": "2012MNRAS.425.1789S",
-                "url": "http://adsabs.harvard.edu/abs/2012MNRAS.425.1789S",
-                "bibcode": "2012MNRAS.425.1789S",
                 "alias": "7"
             },
             {
@@ -52,29 +52,50 @@
         ],
         "claimedtype": [
             {
-                "type": "II",
-                "source": "3"
+                "value": "II",
+                "source": "4"
             },
             {
-                "type": "Ia",
-                "source": "7,8"
+                "value": "Ia",
+                "source": "1,8"
             }
         ],
         "discoverday": "29",
         "discoverer": "LOSS",
         "discovermonth": "10",
         "discoveryear": "1998",
+        "ebv": [
+            {
+                "value": "0.07",
+                "source": "1"
+            }
+        ],
         "galdec": "+504050",
         "galra": "070401",
-        "host": "UGC 3645",
-        "hvel": "6300",
-        "lumdist": "94.4",
-        "maxabsmag": "-16.5",
+        "host": [
+            {
+                "value": "UGC 3645",
+                "source": "1,4,5,6"
+            }
+        ],
+        "hvel": [
+            {
+                "value": "6386",
+                "source": "1"
+            }
+        ],
+        "lumdist": "94",
+        "maxabsmag": "-16",
         "maxappmag": "18.4",
         "maxday": "29",
         "maxmonth": "10",
         "maxyear": "1998",
-        "redshift": "0.021",
+        "redshift": [
+            {
+                "value": "0.021000",
+                "source": "5,6"
+            }
+        ],
         "sndec": "+50:40:30.0",
         "snra": "07:04:00.05",
         "photometry": [
@@ -83,14 +104,14 @@
                 "time": "51115.5",
                 "band": "",
                 "abmag": "18.4",
-                "source": "5,4"
+                "source": "5,6"
             },
             {
                 "timeunit": "MJD",
                 "time": "51141.13",
                 "band": "C",
                 "abmag": "18.5",
-                "source": "1,2"
+                "source": "2,3"
             }
         ],
         "spectra": [
@@ -13831,7 +13852,7 @@
                         "0.261720985"
                     ]
                 ],
-                "source": "7"
+                "source": "1"
             }
         ]
     }

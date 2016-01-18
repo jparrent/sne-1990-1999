@@ -24,7 +24,12 @@
         "discoveryear": "1998",
         "galdec": "-711418",
         "galra": "055019",
-        "host": "GH09-02",
+        "host": [
+            {
+                "value": "GH09-02",
+                "source": "1"
+            }
+        ],
         "sndec": "-711413.5",
         "snra": "055016.87",
         "photometry": [

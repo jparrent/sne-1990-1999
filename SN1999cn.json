@@ -12,22 +12,26 @@
                 "secondary": true
             },
             {
+                "name": "<a href='http://www.cbat.eps.harvard.edu/iauc/07200/07202.html#Item1'>IAUC 7202</a>",
+                "alias": "2"
+            },
+            {
                 "name": "Latest Supernovae",
                 "url": "http://www.rochesterastronomy.org/snimages/snredshiftall.html",
-                "alias": "2",
+                "alias": "3",
                 "secondary": true
             },
             {
                 "name": "2012A&A...538A.120L",
                 "url": "http://adsabs.harvard.edu/abs/2012A&A...538A.120L",
                 "bibcode": "2012A&A...538A.120L",
-                "alias": "3"
+                "alias": "4"
             }
         ],
         "claimedtype": [
             {
-                "type": "Ic",
-                "source": "1,2"
+                "value": "Ic",
+                "source": "1,2,3"
             }
         ],
         "discoverday": "14",
@@ -36,13 +40,32 @@
         "discoveryear": "1999",
         "galdec": "+125101",
         "galra": "150646",
-        "host": "MCG +2-38-43",
-        "hvel": "6678",
-        "lumdist": "101.42",
+        "host": [
+            {
+                "value": "M+02-38-43",
+                "source": "1"
+            },
+            {
+                "value": "MCG +2-38-43",
+                "source": "2,3"
+            }
+        ],
+        "hvel": [
+            {
+                "value": "6678",
+                "source": "1"
+            }
+        ],
+        "lumdist": "100",
         "maxday": "15",
         "maxmonth": "6",
         "maxyear": "1999",
-        "redshift": "0.02253",
+        "redshift": [
+            {
+                "value": "0.023000",
+                "source": "2,3"
+            }
+        ],
         "sndec": "+12:51:29.0",
         "snra": "15:06:46.6",
         "photometry": [
@@ -51,7 +74,7 @@
                 "time": "51343.0",
                 "band": "V",
                 "abmag": "17.9",
-                "source": "3"
+                "source": "4"
             }
         ]
     }

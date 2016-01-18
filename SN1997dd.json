@@ -12,38 +12,42 @@
                 "secondary": true
             },
             {
+                "name": "<a href='http://www.cbat.eps.harvard.edu/iauc/06700/06724.html#Item1'>IAUC 6724</a>",
+                "alias": "2"
+            },
+            {
                 "name": "Latest Supernovae",
                 "url": "http://www.rochesterastronomy.org/snimages/snredshiftall.html",
-                "alias": "2",
+                "alias": "3",
                 "secondary": true
             },
             {
                 "name": "2012A&A...538A.120L",
                 "url": "http://adsabs.harvard.edu/abs/2012A&A...538A.120L",
                 "bibcode": "2012A&A...538A.120L",
-                "alias": "3"
+                "alias": "4"
             },
             {
                 "name": "2001AJ....121.1648M",
                 "url": "http://adsabs.harvard.edu/abs/2001AJ....121.1648M",
                 "bibcode": "2001AJ....121.1648M",
-                "alias": "4"
+                "alias": "5"
             },
             {
                 "name": "UCB Filippenko Group's Supernova Database (SNDB)",
                 "url": "http://heracles.astro.berkeley.edu/sndb/info",
-                "alias": "5",
+                "alias": "6",
                 "secondary": true
             }
         ],
         "claimedtype": [
             {
-                "type": "IIb",
-                "source": "1,4,5"
+                "value": "IIb",
+                "source": "1,5,6"
             },
             {
-                "type": "Ib/c",
-                "source": "2"
+                "value": "Ib/c",
+                "source": "2,3"
             }
         ],
         "discoverday": "20",
@@ -52,10 +56,25 @@
         "discoveryear": "1997",
         "galdec": "+212905",
         "galra": "160552",
-        "host": "NGC 6060",
-        "hvel": "4554",
-        "lumdist": "68.549",
-        "redshift": "0.01531",
+        "host": [
+            {
+                "value": "NGC 6060",
+                "source": "1,2,3"
+            }
+        ],
+        "hvel": [
+            {
+                "value": "4554",
+                "source": "1"
+            }
+        ],
+        "lumdist": "68.55",
+        "redshift": [
+            {
+                "value": "0.01531",
+                "source": "D"
+            }
+        ],
         "sndec": "+21:29:14.3",
         "snra": "16:05:46.32",
         "photometry": [
@@ -64,7 +83,7 @@
                 "time": "50680.0",
                 "band": "V",
                 "abmag": "16.4",
-                "source": "3"
+                "source": "4"
             }
         ],
         "spectra": [
@@ -14425,7 +14444,7 @@
                         "0.162553"
                     ]
                 ],
-                "source": "4"
+                "source": "5"
             }
         ]
     }

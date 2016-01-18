@@ -22,34 +22,38 @@
                 "secondary": true
             },
             {
+                "name": "<a href='http://www.cbat.eps.harvard.edu/iauc/07200/07234.html#Item1'>IAUC 7234</a>",
+                "alias": "4"
+            },
+            {
                 "name": "Latest Supernovae",
                 "url": "http://www.rochesterastronomy.org/snimages/snredshiftall.html",
-                "alias": "4",
+                "alias": "5",
                 "secondary": true
             },
             {
                 "name": "2012A&A...538A.120L",
                 "url": "http://adsabs.harvard.edu/abs/2012A&A...538A.120L",
                 "bibcode": "2012A&A...538A.120L",
-                "alias": "5"
+                "alias": "6"
             },
             {
                 "name": "2001AJ....121.1648M",
                 "url": "http://adsabs.harvard.edu/abs/2001AJ....121.1648M",
                 "bibcode": "2001AJ....121.1648M",
-                "alias": "6"
+                "alias": "7"
             },
             {
                 "name": "UCB Filippenko Group's Supernova Database (SNDB)",
                 "url": "http://heracles.astro.berkeley.edu/sndb/info",
-                "alias": "7",
+                "alias": "8",
                 "secondary": true
             }
         ],
         "claimedtype": [
             {
-                "type": "Ib",
-                "source": "3,4,6,7,6,7,6,7"
+                "value": "Ib",
+                "source": "3,4,5,7,8,7,8,7,8"
             }
         ],
         "discoverday": "8",
@@ -58,15 +62,30 @@
         "discoveryear": "1999",
         "galdec": "+233840",
         "galra": "015954",
-        "host": "NGC 776",
-        "hvel": "4921",
-        "lumdist": "74.17",
-        "maxabsmag": "-16.351",
+        "host": [
+            {
+                "value": "NGC 776",
+                "source": "3,4,5"
+            }
+        ],
+        "hvel": [
+            {
+                "value": "4921",
+                "source": "3"
+            }
+        ],
+        "lumdist": "72",
+        "maxabsmag": "-16",
         "maxappmag": "18",
         "maxday": "8",
         "maxmonth": "8",
         "maxyear": "1999",
-        "redshift": "0.01655",
+        "redshift": [
+            {
+                "value": "0.016000",
+                "source": "4,5"
+            }
+        ],
         "sndec": "+23:38:22.7",
         "snra": "01:59:54.86",
         "photometry": [
@@ -14516,7 +14535,7 @@
                         "-0.0574139"
                     ]
                 ],
-                "source": "6"
+                "source": "7"
             },
             {
                 "deredshifted": false,
@@ -28435,7 +28454,7 @@
                         "-0.0273828"
                     ]
                 ],
-                "source": "6"
+                "source": "7"
             },
             {
                 "deredshifted": false,
@@ -41474,7 +41493,7 @@
                         "0.00337332"
                     ]
                 ],
-                "source": "6"
+                "source": "7"
             }
         ]
     }

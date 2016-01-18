@@ -24,7 +24,12 @@
         "discoveryear": "1999",
         "galdec": "+214247",
         "galra": "002731",
-        "host": "A002731+2142",
+        "host": [
+            {
+                "value": "A002731+2142",
+                "source": "1"
+            }
+        ],
         "sndec": "+214247.0",
         "snra": "002731.06",
         "photometry": [

@@ -6,62 +6,97 @@
         ],
         "sources": [
             {
+                "name": "2012MNRAS.425.1789S",
+                "url": "http://adsabs.harvard.edu/abs/2012MNRAS.425.1789S",
+                "bibcode": "2012MNRAS.425.1789S",
+                "alias": "1"
+            },
+            {
                 "name": "Asiago Supernova Catalogue",
                 "url": "http://graspa.oapd.inaf.it/cgi-bin/sncat.php",
-                "alias": "1",
+                "alias": "2",
                 "secondary": true
+            },
+            {
+                "name": "<a href='http://www.cbat.eps.harvard.edu/iauc/07100/07148.html#Item2'>IAUC 7148</a>",
+                "alias": "3"
             },
             {
                 "name": "Latest Supernovae",
                 "url": "http://www.rochesterastronomy.org/snimages/snredshiftall.html",
-                "alias": "2",
+                "alias": "4",
                 "secondary": true
             },
             {
                 "name": "2012A&A...538A.120L",
                 "url": "http://adsabs.harvard.edu/abs/2012A&A...538A.120L",
                 "bibcode": "2012A&A...538A.120L",
-                "alias": "3"
+                "alias": "5"
             },
             {
                 "name": "CfA Supernova Archive",
                 "url": "https://www.cfa.harvard.edu/supernova/SNarchive.html",
-                "alias": "4",
+                "alias": "6",
                 "secondary": true
             },
             {
                 "name": "2001AJ....121.1648M",
                 "url": "http://adsabs.harvard.edu/abs/2001AJ....121.1648M",
                 "bibcode": "2001AJ....121.1648M",
-                "alias": "5"
+                "alias": "7"
             },
             {
                 "name": "UCB Filippenko Group's Supernova Database (SNDB)",
                 "url": "http://heracles.astro.berkeley.edu/sndb/info",
-                "alias": "6",
+                "alias": "8",
                 "secondary": true
             }
         ],
         "claimedtype": [
             {
-                "type": "Ia",
-                "source": "1,5,6"
+                "value": "Ia",
+                "source": "2,7,8"
             },
             {
-                "type": "IIb",
-                "source": "2"
+                "value": "IIb",
+                "source": "3,4"
             }
         ],
         "discoverday": "19",
         "discoverer": "Mike Schwartz",
         "discovermonth": "4",
         "discoveryear": "1999",
+        "ebv": [
+            {
+                "value": "0.03",
+                "source": "1"
+            }
+        ],
         "galdec": "+600037",
         "galra": "172241",
-        "host": "MCG +10-25-14",
-        "hvel": "5510",
-        "lumdist": "83.49",
-        "redshift": "0.0186",
+        "host": [
+            {
+                "value": "MCG +10-25-14",
+                "source": "1,3,4"
+            },
+            {
+                "value": "M+10-25-14",
+                "source": "2"
+            }
+        ],
+        "hvel": [
+            {
+                "value": "5594",
+                "source": "1"
+            }
+        ],
+        "lumdist": "82.6",
+        "redshift": [
+            {
+                "value": "0.018400",
+                "source": "3,4"
+            }
+        ],
         "sndec": "+60:00:12.9",
         "snra": "17:22:40.73",
         "photometry": [
@@ -70,7 +105,7 @@
                 "time": "51287.0",
                 "band": "",
                 "abmag": "18.1",
-                "source": "3"
+                "source": "5"
             }
         ],
         "spectra": [
@@ -12825,7 +12860,7 @@
                         "1.0624102e-17"
                     ]
                 ],
-                "source": "4"
+                "source": "6"
             },
             {
                 "deredshifted": false,
@@ -27284,7 +27319,7 @@
                         "0.0311025"
                     ]
                 ],
-                "source": "5"
+                "source": "7"
             }
         ]
     }

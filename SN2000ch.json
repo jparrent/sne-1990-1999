@@ -42,11 +42,11 @@
         ],
         "claimedtype": [
             {
-                "type": "IIn?",
+                "value": "IIn?",
                 "source": "3"
             },
             {
-                "type": "IIn",
+                "value": "IIn",
                 "source": "4,5,4,5,6,5"
             }
         ],
@@ -56,15 +56,30 @@
         "discoveryear": "1998",
         "galdec": "+363708",
         "galra": "105231",
-        "host": "NGC 3432",
-        "hvel": "619",
-        "lumdist": "9.1756",
-        "maxabsmag": "-12.413",
+        "host": [
+            {
+                "value": "NGC 3432",
+                "source": "3"
+            }
+        ],
+        "hvel": [
+            {
+                "value": "619",
+                "source": "3"
+            }
+        ],
+        "lumdist": "9.18",
+        "maxabsmag": "-12.4",
         "maxappmag": "17.4",
         "maxday": "3",
         "maxmonth": "5",
         "maxyear": "2000",
-        "redshift": "0.00207",
+        "redshift": [
+            {
+                "value": "0.00207",
+                "source": "D"
+            }
+        ],
         "sndec": "+364008.5",
         "snra": "105241.40",
         "photometry": [

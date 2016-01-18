@@ -6,14 +6,14 @@
         ],
         "sources": [
             {
-                "name": "Asiago Supernova Catalogue",
-                "url": "http://graspa.oapd.inaf.it/cgi-bin/sncat.php",
-                "alias": "1",
-                "secondary": true
+                "name": "2012MNRAS.425.1789S",
+                "url": "http://adsabs.harvard.edu/abs/2012MNRAS.425.1789S",
+                "bibcode": "2012MNRAS.425.1789S",
+                "alias": "1"
             },
             {
-                "name": "Latest Supernovae",
-                "url": "http://www.rochesterastronomy.org/snimages/snredshiftall.html",
+                "name": "Asiago Supernova Catalogue",
+                "url": "http://graspa.oapd.inaf.it/cgi-bin/sncat.php",
                 "alias": "2",
                 "secondary": true
             },
@@ -22,49 +22,76 @@
                 "alias": "3"
             },
             {
+                "name": "Latest Supernovae",
+                "url": "http://www.rochesterastronomy.org/snimages/snredshiftall.html",
+                "alias": "4",
+                "secondary": true
+            },
+            {
                 "name": "2012A&A...538A.120L",
                 "url": "http://adsabs.harvard.edu/abs/2012A&A...538A.120L",
                 "bibcode": "2012A&A...538A.120L",
-                "alias": "4"
+                "alias": "5"
             },
             {
                 "name": "2001AJ....121.1648M",
                 "url": "http://adsabs.harvard.edu/abs/2001AJ....121.1648M",
                 "bibcode": "2001AJ....121.1648M",
-                "alias": "5"
+                "alias": "6"
             },
             {
                 "name": "UCB Filippenko Group's Supernova Database (SNDB)",
                 "url": "http://heracles.astro.berkeley.edu/sndb/info",
-                "alias": "6",
+                "alias": "7",
                 "secondary": true
             }
         ],
         "claimedtype": [
             {
-                "type": "Ia",
-                "source": "1,5,6,5,6"
+                "value": "Ia",
+                "source": "2,6,7,6,7"
             },
             {
-                "type": "Ib",
-                "source": "2"
+                "value": "Ib",
+                "source": "3,4"
             }
         ],
         "discoverday": "19",
         "discoverer": "Robert McNaught",
         "discovermonth": "2",
         "discoveryear": "1991",
+        "ebv": [
+            {
+                "value": "0.059",
+                "source": "1"
+            }
+        ],
         "galdec": "-162945",
         "galra": "092030",
-        "host": "NGC 2851",
-        "hvel": "5100",
-        "lumdist": "76.2",
-        "maxabsmag": "-17.9",
+        "host": [
+            {
+                "value": "NGC 2851",
+                "source": "1,2,3,4"
+            }
+        ],
+        "hvel": [
+            {
+                "value": "5096",
+                "source": "1"
+            }
+        ],
+        "lumdist": "76.89",
+        "maxabsmag": "-17.93",
         "maxappmag": "16.5",
         "maxday": "19",
         "maxmonth": "2",
         "maxyear": "1991",
-        "redshift": "0.017",
+        "redshift": [
+            {
+                "value": "0.01715",
+                "source": "D"
+            }
+        ],
         "sndec": "-16:30:01.8",
         "snra": "09:20:30.46",
         "photometry": [
@@ -73,7 +100,7 @@
                 "time": "48306.5",
                 "band": "",
                 "abmag": "16.5",
-                "source": "3,2"
+                "source": "3,4"
             }
         ],
         "spectra": [
@@ -6334,7 +6361,7 @@
                         "0.0370931"
                     ]
                 ],
-                "source": "5"
+                "source": "6"
             },
             {
                 "deredshifted": false,
@@ -12593,7 +12620,7 @@
                         "0.00927160"
                     ]
                 ],
-                "source": "5"
+                "source": "6"
             }
         ]
     }

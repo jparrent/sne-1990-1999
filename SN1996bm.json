@@ -12,14 +12,14 @@
                 "secondary": true
             },
             {
-                "name": "Latest Supernovae",
-                "url": "http://www.rochesterastronomy.org/snimages/snredshiftall.html",
-                "alias": "2",
-                "secondary": true
+                "name": "<a href='http://www.cbat.eps.harvard.edu/iauc/06400/06492.html'>IAUC 6492</a>",
+                "alias": "2"
             },
             {
-                "name": "<a href='http://www.cbat.eps.harvard.edu/iauc/06400/06492.html'>IAUC 6492</a>",
-                "alias": "3"
+                "name": "Latest Supernovae",
+                "url": "http://www.rochesterastronomy.org/snimages/snredshiftall.html",
+                "alias": "3",
+                "secondary": true
             },
             {
                 "name": "2012A&A...538A.120L",
@@ -28,19 +28,19 @@
                 "alias": "4"
             }
         ],
-        "claimedtype": [
-            {
-                "type": "?",
-                "source": "1"
-            }
-        ],
+        "claimedtype": [],
         "discoverday": "3",
         "discoverer": "Mount Stromlo",
         "discovermonth": "10",
         "discoveryear": "1996",
         "galdec": "-634444",
         "galra": "004440",
-        "host": "A004440-6344",
+        "host": [
+            {
+                "value": "A004440-6344",
+                "source": "1"
+            }
+        ],
         "maxappmag": "20.5",
         "maxday": "3",
         "maxmonth": "10",
@@ -53,7 +53,7 @@
                 "time": "50359.5",
                 "band": "",
                 "abmag": "20.5",
-                "source": "3,2"
+                "source": "2,3"
             }
         ]
     }

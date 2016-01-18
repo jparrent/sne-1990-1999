@@ -6,14 +6,14 @@
         ],
         "sources": [
             {
-                "name": "Asiago Supernova Catalogue",
-                "url": "http://graspa.oapd.inaf.it/cgi-bin/sncat.php",
-                "alias": "1",
-                "secondary": true
+                "name": "2012MNRAS.425.1789S",
+                "url": "http://adsabs.harvard.edu/abs/2012MNRAS.425.1789S",
+                "bibcode": "2012MNRAS.425.1789S",
+                "alias": "1"
             },
             {
-                "name": "Latest Supernovae",
-                "url": "http://www.rochesterastronomy.org/snimages/snredshiftall.html",
+                "name": "Asiago Supernova Catalogue",
+                "url": "http://graspa.oapd.inaf.it/cgi-bin/sncat.php",
                 "alias": "2",
                 "secondary": true
             },
@@ -22,15 +22,15 @@
                 "alias": "3"
             },
             {
+                "name": "Latest Supernovae",
+                "url": "http://www.rochesterastronomy.org/snimages/snredshiftall.html",
+                "alias": "4",
+                "secondary": true
+            },
+            {
                 "name": "2012A&A...538A.120L",
                 "url": "http://adsabs.harvard.edu/abs/2012A&A...538A.120L",
                 "bibcode": "2012A&A...538A.120L",
-                "alias": "4"
-            },
-            {
-                "name": "2012MNRAS.425.1789S",
-                "url": "http://adsabs.harvard.edu/abs/2012MNRAS.425.1789S",
-                "bibcode": "2012MNRAS.425.1789S",
                 "alias": "5"
             },
             {
@@ -42,29 +42,50 @@
         ],
         "claimedtype": [
             {
-                "type": "Ia P",
-                "source": "1"
+                "value": "Ia P",
+                "source": "2"
             },
             {
-                "type": "Ia",
-                "source": "2,5,6"
+                "value": "Ia",
+                "source": "3,4,1,6"
             }
         ],
         "discoverday": "29",
         "discoverer": "Christian Pollas",
         "discovermonth": "12",
         "discoveryear": "1991",
+        "ebv": [
+            {
+                "value": "0.052",
+                "source": "1"
+            }
+        ],
         "galdec": "-043956",
         "galra": "034129",
-        "host": "IC 344",
-        "hvel": "5450",
-        "lumdist": "82.12",
+        "host": [
+            {
+                "value": "IC 344",
+                "source": "1,2,3,4"
+            }
+        ],
+        "hvel": [
+            {
+                "value": "5441",
+                "source": "1"
+            }
+        ],
+        "lumdist": "82.21",
         "maxabsmag": "-15.77",
         "maxappmag": "18.8",
         "maxday": "29",
         "maxmonth": "12",
         "maxyear": "1991",
-        "redshift": "0.0183",
+        "redshift": [
+            {
+                "value": "0.01832",
+                "source": "D"
+            }
+        ],
         "sndec": "-04:39:49.6",
         "snra": "03:41:30.48",
         "photometry": [
@@ -73,7 +94,7 @@
                 "time": "48619.5",
                 "band": "",
                 "abmag": "18.8",
-                "source": "3,2"
+                "source": "3,4"
             }
         ],
         "spectra": [
@@ -3294,7 +3315,7 @@
                         "0.298028"
                     ]
                 ],
-                "source": "5"
+                "source": "1"
             }
         ]
     }

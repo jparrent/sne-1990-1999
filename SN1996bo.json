@@ -42,22 +42,26 @@
                 "secondary": true
             },
             {
+                "name": "<a href='http://www.cbat.eps.harvard.edu/iauc/06400/06497.html#Item1'>IAUC 6497</a>",
+                "alias": "7"
+            },
+            {
                 "name": "Latest Supernovae",
                 "url": "http://www.rochesterastronomy.org/snimages/snredshiftall.html",
-                "alias": "7",
+                "alias": "8",
                 "secondary": true
             },
             {
                 "name": "2012A&A...538A.120L",
                 "url": "http://adsabs.harvard.edu/abs/2012A&A...538A.120L",
                 "bibcode": "2012A&A...538A.120L",
-                "alias": "8"
+                "alias": "9"
             }
         ],
         "claimedtype": [
             {
-                "type": "Ia",
-                "source": "6,7"
+                "value": "Ia",
+                "source": "6,7,8"
             }
         ],
         "discoverday": "24",
@@ -66,15 +70,30 @@
         "discoveryear": "1996",
         "galdec": "+113117",
         "galra": "014822",
-        "host": "NGC 673",
-        "hvel": "5241",
-        "lumdist": "79.119",
-        "maxabsmag": "-19.031",
+        "host": [
+            {
+                "value": "NGC 673",
+                "source": "6,7,8"
+            }
+        ],
+        "hvel": [
+            {
+                "value": "5241",
+                "source": "6"
+            }
+        ],
+        "lumdist": "79.12",
+        "maxabsmag": "-19.03",
         "maxappmag": "15.46",
         "maxday": "29",
         "maxmonth": "10",
         "maxyear": "1996",
-        "redshift": "0.01764",
+        "redshift": [
+            {
+                "value": "0.01764",
+                "source": "D"
+            }
+        ],
         "sndec": "+11:31:15.8",
         "snra": "01:48:22.80",
         "photometry": [

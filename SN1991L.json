@@ -12,14 +12,14 @@
                 "secondary": true
             },
             {
-                "name": "Latest Supernovae",
-                "url": "http://www.rochesterastronomy.org/snimages/snredshiftall.html",
-                "alias": "2",
-                "secondary": true
+                "name": "<a href='http://www.cbat.eps.harvard.edu/iauc/05200/05200.html'>IAUC 5200</a>",
+                "alias": "2"
             },
             {
-                "name": "<a href='http://www.cbat.eps.harvard.edu/iauc/05200/05200.html'>IAUC 5200</a>",
-                "alias": "3"
+                "name": "Latest Supernovae",
+                "url": "http://www.rochesterastronomy.org/snimages/snredshiftall.html",
+                "alias": "3",
+                "secondary": true
             },
             {
                 "name": "2012A&A...538A.120L",
@@ -42,11 +42,11 @@
         ],
         "claimedtype": [
             {
-                "type": "Ib/c",
-                "source": "1,2"
+                "value": "Ib/c",
+                "source": "1,2,3"
             },
             {
-                "type": "Ib/c?",
+                "value": "Ib/c?",
                 "source": "5,6"
             }
         ],
@@ -56,15 +56,34 @@
         "discoveryear": "1991",
         "galdec": "+391726",
         "galra": "164115",
-        "host": "MCG +7-34-134",
-        "hvel": "8994",
-        "lumdist": "137.92",
-        "maxabsmag": "-17.698",
+        "host": [
+            {
+                "value": "M+07-34-134",
+                "source": "1"
+            },
+            {
+                "value": "MCG +7-34-134",
+                "source": "2,3"
+            }
+        ],
+        "hvel": [
+            {
+                "value": "8994",
+                "source": "1"
+            }
+        ],
+        "lumdist": "137.9",
+        "maxabsmag": "-17.7",
         "maxappmag": "18",
         "maxday": "23",
         "maxmonth": "2",
         "maxyear": "1991",
-        "redshift": "0.03046",
+        "redshift": [
+            {
+                "value": "0.03046",
+                "source": "D"
+            }
+        ],
         "sndec": "+39:17:32.6",
         "snra": "16:41:15.03",
         "photometry": [
@@ -73,7 +92,7 @@
                 "time": "48310.5",
                 "band": "",
                 "abmag": "18.0",
-                "source": "3,2"
+                "source": "2,3"
             }
         ],
         "spectra": [

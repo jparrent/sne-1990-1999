@@ -12,22 +12,26 @@
                 "secondary": true
             },
             {
+                "name": "<a href='http://www.cbat.eps.harvard.edu/iauc/06600/06609.html#Item1'>IAUC 6609</a>",
+                "alias": "2"
+            },
+            {
                 "name": "Latest Supernovae",
                 "url": "http://www.rochesterastronomy.org/snimages/snredshiftall.html",
-                "alias": "2",
+                "alias": "3",
                 "secondary": true
             },
             {
                 "name": "2012A&A...538A.120L",
                 "url": "http://adsabs.harvard.edu/abs/2012A&A...538A.120L",
                 "bibcode": "2012A&A...538A.120L",
-                "alias": "3"
+                "alias": "4"
             }
         ],
         "claimedtype": [
             {
-                "type": "I",
-                "source": "1,2"
+                "value": "I",
+                "source": "1,2,3"
             }
         ],
         "discoverday": "18",
@@ -36,10 +40,25 @@
         "discoveryear": "1997",
         "galdec": "+501430",
         "galra": "113256",
-        "host": "IC 705",
-        "hvel": "3017",
-        "lumdist": "45.089",
-        "redshift": "0.01011",
+        "host": [
+            {
+                "value": "IC 705",
+                "source": "1,2,3"
+            }
+        ],
+        "hvel": [
+            {
+                "value": "3017",
+                "source": "1"
+            }
+        ],
+        "lumdist": "45.09",
+        "redshift": [
+            {
+                "value": "0.01011",
+                "source": "D"
+            }
+        ],
         "sndec": "+50:14:43.6",
         "snra": "11:32:57.13",
         "photometry": [
@@ -48,7 +67,7 @@
                 "time": "50525.0",
                 "band": "R",
                 "abmag": "18.1",
-                "source": "3"
+                "source": "4"
             }
         ]
     }
