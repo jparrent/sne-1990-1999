@@ -211,8 +211,7 @@
         ],
         "spectra": [
             {
-                "deredshifted": false,
-                "dereddened": false,
+                "deredshifted": true,
                 "instrument": "LRIS",
                 "timeunit": "MJD",
                 "time": "50877",
@@ -7762,8 +7761,7 @@
                 "source": "7"
             },
             {
-                "deredshifted": false,
-                "dereddened": false,
+                "deredshifted": true,
                 "instrument": "LRIS",
                 "timeunit": "MJD",
                 "time": "50899",

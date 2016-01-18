@@ -76630,8 +76630,7 @@
                 "source": "8"
             },
             {
-                "deredshifted": false,
-                "dereddened": false,
+                "deredshifted": true,
                 "instrument": "Kast",
                 "timeunit": "MJD",
                 "time": "50955",
@@ -81445,8 +81444,7 @@
                 "source": "1"
             },
             {
-                "deredshifted": false,
-                "dereddened": false,
+                "deredshifted": true,
                 "instrument": "Kast",
                 "timeunit": "MJD",
                 "time": "50955",
@@ -86260,8 +86258,7 @@
                 "source": "1"
             },
             {
-                "deredshifted": false,
-                "dereddened": false,
+                "deredshifted": true,
                 "instrument": "Kast",
                 "timeunit": "MJD",
                 "time": "50982",

@@ -60,12 +60,12 @@
         ],
         "hvel": [
             {
-                "value": "186300",
+                "value": "186000",
                 "source": "D"
             }
         ],
-        "lumdist": "7383",
-        "maxabsmag": "-20.34",
+        "lumdist": "7380",
+        "maxabsmag": "-20.3",
         "maxappmag": "24",
         "maxday": "2",
         "maxmonth": "11",
@@ -93,8 +93,7 @@
         ],
         "spectra": [
             {
-                "deredshifted": false,
-                "dereddened": false,
+                "deredshifted": true,
                 "instrument": "LRIS",
                 "timeunit": "MJD",
                 "time": "51490",

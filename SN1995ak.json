@@ -40375,8 +40375,7 @@
                 "source": "2"
             },
             {
-                "deredshifted": false,
-                "dereddened": false,
+                "deredshifted": true,
                 "timeunit": "MJD",
                 "time": "50047",
                 "snr": "46.6899",

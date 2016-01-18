@@ -9152,8 +9152,7 @@
                 "source": "8"
             },
             {
-                "deredshifted": false,
-                "dereddened": false,
+                "deredshifted": true,
                 "instrument": "Kast",
                 "timeunit": "MJD",
                 "time": "49772",
@@ -56292,8 +56291,7 @@
                 "source": "8"
             },
             {
-                "deredshifted": false,
-                "dereddened": false,
+                "deredshifted": true,
                 "instrument": "Kast",
                 "timeunit": "MJD",
                 "time": "49801",
@@ -82575,8 +82573,7 @@
                 "source": "8"
             },
             {
-                "deredshifted": false,
-                "dereddened": false,
+                "deredshifted": true,
                 "instrument": "Kast",
                 "timeunit": "MJD",
                 "time": "49829",
@@ -97354,8 +97351,7 @@
                 "source": "9"
             },
             {
-                "deredshifted": false,
-                "dereddened": false,
+                "deredshifted": true,
                 "instrument": "Kast",
                 "timeunit": "MJD",
                 "time": "49861",

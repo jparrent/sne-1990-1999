@@ -20500,8 +20500,7 @@
                 "source": "5"
             },
             {
-                "deredshifted": false,
-                "dereddened": false,
+                "deredshifted": true,
                 "instrument": "Kast",
                 "timeunit": "MJD",
                 "time": "51188",
@@ -36222,8 +36221,7 @@
                 "source": "5"
             },
             {
-                "deredshifted": false,
-                "dereddened": false,
+                "deredshifted": true,
                 "instrument": "LRIS",
                 "timeunit": "MJD",
                 "time": "51197",
@@ -53904,8 +53902,7 @@
                 "source": "5"
             },
             {
-                "deredshifted": false,
-                "dereddened": false,
+                "deredshifted": true,
                 "instrument": "LRIS",
                 "timeunit": "MJD",
                 "time": "51218",
@@ -61363,8 +61360,7 @@
                 "source": "6"
             },
             {
-                "deredshifted": false,
-                "dereddened": false,
+                "deredshifted": true,
                 "instrument": "Kast",
                 "timeunit": "MJD",
                 "time": "51221",
@@ -75782,8 +75778,7 @@
                 "source": "6"
             },
             {
-                "deredshifted": false,
-                "dereddened": false,
+                "deredshifted": true,
                 "instrument": "Kast",
                 "timeunit": "MJD",
                 "time": "51232",
@@ -90301,8 +90296,7 @@
                 "source": "6"
             },
             {
-                "deredshifted": false,
-                "dereddened": false,
+                "deredshifted": true,
                 "instrument": "Kast",
                 "timeunit": "MJD",
                 "time": "51249",

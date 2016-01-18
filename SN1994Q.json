@@ -526,8 +526,7 @@
         ],
         "spectra": [
             {
-                "deredshifted": false,
-                "dereddened": false,
+                "deredshifted": true,
                 "instrument": "Kast",
                 "timeunit": "MJD",
                 "time": "49506",
@@ -60497,8 +60496,7 @@
                 "source": "2"
             },
             {
-                "deredshifted": false,
-                "dereddened": false,
+                "deredshifted": true,
                 "instrument": "Kast",
                 "timeunit": "MJD",
                 "time": "49547",
@@ -75076,8 +75074,7 @@
                 "source": "1"
             },
             {
-                "deredshifted": false,
-                "dereddened": false,
+                "deredshifted": true,
                 "instrument": "Kast",
                 "timeunit": "MJD",
                 "time": "49568",

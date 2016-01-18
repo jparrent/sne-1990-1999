@@ -85,8 +85,7 @@
         "snra": "00:16:17.64",
         "spectra": [
             {
-                "deredshifted": false,
-                "dereddened": false,
+                "deredshifted": true,
                 "instrument": "Kast",
                 "timeunit": "MJD",
                 "time": "50068",

@@ -1228,8 +1228,7 @@
         ],
         "spectra": [
             {
-                "deredshifted": false,
-                "dereddened": false,
+                "deredshifted": true,
                 "instrument": "UV Schmidt",
                 "timeunit": "MJD",
                 "time": "48603",
@@ -5551,8 +5550,7 @@
                 "source": "9"
             },
             {
-                "deredshifted": false,
-                "dereddened": false,
+                "deredshifted": true,
                 "instrument": "UV Schmidt",
                 "timeunit": "MJD",
                 "time": "48604",
@@ -10366,8 +10364,7 @@
                 "source": "9"
             },
             {
-                "deredshifted": false,
-                "dereddened": false,
+                "deredshifted": true,
                 "instrument": "UV Schmidt",
                 "timeunit": "MJD",
                 "time": "48622",
@@ -15721,8 +15718,7 @@
                 "source": "9"
             },
             {
-                "deredshifted": false,
-                "dereddened": false,
+                "deredshifted": true,
                 "instrument": "UV Schmidt",
                 "timeunit": "MJD",
                 "time": "48630",
@@ -17872,8 +17868,7 @@
                 "source": "9"
             },
             {
-                "deredshifted": false,
-                "dereddened": false,
+                "deredshifted": true,
                 "instrument": "UV Schmidt",
                 "timeunit": "MJD",
                 "time": "48630",
@@ -23343,8 +23338,7 @@
                 "source": "9"
             },
             {
-                "deredshifted": false,
-                "dereddened": false,
+                "deredshifted": true,
                 "timeunit": "MJD",
                 "time": "48651",
                 "snr": "35.0182",
@@ -26491,8 +26485,7 @@
                 "source": "9"
             },
             {
-                "deredshifted": false,
-                "dereddened": false,
+                "deredshifted": true,
                 "instrument": "Kast",
                 "timeunit": "MJD",
                 "time": "48694",
@@ -31370,8 +31363,7 @@
                 "source": "9"
             },
             {
-                "deredshifted": false,
-                "dereddened": false,
+                "deredshifted": true,
                 "instrument": "Kast",
                 "timeunit": "MJD",
                 "time": "48765",

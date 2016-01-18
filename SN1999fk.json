@@ -48,12 +48,12 @@
         ],
         "hvel": [
             {
-                "value": "184500",
+                "value": "185000",
                 "source": "D"
             }
         ],
-        "lumdist": "7213",
-        "maxabsmag": "-19.99",
+        "lumdist": "7210",
+        "maxabsmag": "-20",
         "maxappmag": "24.3",
         "maxday": "2",
         "maxmonth": "11",

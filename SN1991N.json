@@ -197,8 +197,7 @@
         ],
         "spectra": [
             {
-                "deredshifted": false,
-                "dereddened": false,
+                "deredshifted": true,
                 "instrument": "UV Schmidt",
                 "timeunit": "MJD",
                 "time": "48353",
@@ -13616,8 +13615,7 @@
                 "source": "8"
             },
             {
-                "deredshifted": false,
-                "dereddened": false,
+                "deredshifted": true,
                 "instrument": "UV Schmidt",
                 "timeunit": "MJD",
                 "time": "48365",
@@ -26955,8 +26953,7 @@
                 "source": "8"
             },
             {
-                "deredshifted": false,
-                "dereddened": false,
+                "deredshifted": true,
                 "instrument": "UV Schmidt",
                 "timeunit": "MJD",
                 "time": "48381",
@@ -33414,8 +33411,7 @@
                 "source": "8"
             },
             {
-                "deredshifted": false,
-                "dereddened": false,
+                "deredshifted": true,
                 "instrument": "UV Schmidt",
                 "timeunit": "MJD",
                 "time": "48604",
