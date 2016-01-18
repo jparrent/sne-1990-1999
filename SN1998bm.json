@@ -12,7 +12,8 @@
                 "secondary": true
             },
             {
-                "name": "<a href='http://www.cbat.eps.harvard.edu/iauc/06800/06882.html#Item1'>IAUC 6882</a>",
+                "name": "IAUC 6882",
+                "url": "http://www.cbat.eps.harvard.edu/iauc/06800/06882.html#Item1",
                 "alias": "2"
             },
             {
@@ -44,6 +45,10 @@
             {
                 "value": "IC 2458",
                 "source": "1,2,3"
+            },
+            {
+                "value": "NGC 2820A",
+                "source": "4"
             }
         ],
         "hvel": [
@@ -52,11 +57,11 @@
                 "source": "1"
             }
         ],
-        "lumdist": "21.51",
+        "lumdist": "23",
         "redshift": [
             {
-                "value": "0.004842",
-                "source": "D"
+                "value": "0.0052",
+                "source": "4"
             }
         ],
         "sndec": "+64:14:25.4",

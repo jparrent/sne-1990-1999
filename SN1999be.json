@@ -22,7 +22,8 @@
                 "secondary": true
             },
             {
-                "name": "<a href='http://www.cbat.eps.harvard.edu/iauc/07100/07134.html#Item1'>IAUC 7134</a>",
+                "name": "IAUC 7134",
+                "url": "http://www.cbat.eps.harvard.edu/iauc/07100/07134.html#Item1",
                 "alias": "4"
             },
             {
@@ -64,6 +65,10 @@
             {
                 "value": "CGCG 89-13",
                 "source": "4,5"
+            },
+            {
+                "value": "PGC23554",
+                "source": "6"
             }
         ],
         "hvel": [

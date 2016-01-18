@@ -12,7 +12,8 @@
                 "secondary": true
             },
             {
-                "name": "<a href='http://www.cbat.eps.harvard.edu/iauc/06900/06900.html'>IAUC 6900</a>",
+                "name": "IAUC 6900",
+                "url": "http://www.cbat.eps.harvard.edu/iauc/06900/06900.html",
                 "alias": "2"
             },
             {
@@ -43,7 +44,7 @@
         "host": [
             {
                 "value": "HS1035+4758",
-                "source": "1"
+                "source": "1,4"
             }
         ],
         "hvel": [
@@ -61,7 +62,7 @@
         "redshift": [
             {
                 "value": "0.005",
-                "source": "D"
+                "source": "4"
             }
         ],
         "sndec": "+47:42:32.8",

@@ -22,7 +22,8 @@
                 "secondary": true
             },
             {
-                "name": "<a href='http://www.cbat.eps.harvard.edu/iauc/07300/07326.html#Item1'>IAUC 7326</a>",
+                "name": "IAUC 7326",
+                "url": "http://www.cbat.eps.harvard.edu/iauc/07300/07326.html#Item1",
                 "alias": "4"
             },
             {
@@ -58,6 +59,10 @@
             {
                 "value": "MCG +7-8-11",
                 "source": "4,5"
+            },
+            {
+                "value": "PGC12912",
+                "source": "6"
             }
         ],
         "hvel": [
@@ -76,6 +81,10 @@
             {
                 "value": "0.015",
                 "source": "4,5"
+            },
+            {
+                "value": "0.014",
+                "source": "6"
             }
         ],
         "sndec": "+39:54:19.0",

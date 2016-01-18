@@ -30,7 +30,8 @@
                 "secondary": true
             },
             {
-                "name": "<a href='http://www.cbat.eps.harvard.edu/iauc/05700/05723.html'>IAUC 5723</a>",
+                "name": "IAUC 5723",
+                "url": "http://www.cbat.eps.harvard.edu/iauc/05700/05723.html",
                 "alias": "5"
             },
             {
@@ -66,6 +67,10 @@
             {
                 "value": "ESO 445-G66",
                 "source": "5,6"
+            },
+            {
+                "value": "E445-66",
+                "source": "7"
             }
         ],
         "hvel": [
@@ -74,16 +79,16 @@
                 "source": "4"
             }
         ],
-        "lumdist": "110.1",
-        "maxabsmag": "-18.71",
+        "lumdist": "110",
+        "maxabsmag": "-19",
         "maxappmag": "16.5",
         "maxday": "17",
         "maxmonth": "3",
         "maxyear": "1993",
         "redshift": [
             {
-                "value": "0.02442",
-                "source": "D"
+                "value": "0.024",
+                "source": "7"
             }
         ],
         "sndec": "-30:42:23.3",

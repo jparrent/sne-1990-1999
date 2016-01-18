@@ -18,7 +18,8 @@
                 "secondary": true
             },
             {
-                "name": "<a href='http://www.cbat.eps.harvard.edu/iauc/06300/06357.html#Item1'>IAUC 6357</a>",
+                "name": "IAUC 6357",
+                "url": "http://www.cbat.eps.harvard.edu/iauc/06300/06357.html#Item1",
                 "alias": "3"
             },
             {
@@ -61,7 +62,7 @@
         "host": [
             {
                 "value": "NGC 5335",
-                "source": "1,2,3,4"
+                "source": "1,2,3,4,5"
             }
         ],
         "hvel": [
@@ -74,11 +75,11 @@
                 "source": "2"
             }
         ],
-        "lumdist": "69.9",
+        "lumdist": "72",
         "redshift": [
             {
-                "value": "0.0156",
-                "source": "D"
+                "value": "0.016",
+                "source": "5"
             }
         ],
         "sndec": "+02:48:30.2",

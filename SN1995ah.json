@@ -24,7 +24,8 @@
                 "secondary": true
             },
             {
-                "name": "<a href='http://www.cbat.eps.harvard.edu/iauc/06200/06245.html'>IAUC 6245</a>",
+                "name": "IAUC 6245",
+                "url": "http://www.cbat.eps.harvard.edu/iauc/06200/06245.html",
                 "alias": "4"
             },
             {
@@ -56,6 +57,10 @@
             {
                 "value": "A001911+1506",
                 "source": "3"
+            },
+            {
+                "value": "(SDSSJ001911.01+150622.7)",
+                "source": "6"
             }
         ],
         "hvel": [

@@ -28,7 +28,8 @@
                 "secondary": true
             },
             {
-                "name": "<a href='http://www.cbat.eps.harvard.edu/iauc/07000/07045.html'>IAUC 7045</a>",
+                "name": "IAUC 7045",
+                "url": "http://www.cbat.eps.harvard.edu/iauc/07000/07045.html",
                 "alias": "5"
             },
             {
@@ -75,7 +76,7 @@
         "host": [
             {
                 "value": "UGC 3645",
-                "source": "1,4,5,6"
+                "source": "1,4,5,6,7"
             }
         ],
         "hvel": [
@@ -93,7 +94,7 @@
         "redshift": [
             {
                 "value": "0.021",
-                "source": "5,6"
+                "source": "5,6,7"
             }
         ],
         "sndec": "+50:40:30.0",

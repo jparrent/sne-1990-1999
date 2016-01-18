@@ -24,7 +24,8 @@
                 "secondary": true
             },
             {
-                "name": "<a href='http://www.cbat.eps.harvard.edu/iauc/05600/05660.html'>IAUC 5660</a>",
+                "name": "IAUC 5660",
+                "url": "http://www.cbat.eps.harvard.edu/iauc/05600/05660.html",
                 "alias": "4"
             },
             {
@@ -60,6 +61,10 @@
             {
                 "value": "ESO 291-G11",
                 "source": "4,5"
+            },
+            {
+                "value": "E291-11",
+                "source": "6"
             }
         ],
         "hvel": [
@@ -78,6 +83,10 @@
             {
                 "value": "0.058",
                 "source": "4,5"
+            },
+            {
+                "value": "0.043",
+                "source": "6"
             }
         ],
         "sndec": "-44:44:34.5",

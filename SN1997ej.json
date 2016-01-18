@@ -12,7 +12,8 @@
                 "secondary": true
             },
             {
-                "name": "<a href='http://www.cbat.eps.harvard.edu/iauc/06800/06801.html#Item1'>IAUC 6801</a>",
+                "name": "IAUC 6801",
+                "url": "http://www.cbat.eps.harvard.edu/iauc/06800/06801.html#Item1",
                 "alias": "2"
             },
             {
@@ -43,7 +44,7 @@
         "host": [
             {
                 "value": "IC 2060",
-                "source": "1,2,3"
+                "source": "1,2,3,4"
             }
         ],
         "hvel": [
@@ -52,13 +53,13 @@
                 "source": "1"
             }
         ],
-        "lumdist": "101.6",
+        "lumdist": "99",
         "maxday": "25",
         "maxmonth": 12,
         "redshift": [
             {
-                "value": "0.02256",
-                "source": "D"
+                "value": "0.022",
+                "source": "4"
             }
         ],
         "sndec": "-56:36:58.2",

@@ -12,7 +12,8 @@
                 "secondary": true
             },
             {
-                "name": "<a href='http://www.cbat.eps.harvard.edu/iauc/06900/06917.html'>IAUC 6917</a>",
+                "name": "IAUC 6917",
+                "url": "http://www.cbat.eps.harvard.edu/iauc/06900/06917.html",
                 "alias": "2"
             },
             {
@@ -44,6 +45,10 @@
             {
                 "value": "A121818+2044",
                 "source": "1"
+            },
+            {
+                "value": "(MAPS-NGPO_377_1562529)",
+                "source": "4"
             }
         ],
         "hvel": [

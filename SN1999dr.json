@@ -12,7 +12,8 @@
                 "secondary": true
             },
             {
-                "name": "<a href='http://www.cbat.eps.harvard.edu/iauc/07200/07258.html#Item1'>IAUC 7258</a>",
+                "name": "IAUC 7258",
+                "url": "http://www.cbat.eps.harvard.edu/iauc/07200/07258.html#Item1",
                 "alias": "2"
             },
             {
@@ -44,6 +45,10 @@
             {
                 "value": "A230017-0005",
                 "source": "1"
+            },
+            {
+                "value": "(APMUKS(BJ)B225743.45-2122.0)",
+                "source": "4"
             }
         ],
         "hvel": [

@@ -12,7 +12,8 @@
                 "secondary": true
             },
             {
-                "name": "<a href='http://www.cbat.eps.harvard.edu/iauc/05200/05271.html'>IAUC 5271</a>",
+                "name": "IAUC 5271",
+                "url": "http://www.cbat.eps.harvard.edu/iauc/05200/05271.html",
                 "alias": "2"
             },
             {
@@ -44,6 +45,10 @@
             {
                 "value": "A161924+1738",
                 "source": "1"
+            },
+            {
+                "value": "(PGC1537863)",
+                "source": "4"
             }
         ],
         "hvel": [
@@ -52,16 +57,16 @@
                 "source": "1"
             }
         ],
-        "lumdist": "337",
-        "maxabsmag": "-19.1",
+        "lumdist": "300",
+        "maxabsmag": "-20",
         "maxappmag": "18.5",
         "maxday": "12",
         "maxmonth": "5",
         "maxyear": "1991",
         "redshift": [
             {
-                "value": "0.0723",
-                "source": "D"
+                "value": "0.07",
+                "source": "4"
             }
         ],
         "sndec": "+17:38:53.0",

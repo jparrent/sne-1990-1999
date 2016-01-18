@@ -12,7 +12,8 @@
                 "secondary": true
             },
             {
-                "name": "<a href='http://www.cbat.eps.harvard.edu/iauc/06100/06176.html'>IAUC 6176</a>",
+                "name": "IAUC 6176",
+                "url": "http://www.cbat.eps.harvard.edu/iauc/06100/06176.html",
                 "alias": "2"
             },
             {
@@ -48,6 +49,10 @@
             {
                 "value": "ESO 284-G42",
                 "source": "2,3"
+            },
+            {
+                "value": "(E284-42)",
+                "source": "4"
             }
         ],
         "maxappmag": "18",

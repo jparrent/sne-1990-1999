@@ -46,7 +46,8 @@
                 "secondary": true
             },
             {
-                "name": "<a href='http://www.cbat.eps.harvard.edu/iauc/07200/07286.html#Item1'>IAUC 7286</a>",
+                "name": "IAUC 7286",
+                "url": "http://www.cbat.eps.harvard.edu/iauc/07200/07286.html#Item1",
                 "alias": "8"
             },
             {
@@ -77,7 +78,7 @@
         "host": [
             {
                 "value": "NGC 495",
-                "source": "7,8,9"
+                "source": "7,8,9,10"
             }
         ],
         "hvel": [
@@ -96,6 +97,10 @@
             {
                 "value": "0.015",
                 "source": "8,9"
+            },
+            {
+                "value": "0.014",
+                "source": "10"
             }
         ],
         "sndec": "+33:27:58.0",

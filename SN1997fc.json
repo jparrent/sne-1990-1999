@@ -18,7 +18,8 @@
                 "secondary": true
             },
             {
-                "name": "<a href='http://www.cbat.eps.harvard.edu/iauc/06800/06807.html'>IAUC 6807</a>",
+                "name": "IAUC 6807",
+                "url": "http://www.cbat.eps.harvard.edu/iauc/06800/06807.html",
                 "alias": "3"
             },
             {
@@ -70,6 +71,10 @@
             {
                 "value": "A045958-3855",
                 "source": "2"
+            },
+            {
+                "value": "(APMUKS(BJ)B045816.80-385931.0)",
+                "source": "5"
             }
         ],
         "hvel": [
@@ -78,16 +83,16 @@
                 "source": "1"
             }
         ],
-        "lumdist": "256.08",
-        "maxabsmag": "-16.542",
+        "lumdist": "250",
+        "maxabsmag": "-16",
         "maxappmag": "20.5",
         "maxday": "30",
         "maxmonth": "12",
         "maxyear": "1997",
         "redshift": [
             {
-                "value": "0.055541",
-                "source": "D"
+                "value": "0.054",
+                "source": "5"
             }
         ],
         "sndec": "-38:55:04.3",

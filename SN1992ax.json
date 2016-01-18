@@ -12,7 +12,8 @@
                 "secondary": true
             },
             {
-                "name": "<a href='http://www.cbat.eps.harvard.edu/iauc/05600/05607.html'>IAUC 5607</a>",
+                "name": "IAUC 5607",
+                "url": "http://www.cbat.eps.harvard.edu/iauc/05600/05607.html",
                 "alias": "2"
             },
             {
@@ -44,6 +45,10 @@
             {
                 "value": "A221027+4502",
                 "source": "1"
+            },
+            {
+                "value": "(PGC167642)",
+                "source": "4"
             }
         ],
         "maxappmag": "18.5",

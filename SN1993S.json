@@ -22,7 +22,8 @@
                 "secondary": true
             },
             {
-                "name": "<a href='http://www.cbat.eps.harvard.edu/iauc/05800/05812.html'>IAUC 5812</a>",
+                "name": "IAUC 5812",
+                "url": "http://www.cbat.eps.harvard.edu/iauc/05800/05812.html",
                 "alias": "4"
             },
             {
@@ -54,6 +55,10 @@
             {
                 "value": "A225218-4018",
                 "source": "3"
+            },
+            {
+                "value": "(PGC131731)",
+                "source": "6"
             }
         ],
         "hvel": [
@@ -70,8 +75,8 @@
         "maxyear": "1993",
         "redshift": [
             {
-                "value": "0.033",
-                "source": "D"
+                "value": "0.032",
+                "source": "6"
             }
         ],
         "sndec": "-40:34:40.0",

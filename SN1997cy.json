@@ -25,7 +25,8 @@
                 "secondary": true
             },
             {
-                "name": "<a href='http://www.cbat.eps.harvard.edu/iauc/06700/06706.html'>IAUC 6706</a>",
+                "name": "IAUC 6706",
+                "url": "http://www.cbat.eps.harvard.edu/iauc/06700/06706.html",
                 "alias": "4"
             },
             {

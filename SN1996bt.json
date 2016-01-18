@@ -12,7 +12,8 @@
                 "secondary": true
             },
             {
-                "name": "<a href='http://www.cbat.eps.harvard.edu/iauc/06500/06503.html'>IAUC 6503</a>",
+                "name": "IAUC 6503",
+                "url": "http://www.cbat.eps.harvard.edu/iauc/06500/06503.html",
                 "alias": "2"
             },
             {
@@ -54,6 +55,10 @@
             {
                 "value": "CGCG 85-9",
                 "source": "2,3"
+            },
+            {
+                "value": "(PGC19750)",
+                "source": "4"
             }
         ],
         "hvel": [

@@ -12,7 +12,8 @@
                 "secondary": true
             },
             {
-                "name": "<a href='http://www.cbat.eps.harvard.edu/iauc/07100/07130.html#Item1'>IAUC 7130</a>",
+                "name": "IAUC 7130",
+                "url": "http://www.cbat.eps.harvard.edu/iauc/07100/07130.html#Item1",
                 "alias": "2"
             },
             {
@@ -44,6 +45,10 @@
             {
                 "value": "A105549-0920",
                 "source": "1"
+            },
+            {
+                "value": "(PGC992274)",
+                "source": "4"
             }
         ],
         "hvel": [
@@ -61,7 +66,7 @@
         "redshift": [
             {
                 "value": "0.05",
-                "source": "2,3"
+                "source": "2,3,4"
             }
         ],
         "sndec": "-09:20:22.9",

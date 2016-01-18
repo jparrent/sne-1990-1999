@@ -12,7 +12,8 @@
                 "secondary": true
             },
             {
-                "name": "<a href='http://www.cbat.eps.harvard.edu/iauc/06900/06978.html#Item2'>IAUC 6978</a>",
+                "name": "IAUC 6978",
+                "url": "http://www.cbat.eps.harvard.edu/iauc/06900/06978.html#Item2",
                 "alias": "2"
             },
             {
@@ -48,6 +49,10 @@
             {
                 "value": "MCG -3-34-8",
                 "source": "2,3"
+            },
+            {
+                "value": "PGC45711",
+                "source": "4"
             }
         ],
         "hvel": [
@@ -56,11 +61,11 @@
                 "source": "1"
             }
         ],
-        "lumdist": "40",
+        "lumdist": "36",
         "redshift": [
             {
-                "value": "0.01",
-                "source": "2,3"
+                "value": "0.0081",
+                "source": "4"
             }
         ],
         "sndec": "+16:56:08.11",

@@ -52,7 +52,8 @@
                 "secondary": true
             },
             {
-                "name": "<a href='http://www.cbat.eps.harvard.edu/iauc/07000/07033.html'>IAUC 7033</a>",
+                "name": "IAUC 7033",
+                "url": "http://www.cbat.eps.harvard.edu/iauc/07000/07033.html",
                 "alias": "9"
             },
             {
@@ -89,7 +90,7 @@
         "host": [
             {
                 "value": "UGC 12133",
-                "source": "1,9,10"
+                "source": "1,9,10,11"
             },
             {
                 "value": "M+01-57-14",
@@ -115,7 +116,7 @@
         "redshift": [
             {
                 "value": "0.025",
-                "source": "9,10"
+                "source": "9,10,11"
             }
         ],
         "sndec": "+08:36:21.3",

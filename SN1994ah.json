@@ -12,7 +12,8 @@
                 "secondary": true
             },
             {
-                "name": "<a href='http://www.cbat.eps.harvard.edu/iauc/06100/06114.html'>IAUC 6114</a>",
+                "name": "IAUC 6114",
+                "url": "http://www.cbat.eps.harvard.edu/iauc/06100/06114.html",
                 "alias": "2"
             },
             {
@@ -48,6 +49,10 @@
             {
                 "value": "ESO 356-G19",
                 "source": "2,3"
+            },
+            {
+                "value": "E356-19",
+                "source": "4"
             }
         ],
         "hvel": [
@@ -56,7 +61,7 @@
                 "source": "1"
             }
         ],
-        "lumdist": "98.5",
+        "lumdist": "99",
         "maxabsmag": "-17",
         "maxappmag": "18",
         "maxday": "12",
@@ -64,8 +69,8 @@
         "maxyear": "1994",
         "redshift": [
             {
-                "value": "0.0219",
-                "source": "D"
+                "value": "0.022",
+                "source": "4"
             }
         ],
         "sndec": "-33:54:43.6",

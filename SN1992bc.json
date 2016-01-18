@@ -24,7 +24,8 @@
                 "secondary": true
             },
             {
-                "name": "<a href='http://www.cbat.eps.harvard.edu/iauc/05600/05630.html'>IAUC 5630</a>",
+                "name": "IAUC 5630",
+                "url": "http://www.cbat.eps.harvard.edu/iauc/05600/05630.html",
                 "alias": "4"
             },
             {
@@ -60,6 +61,10 @@
             {
                 "value": "ESO 300-G9",
                 "source": "4,5"
+            },
+            {
+                "value": "E300-9",
+                "source": "6"
             }
         ],
         "hvel": [

@@ -12,7 +12,8 @@
                 "secondary": true
             },
             {
-                "name": "<a href='http://www.cbat.eps.harvard.edu/iauc/06900/06925.html#Item1'>IAUC 6925</a>",
+                "name": "IAUC 6925",
+                "url": "http://www.cbat.eps.harvard.edu/iauc/06900/06925.html#Item1",
                 "alias": "2"
             },
             {
@@ -48,6 +49,10 @@
             {
                 "value": "ESO 434-G20",
                 "source": "2,3"
+            },
+            {
+                "value": "E434-20",
+                "source": "4"
             }
         ],
         "hvel": [
@@ -65,7 +70,7 @@
         "redshift": [
             {
                 "value": "0.038",
-                "source": "2,3"
+                "source": "2,3,4"
             }
         ],
         "sndec": "-29:06:17.7",

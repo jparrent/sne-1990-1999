@@ -59,7 +59,8 @@
                 "secondary": true
             },
             {
-                "name": "<a href='http://www.cbat.eps.harvard.edu/iauc/06800/06895.html#Item1'>IAUC 6895</a>",
+                "name": "IAUC 6895",
+                "url": "http://www.cbat.eps.harvard.edu/iauc/06800/06895.html#Item1",
                 "alias": "10"
             },
             {
@@ -99,6 +100,10 @@
             {
                 "value": "ESO 184-G82",
                 "source": "10,11"
+            },
+            {
+                "value": "E184-82",
+                "source": "12"
             }
         ],
         "hvel": [
@@ -116,7 +121,7 @@
         "redshift": [
             {
                 "value": "0.0085",
-                "source": "1,10,11"
+                "source": "1,10,11,12"
             }
         ],
         "sndec": "-52:50:46.65",

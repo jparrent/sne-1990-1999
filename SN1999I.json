@@ -12,7 +12,8 @@
                 "secondary": true
             },
             {
-                "name": "<a href='http://www.cbat.eps.harvard.edu/iauc/07000/07092.html#Item1'>IAUC 7092</a>",
+                "name": "IAUC 7092",
+                "url": "http://www.cbat.eps.harvard.edu/iauc/07000/07092.html#Item1",
                 "alias": "2"
             },
             {
@@ -38,6 +39,10 @@
             {
                 "value": "A104958-0614",
                 "source": "1"
+            },
+            {
+                "value": "(LCRSB104726.3-55845)",
+                "source": "4"
             }
         ],
         "maxappmag": "21.5",

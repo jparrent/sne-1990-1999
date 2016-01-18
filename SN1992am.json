@@ -24,7 +24,8 @@
                 "secondary": true
             },
             {
-                "name": "<a href='http://www.cbat.eps.harvard.edu/iauc/05500/05570.html'>IAUC 5570</a>",
+                "name": "IAUC 5570",
+                "url": "http://www.cbat.eps.harvard.edu/iauc/05500/05570.html",
                 "alias": "4"
             },
             {
@@ -64,6 +65,10 @@
             {
                 "value": "MCG -1-4-38",
                 "source": "4,5"
+            },
+            {
+                "value": "PGC5247",
+                "source": "6"
             }
         ],
         "hvel": [
@@ -82,6 +87,10 @@
             {
                 "value": "0.048",
                 "source": "4,5"
+            },
+            {
+                "value": "0.049",
+                "source": "6"
             }
         ],
         "sndec": "-04:39:01.0",

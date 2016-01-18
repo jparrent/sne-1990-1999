@@ -12,7 +12,8 @@
                 "secondary": true
             },
             {
-                "name": "<a href='http://www.cbat.eps.harvard.edu/iauc/07100/07190.html#Item1'>IAUC 7190</a>",
+                "name": "IAUC 7190",
+                "url": "http://www.cbat.eps.harvard.edu/iauc/07100/07190.html#Item1",
                 "alias": "2"
             },
             {
@@ -49,7 +50,7 @@
         "host": [
             {
                 "value": "UGC 9766",
-                "source": "1,2,3"
+                "source": "1,2,3,4"
             }
         ],
         "hvel": [
@@ -65,7 +66,7 @@
         "redshift": [
             {
                 "value": "0.045",
-                "source": "2,3"
+                "source": "2,3,4"
             }
         ],
         "sndec": "+61:07:11.4",

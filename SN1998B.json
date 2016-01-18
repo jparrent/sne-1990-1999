@@ -12,7 +12,8 @@
                 "secondary": true
             },
             {
-                "name": "<a href='http://www.cbat.eps.harvard.edu/iauc/06800/06809.html'>IAUC 6809</a>",
+                "name": "IAUC 6809",
+                "url": "http://www.cbat.eps.harvard.edu/iauc/06800/06809.html",
                 "alias": "2"
             },
             {
@@ -44,6 +45,10 @@
             {
                 "value": "A074602+1843",
                 "source": "1"
+            },
+            {
+                "value": "PGC1568040",
+                "source": "4"
             }
         ],
         "hvel": [
@@ -62,6 +67,10 @@
             {
                 "value": "0.045",
                 "source": "2,3"
+            },
+            {
+                "value": "0.046",
+                "source": "4"
             }
         ],
         "sndec": "+18:43:02.0",

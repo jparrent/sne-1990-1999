@@ -30,6 +30,19 @@
                 "source": "1"
             }
         ],
+        "hvel": [
+            {
+                "value": "36000",
+                "source": "D"
+            }
+        ],
+        "lumdist": "630",
+        "redshift": [
+            {
+                "value": "0.13",
+                "source": "2"
+            }
+        ],
         "sndec": "+232356.2",
         "snra": "002228.20",
         "photometry": [

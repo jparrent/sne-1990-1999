@@ -22,7 +22,8 @@
                 "secondary": true
             },
             {
-                "name": "<a href='http://www.cbat.eps.harvard.edu/iauc/06700/06763.html#Item3'>IAUC 6763</a>",
+                "name": "IAUC 6763",
+                "url": "http://www.cbat.eps.harvard.edu/iauc/06700/06763.html#Item3",
                 "alias": "4"
             },
             {
@@ -54,6 +55,10 @@
             {
                 "value": "NGC 3451",
                 "source": "3,4,5"
+            },
+            {
+                "value": "UGC 6023",
+                "source": "6"
             }
         ],
         "hvel": [
@@ -72,6 +77,10 @@
             {
                 "value": "0.0043",
                 "source": "4,5"
+            },
+            {
+                "value": "0.0044",
+                "source": "6"
             }
         ],
         "sndec": "+27:14:07.3",

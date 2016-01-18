@@ -12,7 +12,8 @@
                 "secondary": true
             },
             {
-                "name": "<a href='http://www.cbat.eps.harvard.edu/iauc/06900/06921.html#Item1'>IAUC 6921</a>",
+                "name": "IAUC 6921",
+                "url": "http://www.cbat.eps.harvard.edu/iauc/06900/06921.html#Item1",
                 "alias": "2"
             },
             {
@@ -43,7 +44,7 @@
         "host": [
             {
                 "value": "NGC 4263",
-                "source": "1,2,3"
+                "source": "1,2,3,4"
             }
         ],
         "hvel": [
@@ -52,11 +53,11 @@
                 "source": "1"
             }
         ],
-        "lumdist": "63.62",
+        "lumdist": "63",
         "redshift": [
             {
-                "value": "0.01422",
-                "source": "D"
+                "value": "0.014",
+                "source": "4"
             }
         ],
         "sndec": "-12:13:41.8",

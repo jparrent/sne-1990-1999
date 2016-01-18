@@ -28,7 +28,8 @@
                 "secondary": true
             },
             {
-                "name": "<a href='http://www.cbat.eps.harvard.edu/iauc/07100/07135.html#Item1'>IAUC 7135</a>",
+                "name": "IAUC 7135",
+                "url": "http://www.cbat.eps.harvard.edu/iauc/07100/07135.html#Item1",
                 "alias": "5"
             },
             {
@@ -75,7 +76,7 @@
         "host": [
             {
                 "value": "IC 758",
-                "source": "4,5,6"
+                "source": "4,5,6,7"
             }
         ],
         "hvel": [
@@ -98,6 +99,10 @@
             {
                 "value": "0.037",
                 "source": "5,6"
+            },
+            {
+                "value": "0.15",
+                "source": "7"
             }
         ],
         "sndec": "+62:30:01.2",

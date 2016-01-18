@@ -22,7 +22,8 @@
                 "secondary": true
             },
             {
-                "name": "<a href='http://www.cbat.eps.harvard.edu/iauc/06800/06871.html#Item1'>IAUC 6871</a>",
+                "name": "IAUC 6871",
+                "url": "http://www.cbat.eps.harvard.edu/iauc/06800/06871.html#Item1",
                 "alias": "4"
             },
             {
@@ -59,7 +60,7 @@
         "host": [
             {
                 "value": "UGC 3683",
-                "source": "3,4,5"
+                "source": "3,4,5,6"
             }
         ],
         "hvel": [
@@ -77,7 +78,7 @@
         "redshift": [
             {
                 "value": "0.019",
-                "source": "4,5"
+                "source": "4,5,6"
             }
         ],
         "sndec": "+46:06:54.31",

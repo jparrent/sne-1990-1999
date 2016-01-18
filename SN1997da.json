@@ -12,7 +12,8 @@
                 "secondary": true
             },
             {
-                "name": "<a href='http://www.cbat.eps.harvard.edu/iauc/06700/06711.html#Item1'>IAUC 6711</a>",
+                "name": "IAUC 6711",
+                "url": "http://www.cbat.eps.harvard.edu/iauc/06700/06711.html#Item1",
                 "alias": "2"
             },
             {
@@ -43,7 +44,7 @@
         "host": [
             {
                 "value": "IC 1216",
-                "source": "1,2,3"
+                "source": "1,2,3,4"
             }
         ],
         "hvel": [
@@ -52,16 +53,16 @@
                 "source": "1"
             }
         ],
-        "lumdist": "116.1",
-        "maxabsmag": "-18.32",
+        "lumdist": "120",
+        "maxabsmag": "-18",
         "maxappmag": "17",
         "maxday": "30",
         "maxmonth": "7",
         "maxyear": "1997",
         "redshift": [
             {
-                "value": "0.02573",
-                "source": "D"
+                "value": "0.026",
+                "source": "4"
             }
         ],
         "sndec": "+68:20:53.3",

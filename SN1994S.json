@@ -36,7 +36,8 @@
                 "secondary": true
             },
             {
-                "name": "<a href='http://www.cbat.eps.harvard.edu/iauc/06000/06005.html'>IAUC 6005</a>",
+                "name": "IAUC 6005",
+                "url": "http://www.cbat.eps.harvard.edu/iauc/06000/06005.html",
                 "alias": "6"
             },
             {
@@ -79,7 +80,7 @@
         "host": [
             {
                 "value": "NGC 4495",
-                "source": "1,5,6,7"
+                "source": "1,5,6,7,8"
             }
         ],
         "hvel": [

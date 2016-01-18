@@ -12,7 +12,8 @@
                 "secondary": true
             },
             {
-                "name": "<a href='http://www.cbat.eps.harvard.edu/iauc/05200/05200.html'>IAUC 5200</a>",
+                "name": "IAUC 5200",
+                "url": "http://www.cbat.eps.harvard.edu/iauc/05200/05200.html",
                 "alias": "2"
             },
             {
@@ -64,6 +65,10 @@
             {
                 "value": "MCG +7-34-134",
                 "source": "2,3"
+            },
+            {
+                "value": "PGC58760",
+                "source": "4"
             }
         ],
         "hvel": [
@@ -72,16 +77,16 @@
                 "source": "1"
             }
         ],
-        "lumdist": "137.9",
-        "maxabsmag": "-17.7",
+        "lumdist": "140",
+        "maxabsmag": "-18",
         "maxappmag": "18",
         "maxday": "23",
         "maxmonth": "2",
         "maxyear": "1991",
         "redshift": [
             {
-                "value": "0.03046",
-                "source": "D"
+                "value": "0.031",
+                "source": "4"
             }
         ],
         "sndec": "+39:17:32.6",

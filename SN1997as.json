@@ -12,7 +12,8 @@
                 "secondary": true
             },
             {
-                "name": "<a href='http://www.cbat.eps.harvard.edu/iauc/06600/06602.html'>IAUC 6602</a>",
+                "name": "IAUC 6602",
+                "url": "http://www.cbat.eps.harvard.edu/iauc/06600/06602.html",
                 "alias": "2"
             },
             {
@@ -61,7 +62,7 @@
         "redshift": [
             {
                 "value": "0.51",
-                "source": "1"
+                "source": "1,4"
             }
         ],
         "sndec": "-00:48:08.2",

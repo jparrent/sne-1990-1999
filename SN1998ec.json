@@ -52,7 +52,8 @@
                 "secondary": true
             },
             {
-                "name": "<a href='http://www.cbat.eps.harvard.edu/iauc/07000/07022.html#Item1'>IAUC 7022</a>",
+                "name": "IAUC 7022",
+                "url": "http://www.cbat.eps.harvard.edu/iauc/07000/07022.html#Item1",
                 "alias": "9"
             },
             {
@@ -89,7 +90,7 @@
         "host": [
             {
                 "value": "UGC 3576",
-                "source": "1,8,9,10"
+                "source": "1,8,9,10,11"
             }
         ],
         "hvel": [

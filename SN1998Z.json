@@ -12,7 +12,8 @@
                 "secondary": true
             },
             {
-                "name": "<a href='http://www.cbat.eps.harvard.edu/iauc/06800/06850.html'>IAUC 6850</a>",
+                "name": "IAUC 6850",
+                "url": "http://www.cbat.eps.harvard.edu/iauc/06800/06850.html",
                 "alias": "2"
             },
             {
@@ -44,12 +45,30 @@
             {
                 "value": "A052458-3121",
                 "source": "1"
+            },
+            {
+                "value": "(PGC2799877)",
+                "source": "4"
             }
         ],
+        "hvel": [
+            {
+                "value": "11000",
+                "source": "D"
+            }
+        ],
+        "lumdist": "180",
+        "maxabsmag": "-17",
         "maxappmag": "19.6",
         "maxday": "15",
         "maxmonth": "3",
         "maxyear": "1998",
+        "redshift": [
+            {
+                "value": "0.039",
+                "source": "4"
+            }
+        ],
         "sndec": "-31:21:38.1",
         "snra": "05:24:58.78",
         "photometry": [

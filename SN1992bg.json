@@ -24,7 +24,8 @@
                 "secondary": true
             },
             {
-                "name": "<a href='http://www.cbat.eps.harvard.edu/iauc/05600/05645.html'>IAUC 5645</a>",
+                "name": "IAUC 5645",
+                "url": "http://www.cbat.eps.harvard.edu/iauc/05600/05645.html",
                 "alias": "4"
             },
             {
@@ -60,6 +61,10 @@
             {
                 "value": "A074156-6231",
                 "source": "3"
+            },
+            {
+                "value": "(PGC343503)",
+                "source": "6"
             }
         ],
         "hvel": [
@@ -77,7 +82,7 @@
         "redshift": [
             {
                 "value": "0.035",
-                "source": "4,5"
+                "source": "4,5,6"
             }
         ],
         "sndec": "-62:31:08.8",

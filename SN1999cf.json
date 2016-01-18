@@ -22,7 +22,8 @@
                 "secondary": true
             },
             {
-                "name": "<a href='http://www.cbat.eps.harvard.edu/iauc/07100/07178.html#Item2'>IAUC 7178</a>",
+                "name": "IAUC 7178",
+                "url": "http://www.cbat.eps.harvard.edu/iauc/07100/07178.html#Item2",
                 "alias": "4"
             },
             {
@@ -59,7 +60,7 @@
         "host": [
             {
                 "value": "UGC 8539",
-                "source": "3,4,5"
+                "source": "3,4,5,6"
             }
         ],
         "hvel": [

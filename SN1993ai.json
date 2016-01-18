@@ -18,7 +18,8 @@
                 "secondary": true
             },
             {
-                "name": "<a href='http://www.cbat.eps.harvard.edu/iauc/05900/05912.html'>IAUC 5912</a>",
+                "name": "IAUC 5912",
+                "url": "http://www.cbat.eps.harvard.edu/iauc/05900/05912.html",
                 "alias": "3"
             },
             {
@@ -61,7 +62,7 @@
         "host": [
             {
                 "value": "UGC 3483",
-                "source": "1,2,3,4"
+                "source": "1,2,3,4,5"
             }
         ],
         "hvel": [
@@ -79,7 +80,7 @@
         "redshift": [
             {
                 "value": "0.034",
-                "source": "3,4"
+                "source": "3,4,5"
             }
         ],
         "sndec": "+51:21:00.0",

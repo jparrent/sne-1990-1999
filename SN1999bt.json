@@ -12,7 +12,8 @@
                 "secondary": true
             },
             {
-                "name": "<a href='http://www.cbat.eps.harvard.edu/iauc/07100/07142.html#Item1'>IAUC 7142</a>",
+                "name": "IAUC 7142",
+                "url": "http://www.cbat.eps.harvard.edu/iauc/07100/07142.html#Item1",
                 "alias": "2"
             },
             {
@@ -50,6 +51,10 @@
             {
                 "value": "A171137+7225",
                 "source": "1"
+            },
+            {
+                "value": "(2MASXJ17113906+7225063)",
+                "source": "4"
             }
         ],
         "hvel": [

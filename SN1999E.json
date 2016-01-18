@@ -12,7 +12,8 @@
                 "secondary": true
             },
             {
-                "name": "<a href='http://www.cbat.eps.harvard.edu/iauc/07000/07088.html#Item1'>IAUC 7088</a>",
+                "name": "IAUC 7088",
+                "url": "http://www.cbat.eps.harvard.edu/iauc/07000/07088.html#Item1",
                 "alias": "2"
             },
             {
@@ -52,6 +53,10 @@
             {
                 "value": "IRAS 13145-1817",
                 "source": "2,3"
+            },
+            {
+                "value": "(PGC3098299)",
+                "source": "4"
             }
         ],
         "hvel": [
@@ -64,7 +69,7 @@
         "redshift": [
             {
                 "value": "0.026",
-                "source": "2,3"
+                "source": "2,3,4"
             }
         ],
         "sndec": "-18:33:13.4",

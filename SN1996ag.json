@@ -12,7 +12,8 @@
                 "secondary": true
             },
             {
-                "name": "<a href='http://www.cbat.eps.harvard.edu/iauc/06400/06418.html'>IAUC 6418</a>",
+                "name": "IAUC 6418",
+                "url": "http://www.cbat.eps.harvard.edu/iauc/06400/06418.html",
                 "alias": "2"
             },
             {
@@ -39,6 +40,10 @@
             {
                 "value": "A214650-4341",
                 "source": "1"
+            },
+            {
+                "value": "(APMUKS(BJ)B214341.05-435544.0)",
+                "source": "4"
             }
         ],
         "hvel": [
@@ -56,7 +61,7 @@
         "redshift": [
             {
                 "value": "0.14",
-                "source": "1"
+                "source": "1,4"
             }
         ],
         "sndec": "-43:41:50.4",
