@@ -47,9 +47,63 @@
                 "alias": "7"
             },
             {
+                "name": "NED-D",
+                "url": "http://ned.ipac.caltech.edu/Library/Distances/",
+                "alias": "8",
+                "secondary": true
+            },
+            {
+                "name": "2010ApJ...716..712A",
+                "url": "http://adsabs.harvard.edu/abs/2010ApJ...716..712A",
+                "bibcode": "2010ApJ...716..712A",
+                "alias": "9"
+            },
+            {
+                "name": "2006ApJ...647..501P",
+                "url": "http://adsabs.harvard.edu/abs/2006ApJ...647..501P",
+                "bibcode": "2006ApJ...647..501P",
+                "alias": "10"
+            },
+            {
+                "name": "2013MNRAS.433.2240G",
+                "url": "http://adsabs.harvard.edu/abs/2013MNRAS.433.2240G",
+                "bibcode": "2013MNRAS.433.2240G",
+                "alias": "11"
+            },
+            {
+                "name": "2008MNRAS.389.1577T",
+                "url": "http://adsabs.harvard.edu/abs/2008MNRAS.389.1577T",
+                "bibcode": "2008MNRAS.389.1577T",
+                "alias": "12"
+            },
+            {
+                "name": "2007ApJ...659..122J",
+                "url": "http://adsabs.harvard.edu/abs/2007ApJ...659..122J",
+                "bibcode": "2007ApJ...659..122J",
+                "alias": "13"
+            },
+            {
+                "name": "2008ApJ...686..749K",
+                "url": "http://adsabs.harvard.edu/abs/2008ApJ...686..749K",
+                "bibcode": "2008ApJ...686..749K",
+                "alias": "14"
+            },
+            {
+                "name": "1996ApJ...457..500H",
+                "url": "http://adsabs.harvard.edu/abs/1996ApJ...457..500H",
+                "bibcode": "1996ApJ...457..500H",
+                "alias": "15"
+            },
+            {
+                "name": "2005ApJ...624..532R",
+                "url": "http://adsabs.harvard.edu/abs/2005ApJ...624..532R",
+                "bibcode": "2005ApJ...624..532R",
+                "alias": "16"
+            },
+            {
                 "name": "UCB Filippenko Group's Supernova Database (SNDB)",
                 "url": "http://heracles.astro.berkeley.edu/sndb/info",
-                "alias": "8",
+                "alias": "17",
                 "secondary": true
             }
         ],
@@ -60,7 +114,7 @@
             },
             {
                 "value": "Ia",
-                "source": "1,8"
+                "source": "1,17"
             }
         ],
         "discoverday": "21",
@@ -95,8 +149,14 @@
                 "source": "1"
             }
         ],
-        "lumdist": "160",
-        "maxabsmag": "-18",
+        "lumdist": [
+            {
+                "value": "135",
+                "error": "7.3",
+                "source": "10,8"
+            }
+        ],
+        "maxabsmag": "-17.8",
         "maxappmag": "17.81",
         "maxday": "29",
         "maxmonth": "8",

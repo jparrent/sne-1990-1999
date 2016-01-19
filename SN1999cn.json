@@ -61,7 +61,12 @@
                 "source": "1"
             }
         ],
-        "lumdist": "100",
+        "lumdist": [
+            {
+                "value": "100",
+                "source": "D"
+            }
+        ],
         "maxday": "15",
         "maxmonth": "6",
         "maxyear": "1999",

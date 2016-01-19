@@ -61,6 +61,120 @@
                 "url": "http://adsabs.harvard.edu/abs/2012A&A...538A.120L",
                 "bibcode": "2012A&A...538A.120L",
                 "alias": "10"
+            },
+            {
+                "name": "NED-D",
+                "url": "http://ned.ipac.caltech.edu/Library/Distances/",
+                "alias": "11",
+                "secondary": true
+            },
+            {
+                "name": "2011A&A...526A..81B",
+                "url": "http://adsabs.harvard.edu/abs/2011A&A...526A..81B",
+                "bibcode": "2011A&A...526A..81B",
+                "alias": "12"
+            },
+            {
+                "name": "2010ApJ...716..712A",
+                "url": "http://adsabs.harvard.edu/abs/2010ApJ...716..712A",
+                "bibcode": "2010ApJ...716..712A",
+                "alias": "13"
+            },
+            {
+                "name": "2006ApJ...645..488W",
+                "url": "http://adsabs.harvard.edu/abs/2006ApJ...645..488W",
+                "bibcode": "2006ApJ...645..488W",
+                "alias": "14"
+            },
+            {
+                "name": "2015Sci...347.1459K",
+                "url": "http://adsabs.harvard.edu/abs/2015Sci...347.1459K",
+                "bibcode": "2015Sci...347.1459K",
+                "alias": "15"
+            },
+            {
+                "name": "2013MNRAS.433.2240G",
+                "url": "http://adsabs.harvard.edu/abs/2013MNRAS.433.2240G",
+                "bibcode": "2013MNRAS.433.2240G",
+                "alias": "16"
+            },
+            {
+                "name": "2009ApJS..185...32K",
+                "url": "http://adsabs.harvard.edu/abs/2009ApJS..185...32K",
+                "bibcode": "2009ApJS..185...32K",
+                "alias": "17"
+            },
+            {
+                "name": "2014ApJ...795...44R",
+                "url": "http://adsabs.harvard.edu/abs/2014ApJ...795...44R",
+                "bibcode": "2014ApJ...795...44R",
+                "alias": "18"
+            },
+            {
+                "name": "2006ApJ...647..501P",
+                "url": "http://adsabs.harvard.edu/abs/2006ApJ...647..501P",
+                "bibcode": "2006ApJ...647..501P",
+                "alias": "19"
+            },
+            {
+                "name": "2006AJ....131.1639K",
+                "url": "http://adsabs.harvard.edu/abs/2006AJ....131.1639K",
+                "bibcode": "2006AJ....131.1639K",
+                "alias": "20"
+            },
+            {
+                "name": "2008MNRAS.389.1577T",
+                "url": "http://adsabs.harvard.edu/abs/2008MNRAS.389.1577T",
+                "bibcode": "2008MNRAS.389.1577T",
+                "alias": "21"
+            },
+            {
+                "name": "2008ApJ...686..749K",
+                "url": "http://adsabs.harvard.edu/abs/2008ApJ...686..749K",
+                "bibcode": "2008ApJ...686..749K",
+                "alias": "22"
+            },
+            {
+                "name": "2007ApJ...659..122J",
+                "url": "http://adsabs.harvard.edu/abs/2007ApJ...659..122J",
+                "bibcode": "2007ApJ...659..122J",
+                "alias": "23"
+            },
+            {
+                "name": "2006A&A...447...31A",
+                "url": "http://adsabs.harvard.edu/abs/2006A&A...447...31A",
+                "bibcode": "2006A&A...447...31A",
+                "alias": "24"
+            },
+            {
+                "name": "2009ApJ...700.1097H",
+                "url": "http://adsabs.harvard.edu/abs/2009ApJ...700.1097H",
+                "bibcode": "2009ApJ...700.1097H",
+                "alias": "25"
+            },
+            {
+                "name": "2007ApJ...666..694W",
+                "url": "http://adsabs.harvard.edu/abs/2007ApJ...666..694W",
+                "bibcode": "2007ApJ...666..694W",
+                "alias": "26"
+            },
+            {
+                "name": "2004ApJ...607..665R",
+                "url": "http://adsabs.harvard.edu/abs/2004ApJ...607..665R",
+                "bibcode": "2004ApJ...607..665R",
+                "alias": "27"
+            },
+            {
+                "name": "2005ApJ...624..532R",
+                "url": "http://adsabs.harvard.edu/abs/2005ApJ...624..532R",
+                "bibcode": "2005ApJ...624..532R",
+                "alias": "28"
+            },
+            {
+                "name": "2011ApJS..192....1C",
+                "url": "http://adsabs.harvard.edu/abs/2011ApJS..192....1C",
+                "bibcode": "2011ApJS..192....1C",
+                "alias": "29"
             }
         ],
         "claimedtype": [
@@ -87,8 +201,14 @@
                 "source": "7"
             }
         ],
-        "lumdist": "150",
-        "maxabsmag": "-20",
+        "lumdist": [
+            {
+                "value": "152",
+                "error": "0.7",
+                "source": "26,11"
+            }
+        ],
+        "maxabsmag": "-19.8",
         "maxappmag": "16.1",
         "maxday": "20",
         "maxmonth": "5",

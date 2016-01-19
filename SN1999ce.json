@@ -59,7 +59,12 @@
                 "source": "1"
             }
         ],
-        "lumdist": "370",
+        "lumdist": [
+            {
+                "value": "370",
+                "source": "D"
+            }
+        ],
         "redshift": [
             {
                 "value": "0.078",

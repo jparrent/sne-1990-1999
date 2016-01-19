@@ -53,7 +53,12 @@
                 "source": "1"
             }
         ],
-        "lumdist": "39.8",
+        "lumdist": [
+            {
+                "value": "41",
+                "source": "4"
+            }
+        ],
         "redshift": [
             {
                 "value": "0.008933",

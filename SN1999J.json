@@ -57,7 +57,12 @@
                 "source": "1"
             }
         ],
-        "lumdist": "150",
+        "lumdist": [
+            {
+                "value": "150",
+                "source": "D"
+            }
+        ],
         "maxday": "17",
         "maxmonth": 1,
         "redshift": [

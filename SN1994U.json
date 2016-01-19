@@ -35,16 +35,28 @@
                 "alias": "5"
             },
             {
+                "name": "NED-D",
+                "url": "http://ned.ipac.caltech.edu/Library/Distances/",
+                "alias": "6",
+                "secondary": true
+            },
+            {
+                "name": "1998ApJ...504..935R",
+                "url": "http://adsabs.harvard.edu/abs/1998ApJ...504..935R",
+                "bibcode": "1998ApJ...504..935R",
+                "alias": "7"
+            },
+            {
                 "name": "UCB Filippenko Group's Supernova Database (SNDB)",
                 "url": "http://heracles.astro.berkeley.edu/sndb/info",
-                "alias": "6",
+                "alias": "8",
                 "secondary": true
             }
         ],
         "claimedtype": [
             {
                 "value": "Ia",
-                "source": "2,3,4,1,6"
+                "source": "2,3,4,1,8"
             }
         ],
         "discoverday": "26",
@@ -75,8 +87,14 @@
                 "source": "2"
             }
         ],
-        "lumdist": "20",
-        "maxabsmag": "-17",
+        "lumdist": [
+            {
+                "value": "22",
+                "source": "5,7,6",
+                "error": "1"
+            }
+        ],
+        "maxabsmag": "-18",
         "maxappmag": "14",
         "maxday": "26",
         "maxmonth": "6",

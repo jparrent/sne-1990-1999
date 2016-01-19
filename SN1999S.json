@@ -29,22 +29,28 @@
                 "alias": "4"
             },
             {
+                "name": "NED-D",
+                "url": "http://ned.ipac.caltech.edu/Library/Distances/",
+                "alias": "5",
+                "secondary": true
+            },
+            {
                 "name": "2006ApJ...642....1C",
                 "url": "http://adsabs.harvard.edu/abs/2006ApJ...642....1C",
                 "bibcode": "2006ApJ...642....1C",
-                "alias": "5"
+                "alias": "6"
             },
             {
                 "name": "UCB Filippenko Group's Supernova Database (SNDB)",
                 "url": "http://heracles.astro.berkeley.edu/sndb/info",
-                "alias": "6",
+                "alias": "7",
                 "secondary": true
             }
         ],
         "claimedtype": [
             {
                 "value": "Ia",
-                "source": "1,2,3,5,6,5,6"
+                "source": "1,2,3,6,7,6,7"
             }
         ],
         "discoverday": "13",
@@ -65,8 +71,14 @@
                 "source": "D"
             }
         ],
-        "lumdist": "2600",
-        "maxabsmag": "-18",
+        "lumdist": [
+            {
+                "value": "2220",
+                "error": "300",
+                "source": "6,5"
+            }
+        ],
+        "maxabsmag": "-17.9",
         "maxappmag": "23.8",
         "maxday": "13",
         "maxmonth": "1",
@@ -7625,7 +7637,7 @@
                         "0.000843484"
                     ]
                 ],
-                "source": "5"
+                "source": "6"
             },
             {
                 "deredshifted": true,
@@ -13603,7 +13615,7 @@
                         "4.48332"
                     ]
                 ],
-                "source": "5"
+                "source": "6"
             }
         ]
     }

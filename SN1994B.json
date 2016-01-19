@@ -47,9 +47,27 @@
                 "alias": "7"
             },
             {
+                "name": "NED-D",
+                "url": "http://ned.ipac.caltech.edu/Library/Distances/",
+                "alias": "8",
+                "secondary": true
+            },
+            {
+                "name": "2004ApJ...607..665R",
+                "url": "http://adsabs.harvard.edu/abs/2004ApJ...607..665R",
+                "bibcode": "2004ApJ...607..665R",
+                "alias": "9"
+            },
+            {
+                "name": "1998ApJ...504..935R",
+                "url": "http://adsabs.harvard.edu/abs/1998ApJ...504..935R",
+                "bibcode": "1998ApJ...504..935R",
+                "alias": "10"
+            },
+            {
                 "name": "UCB Filippenko Group's Supernova Database (SNDB)",
                 "url": "http://heracles.astro.berkeley.edu/sndb/info",
-                "alias": "8",
+                "alias": "11",
                 "secondary": true
             }
         ],
@@ -60,7 +78,7 @@
             },
             {
                 "value": "Ia?",
-                "source": "1,8,1,8"
+                "source": "1,11,1,11"
             }
         ],
         "discoverday": "15",
@@ -95,8 +113,14 @@
                 "source": "1"
             }
         ],
-        "lumdist": "420",
-        "maxabsmag": "-19",
+        "lumdist": [
+            {
+                "value": "504",
+                "error": "20",
+                "source": "10,8"
+            }
+        ],
+        "maxabsmag": "-19.5",
         "maxappmag": "19",
         "maxday": "15",
         "maxmonth": "1",

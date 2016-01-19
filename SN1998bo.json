@@ -61,7 +61,12 @@
                 "source": "1"
             }
         ],
-        "lumdist": "72",
+        "lumdist": [
+            {
+                "value": "63",
+                "source": "4"
+            }
+        ],
         "maxabsmag": "-16",
         "maxappmag": "18",
         "maxday": "21",

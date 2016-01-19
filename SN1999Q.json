@@ -29,22 +29,34 @@
                 "alias": "4"
             },
             {
+                "name": "NED-D",
+                "url": "http://ned.ipac.caltech.edu/Library/Distances/",
+                "alias": "5",
+                "secondary": true
+            },
+            {
+                "name": "2004ApJ...607..665R",
+                "url": "http://adsabs.harvard.edu/abs/2004ApJ...607..665R",
+                "bibcode": "2004ApJ...607..665R",
+                "alias": "6"
+            },
+            {
                 "name": "2006ApJ...642....1C",
                 "url": "http://adsabs.harvard.edu/abs/2006ApJ...642....1C",
                 "bibcode": "2006ApJ...642....1C",
-                "alias": "5"
+                "alias": "7"
             },
             {
                 "name": "UCB Filippenko Group's Supernova Database (SNDB)",
                 "url": "http://heracles.astro.berkeley.edu/sndb/info",
-                "alias": "6",
+                "alias": "8",
                 "secondary": true
             }
         ],
         "claimedtype": [
             {
                 "value": "Ia",
-                "source": "1,2,3,5,6,5,6,5,6,5,6"
+                "source": "1,2,3,7,8,7,8,7,8,7,8"
             }
         ],
         "discoverday": "13",
@@ -65,7 +77,13 @@
                 "source": "D"
             }
         ],
-        "lumdist": "2600",
+        "lumdist": [
+            {
+                "value": "2300",
+                "error": "220",
+                "source": "7,5"
+            }
+        ],
         "maxabsmag": "-20",
         "maxappmag": "22.3",
         "maxday": "13",
@@ -7617,7 +7635,7 @@
                         "0.000993873"
                     ]
                 ],
-                "source": "5"
+                "source": "7"
             },
             {
                 "deredshifted": true,
@@ -15135,7 +15153,7 @@
                         "-0.00271622"
                     ]
                 ],
-                "source": "5"
+                "source": "7"
             },
             {
                 "deredshifted": true,
@@ -22533,7 +22551,7 @@
                         "0.000905512"
                     ]
                 ],
-                "source": "5"
+                "source": "7"
             },
             {
                 "deredshifted": true,
@@ -28511,7 +28529,7 @@
                         "1.72170"
                     ]
                 ],
-                "source": "5"
+                "source": "7"
             }
         ]
     }

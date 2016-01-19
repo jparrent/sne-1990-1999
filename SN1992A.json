@@ -53,22 +53,82 @@
                 "alias": "8"
             },
             {
+                "name": "NED-D",
+                "url": "http://ned.ipac.caltech.edu/Library/Distances/",
+                "alias": "9",
+                "secondary": true
+            },
+            {
+                "name": "1999A&A...349..877D",
+                "url": "http://adsabs.harvard.edu/abs/1999A&A...349..877D",
+                "bibcode": "1999A&A...349..877D",
+                "alias": "10"
+            },
+            {
+                "name": "2006ApJ...645..488W",
+                "url": "http://adsabs.harvard.edu/abs/2006ApJ...645..488W",
+                "bibcode": "2006ApJ...645..488W",
+                "alias": "11"
+            },
+            {
+                "name": "1996AJ....112.2398H",
+                "url": "http://adsabs.harvard.edu/abs/1996AJ....112.2398H",
+                "bibcode": "1996AJ....112.2398H",
+                "alias": "12"
+            },
+            {
+                "name": "2010AJ....140.2036S",
+                "url": "http://adsabs.harvard.edu/abs/2010AJ....140.2036S",
+                "bibcode": "2010AJ....140.2036S",
+                "alias": "13"
+            },
+            {
+                "name": "2007ApJ...659..122J",
+                "url": "http://adsabs.harvard.edu/abs/2007ApJ...659..122J",
+                "bibcode": "2007ApJ...659..122J",
+                "alias": "14"
+            },
+            {
+                "name": "2008A&ARv..15..289T",
+                "url": "http://adsabs.harvard.edu/abs/2008A&ARv..15..289T",
+                "bibcode": "2008A&ARv..15..289T",
+                "alias": "15"
+            },
+            {
+                "name": "2000ApJ...540..634P",
+                "url": "http://adsabs.harvard.edu/abs/2000ApJ...540..634P",
+                "bibcode": "2000ApJ...540..634P",
+                "alias": "16"
+            },
+            {
+                "name": "2005ApJ...624..532R",
+                "url": "http://adsabs.harvard.edu/abs/2005ApJ...624..532R",
+                "bibcode": "2005ApJ...624..532R",
+                "alias": "17"
+            },
+            {
+                "name": "1996ApJ...465L..83R",
+                "url": "http://adsabs.harvard.edu/abs/1996ApJ...465L..83R",
+                "bibcode": "1996ApJ...465L..83R",
+                "alias": "18"
+            },
+            {
                 "name": "1993ApJ...415..589K",
                 "url": "http://adsabs.harvard.edu/abs/1993ApJ...415..589K",
                 "bibcode": "1993ApJ...415..589K",
-                "alias": "9"
+                "alias": "19"
             },
             {
                 "name": "UCB Filippenko Group's Supernova Database (SNDB)",
                 "url": "http://heracles.astro.berkeley.edu/sndb/info",
-                "alias": "10",
+                "alias": "20",
                 "secondary": true
             }
         ],
         "claimedtype": [
             {
                 "value": "Ia",
-                "source": "5,6,7,9,10,9,10,9,10,9,10,9,10,9,10,9,10,9,10,9,10,9,10,9,10"
+                "source": "5,6,7,19,20,19,20,19,20,19,20,19,20,19,20,19,20,19,20,19,20,19,20,19,20"
             }
         ],
         "discoverday": "10",
@@ -89,8 +149,14 @@
                 "source": "5"
             }
         ],
-        "lumdist": "28",
-        "maxabsmag": "-20",
+        "lumdist": [
+            {
+                "value": "21",
+                "error": "0.1",
+                "source": "13,9"
+            }
+        ],
+        "maxabsmag": "-19",
         "maxappmag": "12.62",
         "maxday": "17",
         "maxmonth": "1",
@@ -2780,7 +2846,7 @@
                         "6.80609e-14"
                     ]
                 ],
-                "source": "9"
+                "source": "19"
             },
             {
                 "deredshifted": true,
@@ -5019,7 +5085,7 @@
                         "1.25721e-13"
                     ]
                 ],
-                "source": "9"
+                "source": "19"
             },
             {
                 "deredshifted": true,
@@ -7150,7 +7216,7 @@
                         "2.75457e-14"
                     ]
                 ],
-                "source": "9"
+                "source": "19"
             },
             {
                 "deredshifted": true,
@@ -9365,7 +9431,7 @@
                         "1.38158e-14"
                     ]
                 ],
-                "source": "9"
+                "source": "19"
             },
             {
                 "deredshifted": true,
@@ -15712,7 +15778,7 @@
                         "3.82946e-14"
                     ]
                 ],
-                "source": "9"
+                "source": "19"
             },
             {
                 "deredshifted": true,
@@ -17911,7 +17977,7 @@
                         "1.57984e-14"
                     ]
                 ],
-                "source": "9"
+                "source": "19"
             },
             {
                 "deredshifted": true,
@@ -20122,7 +20188,7 @@
                         "2.84788e-14"
                     ]
                 ],
-                "source": "9"
+                "source": "19"
             },
             {
                 "deredshifted": true,
@@ -22285,7 +22351,7 @@
                         "9.86619e-15"
                     ]
                 ],
-                "source": "9"
+                "source": "19"
             },
             {
                 "deredshifted": true,
@@ -24464,7 +24530,7 @@
                         "0.00000"
                     ]
                 ],
-                "source": "9"
+                "source": "19"
             },
             {
                 "deredshifted": true,
@@ -30759,7 +30825,7 @@
                         "2.04742e-15"
                     ]
                 ],
-                "source": "9"
+                "source": "19"
             },
             {
                 "deredshifted": true,
@@ -37066,7 +37132,7 @@
                         "2.06890e-16"
                     ]
                 ],
-                "source": "9"
+                "source": "19"
             }
         ]
     }

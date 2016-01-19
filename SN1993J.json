@@ -101,9 +101,63 @@
                 "alias": "16"
             },
             {
+                "name": "NED-D",
+                "url": "http://ned.ipac.caltech.edu/Library/Distances/",
+                "alias": "17",
+                "secondary": true
+            },
+            {
+                "name": "1998ApJ...500...51W",
+                "url": "http://adsabs.harvard.edu/abs/1998ApJ...500...51W",
+                "bibcode": "1998ApJ...500...51W",
+                "alias": "18"
+            },
+            {
+                "name": "1993PhDT........95S",
+                "url": "http://adsabs.harvard.edu/abs/1993PhDT........95S",
+                "bibcode": "1993PhDT........95S",
+                "alias": "19"
+            },
+            {
+                "name": "1993Natur.364..600S",
+                "url": "http://adsabs.harvard.edu/abs/1993Natur.364..600S",
+                "bibcode": "1993Natur.364..600S",
+                "alias": "20"
+            },
+            {
+                "name": "1994ApJ...426..334B",
+                "url": "http://adsabs.harvard.edu/abs/1994ApJ...426..334B",
+                "bibcode": "1994ApJ...426..334B",
+                "alias": "21"
+            },
+            {
+                "name": "1995ApJ...446..167C",
+                "url": "http://adsabs.harvard.edu/abs/1995ApJ...446..167C",
+                "bibcode": "1995ApJ...446..167C",
+                "alias": "22"
+            },
+            {
+                "name": "2007ApJ...668..924B",
+                "url": "http://adsabs.harvard.edu/abs/2007ApJ...668..924B",
+                "bibcode": "2007ApJ...668..924B",
+                "alias": "23"
+            },
+            {
+                "name": "1995ApJ...441..170B",
+                "url": "http://adsabs.harvard.edu/abs/1995ApJ...441..170B",
+                "bibcode": "1995ApJ...441..170B",
+                "alias": "24"
+            },
+            {
+                "name": "1993ApJ...416L..21B",
+                "url": "http://adsabs.harvard.edu/abs/1993ApJ...416L..21B",
+                "bibcode": "1993ApJ...416L..21B",
+                "alias": "25"
+            },
+            {
                 "name": "CfA Supernova Archive",
                 "url": "https://www.cfa.harvard.edu/supernova/SNarchive.html",
-                "alias": "17",
+                "alias": "26",
                 "secondary": true
             }
         ],
@@ -139,6 +193,14 @@
                 "source": "13"
             }
         ],
+        "lumdist": [
+            {
+                "value": "3.96",
+                "error": "0.06",
+                "source": "23,17"
+            }
+        ],
+        "maxabsmag": "-18.1",
         "maxappmag": "9.91",
         "maxday": "30",
         "maxmonth": "3",
@@ -23023,7 +23085,7 @@
                         "0.039095396"
                     ]
                 ],
-                "source": "17"
+                "source": "26"
             },
             {
                 "deredshifted": false,
@@ -33662,7 +33724,7 @@
                         "0.039095396"
                     ]
                 ],
-                "source": "17"
+                "source": "26"
             },
             {
                 "deredshifted": false,
@@ -44289,7 +44351,7 @@
                         "0.082901004"
                     ]
                 ],
-                "source": "17"
+                "source": "26"
             },
             {
                 "deredshifted": false,
@@ -54892,7 +54954,7 @@
                         "0.041459117"
                     ]
                 ],
-                "source": "17"
+                "source": "26"
             },
             {
                 "deredshifted": false,
@@ -65503,7 +65565,7 @@
                         "0.015769638"
                     ]
                 ],
-                "source": "17"
+                "source": "26"
             },
             {
                 "deredshifted": false,
@@ -76102,7 +76164,7 @@
                         "0.017597845"
                     ]
                 ],
-                "source": "17"
+                "source": "26"
             },
             {
                 "deredshifted": false,
@@ -86633,7 +86695,7 @@
                         "0.041800944"
                     ]
                 ],
-                "source": "17"
+                "source": "26"
             },
             {
                 "deredshifted": false,
@@ -94637,7 +94699,7 @@
                         "0.0090849486"
                     ]
                 ],
-                "source": "17"
+                "source": "26"
             },
             {
                 "deredshifted": false,
@@ -102645,7 +102707,7 @@
                         "0.00888031"
                     ]
                 ],
-                "source": "17"
+                "source": "26"
             },
             {
                 "deredshifted": false,
@@ -113861,7 +113923,7 @@
                         "0.00643321"
                     ]
                 ],
-                "source": "17"
+                "source": "26"
             },
             {
                 "deredshifted": false,
@@ -125237,7 +125299,7 @@
                         "0.0274548"
                     ]
                 ],
-                "source": "17"
+                "source": "26"
             }
         ]
     }
