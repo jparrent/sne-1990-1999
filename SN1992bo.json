@@ -756,14 +756,14 @@
                 "timeunit": "MJD",
                 "time": "49040.04",
                 "band": "V",
-                "abmag": "18.53",
+                "abmag": "18.52",
                 "source": "1,2"
             },
             {
                 "timeunit": "MJD",
                 "time": "49040.04",
                 "band": "V",
-                "abmag": "18.52",
+                "abmag": "18.53",
                 "source": "1,2"
             }
         ]

@@ -223,16 +223,16 @@
                 "timeunit": "MJD",
                 "time": "51521.43",
                 "band": "B",
-                "abmag": "17.144",
-                "aberr": "0.015",
-                "source": "2,3"
+                "abmag": "17.14",
+                "source": "4,6"
             },
             {
                 "timeunit": "MJD",
                 "time": "51521.43",
                 "band": "B",
-                "abmag": "17.14",
-                "source": "4,6"
+                "abmag": "17.144",
+                "aberr": "0.015",
+                "source": "2,3"
             },
             {
                 "timeunit": "MJD",
@@ -246,6 +246,13 @@
                 "timeunit": "MJD",
                 "time": "51521.43",
                 "band": "R",
+                "abmag": "16.38",
+                "source": "4,6"
+            },
+            {
+                "timeunit": "MJD",
+                "time": "51521.43",
+                "band": "R",
                 "abmag": "16.381",
                 "aberr": "0.014",
                 "source": "2,3"
@@ -253,8 +260,8 @@
             {
                 "timeunit": "MJD",
                 "time": "51521.43",
-                "band": "R",
-                "abmag": "16.38",
+                "band": "U",
+                "abmag": "17.32",
                 "source": "4,6"
             },
             {
@@ -268,24 +275,9 @@
             {
                 "timeunit": "MJD",
                 "time": "51521.43",
-                "band": "U",
-                "abmag": "17.32",
-                "source": "4,6"
-            },
-            {
-                "timeunit": "MJD",
-                "time": "51521.43",
                 "band": "V",
                 "abmag": "16.680",
                 "aberr": "0.010",
-                "source": "2,3"
-            },
-            {
-                "timeunit": "MJD",
-                "time": "51527.45",
-                "band": "B",
-                "abmag": "17.563",
-                "aberr": "0.020",
                 "source": "2,3"
             },
             {
@@ -298,9 +290,9 @@
             {
                 "timeunit": "MJD",
                 "time": "51527.45",
-                "band": "I",
-                "abmag": "16.783",
-                "aberr": "0.019",
+                "band": "B",
+                "abmag": "17.563",
+                "aberr": "0.020",
                 "source": "2,3"
             },
             {
@@ -309,6 +301,14 @@
                 "band": "I",
                 "abmag": "16.78",
                 "source": "4,6"
+            },
+            {
+                "timeunit": "MJD",
+                "time": "51527.45",
+                "band": "I",
+                "abmag": "16.783",
+                "aberr": "0.019",
+                "source": "2,3"
             },
             {
                 "timeunit": "MJD",
@@ -344,16 +344,16 @@
                 "timeunit": "MJD",
                 "time": "51527.45",
                 "band": "V",
-                "abmag": "16.842",
-                "aberr": "0.011",
-                "source": "2,3"
+                "abmag": "16.84",
+                "source": "4,6"
             },
             {
                 "timeunit": "MJD",
                 "time": "51527.45",
                 "band": "V",
-                "abmag": "16.84",
-                "source": "4,6"
+                "abmag": "16.842",
+                "aberr": "0.011",
+                "source": "2,3"
             },
             {
                 "timeunit": "MJD",
@@ -366,6 +366,13 @@
                 "timeunit": "MJD",
                 "time": "51545.41",
                 "band": "B",
+                "abmag": "19.48",
+                "source": "4,6"
+            },
+            {
+                "timeunit": "MJD",
+                "time": "51545.41",
+                "band": "B",
                 "abmag": "19.482",
                 "aberr": "0.016",
                 "source": "2,3"
@@ -373,8 +380,8 @@
             {
                 "timeunit": "MJD",
                 "time": "51545.41",
-                "band": "B",
-                "abmag": "19.48",
+                "band": "I",
+                "abmag": "16.81",
                 "source": "4,6"
             },
             {
@@ -388,8 +395,8 @@
             {
                 "timeunit": "MJD",
                 "time": "51545.41",
-                "band": "I",
-                "abmag": "16.81",
+                "band": "R",
+                "abmag": "17.24",
                 "source": "4,6"
             },
             {
@@ -399,13 +406,6 @@
                 "abmag": "17.242",
                 "aberr": "0.011",
                 "source": "2,3"
-            },
-            {
-                "timeunit": "MJD",
-                "time": "51545.41",
-                "band": "R",
-                "abmag": "17.24",
-                "source": "4,6"
             },
             {
                 "timeunit": "MJD",
@@ -426,15 +426,22 @@
                 "timeunit": "MJD",
                 "time": "51545.41",
                 "band": "V",
+                "abmag": "17.92",
+                "source": "4,6"
+            },
+            {
+                "timeunit": "MJD",
+                "time": "51545.41",
+                "band": "V",
                 "abmag": "17.923",
                 "aberr": "0.007",
                 "source": "2,3"
             },
             {
                 "timeunit": "MJD",
-                "time": "51545.41",
-                "band": "V",
-                "abmag": "17.92",
+                "time": "51556.34",
+                "band": "B",
+                "abmag": "20.34",
                 "source": "4,6"
             },
             {
@@ -448,8 +455,8 @@
             {
                 "timeunit": "MJD",
                 "time": "51556.34",
-                "band": "B",
-                "abmag": "20.34",
+                "band": "I",
+                "abmag": "17.5",
                 "source": "4,6"
             },
             {
@@ -459,13 +466,6 @@
                 "abmag": "17.502",
                 "aberr": "0.028",
                 "source": "2,3"
-            },
-            {
-                "timeunit": "MJD",
-                "time": "51556.34",
-                "band": "I",
-                "abmag": "17.5",
-                "source": "4,6"
             },
             {
                 "timeunit": "MJD",
@@ -501,16 +501,16 @@
                 "timeunit": "MJD",
                 "time": "51556.34",
                 "band": "V",
-                "abmag": "18.691",
-                "aberr": "0.021",
-                "source": "2,3"
+                "abmag": "18.69",
+                "source": "4,6"
             },
             {
                 "timeunit": "MJD",
                 "time": "51556.34",
                 "band": "V",
-                "abmag": "18.69",
-                "source": "4,6"
+                "abmag": "18.691",
+                "aberr": "0.021",
+                "source": "2,3"
             },
             {
                 "timeunit": "MJD",
@@ -531,16 +531,16 @@
                 "timeunit": "MJD",
                 "time": "51581.32",
                 "band": "I",
-                "abmag": "18.525",
-                "aberr": "0.038",
-                "source": "2,3"
+                "abmag": "18.52",
+                "source": "4,6"
             },
             {
                 "timeunit": "MJD",
                 "time": "51581.32",
                 "band": "I",
-                "abmag": "18.52",
-                "source": "4,6"
+                "abmag": "18.525",
+                "aberr": "0.038",
+                "source": "2,3"
             },
             {
                 "timeunit": "MJD",
@@ -554,15 +554,22 @@
                 "timeunit": "MJD",
                 "time": "51581.32",
                 "band": "V",
+                "abmag": "19.31",
+                "source": "4,6"
+            },
+            {
+                "timeunit": "MJD",
+                "time": "51581.32",
+                "band": "V",
                 "abmag": "19.312",
                 "aberr": "0.021",
                 "source": "2,3"
             },
             {
                 "timeunit": "MJD",
-                "time": "51581.32",
-                "band": "V",
-                "abmag": "19.31",
+                "time": "51589.36",
+                "band": "B",
+                "abmag": "20.52",
                 "source": "4,6"
             },
             {
@@ -572,13 +579,6 @@
                 "abmag": "20.521",
                 "aberr": "0.118",
                 "source": "2,3"
-            },
-            {
-                "timeunit": "MJD",
-                "time": "51589.36",
-                "band": "B",
-                "abmag": "20.52",
-                "source": "4,6"
             },
             {
                 "timeunit": "MJD",
@@ -614,15 +614,22 @@
                 "timeunit": "MJD",
                 "time": "51589.36",
                 "band": "V",
+                "abmag": "19.56",
+                "source": "4,6"
+            },
+            {
+                "timeunit": "MJD",
+                "time": "51589.36",
+                "band": "V",
                 "abmag": "19.563",
                 "aberr": "0.046",
                 "source": "2,3"
             },
             {
                 "timeunit": "MJD",
-                "time": "51589.36",
-                "band": "V",
-                "abmag": "19.56",
+                "time": "51590.39",
+                "band": "B",
+                "abmag": "20.53",
                 "source": "4,6"
             },
             {
@@ -636,8 +643,8 @@
             {
                 "timeunit": "MJD",
                 "time": "51590.39",
-                "band": "B",
-                "abmag": "20.53",
+                "band": "I",
+                "abmag": "18.65",
                 "source": "4,6"
             },
             {
@@ -647,13 +654,6 @@
                 "abmag": "18.651",
                 "aberr": "0.140",
                 "source": "2,3"
-            },
-            {
-                "timeunit": "MJD",
-                "time": "51590.39",
-                "band": "I",
-                "abmag": "18.65",
-                "source": "4,6"
             },
             {
                 "timeunit": "MJD",
@@ -704,16 +704,16 @@
                 "timeunit": "MJD",
                 "time": "51640.27",
                 "band": "V",
-                "abmag": "20.791",
-                "aberr": "0.091",
-                "source": "2,3"
+                "abmag": "20.79",
+                "source": "4,6"
             },
             {
                 "timeunit": "MJD",
                 "time": "51640.27",
                 "band": "V",
-                "abmag": "20.79",
-                "source": "4,6"
+                "abmag": "20.791",
+                "aberr": "0.091",
+                "source": "2,3"
             },
             {
                 "timeunit": "MJD",

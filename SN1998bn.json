@@ -234,14 +234,14 @@
                 "timeunit": "MJD",
                 "time": "50935.42",
                 "band": "C",
-                "abmag": "13.9",
+                "abmag": "13.1",
                 "source": "2,3"
             },
             {
                 "timeunit": "MJD",
                 "time": "50935.42",
                 "band": "C",
-                "abmag": "13.1",
+                "abmag": "13.9",
                 "source": "2,3"
             },
             {
@@ -332,14 +332,14 @@
                 "timeunit": "MJD",
                 "time": "50946.26",
                 "band": "C",
-                "abmag": "14.4",
+                "abmag": "13.9",
                 "source": "2,3"
             },
             {
                 "timeunit": "MJD",
                 "time": "50946.26",
                 "band": "C",
-                "abmag": "13.9",
+                "abmag": "14.4",
                 "source": "2,3"
             },
             {

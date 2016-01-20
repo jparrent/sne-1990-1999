@@ -503,14 +503,14 @@
                 "timeunit": "MJD",
                 "time": "48872.04",
                 "band": "R",
-                "abmag": "15.99",
+                "abmag": "15.98",
                 "source": "1,2"
             },
             {
                 "timeunit": "MJD",
                 "time": "48872.04",
                 "band": "R",
-                "abmag": "15.98",
+                "abmag": "15.99",
                 "source": "1,2"
             },
             {
@@ -573,14 +573,14 @@
                 "timeunit": "MJD",
                 "time": "48891.1",
                 "band": "V",
-                "abmag": "17.03",
+                "abmag": "17.02",
                 "source": "1,2"
             },
             {
                 "timeunit": "MJD",
                 "time": "48891.1",
                 "band": "V",
-                "abmag": "17.02",
+                "abmag": "17.03",
                 "source": "1,2"
             },
             {

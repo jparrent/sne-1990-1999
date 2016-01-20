@@ -244,16 +244,16 @@
                 "timeunit": "MJD",
                 "time": "49337.52",
                 "band": "I",
-                "abmag": "16.9100",
-                "aberr": "0.0400",
-                "source": "3,2"
+                "abmag": "16.75",
+                "source": "4,2"
             },
             {
                 "timeunit": "MJD",
                 "time": "49337.52",
                 "band": "I",
-                "abmag": "16.75",
-                "source": "4,2"
+                "abmag": "16.9100",
+                "aberr": "0.0400",
+                "source": "3,2"
             },
             {
                 "timeunit": "MJD",

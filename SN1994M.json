@@ -709,14 +709,14 @@
                 "timeunit": "MJD",
                 "time": "49514.27",
                 "band": "R",
-                "abmag": "18.06",
+                "abmag": "18",
                 "source": "3,5"
             },
             {
                 "timeunit": "MJD",
                 "time": "49514.27",
                 "band": "R",
-                "abmag": "18",
+                "abmag": "18.06",
                 "source": "3,5"
             },
             {

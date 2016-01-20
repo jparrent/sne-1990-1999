@@ -219,14 +219,14 @@
                 "timeunit": "MJD",
                 "time": "48029.0",
                 "band": "V",
-                "abmag": "16.78",
+                "abmag": "16.5",
                 "source": "1,2"
             },
             {
                 "timeunit": "MJD",
                 "time": "48029.0",
                 "band": "V",
-                "abmag": "16.5",
+                "abmag": "16.78",
                 "source": "1,2"
             },
             {

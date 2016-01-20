@@ -187,14 +187,14 @@
                 "timeunit": "MJD",
                 "time": "48600.8",
                 "band": "V",
-                "abmag": "14.4",
+                "abmag": "14.3",
                 "source": "2,3"
             },
             {
                 "timeunit": "MJD",
                 "time": "48600.8",
                 "band": "V",
-                "abmag": "14.3",
+                "abmag": "14.4",
                 "source": "2,3"
             },
             {
@@ -481,15 +481,15 @@
                 "timeunit": "MJD",
                 "time": "48623.35",
                 "band": "V",
-                "abmag": "15.67",
-                "source": "2,4"
+                "abmag": "15.51",
+                "source": "2,3"
             },
             {
                 "timeunit": "MJD",
                 "time": "48623.35",
                 "band": "V",
-                "abmag": "15.51",
-                "source": "2,3"
+                "abmag": "15.67",
+                "source": "2,4"
             },
             {
                 "timeunit": "MJD",
@@ -579,14 +579,14 @@
                 "timeunit": "MJD",
                 "time": "48628.34",
                 "band": "B",
-                "abmag": "17.07",
+                "abmag": "17.04",
                 "source": "2,3"
             },
             {
                 "timeunit": "MJD",
                 "time": "48628.34",
                 "band": "B",
-                "abmag": "17.04",
+                "abmag": "17.07",
                 "source": "2,3"
             },
             {
@@ -628,15 +628,15 @@
                 "timeunit": "MJD",
                 "time": "48631.35",
                 "band": "V",
-                "abmag": "16.02",
-                "source": "2,4"
+                "abmag": "15.88",
+                "source": "2,3"
             },
             {
                 "timeunit": "MJD",
                 "time": "48631.35",
                 "band": "V",
-                "abmag": "15.88",
-                "source": "2,3"
+                "abmag": "16.02",
+                "source": "2,4"
             },
             {
                 "timeunit": "MJD",

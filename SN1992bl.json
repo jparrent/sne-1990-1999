@@ -301,14 +301,14 @@
                 "timeunit": "MJD",
                 "time": "48961.08",
                 "band": "V",
-                "abmag": "18.01",
+                "abmag": "18",
                 "source": "1,2"
             },
             {
                 "timeunit": "MJD",
                 "time": "48961.08",
                 "band": "V",
-                "abmag": "18",
+                "abmag": "18.01",
                 "source": "1,2"
             },
             {

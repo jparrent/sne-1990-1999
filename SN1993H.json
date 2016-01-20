@@ -564,14 +564,14 @@
                 "timeunit": "MJD",
                 "time": "49103.1",
                 "band": "R",
-                "abmag": "18.5",
+                "abmag": "18.48",
                 "source": "1,2"
             },
             {
                 "timeunit": "MJD",
                 "time": "49103.1",
                 "band": "R",
-                "abmag": "18.48",
+                "abmag": "18.5",
                 "source": "1,2"
             },
             {
