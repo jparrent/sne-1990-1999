@@ -1,93 +1,93 @@
 {
-    "SN1999ax": {
-        "name": "SN1999ax",
-        "aliases": [
-            "SN1999ax"
-        ],
-        "sources": [
-            {
-                "name": "Asiago Supernova Catalogue",
-                "url": "http://graspa.oapd.inaf.it/cgi-bin/sncat.php",
-                "alias": "1",
-                "secondary": true
-            },
-            {
-                "name": "IAUC 7130",
-                "url": "http://www.cbat.eps.harvard.edu/iauc/07100/07130.html#Item1",
-                "alias": "2"
-            },
-            {
-                "name": "Latest Supernovae",
-                "url": "http://www.rochesterastronomy.org/snimages/snredshiftall.html",
-                "alias": "3",
-                "secondary": true
-            },
-            {
-                "name": "2012A&A...538A.120L",
-                "url": "http://adsabs.harvard.edu/abs/2012A&A...538A.120L",
-                "bibcode": "2012A&A...538A.120L",
-                "alias": "4"
-            }
-        ],
-        "claimedtype": [
-            {
-                "value": "Ia",
-                "source": "1"
-            },
-            {
-                "value": "II",
-                "source": "2,3"
-            }
-        ],
-        "discoverday": "19",
-        "discoverer": "Wise Observatory",
-        "discovermonth": "3",
-        "discoveryear": "1999",
-        "galdec": "+155109",
-        "galra": "140357",
-        "host": [
-            {
-                "value": "A140357+1551",
-                "source": "1"
-            }
-        ],
-        "hvel": [
-            {
-                "value": "15000",
-                "source": "1"
-            }
-        ],
-        "lumdist": [
-            {
-                "value": "500",
-                "source": "D"
-            }
-        ],
-        "maxabsmag": "-20",
-        "maxappmag": "18.5",
-        "maxday": "19",
-        "maxmonth": "3",
-        "maxyear": "1999",
-        "redshift": [
-            {
-                "value": "0.1",
-                "source": "2,3"
-            },
-            {
-                "value": "0.05",
-                "source": "4"
-            }
-        ],
-        "sndec": "+15:51:09.2",
-        "snra": "14:03:57.92",
-        "photometry": [
-            {
-                "timeunit": "MJD",
-                "time": "51256.5",
-                "band": "",
-                "abmag": "18.5",
-                "source": "2,3"
-            }
-        ]
-    }
+	"SN1999ax":{
+		"name":"SN1999ax",
+		"aliases":[
+			"SN1999ax"
+		],
+		"sources":[
+			{
+				"name":"Asiago Supernova Catalogue",
+				"url":"http://graspa.oapd.inaf.it/cgi-bin/sncat.php",
+				"alias":"1",
+				"secondary":true
+			},
+			{
+				"name":"IAUC 7130",
+				"url":"http://www.cbat.eps.harvard.edu/iauc/07100/07130.html#Item1",
+				"alias":"2"
+			},
+			{
+				"name":"Latest Supernovae",
+				"url":"http://www.rochesterastronomy.org/snimages/snredshiftall.html",
+				"alias":"3",
+				"secondary":true
+			},
+			{
+				"name":"2012A&A...538A.120L",
+				"url":"http://adsabs.harvard.edu/abs/2012A&A...538A.120L",
+				"bibcode":"2012A&A...538A.120L",
+				"alias":"4"
+			}
+		],
+		"claimedtype":[
+			{
+				"value":"Ia",
+				"source":"1"
+			},
+			{
+				"value":"II",
+				"source":"2,3"
+			}
+		],
+		"discoverday":"19",
+		"discoverer":"Wise Observatory",
+		"discovermonth":"3",
+		"discoveryear":"1999",
+		"galdec":"+155109",
+		"galra":"140357",
+		"host":[
+			{
+				"value":"A140357+1551",
+				"source":"1"
+			}
+		],
+		"hvel":[
+			{
+				"value":"15000",
+				"source":"1"
+			}
+		],
+		"lumdist":[
+			{
+				"value":"500",
+				"source":"D"
+			}
+		],
+		"maxabsmag":"-20",
+		"maxappmag":"18.5",
+		"maxday":"19",
+		"maxmonth":"3",
+		"maxyear":"1999",
+		"redshift":[
+			{
+				"value":"0.1",
+				"source":"2,3"
+			},
+			{
+				"value":"0.05",
+				"source":"4"
+			}
+		],
+		"sndec":"+15:51:09.2",
+		"snra":"14:03:57.92",
+		"photometry":[
+			{
+				"timeunit":"MJD",
+				"time":"51256.5",
+				"band":"",
+				"abmag":"18.5",
+				"source":"2,3"
+			}
+		]
+	}
 }

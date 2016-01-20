@@ -1,93 +1,93 @@
 {
-    "SN1996W": {
-        "name": "SN1996W",
-        "aliases": [
-            "SN1996W"
-        ],
-        "sources": [
-            {
-                "name": "Asiago Supernova Catalogue",
-                "url": "http://graspa.oapd.inaf.it/cgi-bin/sncat.php",
-                "alias": "1",
-                "secondary": true
-            },
-            {
-                "name": "IAUC 6379",
-                "url": "http://www.cbat.eps.harvard.edu/iauc/06300/06379.html#Item1",
-                "alias": "2"
-            },
-            {
-                "name": "Latest Supernovae",
-                "url": "http://www.rochesterastronomy.org/snimages/snredshiftall.html",
-                "alias": "3",
-                "secondary": true
-            },
-            {
-                "name": "2012A&A...538A.120L",
-                "url": "http://adsabs.harvard.edu/abs/2012A&A...538A.120L",
-                "bibcode": "2012A&A...538A.120L",
-                "alias": "4"
-            },
-            {
-                "name": "NED-D",
-                "url": "http://ned.ipac.caltech.edu/Library/Distances/",
-                "alias": "5",
-                "secondary": true
-            },
-            {
-                "name": "2015ApJ...799..215P",
-                "url": "http://adsabs.harvard.edu/abs/2015ApJ...799..215P",
-                "bibcode": "2015ApJ...799..215P",
-                "alias": "6"
-            }
-        ],
-        "claimedtype": [
-            {
-                "value": "II",
-                "source": "1,2,3"
-            }
-        ],
-        "discoverday": "10",
-        "discoverer": "BAO Supernova Survey",
-        "discovermonth": "4",
-        "discoveryear": "1996",
-        "galdec": "-191555",
-        "galra": "115930",
-        "host": [
-            {
-                "value": "NGC 4027",
-                "source": "1,2,3,4"
-            }
-        ],
-        "hvel": [
-            {
-                "value": "1639",
-                "source": "1"
-            }
-        ],
-        "lumdist": [
-            {
-                "value": "19.6",
-                "error": "1.1",
-                "source": "6,5"
-            }
-        ],
-        "redshift": [
-            {
-                "value": "0.0056",
-                "source": "4"
-            }
-        ],
-        "sndec": "-19:15:22.0",
-        "snra": "11:59:29.03",
-        "photometry": [
-            {
-                "timeunit": "MJD",
-                "time": "50183.0",
-                "band": "V",
-                "abmag": "16.0",
-                "source": "4"
-            }
-        ]
-    }
+	"SN1996W":{
+		"name":"SN1996W",
+		"aliases":[
+			"SN1996W"
+		],
+		"sources":[
+			{
+				"name":"Asiago Supernova Catalogue",
+				"url":"http://graspa.oapd.inaf.it/cgi-bin/sncat.php",
+				"alias":"1",
+				"secondary":true
+			},
+			{
+				"name":"IAUC 6379",
+				"url":"http://www.cbat.eps.harvard.edu/iauc/06300/06379.html#Item1",
+				"alias":"2"
+			},
+			{
+				"name":"Latest Supernovae",
+				"url":"http://www.rochesterastronomy.org/snimages/snredshiftall.html",
+				"alias":"3",
+				"secondary":true
+			},
+			{
+				"name":"2012A&A...538A.120L",
+				"url":"http://adsabs.harvard.edu/abs/2012A&A...538A.120L",
+				"bibcode":"2012A&A...538A.120L",
+				"alias":"4"
+			},
+			{
+				"name":"NED-D",
+				"url":"http://ned.ipac.caltech.edu/Library/Distances/",
+				"alias":"5",
+				"secondary":true
+			},
+			{
+				"name":"2015ApJ...799..215P",
+				"url":"http://adsabs.harvard.edu/abs/2015ApJ...799..215P",
+				"bibcode":"2015ApJ...799..215P",
+				"alias":"6"
+			}
+		],
+		"claimedtype":[
+			{
+				"value":"II",
+				"source":"1,2,3"
+			}
+		],
+		"discoverday":"10",
+		"discoverer":"BAO Supernova Survey",
+		"discovermonth":"4",
+		"discoveryear":"1996",
+		"galdec":"-191555",
+		"galra":"115930",
+		"host":[
+			{
+				"value":"NGC 4027",
+				"source":"1,2,3,4"
+			}
+		],
+		"hvel":[
+			{
+				"value":"1639",
+				"source":"1"
+			}
+		],
+		"lumdist":[
+			{
+				"value":"19.6",
+				"error":"1.1",
+				"source":"6,5"
+			}
+		],
+		"redshift":[
+			{
+				"value":"0.0056",
+				"source":"4"
+			}
+		],
+		"sndec":"-19:15:22.0",
+		"snra":"11:59:29.03",
+		"photometry":[
+			{
+				"timeunit":"MJD",
+				"time":"50183.0",
+				"band":"V",
+				"abmag":"16.0",
+				"source":"4"
+			}
+		]
+	}
 }

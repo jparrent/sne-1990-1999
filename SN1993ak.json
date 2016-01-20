@@ -1,79 +1,79 @@
 {
-    "SN1993ak": {
-        "name": "SN1993ak",
-        "aliases": [
-            "SN1993ak"
-        ],
-        "sources": [
-            {
-                "name": "Asiago Supernova Catalogue",
-                "url": "http://graspa.oapd.inaf.it/cgi-bin/sncat.php",
-                "alias": "1",
-                "secondary": true
-            },
-            {
-                "name": "IAUC 6000",
-                "url": "http://www.cbat.eps.harvard.edu/iauc/06000/06000.html",
-                "alias": "2"
-            },
-            {
-                "name": "Latest Supernovae",
-                "url": "http://www.rochesterastronomy.org/snimages/snredshiftall.html",
-                "alias": "3",
-                "secondary": true
-            },
-            {
-                "name": "2012A&A...538A.120L",
-                "url": "http://adsabs.harvard.edu/abs/2012A&A...538A.120L",
-                "bibcode": "2012A&A...538A.120L",
-                "alias": "4"
-            }
-        ],
-        "discoverday": "29",
-        "discoverer": "Meusinger",
-        "discovermonth": "3",
-        "discoveryear": "1993",
-        "galdec": "+302012",
-        "galra": "134309",
-        "host": [
-            {
-                "value": "UGC 8685",
-                "source": "1,2,3,4"
-            }
-        ],
-        "hvel": [
-            {
-                "value": "10417",
-                "source": "1"
-            }
-        ],
-        "lumdist": [
-            {
-                "value": "160",
-                "source": "D"
-            }
-        ],
-        "maxabsmag": "-20",
-        "maxappmag": "16.5",
-        "maxday": "29",
-        "maxmonth": "3",
-        "maxyear": "1993",
-        "redshift": [
-            {
-                "value": "0.035",
-                "source": "4"
-            }
-        ],
-        "sndec": "+30:20:12.5",
-        "snra": "13:43:10.96",
-        "photometry": [
-            {
-                "timeunit": "MJD",
-                "time": "49075.5",
-                "band": "",
-                "abmag": "16.5",
-                "source": "2,3"
-            }
-        ]
-    }
+	"SN1993ak":{
+		"name":"SN1993ak",
+		"aliases":[
+			"SN1993ak"
+		],
+		"sources":[
+			{
+				"name":"Asiago Supernova Catalogue",
+				"url":"http://graspa.oapd.inaf.it/cgi-bin/sncat.php",
+				"alias":"1",
+				"secondary":true
+			},
+			{
+				"name":"IAUC 6000",
+				"url":"http://www.cbat.eps.harvard.edu/iauc/06000/06000.html",
+				"alias":"2"
+			},
+			{
+				"name":"Latest Supernovae",
+				"url":"http://www.rochesterastronomy.org/snimages/snredshiftall.html",
+				"alias":"3",
+				"secondary":true
+			},
+			{
+				"name":"2012A&A...538A.120L",
+				"url":"http://adsabs.harvard.edu/abs/2012A&A...538A.120L",
+				"bibcode":"2012A&A...538A.120L",
+				"alias":"4"
+			}
+		],
+		"discoverday":"29",
+		"discoverer":"Meusinger",
+		"discovermonth":"3",
+		"discoveryear":"1993",
+		"galdec":"+302012",
+		"galra":"134309",
+		"host":[
+			{
+				"value":"UGC 8685",
+				"source":"1,2,3,4"
+			}
+		],
+		"hvel":[
+			{
+				"value":"10417",
+				"source":"1"
+			}
+		],
+		"lumdist":[
+			{
+				"value":"160",
+				"source":"D"
+			}
+		],
+		"maxabsmag":"-20",
+		"maxappmag":"16.5",
+		"maxday":"29",
+		"maxmonth":"3",
+		"maxyear":"1993",
+		"redshift":[
+			{
+				"value":"0.035",
+				"source":"4"
+			}
+		],
+		"sndec":"+30:20:12.5",
+		"snra":"13:43:10.96",
+		"photometry":[
+			{
+				"timeunit":"MJD",
+				"time":"49075.5",
+				"band":"",
+				"abmag":"16.5",
+				"source":"2,3"
+			}
+		]
+	}
 }

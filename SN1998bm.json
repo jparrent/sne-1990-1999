@@ -1,84 +1,84 @@
 {
-    "SN1998bm": {
-        "name": "SN1998bm",
-        "aliases": [
-            "SN1998bm"
-        ],
-        "sources": [
-            {
-                "name": "Asiago Supernova Catalogue",
-                "url": "http://graspa.oapd.inaf.it/cgi-bin/sncat.php",
-                "alias": "1",
-                "secondary": true
-            },
-            {
-                "name": "IAUC 6882",
-                "url": "http://www.cbat.eps.harvard.edu/iauc/06800/06882.html#Item1",
-                "alias": "2"
-            },
-            {
-                "name": "Latest Supernovae",
-                "url": "http://www.rochesterastronomy.org/snimages/snredshiftall.html",
-                "alias": "3",
-                "secondary": true
-            },
-            {
-                "name": "2012A&A...538A.120L",
-                "url": "http://adsabs.harvard.edu/abs/2012A&A...538A.120L",
-                "bibcode": "2012A&A...538A.120L",
-                "alias": "4"
-            }
-        ],
-        "claimedtype": [
-            {
-                "value": "II",
-                "source": "1,2,3"
-            }
-        ],
-        "discoverday": "21",
-        "discoverer": "LOSS",
-        "discovermonth": "4",
-        "discoveryear": "1998",
-        "galdec": "+641419",
-        "galra": "092130",
-        "host": [
-            {
-                "value": "IC 2458",
-                "source": "1,2,3"
-            },
-            {
-                "value": "NGC 2820A",
-                "source": "4"
-            }
-        ],
-        "hvel": [
-            {
-                "value": "1448",
-                "source": "1"
-            }
-        ],
-        "lumdist": [
-            {
-                "value": "24",
-                "source": "4"
-            }
-        ],
-        "redshift": [
-            {
-                "value": "0.0052",
-                "source": "4"
-            }
-        ],
-        "sndec": "+64:14:25.4",
-        "snra": "09:21:30.498",
-        "photometry": [
-            {
-                "timeunit": "MJD",
-                "time": "50924.0",
-                "band": "",
-                "abmag": "17.6",
-                "source": "4"
-            }
-        ]
-    }
+	"SN1998bm":{
+		"name":"SN1998bm",
+		"aliases":[
+			"SN1998bm"
+		],
+		"sources":[
+			{
+				"name":"Asiago Supernova Catalogue",
+				"url":"http://graspa.oapd.inaf.it/cgi-bin/sncat.php",
+				"alias":"1",
+				"secondary":true
+			},
+			{
+				"name":"IAUC 6882",
+				"url":"http://www.cbat.eps.harvard.edu/iauc/06800/06882.html#Item1",
+				"alias":"2"
+			},
+			{
+				"name":"Latest Supernovae",
+				"url":"http://www.rochesterastronomy.org/snimages/snredshiftall.html",
+				"alias":"3",
+				"secondary":true
+			},
+			{
+				"name":"2012A&A...538A.120L",
+				"url":"http://adsabs.harvard.edu/abs/2012A&A...538A.120L",
+				"bibcode":"2012A&A...538A.120L",
+				"alias":"4"
+			}
+		],
+		"claimedtype":[
+			{
+				"value":"II",
+				"source":"1,2,3"
+			}
+		],
+		"discoverday":"21",
+		"discoverer":"LOSS",
+		"discovermonth":"4",
+		"discoveryear":"1998",
+		"galdec":"+641419",
+		"galra":"092130",
+		"host":[
+			{
+				"value":"IC 2458",
+				"source":"1,2,3"
+			},
+			{
+				"value":"NGC 2820A",
+				"source":"4"
+			}
+		],
+		"hvel":[
+			{
+				"value":"1448",
+				"source":"1"
+			}
+		],
+		"lumdist":[
+			{
+				"value":"24",
+				"source":"4"
+			}
+		],
+		"redshift":[
+			{
+				"value":"0.0052",
+				"source":"4"
+			}
+		],
+		"sndec":"+64:14:25.4",
+		"snra":"09:21:30.498",
+		"photometry":[
+			{
+				"timeunit":"MJD",
+				"time":"50924.0",
+				"band":"",
+				"abmag":"17.6",
+				"source":"4"
+			}
+		]
+	}
 }

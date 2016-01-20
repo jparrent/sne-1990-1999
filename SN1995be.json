@@ -1,64 +1,64 @@
 {
-    "SN1995be": {
-        "name": "SN1995be",
-        "aliases": [
-            "SN1995be"
-        ],
-        "sources": [
-            {
-                "name": "Asiago Supernova Catalogue",
-                "url": "http://graspa.oapd.inaf.it/cgi-bin/sncat.php",
-                "alias": "1",
-                "secondary": true
-            },
-            {
-                "name": "IAUC 6433",
-                "url": "http://www.cbat.eps.harvard.edu/iauc/06400/06433.html",
-                "alias": "2"
-            },
-            {
-                "name": "Latest Supernovae",
-                "url": "http://www.rochesterastronomy.org/snimages/snredshiftall.html",
-                "alias": "3",
-                "secondary": true
-            },
-            {
-                "name": "2012A&A...538A.120L",
-                "url": "http://adsabs.harvard.edu/abs/2012A&A...538A.120L",
-                "bibcode": "2012A&A...538A.120L",
-                "alias": "4"
-            }
-        ],
-        "discoverday": "17",
-        "discoverer": "Robert McNaught",
-        "discovermonth": "7",
-        "discoveryear": "1995",
-        "galdec": "+194606",
-        "galra": "155814",
-        "host": [
-            {
-                "value": "A155814+1946",
-                "source": "1"
-            },
-            {
-                "value": "(PGC1604757)",
-                "source": "4"
-            }
-        ],
-        "maxappmag": "19",
-        "maxday": "17",
-        "maxmonth": "7",
-        "maxyear": "1995",
-        "sndec": "+19:46:06.5",
-        "snra": "15:58:14.30",
-        "photometry": [
-            {
-                "timeunit": "MJD",
-                "time": "49915.5",
-                "band": "",
-                "abmag": "19.0",
-                "source": "2,3"
-            }
-        ]
-    }
+	"SN1995be":{
+		"name":"SN1995be",
+		"aliases":[
+			"SN1995be"
+		],
+		"sources":[
+			{
+				"name":"Asiago Supernova Catalogue",
+				"url":"http://graspa.oapd.inaf.it/cgi-bin/sncat.php",
+				"alias":"1",
+				"secondary":true
+			},
+			{
+				"name":"IAUC 6433",
+				"url":"http://www.cbat.eps.harvard.edu/iauc/06400/06433.html",
+				"alias":"2"
+			},
+			{
+				"name":"Latest Supernovae",
+				"url":"http://www.rochesterastronomy.org/snimages/snredshiftall.html",
+				"alias":"3",
+				"secondary":true
+			},
+			{
+				"name":"2012A&A...538A.120L",
+				"url":"http://adsabs.harvard.edu/abs/2012A&A...538A.120L",
+				"bibcode":"2012A&A...538A.120L",
+				"alias":"4"
+			}
+		],
+		"discoverday":"17",
+		"discoverer":"Robert McNaught",
+		"discovermonth":"7",
+		"discoveryear":"1995",
+		"galdec":"+194606",
+		"galra":"155814",
+		"host":[
+			{
+				"value":"A155814+1946",
+				"source":"1"
+			},
+			{
+				"value":"(PGC1604757)",
+				"source":"4"
+			}
+		],
+		"maxappmag":"19",
+		"maxday":"17",
+		"maxmonth":"7",
+		"maxyear":"1995",
+		"sndec":"+19:46:06.5",
+		"snra":"15:58:14.30",
+		"photometry":[
+			{
+				"timeunit":"MJD",
+				"time":"49915.5",
+				"band":"",
+				"abmag":"19.0",
+				"source":"2,3"
+			}
+		]
+	}
 }

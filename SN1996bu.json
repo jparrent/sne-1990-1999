@@ -1,80 +1,80 @@
 {
-    "SN1996bu": {
-        "name": "SN1996bu",
-        "aliases": [
-            "SN1996bu"
-        ],
-        "sources": [
-            {
-                "name": "Asiago Supernova Catalogue",
-                "url": "http://graspa.oapd.inaf.it/cgi-bin/sncat.php",
-                "alias": "1",
-                "secondary": true
-            },
-            {
-                "name": "IAUC 6505",
-                "url": "http://www.cbat.eps.harvard.edu/iauc/06500/06505.html#Item1",
-                "alias": "2"
-            },
-            {
-                "name": "Latest Supernovae",
-                "url": "http://www.rochesterastronomy.org/snimages/snredshiftall.html",
-                "alias": "3",
-                "secondary": true
-            },
-            {
-                "name": "2012A&A...538A.120L",
-                "url": "http://adsabs.harvard.edu/abs/2012A&A...538A.120L",
-                "bibcode": "2012A&A...538A.120L",
-                "alias": "4"
-            }
-        ],
-        "claimedtype": [
-            {
-                "value": "IIn",
-                "source": "1,2,3"
-            }
-        ],
-        "discoverday": "14",
-        "discoverer": "Reiki Kushida",
-        "discovermonth": "11",
-        "discoveryear": "1996",
-        "galdec": "+531010",
-        "galra": "112103",
-        "host": [
-            {
-                "value": "NGC 3631",
-                "source": "1,2,3,4"
-            }
-        ],
-        "hvel": [
-            {
-                "value": "1158",
-                "source": "1"
-            }
-        ],
-        "lumdist": [
-            {
-                "value": "18",
-                "source": "4"
-            }
-        ],
-        "redshift": [
-            {
-                "value": "0.0039",
-                "source": "4"
-            }
-        ],
-        "sndec": "+53:12:08.4",
-        "snra": "11:20:59.30",
-        "photometry": [
-            {
-                "timeunit": "MJD",
-                "time": "50401.0",
-                "band": "V",
-                "abmag": "17.6",
-                "source": "4"
-            }
-        ]
-    }
+	"SN1996bu":{
+		"name":"SN1996bu",
+		"aliases":[
+			"SN1996bu"
+		],
+		"sources":[
+			{
+				"name":"Asiago Supernova Catalogue",
+				"url":"http://graspa.oapd.inaf.it/cgi-bin/sncat.php",
+				"alias":"1",
+				"secondary":true
+			},
+			{
+				"name":"IAUC 6505",
+				"url":"http://www.cbat.eps.harvard.edu/iauc/06500/06505.html#Item1",
+				"alias":"2"
+			},
+			{
+				"name":"Latest Supernovae",
+				"url":"http://www.rochesterastronomy.org/snimages/snredshiftall.html",
+				"alias":"3",
+				"secondary":true
+			},
+			{
+				"name":"2012A&A...538A.120L",
+				"url":"http://adsabs.harvard.edu/abs/2012A&A...538A.120L",
+				"bibcode":"2012A&A...538A.120L",
+				"alias":"4"
+			}
+		],
+		"claimedtype":[
+			{
+				"value":"IIn",
+				"source":"1,2,3"
+			}
+		],
+		"discoverday":"14",
+		"discoverer":"Reiki Kushida",
+		"discovermonth":"11",
+		"discoveryear":"1996",
+		"galdec":"+531010",
+		"galra":"112103",
+		"host":[
+			{
+				"value":"NGC 3631",
+				"source":"1,2,3,4"
+			}
+		],
+		"hvel":[
+			{
+				"value":"1158",
+				"source":"1"
+			}
+		],
+		"lumdist":[
+			{
+				"value":"18",
+				"source":"4"
+			}
+		],
+		"redshift":[
+			{
+				"value":"0.0039",
+				"source":"4"
+			}
+		],
+		"sndec":"+53:12:08.4",
+		"snra":"11:20:59.30",
+		"photometry":[
+			{
+				"timeunit":"MJD",
+				"time":"50401.0",
+				"band":"V",
+				"abmag":"17.6",
+				"source":"4"
+			}
+		]
+	}
 }

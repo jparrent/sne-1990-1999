@@ -1,93 +1,93 @@
 {
-    "SN1992bb": {
-        "name": "SN1992bb",
-        "aliases": [
-            "SN1992bb"
-        ],
-        "sources": [
-            {
-                "name": "Asiago Supernova Catalogue",
-                "url": "http://graspa.oapd.inaf.it/cgi-bin/sncat.php",
-                "alias": "1",
-                "secondary": true
-            },
-            {
-                "name": "IAUC 5629",
-                "url": "http://www.cbat.eps.harvard.edu/iauc/05600/05629.html",
-                "alias": "2"
-            },
-            {
-                "name": "Latest Supernovae",
-                "url": "http://www.rochesterastronomy.org/snimages/snredshiftall.html",
-                "alias": "3",
-                "secondary": true
-            },
-            {
-                "name": "2012A&A...538A.120L",
-                "url": "http://adsabs.harvard.edu/abs/2012A&A...538A.120L",
-                "bibcode": "2012A&A...538A.120L",
-                "alias": "4"
-            }
-        ],
-        "claimedtype": [
-            {
-                "value": "Ia",
-                "source": "1,2,3"
-            }
-        ],
-        "discoverday": "29",
-        "discoverer": "Robert McNaught",
-        "discovermonth": "9",
-        "discoveryear": "1992",
-        "galdec": "-073508",
-        "galra": "211816",
-        "host": [
-            {
-                "value": "IRAS21156-0747",
-                "source": "1"
-            },
-            {
-                "value": "IRAS 21156-0747",
-                "source": "2,3"
-            },
-            {
-                "value": "PGC163051",
-                "source": "4"
-            }
-        ],
-        "hvel": [
-            {
-                "value": "8669",
-                "source": "1"
-            }
-        ],
-        "lumdist": [
-            {
-                "value": "130",
-                "source": "D"
-            }
-        ],
-        "maxabsmag": "-18",
-        "maxappmag": "17.5",
-        "maxday": "29",
-        "maxmonth": "9",
-        "maxyear": "1992",
-        "redshift": [
-            {
-                "value": "0.029",
-                "source": "4"
-            }
-        ],
-        "sndec": "-07:35:03.5",
-        "snra": "21:18:14.86",
-        "photometry": [
-            {
-                "timeunit": "MJD",
-                "time": "48894.5",
-                "band": "",
-                "abmag": "17.5",
-                "source": "2,3"
-            }
-        ]
-    }
+	"SN1992bb":{
+		"name":"SN1992bb",
+		"aliases":[
+			"SN1992bb"
+		],
+		"sources":[
+			{
+				"name":"Asiago Supernova Catalogue",
+				"url":"http://graspa.oapd.inaf.it/cgi-bin/sncat.php",
+				"alias":"1",
+				"secondary":true
+			},
+			{
+				"name":"IAUC 5629",
+				"url":"http://www.cbat.eps.harvard.edu/iauc/05600/05629.html",
+				"alias":"2"
+			},
+			{
+				"name":"Latest Supernovae",
+				"url":"http://www.rochesterastronomy.org/snimages/snredshiftall.html",
+				"alias":"3",
+				"secondary":true
+			},
+			{
+				"name":"2012A&A...538A.120L",
+				"url":"http://adsabs.harvard.edu/abs/2012A&A...538A.120L",
+				"bibcode":"2012A&A...538A.120L",
+				"alias":"4"
+			}
+		],
+		"claimedtype":[
+			{
+				"value":"Ia",
+				"source":"1,2,3"
+			}
+		],
+		"discoverday":"29",
+		"discoverer":"Robert McNaught",
+		"discovermonth":"9",
+		"discoveryear":"1992",
+		"galdec":"-073508",
+		"galra":"211816",
+		"host":[
+			{
+				"value":"IRAS21156-0747",
+				"source":"1"
+			},
+			{
+				"value":"IRAS 21156-0747",
+				"source":"2,3"
+			},
+			{
+				"value":"PGC163051",
+				"source":"4"
+			}
+		],
+		"hvel":[
+			{
+				"value":"8669",
+				"source":"1"
+			}
+		],
+		"lumdist":[
+			{
+				"value":"130",
+				"source":"D"
+			}
+		],
+		"maxabsmag":"-18",
+		"maxappmag":"17.5",
+		"maxday":"29",
+		"maxmonth":"9",
+		"maxyear":"1992",
+		"redshift":[
+			{
+				"value":"0.029",
+				"source":"4"
+			}
+		],
+		"sndec":"-07:35:03.5",
+		"snra":"21:18:14.86",
+		"photometry":[
+			{
+				"timeunit":"MJD",
+				"time":"48894.5",
+				"band":"",
+				"abmag":"17.5",
+				"source":"2,3"
+			}
+		]
+	}
 }

@@ -1,93 +1,93 @@
 {
-    "SN1997ed": {
-        "name": "SN1997ed",
-        "aliases": [
-            "SN1997ed"
-        ],
-        "sources": [
-            {
-                "name": "Asiago Supernova Catalogue",
-                "url": "http://graspa.oapd.inaf.it/cgi-bin/sncat.php",
-                "alias": "1",
-                "secondary": true
-            },
-            {
-                "name": "IAUC 6782",
-                "url": "http://www.cbat.eps.harvard.edu/iauc/06700/06782.html",
-                "alias": "2"
-            },
-            {
-                "name": "Latest Supernovae",
-                "url": "http://www.rochesterastronomy.org/snimages/snredshiftall.html",
-                "alias": "3",
-                "secondary": true
-            },
-            {
-                "name": "2012A&A...538A.120L",
-                "url": "http://adsabs.harvard.edu/abs/2012A&A...538A.120L",
-                "bibcode": "2012A&A...538A.120L",
-                "alias": "4"
-            }
-        ],
-        "claimedtype": [
-            {
-                "value": "Ia",
-                "source": "1"
-            },
-            {
-                "value": "II?",
-                "source": "2,3"
-            }
-        ],
-        "discoverday": "21",
-        "discoverer": "EROS",
-        "discovermonth": "11",
-        "discoveryear": "1997",
-        "galdec": "+004145",
-        "galra": "034656",
-        "host": [
-            {
-                "value": "A034656+0041",
-                "source": "1"
-            },
-            {
-                "value": "(APMUKS(BJ)B034422.10+3231.9)",
-                "source": "4"
-            }
-        ],
-        "hvel": [
-            {
-                "value": "42100",
-                "source": "D"
-            }
-        ],
-        "lumdist": [
-            {
-                "value": "747",
-                "source": "D"
-            }
-        ],
-        "maxabsmag": "-18.4",
-        "maxappmag": "21",
-        "maxday": "21",
-        "maxmonth": "11",
-        "maxyear": "1997",
-        "redshift": [
-            {
-                "value": "0.152",
-                "source": "1"
-            }
-        ],
-        "sndec": "+00:41:45.4",
-        "snra": "03:46:56.52",
-        "photometry": [
-            {
-                "timeunit": "MJD",
-                "time": "50773.5",
-                "band": "",
-                "abmag": "21.0",
-                "source": "2,3"
-            }
-        ]
-    }
+	"SN1997ed":{
+		"name":"SN1997ed",
+		"aliases":[
+			"SN1997ed"
+		],
+		"sources":[
+			{
+				"name":"Asiago Supernova Catalogue",
+				"url":"http://graspa.oapd.inaf.it/cgi-bin/sncat.php",
+				"alias":"1",
+				"secondary":true
+			},
+			{
+				"name":"IAUC 6782",
+				"url":"http://www.cbat.eps.harvard.edu/iauc/06700/06782.html",
+				"alias":"2"
+			},
+			{
+				"name":"Latest Supernovae",
+				"url":"http://www.rochesterastronomy.org/snimages/snredshiftall.html",
+				"alias":"3",
+				"secondary":true
+			},
+			{
+				"name":"2012A&A...538A.120L",
+				"url":"http://adsabs.harvard.edu/abs/2012A&A...538A.120L",
+				"bibcode":"2012A&A...538A.120L",
+				"alias":"4"
+			}
+		],
+		"claimedtype":[
+			{
+				"value":"Ia",
+				"source":"1"
+			},
+			{
+				"value":"II?",
+				"source":"2,3"
+			}
+		],
+		"discoverday":"21",
+		"discoverer":"EROS",
+		"discovermonth":"11",
+		"discoveryear":"1997",
+		"galdec":"+004145",
+		"galra":"034656",
+		"host":[
+			{
+				"value":"A034656+0041",
+				"source":"1"
+			},
+			{
+				"value":"(APMUKS(BJ)B034422.10+3231.9)",
+				"source":"4"
+			}
+		],
+		"hvel":[
+			{
+				"value":"42100",
+				"source":"D"
+			}
+		],
+		"lumdist":[
+			{
+				"value":"747",
+				"source":"D"
+			}
+		],
+		"maxabsmag":"-18.4",
+		"maxappmag":"21",
+		"maxday":"21",
+		"maxmonth":"11",
+		"maxyear":"1997",
+		"redshift":[
+			{
+				"value":"0.152",
+				"source":"1"
+			}
+		],
+		"sndec":"+00:41:45.4",
+		"snra":"03:46:56.52",
+		"photometry":[
+			{
+				"timeunit":"MJD",
+				"time":"50773.5",
+				"band":"",
+				"abmag":"21.0",
+				"source":"2,3"
+			}
+		]
+	}
 }

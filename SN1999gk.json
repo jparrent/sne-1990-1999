@@ -1,155 +1,155 @@
 {
-    "SN1999gk": {
-        "name": "SN1999gk",
-        "aliases": [
-            "SN1999gk"
-        ],
-        "sources": [
-            {
-                "name": "Sternberg Astronomical Institute Supernova Light Curve Catalogue",
-                "url": "http://dau.itep.ru/sn/node/72",
-                "alias": "1",
-                "secondary": true
-            },
-            {
-                "name": "VSNET 2001",
-                "alias": "2"
-            },
-            {
-                "name": "Asiago Supernova Catalogue",
-                "url": "http://graspa.oapd.inaf.it/cgi-bin/sncat.php",
-                "alias": "3",
-                "secondary": true
-            },
-            {
-                "name": "IAUC 7332",
-                "url": "http://www.cbat.eps.harvard.edu/iauc/07300/07332.html#Item1",
-                "alias": "4"
-            },
-            {
-                "name": "Latest Supernovae",
-                "url": "http://www.rochesterastronomy.org/snimages/snredshiftall.html",
-                "alias": "5",
-                "secondary": true
-            },
-            {
-                "name": "2012A&A...538A.120L",
-                "url": "http://adsabs.harvard.edu/abs/2012A&A...538A.120L",
-                "bibcode": "2012A&A...538A.120L",
-                "alias": "6"
-            }
-        ],
-        "claimedtype": [
-            {
-                "value": "II",
-                "source": "3,4,5"
-            }
-        ],
-        "discoverday": "26",
-        "discoverer": "P. Berlind,",
-        "discovermonth": "12",
-        "discoveryear": "1999",
-        "galdec": "-003340",
-        "galra": "124351",
-        "host": [
-            {
-                "value": "NGC 4653",
-                "source": "3,4,5,6"
-            }
-        ],
-        "hvel": [
-            {
-                "value": "2547",
-                "source": "3"
-            }
-        ],
-        "lumdist": [
-            {
-                "value": "39",
-                "source": "6"
-            }
-        ],
-        "maxabsmag": "-18",
-        "maxappmag": "15.4",
-        "maxday": "3",
-        "maxmonth": "1",
-        "maxyear": "2000",
-        "redshift": [
-            {
-                "value": "0.0083",
-                "source": "4,5"
-            },
-            {
-                "value": "0.0088",
-                "source": "6"
-            }
-        ],
-        "sndec": "-00:32:55.4",
-        "snra": "12:43:51.91",
-        "photometry": [
-            {
-                "timeunit": "MJD",
-                "time": "51538.5",
-                "band": "",
-                "abmag": "15.5",
-                "source": "4,5"
-            },
-            {
-                "timeunit": "MJD",
-                "time": "51539.81",
-                "band": "C",
-                "abmag": "15.5",
-                "source": "1,2"
-            },
-            {
-                "timeunit": "MJD",
-                "time": "51544.18",
-                "band": "C",
-                "abmag": "16.5",
-                "source": "1,2"
-            },
-            {
-                "timeunit": "MJD",
-                "time": "51546.12",
-                "band": "C",
-                "abmag": "15.4",
-                "source": "1,2"
-            },
-            {
-                "timeunit": "MJD",
-                "time": "51546.2",
-                "band": "C",
-                "abmag": "16.3",
-                "source": "1,2"
-            },
-            {
-                "timeunit": "MJD",
-                "time": "51553.01",
-                "band": "C",
-                "abmag": "15.7",
-                "source": "1,2"
-            },
-            {
-                "timeunit": "MJD",
-                "time": "51571.72",
-                "band": "C",
-                "abmag": "16.1",
-                "source": "1,2"
-            },
-            {
-                "timeunit": "MJD",
-                "time": "51599.03",
-                "band": "R",
-                "abmag": "17.2",
-                "source": "1,2"
-            },
-            {
-                "timeunit": "MJD",
-                "time": "51607.97",
-                "band": "R",
-                "abmag": "16.5",
-                "source": "1,2"
-            }
-        ]
-    }
+	"SN1999gk":{
+		"name":"SN1999gk",
+		"aliases":[
+			"SN1999gk"
+		],
+		"sources":[
+			{
+				"name":"Sternberg Astronomical Institute Supernova Light Curve Catalogue",
+				"url":"http://dau.itep.ru/sn/node/72",
+				"alias":"1",
+				"secondary":true
+			},
+			{
+				"name":"VSNET 2001",
+				"alias":"2"
+			},
+			{
+				"name":"Asiago Supernova Catalogue",
+				"url":"http://graspa.oapd.inaf.it/cgi-bin/sncat.php",
+				"alias":"3",
+				"secondary":true
+			},
+			{
+				"name":"IAUC 7332",
+				"url":"http://www.cbat.eps.harvard.edu/iauc/07300/07332.html#Item1",
+				"alias":"4"
+			},
+			{
+				"name":"Latest Supernovae",
+				"url":"http://www.rochesterastronomy.org/snimages/snredshiftall.html",
+				"alias":"5",
+				"secondary":true
+			},
+			{
+				"name":"2012A&A...538A.120L",
+				"url":"http://adsabs.harvard.edu/abs/2012A&A...538A.120L",
+				"bibcode":"2012A&A...538A.120L",
+				"alias":"6"
+			}
+		],
+		"claimedtype":[
+			{
+				"value":"II",
+				"source":"3,4,5"
+			}
+		],
+		"discoverday":"26",
+		"discoverer":"P. Berlind,",
+		"discovermonth":"12",
+		"discoveryear":"1999",
+		"galdec":"-003340",
+		"galra":"124351",
+		"host":[
+			{
+				"value":"NGC 4653",
+				"source":"3,4,5,6"
+			}
+		],
+		"hvel":[
+			{
+				"value":"2547",
+				"source":"3"
+			}
+		],
+		"lumdist":[
+			{
+				"value":"39",
+				"source":"6"
+			}
+		],
+		"maxabsmag":"-18",
+		"maxappmag":"15.4",
+		"maxday":"3",
+		"maxmonth":"1",
+		"maxyear":"2000",
+		"redshift":[
+			{
+				"value":"0.0083",
+				"source":"4,5"
+			},
+			{
+				"value":"0.0088",
+				"source":"6"
+			}
+		],
+		"sndec":"-00:32:55.4",
+		"snra":"12:43:51.91",
+		"photometry":[
+			{
+				"timeunit":"MJD",
+				"time":"51538.5",
+				"band":"",
+				"abmag":"15.5",
+				"source":"4,5"
+			},
+			{
+				"timeunit":"MJD",
+				"time":"51539.81",
+				"band":"C",
+				"abmag":"15.5",
+				"source":"1,2"
+			},
+			{
+				"timeunit":"MJD",
+				"time":"51544.18",
+				"band":"C",
+				"abmag":"16.5",
+				"source":"1,2"
+			},
+			{
+				"timeunit":"MJD",
+				"time":"51546.12",
+				"band":"C",
+				"abmag":"15.4",
+				"source":"1,2"
+			},
+			{
+				"timeunit":"MJD",
+				"time":"51546.2",
+				"band":"C",
+				"abmag":"16.3",
+				"source":"1,2"
+			},
+			{
+				"timeunit":"MJD",
+				"time":"51553.01",
+				"band":"C",
+				"abmag":"15.7",
+				"source":"1,2"
+			},
+			{
+				"timeunit":"MJD",
+				"time":"51571.72",
+				"band":"C",
+				"abmag":"16.1",
+				"source":"1,2"
+			},
+			{
+				"timeunit":"MJD",
+				"time":"51599.03",
+				"band":"R",
+				"abmag":"17.2",
+				"source":"1,2"
+			},
+			{
+				"timeunit":"MJD",
+				"time":"51607.97",
+				"band":"R",
+				"abmag":"16.5",
+				"source":"1,2"
+			}
+		]
+	}
 }

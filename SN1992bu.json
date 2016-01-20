@@ -1,79 +1,79 @@
 {
-    "SN1992bu": {
-        "name": "SN1992bu",
-        "aliases": [
-            "SN1992bu"
-        ],
-        "sources": [
-            {
-                "name": "Asiago Supernova Catalogue",
-                "url": "http://graspa.oapd.inaf.it/cgi-bin/sncat.php",
-                "alias": "1",
-                "secondary": true
-            },
-            {
-                "name": "IAUC 5960",
-                "url": "http://www.cbat.eps.harvard.edu/iauc/05900/05960.html",
-                "alias": "2"
-            },
-            {
-                "name": "Latest Supernovae",
-                "url": "http://www.rochesterastronomy.org/snimages/snredshiftall.html",
-                "alias": "3",
-                "secondary": true
-            },
-            {
-                "name": "2012A&A...538A.120L",
-                "url": "http://adsabs.harvard.edu/abs/2012A&A...538A.120L",
-                "bibcode": "2012A&A...538A.120L",
-                "alias": "4"
-            }
-        ],
-        "discoverday": "8",
-        "discoverer": "Van Buren, Jarrett, Terebey, Beichman, Shure, Kamins",
-        "discovermonth": "3",
-        "discoveryear": "1992",
-        "galdec": "+583344",
-        "galra": "112832",
-        "host": [
-            {
-                "value": "NGC 3690",
-                "source": "1,2,3,4"
-            }
-        ],
-        "hvel": [
-            {
-                "value": "3033",
-                "source": "1"
-            }
-        ],
-        "lumdist": [
-            {
-                "value": "40",
-                "source": "D"
-            }
-        ],
-        "maxabsmag": "-20",
-        "maxappmag": "16.6",
-        "maxday": "8",
-        "maxmonth": "3",
-        "maxyear": "1992",
-        "redshift": [
-            {
-                "value": "0.01",
-                "source": "4"
-            }
-        ],
-        "sndec": "+58:33:39.0",
-        "snra": "11:28:31.50",
-        "photometry": [
-            {
-                "timeunit": "MJD",
-                "time": "48689.5",
-                "band": "",
-                "abmag": "16.6",
-                "source": "2,3"
-            }
-        ]
-    }
+	"SN1992bu":{
+		"name":"SN1992bu",
+		"aliases":[
+			"SN1992bu"
+		],
+		"sources":[
+			{
+				"name":"Asiago Supernova Catalogue",
+				"url":"http://graspa.oapd.inaf.it/cgi-bin/sncat.php",
+				"alias":"1",
+				"secondary":true
+			},
+			{
+				"name":"IAUC 5960",
+				"url":"http://www.cbat.eps.harvard.edu/iauc/05900/05960.html",
+				"alias":"2"
+			},
+			{
+				"name":"Latest Supernovae",
+				"url":"http://www.rochesterastronomy.org/snimages/snredshiftall.html",
+				"alias":"3",
+				"secondary":true
+			},
+			{
+				"name":"2012A&A...538A.120L",
+				"url":"http://adsabs.harvard.edu/abs/2012A&A...538A.120L",
+				"bibcode":"2012A&A...538A.120L",
+				"alias":"4"
+			}
+		],
+		"discoverday":"8",
+		"discoverer":"Van Buren, Jarrett, Terebey, Beichman, Shure, Kamins",
+		"discovermonth":"3",
+		"discoveryear":"1992",
+		"galdec":"+583344",
+		"galra":"112832",
+		"host":[
+			{
+				"value":"NGC 3690",
+				"source":"1,2,3,4"
+			}
+		],
+		"hvel":[
+			{
+				"value":"3033",
+				"source":"1"
+			}
+		],
+		"lumdist":[
+			{
+				"value":"40",
+				"source":"D"
+			}
+		],
+		"maxabsmag":"-20",
+		"maxappmag":"16.6",
+		"maxday":"8",
+		"maxmonth":"3",
+		"maxyear":"1992",
+		"redshift":[
+			{
+				"value":"0.01",
+				"source":"4"
+			}
+		],
+		"sndec":"+58:33:39.0",
+		"snra":"11:28:31.50",
+		"photometry":[
+			{
+				"timeunit":"MJD",
+				"time":"48689.5",
+				"band":"",
+				"abmag":"16.6",
+				"source":"2,3"
+			}
+		]
+	}
 }

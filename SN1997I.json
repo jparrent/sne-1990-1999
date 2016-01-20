@@ -1,122 +1,122 @@
 {
-    "SN1997I": {
-        "name": "SN1997I",
-        "aliases": [
-            "SN1997I"
-        ],
-        "sources": [
-            {
-                "name": "Asiago Supernova Catalogue",
-                "url": "http://graspa.oapd.inaf.it/cgi-bin/sncat.php",
-                "alias": "1",
-                "secondary": true
-            },
-            {
-                "name": "IAUC 6540",
-                "url": "http://www.cbat.eps.harvard.edu/iauc/06500/06540.html",
-                "alias": "2"
-            },
-            {
-                "name": "Latest Supernovae",
-                "url": "http://www.rochesterastronomy.org/snimages/snredshiftall.html",
-                "alias": "3",
-                "secondary": true
-            },
-            {
-                "name": "2012A&A...538A.120L",
-                "url": "http://adsabs.harvard.edu/abs/2012A&A...538A.120L",
-                "bibcode": "2012A&A...538A.120L",
-                "alias": "4"
-            },
-            {
-                "name": "NED-D",
-                "url": "http://ned.ipac.caltech.edu/Library/Distances/",
-                "alias": "5",
-                "secondary": true
-            },
-            {
-                "name": "2010ApJ...716..712A",
-                "url": "http://adsabs.harvard.edu/abs/2010ApJ...716..712A",
-                "bibcode": "2010ApJ...716..712A",
-                "alias": "6"
-            },
-            {
-                "name": "2008ApJ...686..749K",
-                "url": "http://adsabs.harvard.edu/abs/2008ApJ...686..749K",
-                "bibcode": "2008ApJ...686..749K",
-                "alias": "7"
-            },
-            {
-                "name": "2004ApJ...607..665R",
-                "url": "http://adsabs.harvard.edu/abs/2004ApJ...607..665R",
-                "bibcode": "2004ApJ...607..665R",
-                "alias": "8"
-            },
-            {
-                "name": "1998AJ....116.1009R",
-                "url": "http://adsabs.harvard.edu/abs/1998AJ....116.1009R",
-                "bibcode": "1998AJ....116.1009R",
-                "alias": "9"
-            },
-            {
-                "name": "1998ApJ...504..935R",
-                "url": "http://adsabs.harvard.edu/abs/1998ApJ...504..935R",
-                "bibcode": "1998ApJ...504..935R",
-                "alias": "10"
-            }
-        ],
-        "claimedtype": [
-            {
-                "value": "Ia",
-                "source": "1,2,3"
-            }
-        ],
-        "discoverday": "4",
-        "discoverer": "Supernova Cosmology Project",
-        "discovermonth": "1",
-        "discoveryear": "1997",
-        "galdec": "-030901",
-        "galra": "045937",
-        "host": [
-            {
-                "value": "A045937-0309",
-                "source": "1"
-            }
-        ],
-        "hvel": [
-            {
-                "value": "47200",
-                "source": "D"
-            }
-        ],
-        "lumdist": [
-            {
-                "value": "658",
-                "error": "10",
-                "source": "7,5"
-            }
-        ],
-        "maxabsmag": "-18.2",
-        "maxappmag": "20.9",
-        "maxday": "4",
-        "maxmonth": "1",
-        "maxyear": "1997",
-        "redshift": [
-            {
-                "value": "0.172",
-                "source": "1"
-            }
-        ],
-        "sndec": "-03:09:01.6",
-        "snra": "04:59:37.31",
-        "photometry": [
-            {
-                "timeunit": "MJD",
-                "time": "50452.5",
-                "band": "",
-                "abmag": "20.9",
-                "source": "2,3"
-            }
-        ]
-    }
+	"SN1997I":{
+		"name":"SN1997I",
+		"aliases":[
+			"SN1997I"
+		],
+		"sources":[
+			{
+				"name":"Asiago Supernova Catalogue",
+				"url":"http://graspa.oapd.inaf.it/cgi-bin/sncat.php",
+				"alias":"1",
+				"secondary":true
+			},
+			{
+				"name":"IAUC 6540",
+				"url":"http://www.cbat.eps.harvard.edu/iauc/06500/06540.html",
+				"alias":"2"
+			},
+			{
+				"name":"Latest Supernovae",
+				"url":"http://www.rochesterastronomy.org/snimages/snredshiftall.html",
+				"alias":"3",
+				"secondary":true
+			},
+			{
+				"name":"2012A&A...538A.120L",
+				"url":"http://adsabs.harvard.edu/abs/2012A&A...538A.120L",
+				"bibcode":"2012A&A...538A.120L",
+				"alias":"4"
+			},
+			{
+				"name":"NED-D",
+				"url":"http://ned.ipac.caltech.edu/Library/Distances/",
+				"alias":"5",
+				"secondary":true
+			},
+			{
+				"name":"2010ApJ...716..712A",
+				"url":"http://adsabs.harvard.edu/abs/2010ApJ...716..712A",
+				"bibcode":"2010ApJ...716..712A",
+				"alias":"6"
+			},
+			{
+				"name":"2008ApJ...686..749K",
+				"url":"http://adsabs.harvard.edu/abs/2008ApJ...686..749K",
+				"bibcode":"2008ApJ...686..749K",
+				"alias":"7"
+			},
+			{
+				"name":"2004ApJ...607..665R",
+				"url":"http://adsabs.harvard.edu/abs/2004ApJ...607..665R",
+				"bibcode":"2004ApJ...607..665R",
+				"alias":"8"
+			},
+			{
+				"name":"1998AJ....116.1009R",
+				"url":"http://adsabs.harvard.edu/abs/1998AJ....116.1009R",
+				"bibcode":"1998AJ....116.1009R",
+				"alias":"9"
+			},
+			{
+				"name":"1998ApJ...504..935R",
+				"url":"http://adsabs.harvard.edu/abs/1998ApJ...504..935R",
+				"bibcode":"1998ApJ...504..935R",
+				"alias":"10"
+			}
+		],
+		"claimedtype":[
+			{
+				"value":"Ia",
+				"source":"1,2,3"
+			}
+		],
+		"discoverday":"4",
+		"discoverer":"Supernova Cosmology Project",
+		"discovermonth":"1",
+		"discoveryear":"1997",
+		"galdec":"-030901",
+		"galra":"045937",
+		"host":[
+			{
+				"value":"A045937-0309",
+				"source":"1"
+			}
+		],
+		"hvel":[
+			{
+				"value":"47200",
+				"source":"D"
+			}
+		],
+		"lumdist":[
+			{
+				"value":"658",
+				"error":"10",
+				"source":"7,5"
+			}
+		],
+		"maxabsmag":"-18.2",
+		"maxappmag":"20.9",
+		"maxday":"4",
+		"maxmonth":"1",
+		"maxyear":"1997",
+		"redshift":[
+			{
+				"value":"0.172",
+				"source":"1"
+			}
+		],
+		"sndec":"-03:09:01.6",
+		"snra":"04:59:37.31",
+		"photometry":[
+			{
+				"timeunit":"MJD",
+				"time":"50452.5",
+				"band":"",
+				"abmag":"20.9",
+				"source":"2,3"
+			}
+		]
+	}
 }

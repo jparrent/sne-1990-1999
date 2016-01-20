@@ -1,85 +1,85 @@
 {
-    "SN1995O": {
-        "name": "SN1995O",
-        "aliases": [
-            "SN1995O"
-        ],
-        "sources": [
-            {
-                "name": "Asiago Supernova Catalogue",
-                "url": "http://graspa.oapd.inaf.it/cgi-bin/sncat.php",
-                "alias": "1",
-                "secondary": true
-            },
-            {
-                "name": "IAUC 6172",
-                "url": "http://www.cbat.eps.harvard.edu/iauc/06100/06172.html",
-                "alias": "2"
-            },
-            {
-                "name": "Latest Supernovae",
-                "url": "http://www.rochesterastronomy.org/snimages/snredshiftall.html",
-                "alias": "3",
-                "secondary": true
-            },
-            {
-                "name": "2012A&A...538A.120L",
-                "url": "http://adsabs.harvard.edu/abs/2012A&A...538A.120L",
-                "bibcode": "2012A&A...538A.120L",
-                "alias": "4"
-            }
-        ],
-        "claimedtype": [
-            {
-                "value": "Ia",
-                "source": "1"
-            }
-        ],
-        "discoverday": "2",
-        "discoverer": "Le Borgne, Sanahuja, Maddox",
-        "discovermonth": "5",
-        "discoveryear": "1995",
-        "galdec": "+661143",
-        "galra": "163556",
-        "host": [
-            {
-                "value": "A163556+6611",
-                "source": "1"
-            }
-        ],
-        "hvel": [
-            {
-                "value": "47900",
-                "source": "D"
-            }
-        ],
-        "lumdist": [
-            {
-                "value": "872",
-                "source": "D"
-            }
-        ],
-        "maxabsmag": "-17.7",
-        "maxappmag": "22",
-        "maxday": "2",
-        "maxmonth": "5",
-        "maxyear": "1995",
-        "redshift": [
-            {
-                "value": "0.175",
-                "source": "1"
-            }
-        ],
-        "sndec": "+66:11:44.0",
-        "snra": "16:35:56.12",
-        "photometry": [
-            {
-                "timeunit": "MJD",
-                "time": "49839.5",
-                "band": "",
-                "abmag": "22.0",
-                "source": "2,3"
-            }
-        ]
-    }
+	"SN1995O":{
+		"name":"SN1995O",
+		"aliases":[
+			"SN1995O"
+		],
+		"sources":[
+			{
+				"name":"Asiago Supernova Catalogue",
+				"url":"http://graspa.oapd.inaf.it/cgi-bin/sncat.php",
+				"alias":"1",
+				"secondary":true
+			},
+			{
+				"name":"IAUC 6172",
+				"url":"http://www.cbat.eps.harvard.edu/iauc/06100/06172.html",
+				"alias":"2"
+			},
+			{
+				"name":"Latest Supernovae",
+				"url":"http://www.rochesterastronomy.org/snimages/snredshiftall.html",
+				"alias":"3",
+				"secondary":true
+			},
+			{
+				"name":"2012A&A...538A.120L",
+				"url":"http://adsabs.harvard.edu/abs/2012A&A...538A.120L",
+				"bibcode":"2012A&A...538A.120L",
+				"alias":"4"
+			}
+		],
+		"claimedtype":[
+			{
+				"value":"Ia",
+				"source":"1"
+			}
+		],
+		"discoverday":"2",
+		"discoverer":"Le Borgne, Sanahuja, Maddox",
+		"discovermonth":"5",
+		"discoveryear":"1995",
+		"galdec":"+661143",
+		"galra":"163556",
+		"host":[
+			{
+				"value":"A163556+6611",
+				"source":"1"
+			}
+		],
+		"hvel":[
+			{
+				"value":"47900",
+				"source":"D"
+			}
+		],
+		"lumdist":[
+			{
+				"value":"872",
+				"source":"D"
+			}
+		],
+		"maxabsmag":"-17.7",
+		"maxappmag":"22",
+		"maxday":"2",
+		"maxmonth":"5",
+		"maxyear":"1995",
+		"redshift":[
+			{
+				"value":"0.175",
+				"source":"1"
+			}
+		],
+		"sndec":"+66:11:44.0",
+		"snra":"16:35:56.12",
+		"photometry":[
+			{
+				"timeunit":"MJD",
+				"time":"49839.5",
+				"band":"",
+				"abmag":"22.0",
+				"source":"2,3"
+			}
+		]
+	}
 }

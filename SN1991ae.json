@@ -1,97 +1,97 @@
 {
-    "SN1991ae": {
-        "name": "SN1991ae",
-        "aliases": [
-            "SN1991ae"
-        ],
-        "sources": [
-            {
-                "name": "Asiago Supernova Catalogue",
-                "url": "http://graspa.oapd.inaf.it/cgi-bin/sncat.php",
-                "alias": "1",
-                "secondary": true
-            },
-            {
-                "name": "IAUC 5282",
-                "url": "http://www.cbat.eps.harvard.edu/iauc/05200/05282.html",
-                "alias": "2"
-            },
-            {
-                "name": "Latest Supernovae",
-                "url": "http://www.rochesterastronomy.org/snimages/snredshiftall.html",
-                "alias": "3",
-                "secondary": true
-            },
-            {
-                "name": "2012A&A...538A.120L",
-                "url": "http://adsabs.harvard.edu/abs/2012A&A...538A.120L",
-                "bibcode": "2012A&A...538A.120L",
-                "alias": "4"
-            }
-        ],
-        "claimedtype": [
-            {
-                "value": "IIn",
-                "source": "1"
-            },
-            {
-                "value": "II P",
-                "source": "2,3"
-            }
-        ],
-        "discoverday": "16",
-        "discoverer": "Jean Mueller",
-        "discovermonth": "5",
-        "discoveryear": "1991",
-        "galdec": "+680556",
-        "galra": "154838",
-        "host": [
-            {
-                "value": "M+11-19-18",
-                "source": "1"
-            },
-            {
-                "value": "MCG +11-19-18",
-                "source": "2,3"
-            },
-            {
-                "value": "PGC56090",
-                "source": "4"
-            }
-        ],
-        "hvel": [
-            {
-                "value": "8795",
-                "source": "1"
-            }
-        ],
-        "lumdist": [
-            {
-                "value": "130",
-                "source": "D"
-            }
-        ],
-        "maxabsmag": "-18",
-        "maxappmag": "18",
-        "maxday": "16",
-        "maxmonth": "5",
-        "maxyear": "1991",
-        "redshift": [
-            {
-                "value": "0.029",
-                "source": "4"
-            }
-        ],
-        "sndec": "+68:06:03.0",
-        "snra": "15:48:35.5",
-        "photometry": [
-            {
-                "timeunit": "MJD",
-                "time": "48392.5",
-                "band": "",
-                "abmag": "18.0",
-                "source": "2,3"
-            }
-        ]
-    }
+	"SN1991ae":{
+		"name":"SN1991ae",
+		"aliases":[
+			"SN1991ae"
+		],
+		"sources":[
+			{
+				"name":"Asiago Supernova Catalogue",
+				"url":"http://graspa.oapd.inaf.it/cgi-bin/sncat.php",
+				"alias":"1",
+				"secondary":true
+			},
+			{
+				"name":"IAUC 5282",
+				"url":"http://www.cbat.eps.harvard.edu/iauc/05200/05282.html",
+				"alias":"2"
+			},
+			{
+				"name":"Latest Supernovae",
+				"url":"http://www.rochesterastronomy.org/snimages/snredshiftall.html",
+				"alias":"3",
+				"secondary":true
+			},
+			{
+				"name":"2012A&A...538A.120L",
+				"url":"http://adsabs.harvard.edu/abs/2012A&A...538A.120L",
+				"bibcode":"2012A&A...538A.120L",
+				"alias":"4"
+			}
+		],
+		"claimedtype":[
+			{
+				"value":"IIn",
+				"source":"1"
+			},
+			{
+				"value":"II P",
+				"source":"2,3"
+			}
+		],
+		"discoverday":"16",
+		"discoverer":"Jean Mueller",
+		"discovermonth":"5",
+		"discoveryear":"1991",
+		"galdec":"+680556",
+		"galra":"154838",
+		"host":[
+			{
+				"value":"M+11-19-18",
+				"source":"1"
+			},
+			{
+				"value":"MCG +11-19-18",
+				"source":"2,3"
+			},
+			{
+				"value":"PGC56090",
+				"source":"4"
+			}
+		],
+		"hvel":[
+			{
+				"value":"8795",
+				"source":"1"
+			}
+		],
+		"lumdist":[
+			{
+				"value":"130",
+				"source":"D"
+			}
+		],
+		"maxabsmag":"-18",
+		"maxappmag":"18",
+		"maxday":"16",
+		"maxmonth":"5",
+		"maxyear":"1991",
+		"redshift":[
+			{
+				"value":"0.029",
+				"source":"4"
+			}
+		],
+		"sndec":"+68:06:03.0",
+		"snra":"15:48:35.5",
+		"photometry":[
+			{
+				"timeunit":"MJD",
+				"time":"48392.5",
+				"band":"",
+				"abmag":"18.0",
+				"source":"2,3"
+			}
+		]
+	}
 }

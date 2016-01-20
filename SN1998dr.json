@@ -1,70 +1,70 @@
 {
-    "SN1998dr": {
-        "name": "SN1998dr",
-        "aliases": [
-            "SN1998dr"
-        ],
-        "sources": [
-            {
-                "name": "Asiago Supernova Catalogue",
-                "url": "http://graspa.oapd.inaf.it/cgi-bin/sncat.php",
-                "alias": "1",
-                "secondary": true
-            },
-            {
-                "name": "IAUC 7006",
-                "url": "http://www.cbat.eps.harvard.edu/iauc/07000/07006.html",
-                "alias": "2"
-            },
-            {
-                "name": "Latest Supernovae",
-                "url": "http://www.rochesterastronomy.org/snimages/snredshiftall.html",
-                "alias": "3",
-                "secondary": true
-            },
-            {
-                "name": "2012A&A...538A.120L",
-                "url": "http://adsabs.harvard.edu/abs/2012A&A...538A.120L",
-                "bibcode": "2012A&A...538A.120L",
-                "alias": "4"
-            }
-        ],
-        "claimedtype": [
-            {
-                "value": "Ia",
-                "source": "1,2,3"
-            }
-        ],
-        "discoverday": "27",
-        "discoverer": "Roberto Antezana",
-        "discovermonth": "8",
-        "discoveryear": "1998",
-        "galdec": "-485039",
-        "galra": "000930",
-        "host": [
-            {
-                "value": "A000930-4850",
-                "source": "1"
-            },
-            {
-                "value": "(PGC483117)",
-                "source": "4"
-            }
-        ],
-        "maxappmag": "18",
-        "maxday": "27",
-        "maxmonth": "8",
-        "maxyear": "1998",
-        "sndec": "-48:50:39.1",
-        "snra": "00:09:30.68",
-        "photometry": [
-            {
-                "timeunit": "MJD",
-                "time": "51052.5",
-                "band": "",
-                "abmag": "18.0",
-                "source": "2,3"
-            }
-        ]
-    }
+	"SN1998dr":{
+		"name":"SN1998dr",
+		"aliases":[
+			"SN1998dr"
+		],
+		"sources":[
+			{
+				"name":"Asiago Supernova Catalogue",
+				"url":"http://graspa.oapd.inaf.it/cgi-bin/sncat.php",
+				"alias":"1",
+				"secondary":true
+			},
+			{
+				"name":"IAUC 7006",
+				"url":"http://www.cbat.eps.harvard.edu/iauc/07000/07006.html",
+				"alias":"2"
+			},
+			{
+				"name":"Latest Supernovae",
+				"url":"http://www.rochesterastronomy.org/snimages/snredshiftall.html",
+				"alias":"3",
+				"secondary":true
+			},
+			{
+				"name":"2012A&A...538A.120L",
+				"url":"http://adsabs.harvard.edu/abs/2012A&A...538A.120L",
+				"bibcode":"2012A&A...538A.120L",
+				"alias":"4"
+			}
+		],
+		"claimedtype":[
+			{
+				"value":"Ia",
+				"source":"1,2,3"
+			}
+		],
+		"discoverday":"27",
+		"discoverer":"Roberto Antezana",
+		"discovermonth":"8",
+		"discoveryear":"1998",
+		"galdec":"-485039",
+		"galra":"000930",
+		"host":[
+			{
+				"value":"A000930-4850",
+				"source":"1"
+			},
+			{
+				"value":"(PGC483117)",
+				"source":"4"
+			}
+		],
+		"maxappmag":"18",
+		"maxday":"27",
+		"maxmonth":"8",
+		"maxyear":"1998",
+		"sndec":"-48:50:39.1",
+		"snra":"00:09:30.68",
+		"photometry":[
+			{
+				"timeunit":"MJD",
+				"time":"51052.5",
+				"band":"",
+				"abmag":"18.0",
+				"source":"2,3"
+			}
+		]
+	}
 }

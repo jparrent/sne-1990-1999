@@ -1,80 +1,80 @@
 {
-    "SN1997db": {
-        "name": "SN1997db",
-        "aliases": [
-            "SN1997db"
-        ],
-        "sources": [
-            {
-                "name": "Asiago Supernova Catalogue",
-                "url": "http://graspa.oapd.inaf.it/cgi-bin/sncat.php",
-                "alias": "1",
-                "secondary": true
-            },
-            {
-                "name": "IAUC 6711",
-                "url": "http://www.cbat.eps.harvard.edu/iauc/06700/06711.html#Item2",
-                "alias": "2"
-            },
-            {
-                "name": "Latest Supernovae",
-                "url": "http://www.rochesterastronomy.org/snimages/snredshiftall.html",
-                "alias": "3",
-                "secondary": true
-            },
-            {
-                "name": "2012A&A...538A.120L",
-                "url": "http://adsabs.harvard.edu/abs/2012A&A...538A.120L",
-                "bibcode": "2012A&A...538A.120L",
-                "alias": "4"
-            }
-        ],
-        "claimedtype": [
-            {
-                "value": "II",
-                "source": "1,2,3"
-            }
-        ],
-        "discoverday": "2",
-        "discoverer": "Mike Schwartz",
-        "discovermonth": "8",
-        "discoveryear": "1997",
-        "galdec": "+731539",
-        "galra": "215624",
-        "host": [
-            {
-                "value": "UGC 11861",
-                "source": "1,2,3,4"
-            }
-        ],
-        "hvel": [
-            {
-                "value": "1483",
-                "source": "1"
-            }
-        ],
-        "lumdist": [
-            {
-                "value": "14",
-                "source": "4"
-            }
-        ],
-        "redshift": [
-            {
-                "value": "0.0049",
-                "source": "4"
-            }
-        ],
-        "sndec": "+73:14:49.4",
-        "snra": "21:56:20.53",
-        "photometry": [
-            {
-                "timeunit": "MJD",
-                "time": "50662.0",
-                "band": "V",
-                "abmag": "16.9",
-                "source": "4"
-            }
-        ]
-    }
+	"SN1997db":{
+		"name":"SN1997db",
+		"aliases":[
+			"SN1997db"
+		],
+		"sources":[
+			{
+				"name":"Asiago Supernova Catalogue",
+				"url":"http://graspa.oapd.inaf.it/cgi-bin/sncat.php",
+				"alias":"1",
+				"secondary":true
+			},
+			{
+				"name":"IAUC 6711",
+				"url":"http://www.cbat.eps.harvard.edu/iauc/06700/06711.html#Item2",
+				"alias":"2"
+			},
+			{
+				"name":"Latest Supernovae",
+				"url":"http://www.rochesterastronomy.org/snimages/snredshiftall.html",
+				"alias":"3",
+				"secondary":true
+			},
+			{
+				"name":"2012A&A...538A.120L",
+				"url":"http://adsabs.harvard.edu/abs/2012A&A...538A.120L",
+				"bibcode":"2012A&A...538A.120L",
+				"alias":"4"
+			}
+		],
+		"claimedtype":[
+			{
+				"value":"II",
+				"source":"1,2,3"
+			}
+		],
+		"discoverday":"2",
+		"discoverer":"Mike Schwartz",
+		"discovermonth":"8",
+		"discoveryear":"1997",
+		"galdec":"+731539",
+		"galra":"215624",
+		"host":[
+			{
+				"value":"UGC 11861",
+				"source":"1,2,3,4"
+			}
+		],
+		"hvel":[
+			{
+				"value":"1483",
+				"source":"1"
+			}
+		],
+		"lumdist":[
+			{
+				"value":"14",
+				"source":"4"
+			}
+		],
+		"redshift":[
+			{
+				"value":"0.0049",
+				"source":"4"
+			}
+		],
+		"sndec":"+73:14:49.4",
+		"snra":"21:56:20.53",
+		"photometry":[
+			{
+				"timeunit":"MJD",
+				"time":"50662.0",
+				"band":"V",
+				"abmag":"16.9",
+				"source":"4"
+			}
+		]
+	}
 }

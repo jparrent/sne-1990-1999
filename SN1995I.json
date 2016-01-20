@@ -1,89 +1,89 @@
 {
-    "SN1995I": {
-        "name": "SN1995I",
-        "aliases": [
-            "SN1995I"
-        ],
-        "sources": [
-            {
-                "name": "Asiago Supernova Catalogue",
-                "url": "http://graspa.oapd.inaf.it/cgi-bin/sncat.php",
-                "alias": "1",
-                "secondary": true
-            },
-            {
-                "name": "IAUC 6153",
-                "url": "http://www.cbat.eps.harvard.edu/iauc/06100/06153.html",
-                "alias": "2"
-            },
-            {
-                "name": "Latest Supernovae",
-                "url": "http://www.rochesterastronomy.org/snimages/snredshiftall.html",
-                "alias": "3",
-                "secondary": true
-            },
-            {
-                "name": "2012A&A...538A.120L",
-                "url": "http://adsabs.harvard.edu/abs/2012A&A...538A.120L",
-                "bibcode": "2012A&A...538A.120L",
-                "alias": "4"
-            }
-        ],
-        "claimedtype": [
-            {
-                "value": "II",
-                "source": "1,2,3"
-            }
-        ],
-        "discoverday": "27",
-        "discoverer": "Christian Pollas",
-        "discovermonth": "2",
-        "discoveryear": "1995",
-        "galdec": "+033556",
-        "galra": "132059",
-        "host": [
-            {
-                "value": "A132059+0335",
-                "source": "1"
-            },
-            {
-                "value": "(MAPS-NGPO_558_0292422)",
-                "source": "4"
-            }
-        ],
-        "hvel": [
-            {
-                "value": "22500",
-                "source": "1"
-            }
-        ],
-        "lumdist": [
-            {
-                "value": "350",
-                "source": "D"
-            }
-        ],
-        "maxabsmag": "-18",
-        "maxappmag": "19.5",
-        "maxday": "27",
-        "maxmonth": "2",
-        "maxyear": "1995",
-        "redshift": [
-            {
-                "value": "0.075",
-                "source": "4"
-            }
-        ],
-        "sndec": "+03:35:56.2",
-        "snra": "13:20:59.85",
-        "photometry": [
-            {
-                "timeunit": "MJD",
-                "time": "49775.5",
-                "band": "",
-                "abmag": "19.5",
-                "source": "2,3"
-            }
-        ]
-    }
+	"SN1995I":{
+		"name":"SN1995I",
+		"aliases":[
+			"SN1995I"
+		],
+		"sources":[
+			{
+				"name":"Asiago Supernova Catalogue",
+				"url":"http://graspa.oapd.inaf.it/cgi-bin/sncat.php",
+				"alias":"1",
+				"secondary":true
+			},
+			{
+				"name":"IAUC 6153",
+				"url":"http://www.cbat.eps.harvard.edu/iauc/06100/06153.html",
+				"alias":"2"
+			},
+			{
+				"name":"Latest Supernovae",
+				"url":"http://www.rochesterastronomy.org/snimages/snredshiftall.html",
+				"alias":"3",
+				"secondary":true
+			},
+			{
+				"name":"2012A&A...538A.120L",
+				"url":"http://adsabs.harvard.edu/abs/2012A&A...538A.120L",
+				"bibcode":"2012A&A...538A.120L",
+				"alias":"4"
+			}
+		],
+		"claimedtype":[
+			{
+				"value":"II",
+				"source":"1,2,3"
+			}
+		],
+		"discoverday":"27",
+		"discoverer":"Christian Pollas",
+		"discovermonth":"2",
+		"discoveryear":"1995",
+		"galdec":"+033556",
+		"galra":"132059",
+		"host":[
+			{
+				"value":"A132059+0335",
+				"source":"1"
+			},
+			{
+				"value":"(MAPS-NGPO_558_0292422)",
+				"source":"4"
+			}
+		],
+		"hvel":[
+			{
+				"value":"22500",
+				"source":"1"
+			}
+		],
+		"lumdist":[
+			{
+				"value":"350",
+				"source":"D"
+			}
+		],
+		"maxabsmag":"-18",
+		"maxappmag":"19.5",
+		"maxday":"27",
+		"maxmonth":"2",
+		"maxyear":"1995",
+		"redshift":[
+			{
+				"value":"0.075",
+				"source":"4"
+			}
+		],
+		"sndec":"+03:35:56.2",
+		"snra":"13:20:59.85",
+		"photometry":[
+			{
+				"timeunit":"MJD",
+				"time":"49775.5",
+				"band":"",
+				"abmag":"19.5",
+				"source":"2,3"
+			}
+		]
+	}
 }

@@ -1,95 +1,95 @@
 {
-    "SN1999Z": {
-        "name": "SN1999Z",
-        "aliases": [
-            "SN1999Z"
-        ],
-        "sources": [
-            {
-                "name": "Sternberg Astronomical Institute Supernova Light Curve Catalogue",
-                "url": "http://dau.itep.ru/sn/node/72",
-                "alias": "1",
-                "secondary": true
-            },
-            {
-                "name": "VSNET 2001",
-                "alias": "2"
-            },
-            {
-                "name": "Asiago Supernova Catalogue",
-                "url": "http://graspa.oapd.inaf.it/cgi-bin/sncat.php",
-                "alias": "3",
-                "secondary": true
-            },
-            {
-                "name": "IAUC 7106",
-                "url": "http://www.cbat.eps.harvard.edu/iauc/07100/07106.html#Item2",
-                "alias": "4"
-            },
-            {
-                "name": "Latest Supernovae",
-                "url": "http://www.rochesterastronomy.org/snimages/snredshiftall.html",
-                "alias": "5",
-                "secondary": true
-            },
-            {
-                "name": "2012A&A...538A.120L",
-                "url": "http://adsabs.harvard.edu/abs/2012A&A...538A.120L",
-                "bibcode": "2012A&A...538A.120L",
-                "alias": "6"
-            }
-        ],
-        "claimedtype": [
-            {
-                "value": "IIn",
-                "source": "3,4,5"
-            }
-        ],
-        "discoverday": "12",
-        "discoverer": "Mike Schwartz",
-        "discovermonth": "3",
-        "discoveryear": "1999",
-        "galdec": "+272121",
-        "galra": "102238",
-        "host": [
-            {
-                "value": "UGC 5608",
-                "source": "3,4,5,6"
-            }
-        ],
-        "hvel": [
-            {
-                "value": "15100",
-                "source": "3"
-            }
-        ],
-        "lumdist": [
-            {
-                "value": "230",
-                "source": "D"
-            }
-        ],
-        "maxabsmag": "-20",
-        "maxappmag": "17.15",
-        "maxday": "12",
-        "maxmonth": "3",
-        "maxyear": "1999",
-        "redshift": [
-            {
-                "value": "0.051",
-                "source": "6"
-            }
-        ],
-        "sndec": "+27:21:19.8",
-        "snra": "10:22:37.23",
-        "photometry": [
-            {
-                "timeunit": "MJD",
-                "time": "51249.2",
-                "band": "C",
-                "abmag": "17.15",
-                "source": "1,2"
-            }
-        ]
-    }
+	"SN1999Z":{
+		"name":"SN1999Z",
+		"aliases":[
+			"SN1999Z"
+		],
+		"sources":[
+			{
+				"name":"Sternberg Astronomical Institute Supernova Light Curve Catalogue",
+				"url":"http://dau.itep.ru/sn/node/72",
+				"alias":"1",
+				"secondary":true
+			},
+			{
+				"name":"VSNET 2001",
+				"alias":"2"
+			},
+			{
+				"name":"Asiago Supernova Catalogue",
+				"url":"http://graspa.oapd.inaf.it/cgi-bin/sncat.php",
+				"alias":"3",
+				"secondary":true
+			},
+			{
+				"name":"IAUC 7106",
+				"url":"http://www.cbat.eps.harvard.edu/iauc/07100/07106.html#Item2",
+				"alias":"4"
+			},
+			{
+				"name":"Latest Supernovae",
+				"url":"http://www.rochesterastronomy.org/snimages/snredshiftall.html",
+				"alias":"5",
+				"secondary":true
+			},
+			{
+				"name":"2012A&A...538A.120L",
+				"url":"http://adsabs.harvard.edu/abs/2012A&A...538A.120L",
+				"bibcode":"2012A&A...538A.120L",
+				"alias":"6"
+			}
+		],
+		"claimedtype":[
+			{
+				"value":"IIn",
+				"source":"3,4,5"
+			}
+		],
+		"discoverday":"12",
+		"discoverer":"Mike Schwartz",
+		"discovermonth":"3",
+		"discoveryear":"1999",
+		"galdec":"+272121",
+		"galra":"102238",
+		"host":[
+			{
+				"value":"UGC 5608",
+				"source":"3,4,5,6"
+			}
+		],
+		"hvel":[
+			{
+				"value":"15100",
+				"source":"3"
+			}
+		],
+		"lumdist":[
+			{
+				"value":"230",
+				"source":"D"
+			}
+		],
+		"maxabsmag":"-20",
+		"maxappmag":"17.15",
+		"maxday":"12",
+		"maxmonth":"3",
+		"maxyear":"1999",
+		"redshift":[
+			{
+				"value":"0.051",
+				"source":"6"
+			}
+		],
+		"sndec":"+27:21:19.8",
+		"snra":"10:22:37.23",
+		"photometry":[
+			{
+				"timeunit":"MJD",
+				"time":"51249.2",
+				"band":"C",
+				"abmag":"17.15",
+				"source":"1,2"
+			}
+		]
+	}
 }

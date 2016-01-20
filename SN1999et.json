@@ -1,116 +1,116 @@
 {
-    "SN1999et": {
-        "name": "SN1999et",
-        "aliases": [
-            "SN1999et"
-        ],
-        "sources": [
-            {
-                "name": "Sternberg Astronomical Institute Supernova Light Curve Catalogue",
-                "url": "http://dau.itep.ru/sn/node/72",
-                "alias": "1",
-                "secondary": true
-            },
-            {
-                "name": "VSNET 2001",
-                "alias": "2"
-            },
-            {
-                "name": "Asiago Supernova Catalogue",
-                "url": "http://graspa.oapd.inaf.it/cgi-bin/sncat.php",
-                "alias": "3",
-                "secondary": true
-            },
-            {
-                "name": "IAUC 7304",
-                "url": "http://www.cbat.eps.harvard.edu/iauc/07300/07304.html#Item1",
-                "alias": "4"
-            },
-            {
-                "name": "Latest Supernovae",
-                "url": "http://www.rochesterastronomy.org/snimages/snredshiftall.html",
-                "alias": "5",
-                "secondary": true
-            },
-            {
-                "name": "2012A&A...538A.120L",
-                "url": "http://adsabs.harvard.edu/abs/2012A&A...538A.120L",
-                "bibcode": "2012A&A...538A.120L",
-                "alias": "6"
-            }
-        ],
-        "claimedtype": [
-            {
-                "value": "II",
-                "source": "3,4,5"
-            }
-        ],
-        "discoverday": "3",
-        "discoverer": "OaPd",
-        "discovermonth": "11",
-        "discoveryear": "1999",
-        "galdec": "-051910",
-        "galra": "044344",
-        "host": [
-            {
-                "value": "NGC 1643",
-                "source": "3,4,5,6"
-            }
-        ],
-        "hvel": [
-            {
-                "value": "4873",
-                "source": "3"
-            }
-        ],
-        "lumdist": [
-            {
-                "value": "72",
-                "source": "D"
-            }
-        ],
-        "maxabsmag": "-17",
-        "maxappmag": "17.1",
-        "maxday": "10",
-        "maxmonth": "11",
-        "maxyear": "1999",
-        "redshift": [
-            {
-                "value": "0.016",
-                "source": "6"
-            }
-        ],
-        "sndec": "-05:19:19.8",
-        "snra": "04:43:43.53",
-        "photometry": [
-            {
-                "timeunit": "MJD",
-                "time": "51485.5",
-                "band": "",
-                "abmag": "17.6",
-                "source": "4,5"
-            },
-            {
-                "timeunit": "MJD",
-                "time": "51492.0",
-                "band": "R",
-                "abmag": "17.1",
-                "source": "1,2"
-            },
-            {
-                "timeunit": "MJD",
-                "time": "51518.93",
-                "band": "C",
-                "abmag": "17.5",
-                "source": "1,2"
-            },
-            {
-                "timeunit": "MJD",
-                "time": "51520.0",
-                "band": "R",
-                "abmag": "17.1",
-                "source": "1,2"
-            }
-        ]
-    }
+	"SN1999et":{
+		"name":"SN1999et",
+		"aliases":[
+			"SN1999et"
+		],
+		"sources":[
+			{
+				"name":"Sternberg Astronomical Institute Supernova Light Curve Catalogue",
+				"url":"http://dau.itep.ru/sn/node/72",
+				"alias":"1",
+				"secondary":true
+			},
+			{
+				"name":"VSNET 2001",
+				"alias":"2"
+			},
+			{
+				"name":"Asiago Supernova Catalogue",
+				"url":"http://graspa.oapd.inaf.it/cgi-bin/sncat.php",
+				"alias":"3",
+				"secondary":true
+			},
+			{
+				"name":"IAUC 7304",
+				"url":"http://www.cbat.eps.harvard.edu/iauc/07300/07304.html#Item1",
+				"alias":"4"
+			},
+			{
+				"name":"Latest Supernovae",
+				"url":"http://www.rochesterastronomy.org/snimages/snredshiftall.html",
+				"alias":"5",
+				"secondary":true
+			},
+			{
+				"name":"2012A&A...538A.120L",
+				"url":"http://adsabs.harvard.edu/abs/2012A&A...538A.120L",
+				"bibcode":"2012A&A...538A.120L",
+				"alias":"6"
+			}
+		],
+		"claimedtype":[
+			{
+				"value":"II",
+				"source":"3,4,5"
+			}
+		],
+		"discoverday":"3",
+		"discoverer":"OaPd",
+		"discovermonth":"11",
+		"discoveryear":"1999",
+		"galdec":"-051910",
+		"galra":"044344",
+		"host":[
+			{
+				"value":"NGC 1643",
+				"source":"3,4,5,6"
+			}
+		],
+		"hvel":[
+			{
+				"value":"4873",
+				"source":"3"
+			}
+		],
+		"lumdist":[
+			{
+				"value":"72",
+				"source":"D"
+			}
+		],
+		"maxabsmag":"-17",
+		"maxappmag":"17.1",
+		"maxday":"10",
+		"maxmonth":"11",
+		"maxyear":"1999",
+		"redshift":[
+			{
+				"value":"0.016",
+				"source":"6"
+			}
+		],
+		"sndec":"-05:19:19.8",
+		"snra":"04:43:43.53",
+		"photometry":[
+			{
+				"timeunit":"MJD",
+				"time":"51485.5",
+				"band":"",
+				"abmag":"17.6",
+				"source":"4,5"
+			},
+			{
+				"timeunit":"MJD",
+				"time":"51492.0",
+				"band":"R",
+				"abmag":"17.1",
+				"source":"1,2"
+			},
+			{
+				"timeunit":"MJD",
+				"time":"51518.93",
+				"band":"C",
+				"abmag":"17.5",
+				"source":"1,2"
+			},
+			{
+				"timeunit":"MJD",
+				"time":"51520.0",
+				"band":"R",
+				"abmag":"17.1",
+				"source":"1,2"
+			}
+		]
+	}
 }

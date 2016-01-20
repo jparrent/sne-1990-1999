@@ -1,93 +1,93 @@
 {
-    "SN1992D": {
-        "name": "SN1992D",
-        "aliases": [
-            "SN1992D"
-        ],
-        "sources": [
-            {
-                "name": "Asiago Supernova Catalogue",
-                "url": "http://graspa.oapd.inaf.it/cgi-bin/sncat.php",
-                "alias": "1",
-                "secondary": true
-            },
-            {
-                "name": "IAUC 5444",
-                "url": "http://www.cbat.eps.harvard.edu/iauc/05400/05444.html",
-                "alias": "2"
-            },
-            {
-                "name": "Latest Supernovae",
-                "url": "http://www.rochesterastronomy.org/snimages/snredshiftall.html",
-                "alias": "3",
-                "secondary": true
-            },
-            {
-                "name": "2012A&A...538A.120L",
-                "url": "http://adsabs.harvard.edu/abs/2012A&A...538A.120L",
-                "bibcode": "2012A&A...538A.120L",
-                "alias": "4"
-            }
-        ],
-        "claimedtype": [
-            {
-                "value": "IIn",
-                "source": "1"
-            },
-            {
-                "value": "II P",
-                "source": "2,3"
-            }
-        ],
-        "discoverday": "27",
-        "discoverer": "Robert McNaught, Drinkwater",
-        "discovermonth": "1",
-        "discoveryear": "1992",
-        "galdec": "-202208",
-        "galra": "060059",
-        "host": [
-            {
-                "value": "A060059-2022",
-                "source": "1"
-            },
-            {
-                "value": "(PGC842727)",
-                "source": "4"
-            }
-        ],
-        "hvel": [
-            {
-                "value": "15000",
-                "source": "1"
-            }
-        ],
-        "lumdist": [
-            {
-                "value": "200",
-                "source": "D"
-            }
-        ],
-        "maxabsmag": "-20",
-        "maxappmag": "19",
-        "maxday": "27",
-        "maxmonth": "1",
-        "maxyear": "1992",
-        "redshift": [
-            {
-                "value": "0.05",
-                "source": "2,3,4"
-            }
-        ],
-        "sndec": "-20:22:08.8",
-        "snra": "06:00:59.87",
-        "photometry": [
-            {
-                "timeunit": "MJD",
-                "time": "48648.5",
-                "band": "",
-                "abmag": "19.0",
-                "source": "2,3"
-            }
-        ]
-    }
+	"SN1992D":{
+		"name":"SN1992D",
+		"aliases":[
+			"SN1992D"
+		],
+		"sources":[
+			{
+				"name":"Asiago Supernova Catalogue",
+				"url":"http://graspa.oapd.inaf.it/cgi-bin/sncat.php",
+				"alias":"1",
+				"secondary":true
+			},
+			{
+				"name":"IAUC 5444",
+				"url":"http://www.cbat.eps.harvard.edu/iauc/05400/05444.html",
+				"alias":"2"
+			},
+			{
+				"name":"Latest Supernovae",
+				"url":"http://www.rochesterastronomy.org/snimages/snredshiftall.html",
+				"alias":"3",
+				"secondary":true
+			},
+			{
+				"name":"2012A&A...538A.120L",
+				"url":"http://adsabs.harvard.edu/abs/2012A&A...538A.120L",
+				"bibcode":"2012A&A...538A.120L",
+				"alias":"4"
+			}
+		],
+		"claimedtype":[
+			{
+				"value":"IIn",
+				"source":"1"
+			},
+			{
+				"value":"II P",
+				"source":"2,3"
+			}
+		],
+		"discoverday":"27",
+		"discoverer":"Robert McNaught, Drinkwater",
+		"discovermonth":"1",
+		"discoveryear":"1992",
+		"galdec":"-202208",
+		"galra":"060059",
+		"host":[
+			{
+				"value":"A060059-2022",
+				"source":"1"
+			},
+			{
+				"value":"(PGC842727)",
+				"source":"4"
+			}
+		],
+		"hvel":[
+			{
+				"value":"15000",
+				"source":"1"
+			}
+		],
+		"lumdist":[
+			{
+				"value":"200",
+				"source":"D"
+			}
+		],
+		"maxabsmag":"-20",
+		"maxappmag":"19",
+		"maxday":"27",
+		"maxmonth":"1",
+		"maxyear":"1992",
+		"redshift":[
+			{
+				"value":"0.05",
+				"source":"2,3,4"
+			}
+		],
+		"sndec":"-20:22:08.8",
+		"snra":"06:00:59.87",
+		"photometry":[
+			{
+				"timeunit":"MJD",
+				"time":"48648.5",
+				"band":"",
+				"abmag":"19.0",
+				"source":"2,3"
+			}
+		]
+	}
 }

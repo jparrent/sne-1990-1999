@@ -1,85 +1,85 @@
 {
-    "SN1994Z": {
-        "name": "SN1994Z",
-        "aliases": [
-            "SN1994Z"
-        ],
-        "sources": [
-            {
-                "name": "Asiago Supernova Catalogue",
-                "url": "http://graspa.oapd.inaf.it/cgi-bin/sncat.php",
-                "alias": "1",
-                "secondary": true
-            },
-            {
-                "name": "IAUC 6087",
-                "url": "http://www.cbat.eps.harvard.edu/iauc/06000/06087.html",
-                "alias": "2"
-            },
-            {
-                "name": "Latest Supernovae",
-                "url": "http://www.rochesterastronomy.org/snimages/snredshiftall.html",
-                "alias": "3",
-                "secondary": true
-            },
-            {
-                "name": "2012A&A...538A.120L",
-                "url": "http://adsabs.harvard.edu/abs/2012A&A...538A.120L",
-                "bibcode": "2012A&A...538A.120L",
-                "alias": "4"
-            }
-        ],
-        "claimedtype": [
-            {
-                "value": "II",
-                "source": "1,2,3"
-            }
-        ],
-        "discoverday": "1",
-        "discoverer": "Alexander Wassilieff",
-        "discovermonth": "10",
-        "discoveryear": "1994",
-        "galdec": "-483742",
-        "galra": "002114",
-        "host": [
-            {
-                "value": "NGC 87",
-                "source": "1,2,3,4"
-            }
-        ],
-        "hvel": [
-            {
-                "value": "3546",
-                "source": "1"
-            }
-        ],
-        "lumdist": [
-            {
-                "value": "54",
-                "source": "D"
-            }
-        ],
-        "maxabsmag": "-19",
-        "maxappmag": "14.6",
-        "maxday": "1",
-        "maxmonth": "10",
-        "maxyear": "1994",
-        "redshift": [
-            {
-                "value": "0.012",
-                "source": "4"
-            }
-        ],
-        "sndec": "-48:37:49.5",
-        "snra": "00:21:16.60",
-        "photometry": [
-            {
-                "timeunit": "MJD",
-                "time": "49626.5",
-                "band": "",
-                "abmag": "14.6",
-                "source": "2,3"
-            }
-        ]
-    }
+	"SN1994Z":{
+		"name":"SN1994Z",
+		"aliases":[
+			"SN1994Z"
+		],
+		"sources":[
+			{
+				"name":"Asiago Supernova Catalogue",
+				"url":"http://graspa.oapd.inaf.it/cgi-bin/sncat.php",
+				"alias":"1",
+				"secondary":true
+			},
+			{
+				"name":"IAUC 6087",
+				"url":"http://www.cbat.eps.harvard.edu/iauc/06000/06087.html",
+				"alias":"2"
+			},
+			{
+				"name":"Latest Supernovae",
+				"url":"http://www.rochesterastronomy.org/snimages/snredshiftall.html",
+				"alias":"3",
+				"secondary":true
+			},
+			{
+				"name":"2012A&A...538A.120L",
+				"url":"http://adsabs.harvard.edu/abs/2012A&A...538A.120L",
+				"bibcode":"2012A&A...538A.120L",
+				"alias":"4"
+			}
+		],
+		"claimedtype":[
+			{
+				"value":"II",
+				"source":"1,2,3"
+			}
+		],
+		"discoverday":"1",
+		"discoverer":"Alexander Wassilieff",
+		"discovermonth":"10",
+		"discoveryear":"1994",
+		"galdec":"-483742",
+		"galra":"002114",
+		"host":[
+			{
+				"value":"NGC 87",
+				"source":"1,2,3,4"
+			}
+		],
+		"hvel":[
+			{
+				"value":"3546",
+				"source":"1"
+			}
+		],
+		"lumdist":[
+			{
+				"value":"54",
+				"source":"D"
+			}
+		],
+		"maxabsmag":"-19",
+		"maxappmag":"14.6",
+		"maxday":"1",
+		"maxmonth":"10",
+		"maxyear":"1994",
+		"redshift":[
+			{
+				"value":"0.012",
+				"source":"4"
+			}
+		],
+		"sndec":"-48:37:49.5",
+		"snra":"00:21:16.60",
+		"photometry":[
+			{
+				"timeunit":"MJD",
+				"time":"49626.5",
+				"band":"",
+				"abmag":"14.6",
+				"source":"2,3"
+			}
+		]
+	}
 }

@@ -1,89 +1,89 @@
 {
-    "SN1991I": {
-        "name": "SN1991I",
-        "aliases": [
-            "SN1991I"
-        ],
-        "sources": [
-            {
-                "name": "Asiago Supernova Catalogue",
-                "url": "http://graspa.oapd.inaf.it/cgi-bin/sncat.php",
-                "alias": "1",
-                "secondary": true
-            },
-            {
-                "name": "IAUC 5191",
-                "url": "http://www.cbat.eps.harvard.edu/iauc/05100/05191.html",
-                "alias": "2"
-            },
-            {
-                "name": "Latest Supernovae",
-                "url": "http://www.rochesterastronomy.org/snimages/snredshiftall.html",
-                "alias": "3",
-                "secondary": true
-            },
-            {
-                "name": "2012A&A...538A.120L",
-                "url": "http://adsabs.harvard.edu/abs/2012A&A...538A.120L",
-                "bibcode": "2012A&A...538A.120L",
-                "alias": "4"
-            }
-        ],
-        "claimedtype": [
-            {
-                "value": "II",
-                "source": "1"
-            }
-        ],
-        "discoverday": "13",
-        "discoverer": "Robert McNaught",
-        "discovermonth": "2",
-        "discoveryear": "1991",
-        "galdec": "-521333",
-        "galra": "052625",
-        "host": [
-            {
-                "value": "A052625-5213",
-                "source": "1"
-            },
-            {
-                "value": "(PGC447040)",
-                "source": "4"
-            }
-        ],
-        "hvel": [
-            {
-                "value": "10800",
-                "source": "1"
-            }
-        ],
-        "lumdist": [
-            {
-                "value": "160",
-                "source": "D"
-            }
-        ],
-        "maxabsmag": "-18",
-        "maxappmag": "18.5",
-        "maxday": "13",
-        "maxmonth": "2",
-        "maxyear": "1991",
-        "redshift": [
-            {
-                "value": "0.036",
-                "source": "4"
-            }
-        ],
-        "sndec": "-52:13:33.0",
-        "snra": "05:26:25.62",
-        "photometry": [
-            {
-                "timeunit": "MJD",
-                "time": "48300.5",
-                "band": "",
-                "abmag": "18.5",
-                "source": "2,3"
-            }
-        ]
-    }
+	"SN1991I":{
+		"name":"SN1991I",
+		"aliases":[
+			"SN1991I"
+		],
+		"sources":[
+			{
+				"name":"Asiago Supernova Catalogue",
+				"url":"http://graspa.oapd.inaf.it/cgi-bin/sncat.php",
+				"alias":"1",
+				"secondary":true
+			},
+			{
+				"name":"IAUC 5191",
+				"url":"http://www.cbat.eps.harvard.edu/iauc/05100/05191.html",
+				"alias":"2"
+			},
+			{
+				"name":"Latest Supernovae",
+				"url":"http://www.rochesterastronomy.org/snimages/snredshiftall.html",
+				"alias":"3",
+				"secondary":true
+			},
+			{
+				"name":"2012A&A...538A.120L",
+				"url":"http://adsabs.harvard.edu/abs/2012A&A...538A.120L",
+				"bibcode":"2012A&A...538A.120L",
+				"alias":"4"
+			}
+		],
+		"claimedtype":[
+			{
+				"value":"II",
+				"source":"1"
+			}
+		],
+		"discoverday":"13",
+		"discoverer":"Robert McNaught",
+		"discovermonth":"2",
+		"discoveryear":"1991",
+		"galdec":"-521333",
+		"galra":"052625",
+		"host":[
+			{
+				"value":"A052625-5213",
+				"source":"1"
+			},
+			{
+				"value":"(PGC447040)",
+				"source":"4"
+			}
+		],
+		"hvel":[
+			{
+				"value":"10800",
+				"source":"1"
+			}
+		],
+		"lumdist":[
+			{
+				"value":"160",
+				"source":"D"
+			}
+		],
+		"maxabsmag":"-18",
+		"maxappmag":"18.5",
+		"maxday":"13",
+		"maxmonth":"2",
+		"maxyear":"1991",
+		"redshift":[
+			{
+				"value":"0.036",
+				"source":"4"
+			}
+		],
+		"sndec":"-52:13:33.0",
+		"snra":"05:26:25.62",
+		"photometry":[
+			{
+				"timeunit":"MJD",
+				"time":"48300.5",
+				"band":"",
+				"abmag":"18.5",
+				"source":"2,3"
+			}
+		]
+	}
 }

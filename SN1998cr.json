@@ -1,82 +1,82 @@
 {
-    "SN1998cr": {
-        "name": "SN1998cr",
-        "aliases": [
-            "SN1998cr"
-        ],
-        "sources": [
-            {
-                "name": "Asiago Supernova Catalogue",
-                "url": "http://graspa.oapd.inaf.it/cgi-bin/sncat.php",
-                "alias": "1",
-                "secondary": true
-            },
-            {
-                "name": "IAUC 6956",
-                "url": "http://www.cbat.eps.harvard.edu/iauc/06900/06956.html#Item1",
-                "alias": "2"
-            },
-            {
-                "name": "Latest Supernovae",
-                "url": "http://www.rochesterastronomy.org/snimages/snredshiftall.html",
-                "alias": "3",
-                "secondary": true
-            },
-            {
-                "name": "2012A&A...538A.120L",
-                "url": "http://adsabs.harvard.edu/abs/2012A&A...538A.120L",
-                "bibcode": "2012A&A...538A.120L",
-                "alias": "4"
-            }
-        ],
-        "discoverday": "28",
-        "discoverer": "Tim Puckett et al.",
-        "discovermonth": "6",
-        "discoveryear": "1998",
-        "galdec": "+371257",
-        "galra": "162318",
-        "host": [
-            {
-                "value": "PGC0057979",
-                "source": "1"
-            },
-            {
-                "value": "PGC 57979",
-                "source": "2,3"
-            },
-            {
-                "value": "PGC57979",
-                "source": "4"
-            }
-        ],
-        "hvel": [
-            {
-                "value": "10046",
-                "source": "1"
-            }
-        ],
-        "lumdist": [
-            {
-                "value": "150",
-                "source": "D"
-            }
-        ],
-        "redshift": [
-            {
-                "value": "0.033",
-                "source": "4"
-            }
-        ],
-        "sndec": "+37:12:47.5",
-        "snra": "16:23:17.25",
-        "photometry": [
-            {
-                "timeunit": "MJD",
-                "time": "50992.0",
-                "band": "",
-                "abmag": "17.6",
-                "source": "4"
-            }
-        ]
-    }
+	"SN1998cr":{
+		"name":"SN1998cr",
+		"aliases":[
+			"SN1998cr"
+		],
+		"sources":[
+			{
+				"name":"Asiago Supernova Catalogue",
+				"url":"http://graspa.oapd.inaf.it/cgi-bin/sncat.php",
+				"alias":"1",
+				"secondary":true
+			},
+			{
+				"name":"IAUC 6956",
+				"url":"http://www.cbat.eps.harvard.edu/iauc/06900/06956.html#Item1",
+				"alias":"2"
+			},
+			{
+				"name":"Latest Supernovae",
+				"url":"http://www.rochesterastronomy.org/snimages/snredshiftall.html",
+				"alias":"3",
+				"secondary":true
+			},
+			{
+				"name":"2012A&A...538A.120L",
+				"url":"http://adsabs.harvard.edu/abs/2012A&A...538A.120L",
+				"bibcode":"2012A&A...538A.120L",
+				"alias":"4"
+			}
+		],
+		"discoverday":"28",
+		"discoverer":"Tim Puckett et al.",
+		"discovermonth":"6",
+		"discoveryear":"1998",
+		"galdec":"+371257",
+		"galra":"162318",
+		"host":[
+			{
+				"value":"PGC0057979",
+				"source":"1"
+			},
+			{
+				"value":"PGC 57979",
+				"source":"2,3"
+			},
+			{
+				"value":"PGC57979",
+				"source":"4"
+			}
+		],
+		"hvel":[
+			{
+				"value":"10046",
+				"source":"1"
+			}
+		],
+		"lumdist":[
+			{
+				"value":"150",
+				"source":"D"
+			}
+		],
+		"redshift":[
+			{
+				"value":"0.033",
+				"source":"4"
+			}
+		],
+		"sndec":"+37:12:47.5",
+		"snra":"16:23:17.25",
+		"photometry":[
+			{
+				"timeunit":"MJD",
+				"time":"50992.0",
+				"band":"",
+				"abmag":"17.6",
+				"source":"4"
+			}
+		]
+	}
 }

@@ -1,80 +1,80 @@
 {
-    "SN1996aq": {
-        "name": "SN1996aq",
-        "aliases": [
-            "SN1996aq"
-        ],
-        "sources": [
-            {
-                "name": "Asiago Supernova Catalogue",
-                "url": "http://graspa.oapd.inaf.it/cgi-bin/sncat.php",
-                "alias": "1",
-                "secondary": true
-            },
-            {
-                "name": "IAUC 6454",
-                "url": "http://www.cbat.eps.harvard.edu/iauc/06400/06454.html#Item1",
-                "alias": "2"
-            },
-            {
-                "name": "Latest Supernovae",
-                "url": "http://www.rochesterastronomy.org/snimages/snredshiftall.html",
-                "alias": "3",
-                "secondary": true
-            },
-            {
-                "name": "2012A&A...538A.120L",
-                "url": "http://adsabs.harvard.edu/abs/2012A&A...538A.120L",
-                "bibcode": "2012A&A...538A.120L",
-                "alias": "4"
-            }
-        ],
-        "claimedtype": [
-            {
-                "value": "Ic",
-                "source": "1,2,3"
-            }
-        ],
-        "discoverday": "17",
-        "discoverer": "Masakatsu Aoki",
-        "discovermonth": "8",
-        "discoveryear": "1996",
-        "galdec": "-002316",
-        "galra": "142224",
-        "host": [
-            {
-                "value": "NGC 5584",
-                "source": "1,2,3,4"
-            }
-        ],
-        "hvel": [
-            {
-                "value": "1602",
-                "source": "1"
-            }
-        ],
-        "lumdist": [
-            {
-                "value": "19",
-                "source": "4"
-            }
-        ],
-        "redshift": [
-            {
-                "value": "0.0055",
-                "source": "4"
-            }
-        ],
-        "sndec": "-00:23:24.3",
-        "snra": "14:22:22.73",
-        "photometry": [
-            {
-                "timeunit": "MJD",
-                "time": "50312.0",
-                "band": "V",
-                "abmag": "14.7",
-                "source": "4"
-            }
-        ]
-    }
+	"SN1996aq":{
+		"name":"SN1996aq",
+		"aliases":[
+			"SN1996aq"
+		],
+		"sources":[
+			{
+				"name":"Asiago Supernova Catalogue",
+				"url":"http://graspa.oapd.inaf.it/cgi-bin/sncat.php",
+				"alias":"1",
+				"secondary":true
+			},
+			{
+				"name":"IAUC 6454",
+				"url":"http://www.cbat.eps.harvard.edu/iauc/06400/06454.html#Item1",
+				"alias":"2"
+			},
+			{
+				"name":"Latest Supernovae",
+				"url":"http://www.rochesterastronomy.org/snimages/snredshiftall.html",
+				"alias":"3",
+				"secondary":true
+			},
+			{
+				"name":"2012A&A...538A.120L",
+				"url":"http://adsabs.harvard.edu/abs/2012A&A...538A.120L",
+				"bibcode":"2012A&A...538A.120L",
+				"alias":"4"
+			}
+		],
+		"claimedtype":[
+			{
+				"value":"Ic",
+				"source":"1,2,3"
+			}
+		],
+		"discoverday":"17",
+		"discoverer":"Masakatsu Aoki",
+		"discovermonth":"8",
+		"discoveryear":"1996",
+		"galdec":"-002316",
+		"galra":"142224",
+		"host":[
+			{
+				"value":"NGC 5584",
+				"source":"1,2,3,4"
+			}
+		],
+		"hvel":[
+			{
+				"value":"1602",
+				"source":"1"
+			}
+		],
+		"lumdist":[
+			{
+				"value":"19",
+				"source":"4"
+			}
+		],
+		"redshift":[
+			{
+				"value":"0.0055",
+				"source":"4"
+			}
+		],
+		"sndec":"-00:23:24.3",
+		"snra":"14:22:22.73",
+		"photometry":[
+			{
+				"timeunit":"MJD",
+				"time":"50312.0",
+				"band":"V",
+				"abmag":"14.7",
+				"source":"4"
+			}
+		]
+	}
 }

@@ -1,93 +1,93 @@
 {
-    "SN1998B": {
-        "name": "SN1998B",
-        "aliases": [
-            "SN1998B"
-        ],
-        "sources": [
-            {
-                "name": "Asiago Supernova Catalogue",
-                "url": "http://graspa.oapd.inaf.it/cgi-bin/sncat.php",
-                "alias": "1",
-                "secondary": true
-            },
-            {
-                "name": "IAUC 6809",
-                "url": "http://www.cbat.eps.harvard.edu/iauc/06800/06809.html",
-                "alias": "2"
-            },
-            {
-                "name": "Latest Supernovae",
-                "url": "http://www.rochesterastronomy.org/snimages/snredshiftall.html",
-                "alias": "3",
-                "secondary": true
-            },
-            {
-                "name": "2012A&A...538A.120L",
-                "url": "http://adsabs.harvard.edu/abs/2012A&A...538A.120L",
-                "bibcode": "2012A&A...538A.120L",
-                "alias": "4"
-            }
-        ],
-        "claimedtype": [
-            {
-                "value": "Ia",
-                "source": "1,2,3"
-            }
-        ],
-        "discoverday": "31",
-        "discoverer": "Jean Mueller",
-        "discovermonth": "12",
-        "discoveryear": "1997",
-        "galdec": "+184302",
-        "galra": "074602",
-        "host": [
-            {
-                "value": "A074602+1843",
-                "source": "1"
-            },
-            {
-                "value": "PGC1568040",
-                "source": "4"
-            }
-        ],
-        "hvel": [
-            {
-                "value": "13500",
-                "source": "1"
-            }
-        ],
-        "lumdist": [
-            {
-                "value": "210",
-                "source": "D"
-            }
-        ],
-        "maxabsmag": "-18",
-        "maxappmag": "18.5",
-        "maxday": "31",
-        "maxmonth": "12",
-        "maxyear": "1997",
-        "redshift": [
-            {
-                "value": "0.045",
-                "source": "2,3"
-            },
-            {
-                "value": "0.046",
-                "source": "4"
-            }
-        ],
-        "sndec": "+18:43:02.0",
-        "snra": "07:46:02.10",
-        "photometry": [
-            {
-                "timeunit": "MJD",
-                "time": "50813.5",
-                "band": "",
-                "abmag": "18.5",
-                "source": "2,3"
-            }
-        ]
-    }
+	"SN1998B":{
+		"name":"SN1998B",
+		"aliases":[
+			"SN1998B"
+		],
+		"sources":[
+			{
+				"name":"Asiago Supernova Catalogue",
+				"url":"http://graspa.oapd.inaf.it/cgi-bin/sncat.php",
+				"alias":"1",
+				"secondary":true
+			},
+			{
+				"name":"IAUC 6809",
+				"url":"http://www.cbat.eps.harvard.edu/iauc/06800/06809.html",
+				"alias":"2"
+			},
+			{
+				"name":"Latest Supernovae",
+				"url":"http://www.rochesterastronomy.org/snimages/snredshiftall.html",
+				"alias":"3",
+				"secondary":true
+			},
+			{
+				"name":"2012A&A...538A.120L",
+				"url":"http://adsabs.harvard.edu/abs/2012A&A...538A.120L",
+				"bibcode":"2012A&A...538A.120L",
+				"alias":"4"
+			}
+		],
+		"claimedtype":[
+			{
+				"value":"Ia",
+				"source":"1,2,3"
+			}
+		],
+		"discoverday":"31",
+		"discoverer":"Jean Mueller",
+		"discovermonth":"12",
+		"discoveryear":"1997",
+		"galdec":"+184302",
+		"galra":"074602",
+		"host":[
+			{
+				"value":"A074602+1843",
+				"source":"1"
+			},
+			{
+				"value":"PGC1568040",
+				"source":"4"
+			}
+		],
+		"hvel":[
+			{
+				"value":"13500",
+				"source":"1"
+			}
+		],
+		"lumdist":[
+			{
+				"value":"210",
+				"source":"D"
+			}
+		],
+		"maxabsmag":"-18",
+		"maxappmag":"18.5",
+		"maxday":"31",
+		"maxmonth":"12",
+		"maxyear":"1997",
+		"redshift":[
+			{
+				"value":"0.045",
+				"source":"2,3"
+			},
+			{
+				"value":"0.046",
+				"source":"4"
+			}
+		],
+		"sndec":"+18:43:02.0",
+		"snra":"07:46:02.10",
+		"photometry":[
+			{
+				"timeunit":"MJD",
+				"time":"50813.5",
+				"band":"",
+				"abmag":"18.5",
+				"source":"2,3"
+			}
+		]
+	}
 }

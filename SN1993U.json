@@ -1,46 +1,46 @@
 {
-    "SN1993U": {
-        "name": "SN1993U",
-        "aliases": [
-            "SN1993U"
-        ],
-        "sources": [
-            {
-                "name": "IAUC 5818",
-                "url": "http://www.cbat.eps.harvard.edu/iauc/05800/05818.html",
-                "alias": "1"
-            },
-            {
-                "name": "Latest Supernovae",
-                "url": "http://www.rochesterastronomy.org/snimages/snredshiftall.html",
-                "alias": "2",
-                "secondary": true
-            }
-        ],
-        "claimedtype": [
-            {
-                "value": "QSO",
-                "source": "1,2"
-            }
-        ],
-        "discoverday": "18",
-        "discoverer": "Christian Pollas",
-        "discovermonth": "6",
-        "discoveryear": "1993",
-        "maxappmag": "19.5",
-        "maxday": "18",
-        "maxmonth": "6",
-        "maxyear": "1993",
-        "sndec": "+50:45:07.4",
-        "snra": "15:23:44.62",
-        "photometry": [
-            {
-                "timeunit": "MJD",
-                "time": "49156.5",
-                "band": "",
-                "abmag": "19.5",
-                "source": "1,2"
-            }
-        ]
-    }
+	"SN1993U":{
+		"name":"SN1993U",
+		"aliases":[
+			"SN1993U"
+		],
+		"sources":[
+			{
+				"name":"IAUC 5818",
+				"url":"http://www.cbat.eps.harvard.edu/iauc/05800/05818.html",
+				"alias":"1"
+			},
+			{
+				"name":"Latest Supernovae",
+				"url":"http://www.rochesterastronomy.org/snimages/snredshiftall.html",
+				"alias":"2",
+				"secondary":true
+			}
+		],
+		"claimedtype":[
+			{
+				"value":"QSO",
+				"source":"1,2"
+			}
+		],
+		"discoverday":"18",
+		"discoverer":"Christian Pollas",
+		"discovermonth":"6",
+		"discoveryear":"1993",
+		"maxappmag":"19.5",
+		"maxday":"18",
+		"maxmonth":"6",
+		"maxyear":"1993",
+		"sndec":"+50:45:07.4",
+		"snra":"15:23:44.62",
+		"photometry":[
+			{
+				"timeunit":"MJD",
+				"time":"49156.5",
+				"band":"",
+				"abmag":"19.5",
+				"source":"1,2"
+			}
+		]
+	}
 }

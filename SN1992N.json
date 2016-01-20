@@ -1,85 +1,85 @@
 {
-    "SN1992N": {
-        "name": "SN1992N",
-        "aliases": [
-            "SN1992N"
-        ],
-        "sources": [
-            {
-                "name": "Asiago Supernova Catalogue",
-                "url": "http://graspa.oapd.inaf.it/cgi-bin/sncat.php",
-                "alias": "1",
-                "secondary": true
-            },
-            {
-                "name": "IAUC 5475",
-                "url": "http://www.cbat.eps.harvard.edu/iauc/05400/05475.html",
-                "alias": "2"
-            },
-            {
-                "name": "Latest Supernovae",
-                "url": "http://www.rochesterastronomy.org/snimages/snredshiftall.html",
-                "alias": "3",
-                "secondary": true
-            },
-            {
-                "name": "2012A&A...538A.120L",
-                "url": "http://adsabs.harvard.edu/abs/2012A&A...538A.120L",
-                "bibcode": "2012A&A...538A.120L",
-                "alias": "4"
-            }
-        ],
-        "claimedtype": [
-            {
-                "value": "II",
-                "source": "1,2,3"
-            }
-        ],
-        "discoverday": "9",
-        "discoverer": "Roberto Antezana",
-        "discovermonth": "3",
-        "discoveryear": "1992",
-        "galdec": "-621618",
-        "galra": "191444",
-        "host": [
-            {
-                "value": "IC 4831",
-                "source": "1,2,3,4"
-            }
-        ],
-        "hvel": [
-            {
-                "value": "4353",
-                "source": "1"
-            }
-        ],
-        "lumdist": [
-            {
-                "value": "44",
-                "source": "4"
-            }
-        ],
-        "maxabsmag": "-14",
-        "maxappmag": "19",
-        "maxday": "9",
-        "maxmonth": "3",
-        "maxyear": "1992",
-        "redshift": [
-            {
-                "value": "0.014494",
-                "source": "2,3"
-            }
-        ],
-        "sndec": "-62:17:01.0",
-        "snra": "19:14:57.3",
-        "photometry": [
-            {
-                "timeunit": "MJD",
-                "time": "48690.5",
-                "band": "",
-                "abmag": "19.0",
-                "source": "2,3"
-            }
-        ]
-    }
+	"SN1992N":{
+		"name":"SN1992N",
+		"aliases":[
+			"SN1992N"
+		],
+		"sources":[
+			{
+				"name":"Asiago Supernova Catalogue",
+				"url":"http://graspa.oapd.inaf.it/cgi-bin/sncat.php",
+				"alias":"1",
+				"secondary":true
+			},
+			{
+				"name":"IAUC 5475",
+				"url":"http://www.cbat.eps.harvard.edu/iauc/05400/05475.html",
+				"alias":"2"
+			},
+			{
+				"name":"Latest Supernovae",
+				"url":"http://www.rochesterastronomy.org/snimages/snredshiftall.html",
+				"alias":"3",
+				"secondary":true
+			},
+			{
+				"name":"2012A&A...538A.120L",
+				"url":"http://adsabs.harvard.edu/abs/2012A&A...538A.120L",
+				"bibcode":"2012A&A...538A.120L",
+				"alias":"4"
+			}
+		],
+		"claimedtype":[
+			{
+				"value":"II",
+				"source":"1,2,3"
+			}
+		],
+		"discoverday":"9",
+		"discoverer":"Roberto Antezana",
+		"discovermonth":"3",
+		"discoveryear":"1992",
+		"galdec":"-621618",
+		"galra":"191444",
+		"host":[
+			{
+				"value":"IC 4831",
+				"source":"1,2,3,4"
+			}
+		],
+		"hvel":[
+			{
+				"value":"4353",
+				"source":"1"
+			}
+		],
+		"lumdist":[
+			{
+				"value":"44",
+				"source":"4"
+			}
+		],
+		"maxabsmag":"-14",
+		"maxappmag":"19",
+		"maxday":"9",
+		"maxmonth":"3",
+		"maxyear":"1992",
+		"redshift":[
+			{
+				"value":"0.014494",
+				"source":"2,3"
+			}
+		],
+		"sndec":"-62:17:01.0",
+		"snra":"19:14:57.3",
+		"photometry":[
+			{
+				"timeunit":"MJD",
+				"time":"48690.5",
+				"band":"",
+				"abmag":"19.0",
+				"source":"2,3"
+			}
+		]
+	}
 }

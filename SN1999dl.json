@@ -1,56 +1,56 @@
 {
-    "SN1999dl": {
-        "name": "SN1999dl",
-        "aliases": [
-            "SN1999dl"
-        ],
-        "sources": [
-            {
-                "name": "Asiago Supernova Catalogue",
-                "url": "http://graspa.oapd.inaf.it/cgi-bin/sncat.php",
-                "alias": "1",
-                "secondary": true
-            },
-            {
-                "name": "IAUC 7237",
-                "url": "http://www.cbat.eps.harvard.edu/iauc/07200/07237.html#Item2",
-                "alias": "2"
-            },
-            {
-                "name": "Latest Supernovae",
-                "url": "http://www.rochesterastronomy.org/snimages/snredshiftall.html",
-                "alias": "3",
-                "secondary": true
-            },
-            {
-                "name": "2012A&A...538A.120L",
-                "url": "http://adsabs.harvard.edu/abs/2012A&A...538A.120L",
-                "bibcode": "2012A&A...538A.120L",
-                "alias": "4"
-            }
-        ],
-        "discoverday": "11",
-        "discoverer": "Tim Puckett et al.",
-        "discovermonth": "8",
-        "discoveryear": "1999",
-        "galdec": "+270707",
-        "galra": "230411",
-        "host": [
-            {
-                "value": "A230411+2707",
-                "source": "1"
-            }
-        ],
-        "sndec": "+27:07:07.3",
-        "snra": "23:04:11.70",
-        "photometry": [
-            {
-                "timeunit": "MJD",
-                "time": "51401.0",
-                "band": "",
-                "abmag": "19.1",
-                "source": "4"
-            }
-        ]
-    }
+	"SN1999dl":{
+		"name":"SN1999dl",
+		"aliases":[
+			"SN1999dl"
+		],
+		"sources":[
+			{
+				"name":"Asiago Supernova Catalogue",
+				"url":"http://graspa.oapd.inaf.it/cgi-bin/sncat.php",
+				"alias":"1",
+				"secondary":true
+			},
+			{
+				"name":"IAUC 7237",
+				"url":"http://www.cbat.eps.harvard.edu/iauc/07200/07237.html#Item2",
+				"alias":"2"
+			},
+			{
+				"name":"Latest Supernovae",
+				"url":"http://www.rochesterastronomy.org/snimages/snredshiftall.html",
+				"alias":"3",
+				"secondary":true
+			},
+			{
+				"name":"2012A&A...538A.120L",
+				"url":"http://adsabs.harvard.edu/abs/2012A&A...538A.120L",
+				"bibcode":"2012A&A...538A.120L",
+				"alias":"4"
+			}
+		],
+		"discoverday":"11",
+		"discoverer":"Tim Puckett et al.",
+		"discovermonth":"8",
+		"discoveryear":"1999",
+		"galdec":"+270707",
+		"galra":"230411",
+		"host":[
+			{
+				"value":"A230411+2707",
+				"source":"1"
+			}
+		],
+		"sndec":"+27:07:07.3",
+		"snra":"23:04:11.70",
+		"photometry":[
+			{
+				"timeunit":"MJD",
+				"time":"51401.0",
+				"band":"",
+				"abmag":"19.1",
+				"source":"4"
+			}
+		]
+	}
 }

@@ -1,102 +1,102 @@
 {
-    "SN1991aa": {
-        "name": "SN1991aa",
-        "aliases": [
-            "SN1991aa"
-        ],
-        "sources": [
-            {
-                "name": "Asiago Supernova Catalogue",
-                "url": "http://graspa.oapd.inaf.it/cgi-bin/sncat.php",
-                "alias": "1",
-                "secondary": true
-            },
-            {
-                "name": "IAUC 5263",
-                "url": "http://www.cbat.eps.harvard.edu/iauc/05200/05263.html",
-                "alias": "2"
-            },
-            {
-                "name": "Latest Supernovae",
-                "url": "http://www.rochesterastronomy.org/snimages/snredshiftall.html",
-                "alias": "3",
-                "secondary": true
-            },
-            {
-                "name": "2012A&A...538A.120L",
-                "url": "http://adsabs.harvard.edu/abs/2012A&A...538A.120L",
-                "bibcode": "2012A&A...538A.120L",
-                "alias": "4"
-            },
-            {
-                "name": "NED-D",
-                "url": "http://ned.ipac.caltech.edu/Library/Distances/",
-                "alias": "5",
-                "secondary": true
-            },
-            {
-                "name": "1996ApJ...465L..83R",
-                "url": "http://adsabs.harvard.edu/abs/1996ApJ...465L..83R",
-                "bibcode": "1996ApJ...465L..83R",
-                "alias": "6"
-            }
-        ],
-        "claimedtype": [
-            {
-                "value": "Ia",
-                "source": "1,2,3"
-            }
-        ],
-        "discoverday": "6",
-        "discoverer": "Robert McNaught",
-        "discovermonth": "5",
-        "discoveryear": "1991",
-        "galdec": "-061902",
-        "galra": "124509",
-        "host": [
-            {
-                "value": "A124509-0619",
-                "source": "1"
-            },
-            {
-                "value": "(PGC158033)",
-                "source": "4"
-            }
-        ],
-        "hvel": [
-            {
-                "value": "3300",
-                "source": "1"
-            }
-        ],
-        "lumdist": [
-            {
-                "value": "42",
-                "error": "3.2",
-                "source": "6,5"
-            }
-        ],
-        "maxabsmag": "-17",
-        "maxappmag": "16",
-        "maxday": "6",
-        "maxmonth": "5",
-        "maxyear": "1991",
-        "redshift": [
-            {
-                "value": "0.011",
-                "source": "4"
-            }
-        ],
-        "sndec": "-06:19:02.1",
-        "snra": "12:45:09.84",
-        "photometry": [
-            {
-                "timeunit": "MJD",
-                "time": "48382.5",
-                "band": "",
-                "abmag": "16.0",
-                "source": "2,3"
-            }
-        ]
-    }
+	"SN1991aa":{
+		"name":"SN1991aa",
+		"aliases":[
+			"SN1991aa"
+		],
+		"sources":[
+			{
+				"name":"Asiago Supernova Catalogue",
+				"url":"http://graspa.oapd.inaf.it/cgi-bin/sncat.php",
+				"alias":"1",
+				"secondary":true
+			},
+			{
+				"name":"IAUC 5263",
+				"url":"http://www.cbat.eps.harvard.edu/iauc/05200/05263.html",
+				"alias":"2"
+			},
+			{
+				"name":"Latest Supernovae",
+				"url":"http://www.rochesterastronomy.org/snimages/snredshiftall.html",
+				"alias":"3",
+				"secondary":true
+			},
+			{
+				"name":"2012A&A...538A.120L",
+				"url":"http://adsabs.harvard.edu/abs/2012A&A...538A.120L",
+				"bibcode":"2012A&A...538A.120L",
+				"alias":"4"
+			},
+			{
+				"name":"NED-D",
+				"url":"http://ned.ipac.caltech.edu/Library/Distances/",
+				"alias":"5",
+				"secondary":true
+			},
+			{
+				"name":"1996ApJ...465L..83R",
+				"url":"http://adsabs.harvard.edu/abs/1996ApJ...465L..83R",
+				"bibcode":"1996ApJ...465L..83R",
+				"alias":"6"
+			}
+		],
+		"claimedtype":[
+			{
+				"value":"Ia",
+				"source":"1,2,3"
+			}
+		],
+		"discoverday":"6",
+		"discoverer":"Robert McNaught",
+		"discovermonth":"5",
+		"discoveryear":"1991",
+		"galdec":"-061902",
+		"galra":"124509",
+		"host":[
+			{
+				"value":"A124509-0619",
+				"source":"1"
+			},
+			{
+				"value":"(PGC158033)",
+				"source":"4"
+			}
+		],
+		"hvel":[
+			{
+				"value":"3300",
+				"source":"1"
+			}
+		],
+		"lumdist":[
+			{
+				"value":"42",
+				"error":"3.2",
+				"source":"6,5"
+			}
+		],
+		"maxabsmag":"-17",
+		"maxappmag":"16",
+		"maxday":"6",
+		"maxmonth":"5",
+		"maxyear":"1991",
+		"redshift":[
+			{
+				"value":"0.011",
+				"source":"4"
+			}
+		],
+		"sndec":"-06:19:02.1",
+		"snra":"12:45:09.84",
+		"photometry":[
+			{
+				"timeunit":"MJD",
+				"time":"48382.5",
+				"band":"",
+				"abmag":"16.0",
+				"source":"2,3"
+			}
+		]
+	}
 }

@@ -1,80 +1,80 @@
 {
-    "SN1997de": {
-        "name": "SN1997de",
-        "aliases": [
-            "SN1997de"
-        ],
-        "sources": [
-            {
-                "name": "Asiago Supernova Catalogue",
-                "url": "http://graspa.oapd.inaf.it/cgi-bin/sncat.php",
-                "alias": "1",
-                "secondary": true
-            },
-            {
-                "name": "IAUC 6725",
-                "url": "http://www.cbat.eps.harvard.edu/iauc/06700/06725.html#Item1",
-                "alias": "2"
-            },
-            {
-                "name": "Latest Supernovae",
-                "url": "http://www.rochesterastronomy.org/snimages/snredshiftall.html",
-                "alias": "3",
-                "secondary": true
-            },
-            {
-                "name": "2012A&A...538A.120L",
-                "url": "http://adsabs.harvard.edu/abs/2012A&A...538A.120L",
-                "bibcode": "2012A&A...538A.120L",
-                "alias": "4"
-            }
-        ],
-        "claimedtype": [
-            {
-                "value": "Ia",
-                "source": "1,2,3"
-            }
-        ],
-        "discoverday": "27",
-        "discoverer": "Alexander Wassilieff",
-        "discovermonth": "8",
-        "discoveryear": "1997",
-        "galdec": "-603003",
-        "galra": "191823",
-        "host": [
-            {
-                "value": "NGC 6769",
-                "source": "1,2,3,4"
-            }
-        ],
-        "hvel": [
-            {
-                "value": "3863",
-                "source": "1"
-            }
-        ],
-        "lumdist": [
-            {
-                "value": "58",
-                "source": "D"
-            }
-        ],
-        "redshift": [
-            {
-                "value": "0.013",
-                "source": "2,3,4"
-            }
-        ],
-        "sndec": "-60:29:42.0",
-        "snra": "19:18:20.82",
-        "photometry": [
-            {
-                "timeunit": "MJD",
-                "time": "50687.0",
-                "band": "",
-                "abmag": "18.2",
-                "source": "4"
-            }
-        ]
-    }
+	"SN1997de":{
+		"name":"SN1997de",
+		"aliases":[
+			"SN1997de"
+		],
+		"sources":[
+			{
+				"name":"Asiago Supernova Catalogue",
+				"url":"http://graspa.oapd.inaf.it/cgi-bin/sncat.php",
+				"alias":"1",
+				"secondary":true
+			},
+			{
+				"name":"IAUC 6725",
+				"url":"http://www.cbat.eps.harvard.edu/iauc/06700/06725.html#Item1",
+				"alias":"2"
+			},
+			{
+				"name":"Latest Supernovae",
+				"url":"http://www.rochesterastronomy.org/snimages/snredshiftall.html",
+				"alias":"3",
+				"secondary":true
+			},
+			{
+				"name":"2012A&A...538A.120L",
+				"url":"http://adsabs.harvard.edu/abs/2012A&A...538A.120L",
+				"bibcode":"2012A&A...538A.120L",
+				"alias":"4"
+			}
+		],
+		"claimedtype":[
+			{
+				"value":"Ia",
+				"source":"1,2,3"
+			}
+		],
+		"discoverday":"27",
+		"discoverer":"Alexander Wassilieff",
+		"discovermonth":"8",
+		"discoveryear":"1997",
+		"galdec":"-603003",
+		"galra":"191823",
+		"host":[
+			{
+				"value":"NGC 6769",
+				"source":"1,2,3,4"
+			}
+		],
+		"hvel":[
+			{
+				"value":"3863",
+				"source":"1"
+			}
+		],
+		"lumdist":[
+			{
+				"value":"58",
+				"source":"D"
+			}
+		],
+		"redshift":[
+			{
+				"value":"0.013",
+				"source":"2,3,4"
+			}
+		],
+		"sndec":"-60:29:42.0",
+		"snra":"19:18:20.82",
+		"photometry":[
+			{
+				"timeunit":"MJD",
+				"time":"50687.0",
+				"band":"",
+				"abmag":"18.2",
+				"source":"4"
+			}
+		]
+	}
 }

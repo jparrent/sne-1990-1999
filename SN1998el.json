@@ -1,83 +1,83 @@
 {
-    "SN1998el": {
-        "name": "SN1998el",
-        "aliases": [
-            "SN1998el"
-        ],
-        "sources": [
-            {
-                "name": "Asiago Supernova Catalogue",
-                "url": "http://graspa.oapd.inaf.it/cgi-bin/sncat.php",
-                "alias": "1",
-                "secondary": true
-            },
-            {
-                "name": "IAUC 7039",
-                "url": "http://www.cbat.eps.harvard.edu/iauc/07000/07039.html",
-                "alias": "2"
-            },
-            {
-                "name": "Latest Supernovae",
-                "url": "http://www.rochesterastronomy.org/snimages/snredshiftall.html",
-                "alias": "3",
-                "secondary": true
-            },
-            {
-                "name": "2012A&A...538A.120L",
-                "url": "http://adsabs.harvard.edu/abs/2012A&A...538A.120L",
-                "bibcode": "2012A&A...538A.120L",
-                "alias": "4"
-            }
-        ],
-        "discoverday": "21",
-        "discoverer": "Mount Stromlo",
-        "discovermonth": "10",
-        "discoveryear": "1998",
-        "galdec": "-413306",
-        "galra": "032101",
-        "host": [
-            {
-                "value": "A032101-4133",
-                "source": "1"
-            },
-            {
-                "value": "(PGC110984)",
-                "source": "4"
-            }
-        ],
-        "hvel": [
-            {
-                "value": "30000",
-                "source": "D"
-            }
-        ],
-        "lumdist": [
-            {
-                "value": "500",
-                "source": "D"
-            }
-        ],
-        "maxabsmag": "-20",
-        "maxappmag": "20.5",
-        "maxday": "21",
-        "maxmonth": "10",
-        "maxyear": "1998",
-        "redshift": [
-            {
-                "value": "0.1",
-                "source": "4"
-            }
-        ],
-        "sndec": "-41:33:06.6",
-        "snra": "03:21:01.21",
-        "photometry": [
-            {
-                "timeunit": "MJD",
-                "time": "51107.5",
-                "band": "",
-                "abmag": "20.5",
-                "source": "2,3"
-            }
-        ]
-    }
+	"SN1998el":{
+		"name":"SN1998el",
+		"aliases":[
+			"SN1998el"
+		],
+		"sources":[
+			{
+				"name":"Asiago Supernova Catalogue",
+				"url":"http://graspa.oapd.inaf.it/cgi-bin/sncat.php",
+				"alias":"1",
+				"secondary":true
+			},
+			{
+				"name":"IAUC 7039",
+				"url":"http://www.cbat.eps.harvard.edu/iauc/07000/07039.html",
+				"alias":"2"
+			},
+			{
+				"name":"Latest Supernovae",
+				"url":"http://www.rochesterastronomy.org/snimages/snredshiftall.html",
+				"alias":"3",
+				"secondary":true
+			},
+			{
+				"name":"2012A&A...538A.120L",
+				"url":"http://adsabs.harvard.edu/abs/2012A&A...538A.120L",
+				"bibcode":"2012A&A...538A.120L",
+				"alias":"4"
+			}
+		],
+		"discoverday":"21",
+		"discoverer":"Mount Stromlo",
+		"discovermonth":"10",
+		"discoveryear":"1998",
+		"galdec":"-413306",
+		"galra":"032101",
+		"host":[
+			{
+				"value":"A032101-4133",
+				"source":"1"
+			},
+			{
+				"value":"(PGC110984)",
+				"source":"4"
+			}
+		],
+		"hvel":[
+			{
+				"value":"30000",
+				"source":"D"
+			}
+		],
+		"lumdist":[
+			{
+				"value":"500",
+				"source":"D"
+			}
+		],
+		"maxabsmag":"-20",
+		"maxappmag":"20.5",
+		"maxday":"21",
+		"maxmonth":"10",
+		"maxyear":"1998",
+		"redshift":[
+			{
+				"value":"0.1",
+				"source":"4"
+			}
+		],
+		"sndec":"-41:33:06.6",
+		"snra":"03:21:01.21",
+		"photometry":[
+			{
+				"timeunit":"MJD",
+				"time":"51107.5",
+				"band":"",
+				"abmag":"20.5",
+				"source":"2,3"
+			}
+		]
+	}
 }

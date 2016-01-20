@@ -1,89 +1,89 @@
 {
-    "SN1992ad": {
-        "name": "SN1992ad",
-        "aliases": [
-            "SN1992ad"
-        ],
-        "sources": [
-            {
-                "name": "Asiago Supernova Catalogue",
-                "url": "http://graspa.oapd.inaf.it/cgi-bin/sncat.php",
-                "alias": "1",
-                "secondary": true
-            },
-            {
-                "name": "IAUC 5552",
-                "url": "http://www.cbat.eps.harvard.edu/iauc/05500/05552.html",
-                "alias": "2"
-            },
-            {
-                "name": "Latest Supernovae",
-                "url": "http://www.rochesterastronomy.org/snimages/snredshiftall.html",
-                "alias": "3",
-                "secondary": true
-            },
-            {
-                "name": "2012A&A...538A.120L",
-                "url": "http://adsabs.harvard.edu/abs/2012A&A...538A.120L",
-                "bibcode": "2012A&A...538A.120L",
-                "alias": "4"
-            }
-        ],
-        "claimedtype": [
-            {
-                "value": "II",
-                "source": "1,2,3"
-            }
-        ],
-        "discoverday": "30",
-        "discoverer": "Robert Evans",
-        "discovermonth": "6",
-        "discoveryear": "1992",
-        "galdec": "+085302",
-        "galra": "122647",
-        "host": [
-            {
-                "value": "NGC 4411B",
-                "source": "1,4"
-            },
-            {
-                "value": "NGC 4411",
-                "source": "2,3"
-            }
-        ],
-        "hvel": [
-            {
-                "value": "1270",
-                "source": "1"
-            }
-        ],
-        "lumdist": [
-            {
-                "value": "16",
-                "source": "4"
-            }
-        ],
-        "maxabsmag": "-18",
-        "maxappmag": "13.5",
-        "maxday": "30",
-        "maxmonth": "6",
-        "maxyear": "1992",
-        "redshift": [
-            {
-                "value": "0.0042",
-                "source": "4"
-            }
-        ],
-        "sndec": "+08:52:38.4",
-        "snra": "12:26:49.63",
-        "photometry": [
-            {
-                "timeunit": "MJD",
-                "time": "48803.5",
-                "band": "",
-                "abmag": "13.5",
-                "source": "2,3"
-            }
-        ]
-    }
+	"SN1992ad":{
+		"name":"SN1992ad",
+		"aliases":[
+			"SN1992ad"
+		],
+		"sources":[
+			{
+				"name":"Asiago Supernova Catalogue",
+				"url":"http://graspa.oapd.inaf.it/cgi-bin/sncat.php",
+				"alias":"1",
+				"secondary":true
+			},
+			{
+				"name":"IAUC 5552",
+				"url":"http://www.cbat.eps.harvard.edu/iauc/05500/05552.html",
+				"alias":"2"
+			},
+			{
+				"name":"Latest Supernovae",
+				"url":"http://www.rochesterastronomy.org/snimages/snredshiftall.html",
+				"alias":"3",
+				"secondary":true
+			},
+			{
+				"name":"2012A&A...538A.120L",
+				"url":"http://adsabs.harvard.edu/abs/2012A&A...538A.120L",
+				"bibcode":"2012A&A...538A.120L",
+				"alias":"4"
+			}
+		],
+		"claimedtype":[
+			{
+				"value":"II",
+				"source":"1,2,3"
+			}
+		],
+		"discoverday":"30",
+		"discoverer":"Robert Evans",
+		"discovermonth":"6",
+		"discoveryear":"1992",
+		"galdec":"+085302",
+		"galra":"122647",
+		"host":[
+			{
+				"value":"NGC 4411B",
+				"source":"1,4"
+			},
+			{
+				"value":"NGC 4411",
+				"source":"2,3"
+			}
+		],
+		"hvel":[
+			{
+				"value":"1270",
+				"source":"1"
+			}
+		],
+		"lumdist":[
+			{
+				"value":"16",
+				"source":"4"
+			}
+		],
+		"maxabsmag":"-18",
+		"maxappmag":"13.5",
+		"maxday":"30",
+		"maxmonth":"6",
+		"maxyear":"1992",
+		"redshift":[
+			{
+				"value":"0.0042",
+				"source":"4"
+			}
+		],
+		"sndec":"+08:52:38.4",
+		"snra":"12:26:49.63",
+		"photometry":[
+			{
+				"timeunit":"MJD",
+				"time":"48803.5",
+				"band":"",
+				"abmag":"13.5",
+				"source":"2,3"
+			}
+		]
+	}
 }

@@ -1,108 +1,108 @@
 {
-    "SN1995ae": {
-        "name": "SN1995ae",
-        "aliases": [
-            "SN1995ae"
-        ],
-        "sources": [
-            {
-                "name": "Asiago Supernova Catalogue",
-                "url": "http://graspa.oapd.inaf.it/cgi-bin/sncat.php",
-                "alias": "1",
-                "secondary": true
-            },
-            {
-                "name": "IAUC 6241",
-                "url": "http://www.cbat.eps.harvard.edu/iauc/06200/06241.html",
-                "alias": "2"
-            },
-            {
-                "name": "Latest Supernovae",
-                "url": "http://www.rochesterastronomy.org/snimages/snredshiftall.html",
-                "alias": "3",
-                "secondary": true
-            },
-            {
-                "name": "2012A&A...538A.120L",
-                "url": "http://adsabs.harvard.edu/abs/2012A&A...538A.120L",
-                "bibcode": "2012A&A...538A.120L",
-                "alias": "4"
-            },
-            {
-                "name": "NED-D",
-                "url": "http://ned.ipac.caltech.edu/Library/Distances/",
-                "alias": "5",
-                "secondary": true
-            },
-            {
-                "name": "2004ApJ...607..665R",
-                "url": "http://adsabs.harvard.edu/abs/2004ApJ...607..665R",
-                "bibcode": "2004ApJ...607..665R",
-                "alias": "6"
-            },
-            {
-                "name": "1998ApJ...504..935R",
-                "url": "http://adsabs.harvard.edu/abs/1998ApJ...504..935R",
-                "bibcode": "1998ApJ...504..935R",
-                "alias": "7"
-            }
-        ],
-        "claimedtype": [
-            {
-                "value": "Ia",
-                "source": "1,2,3"
-            }
-        ],
-        "discoverday": "21",
-        "discoverer": "Christian Pollas",
-        "discovermonth": "9",
-        "discoveryear": "1995",
-        "galdec": "-020436",
-        "galra": "231655",
-        "host": [
-            {
-                "value": "A231655-0204",
-                "source": "1"
-            },
-            {
-                "value": "(APMUKS(BJ)B231421.60-22058.7)",
-                "source": "4"
-            }
-        ],
-        "hvel": [
-            {
-                "value": "20670",
-                "source": "1"
-            }
-        ],
-        "lumdist": [
-            {
-                "value": "328",
-                "error": "33",
-                "source": "7,5"
-            }
-        ],
-        "maxabsmag": "-19.1",
-        "maxappmag": "18.5",
-        "maxday": "21",
-        "maxmonth": "9",
-        "maxyear": "1995",
-        "redshift": [
-            {
-                "value": "0.069",
-                "source": "4"
-            }
-        ],
-        "sndec": "-02:04:36.4",
-        "snra": "23:16:55.65",
-        "photometry": [
-            {
-                "timeunit": "MJD",
-                "time": "49981.5",
-                "band": "",
-                "abmag": "18.5",
-                "source": "2,3"
-            }
-        ]
-    }
+	"SN1995ae":{
+		"name":"SN1995ae",
+		"aliases":[
+			"SN1995ae"
+		],
+		"sources":[
+			{
+				"name":"Asiago Supernova Catalogue",
+				"url":"http://graspa.oapd.inaf.it/cgi-bin/sncat.php",
+				"alias":"1",
+				"secondary":true
+			},
+			{
+				"name":"IAUC 6241",
+				"url":"http://www.cbat.eps.harvard.edu/iauc/06200/06241.html",
+				"alias":"2"
+			},
+			{
+				"name":"Latest Supernovae",
+				"url":"http://www.rochesterastronomy.org/snimages/snredshiftall.html",
+				"alias":"3",
+				"secondary":true
+			},
+			{
+				"name":"2012A&A...538A.120L",
+				"url":"http://adsabs.harvard.edu/abs/2012A&A...538A.120L",
+				"bibcode":"2012A&A...538A.120L",
+				"alias":"4"
+			},
+			{
+				"name":"NED-D",
+				"url":"http://ned.ipac.caltech.edu/Library/Distances/",
+				"alias":"5",
+				"secondary":true
+			},
+			{
+				"name":"2004ApJ...607..665R",
+				"url":"http://adsabs.harvard.edu/abs/2004ApJ...607..665R",
+				"bibcode":"2004ApJ...607..665R",
+				"alias":"6"
+			},
+			{
+				"name":"1998ApJ...504..935R",
+				"url":"http://adsabs.harvard.edu/abs/1998ApJ...504..935R",
+				"bibcode":"1998ApJ...504..935R",
+				"alias":"7"
+			}
+		],
+		"claimedtype":[
+			{
+				"value":"Ia",
+				"source":"1,2,3"
+			}
+		],
+		"discoverday":"21",
+		"discoverer":"Christian Pollas",
+		"discovermonth":"9",
+		"discoveryear":"1995",
+		"galdec":"-020436",
+		"galra":"231655",
+		"host":[
+			{
+				"value":"A231655-0204",
+				"source":"1"
+			},
+			{
+				"value":"(APMUKS(BJ)B231421.60-22058.7)",
+				"source":"4"
+			}
+		],
+		"hvel":[
+			{
+				"value":"20670",
+				"source":"1"
+			}
+		],
+		"lumdist":[
+			{
+				"value":"328",
+				"error":"33",
+				"source":"7,5"
+			}
+		],
+		"maxabsmag":"-19.1",
+		"maxappmag":"18.5",
+		"maxday":"21",
+		"maxmonth":"9",
+		"maxyear":"1995",
+		"redshift":[
+			{
+				"value":"0.069",
+				"source":"4"
+			}
+		],
+		"sndec":"-02:04:36.4",
+		"snra":"23:16:55.65",
+		"photometry":[
+			{
+				"timeunit":"MJD",
+				"time":"49981.5",
+				"band":"",
+				"abmag":"18.5",
+				"source":"2,3"
+			}
+		]
+	}
 }

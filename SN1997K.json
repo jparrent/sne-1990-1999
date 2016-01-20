@@ -1,98 +1,98 @@
 {
-    "SN1997K": {
-        "name": "SN1997K",
-        "aliases": [
-            "SN1997K"
-        ],
-        "sources": [
-            {
-                "name": "Asiago Supernova Catalogue",
-                "url": "http://graspa.oapd.inaf.it/cgi-bin/sncat.php",
-                "alias": "1",
-                "secondary": true
-            },
-            {
-                "name": "IAUC 6540",
-                "url": "http://www.cbat.eps.harvard.edu/iauc/06500/06540.html",
-                "alias": "2"
-            },
-            {
-                "name": "Latest Supernovae",
-                "url": "http://www.rochesterastronomy.org/snimages/snredshiftall.html",
-                "alias": "3",
-                "secondary": true
-            },
-            {
-                "name": "2012A&A...538A.120L",
-                "url": "http://adsabs.harvard.edu/abs/2012A&A...538A.120L",
-                "bibcode": "2012A&A...538A.120L",
-                "alias": "4"
-            },
-            {
-                "name": "NED-D",
-                "url": "http://ned.ipac.caltech.edu/Library/Distances/",
-                "alias": "5",
-                "secondary": true
-            },
-            {
-                "name": "2010ApJ...716..712A",
-                "url": "http://adsabs.harvard.edu/abs/2010ApJ...716..712A",
-                "bibcode": "2010ApJ...716..712A",
-                "alias": "6"
-            }
-        ],
-        "claimedtype": [
-            {
-                "value": "Ia",
-                "source": "1"
-            }
-        ],
-        "discoverday": "5",
-        "discoverer": "Supernova Cosmology Project",
-        "discovermonth": "1",
-        "discoveryear": "1997",
-        "galdec": "+041901",
-        "galra": "075455",
-        "host": [
-            {
-                "value": "A075455+0419",
-                "source": "1"
-            }
-        ],
-        "hvel": [
-            {
-                "value": "130000",
-                "source": "D"
-            }
-        ],
-        "lumdist": [
-            {
-                "value": "3060",
-                "error": "1900",
-                "source": "6,5"
-            }
-        ],
-        "maxabsmag": "-18.8",
-        "maxappmag": "23.6",
-        "maxday": "5",
-        "maxmonth": "1",
-        "maxyear": "1997",
-        "redshift": [
-            {
-                "value": "0.592",
-                "source": "1"
-            }
-        ],
-        "sndec": "+04:19:01.3",
-        "snra": "07:54:55.09",
-        "photometry": [
-            {
-                "timeunit": "MJD",
-                "time": "50453.5",
-                "band": "",
-                "abmag": "23.6",
-                "source": "2,3"
-            }
-        ]
-    }
+	"SN1997K":{
+		"name":"SN1997K",
+		"aliases":[
+			"SN1997K"
+		],
+		"sources":[
+			{
+				"name":"Asiago Supernova Catalogue",
+				"url":"http://graspa.oapd.inaf.it/cgi-bin/sncat.php",
+				"alias":"1",
+				"secondary":true
+			},
+			{
+				"name":"IAUC 6540",
+				"url":"http://www.cbat.eps.harvard.edu/iauc/06500/06540.html",
+				"alias":"2"
+			},
+			{
+				"name":"Latest Supernovae",
+				"url":"http://www.rochesterastronomy.org/snimages/snredshiftall.html",
+				"alias":"3",
+				"secondary":true
+			},
+			{
+				"name":"2012A&A...538A.120L",
+				"url":"http://adsabs.harvard.edu/abs/2012A&A...538A.120L",
+				"bibcode":"2012A&A...538A.120L",
+				"alias":"4"
+			},
+			{
+				"name":"NED-D",
+				"url":"http://ned.ipac.caltech.edu/Library/Distances/",
+				"alias":"5",
+				"secondary":true
+			},
+			{
+				"name":"2010ApJ...716..712A",
+				"url":"http://adsabs.harvard.edu/abs/2010ApJ...716..712A",
+				"bibcode":"2010ApJ...716..712A",
+				"alias":"6"
+			}
+		],
+		"claimedtype":[
+			{
+				"value":"Ia",
+				"source":"1"
+			}
+		],
+		"discoverday":"5",
+		"discoverer":"Supernova Cosmology Project",
+		"discovermonth":"1",
+		"discoveryear":"1997",
+		"galdec":"+041901",
+		"galra":"075455",
+		"host":[
+			{
+				"value":"A075455+0419",
+				"source":"1"
+			}
+		],
+		"hvel":[
+			{
+				"value":"130000",
+				"source":"D"
+			}
+		],
+		"lumdist":[
+			{
+				"value":"3060",
+				"error":"1900",
+				"source":"6,5"
+			}
+		],
+		"maxabsmag":"-18.8",
+		"maxappmag":"23.6",
+		"maxday":"5",
+		"maxmonth":"1",
+		"maxyear":"1997",
+		"redshift":[
+			{
+				"value":"0.592",
+				"source":"1"
+			}
+		],
+		"sndec":"+04:19:01.3",
+		"snra":"07:54:55.09",
+		"photometry":[
+			{
+				"timeunit":"MJD",
+				"time":"50453.5",
+				"band":"",
+				"abmag":"23.6",
+				"source":"2,3"
+			}
+		]
+	}
 }

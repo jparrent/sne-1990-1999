@@ -1,64 +1,64 @@
 {
-    "SN1999cx": {
-        "name": "SN1999cx",
-        "aliases": [
-            "SN1999cx"
-        ],
-        "sources": [
-            {
-                "name": "Asiago Supernova Catalogue",
-                "url": "http://graspa.oapd.inaf.it/cgi-bin/sncat.php",
-                "alias": "1",
-                "secondary": true
-            },
-            {
-                "name": "IAUC 7212",
-                "url": "http://www.cbat.eps.harvard.edu/iauc/07200/07212.html#Item1",
-                "alias": "2"
-            },
-            {
-                "name": "Latest Supernovae",
-                "url": "http://www.rochesterastronomy.org/snimages/snredshiftall.html",
-                "alias": "3",
-                "secondary": true
-            },
-            {
-                "name": "2012A&A...538A.120L",
-                "url": "http://adsabs.harvard.edu/abs/2012A&A...538A.120L",
-                "bibcode": "2012A&A...538A.120L",
-                "alias": "4"
-            }
-        ],
-        "discoverday": "13",
-        "discoverer": "Marina Wischnjewsky",
-        "discovermonth": "5",
-        "discoveryear": "1999",
-        "galdec": "-200022",
-        "galra": "120749",
-        "host": [
-            {
-                "value": "A120749-2000",
-                "source": "1"
-            },
-            {
-                "value": "(PGC847491)",
-                "source": "4"
-            }
-        ],
-        "maxappmag": "18.5",
-        "maxday": "13",
-        "maxmonth": "5",
-        "maxyear": "1999",
-        "sndec": "-20:00:22.8",
-        "snra": "12:07:49.17",
-        "photometry": [
-            {
-                "timeunit": "MJD",
-                "time": "51311.5",
-                "band": "",
-                "abmag": "18.5",
-                "source": "2,3"
-            }
-        ]
-    }
+	"SN1999cx":{
+		"name":"SN1999cx",
+		"aliases":[
+			"SN1999cx"
+		],
+		"sources":[
+			{
+				"name":"Asiago Supernova Catalogue",
+				"url":"http://graspa.oapd.inaf.it/cgi-bin/sncat.php",
+				"alias":"1",
+				"secondary":true
+			},
+			{
+				"name":"IAUC 7212",
+				"url":"http://www.cbat.eps.harvard.edu/iauc/07200/07212.html#Item1",
+				"alias":"2"
+			},
+			{
+				"name":"Latest Supernovae",
+				"url":"http://www.rochesterastronomy.org/snimages/snredshiftall.html",
+				"alias":"3",
+				"secondary":true
+			},
+			{
+				"name":"2012A&A...538A.120L",
+				"url":"http://adsabs.harvard.edu/abs/2012A&A...538A.120L",
+				"bibcode":"2012A&A...538A.120L",
+				"alias":"4"
+			}
+		],
+		"discoverday":"13",
+		"discoverer":"Marina Wischnjewsky",
+		"discovermonth":"5",
+		"discoveryear":"1999",
+		"galdec":"-200022",
+		"galra":"120749",
+		"host":[
+			{
+				"value":"A120749-2000",
+				"source":"1"
+			},
+			{
+				"value":"(PGC847491)",
+				"source":"4"
+			}
+		],
+		"maxappmag":"18.5",
+		"maxday":"13",
+		"maxmonth":"5",
+		"maxyear":"1999",
+		"sndec":"-20:00:22.8",
+		"snra":"12:07:49.17",
+		"photometry":[
+			{
+				"timeunit":"MJD",
+				"time":"51311.5",
+				"band":"",
+				"abmag":"18.5",
+				"source":"2,3"
+			}
+		]
+	}
 }

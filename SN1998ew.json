@@ -1,116 +1,116 @@
 {
-    "SN1998ew": {
-        "name": "SN1998ew",
-        "aliases": [
-            "SN1998ew"
-        ],
-        "sources": [
-            {
-                "name": "Sternberg Astronomical Institute Supernova Light Curve Catalogue",
-                "url": "http://dau.itep.ru/sn/node/72",
-                "alias": "1",
-                "secondary": true
-            },
-            {
-                "name": "VSNET 2001",
-                "alias": "2"
-            },
-            {
-                "name": "Asiago Supernova Catalogue",
-                "url": "http://graspa.oapd.inaf.it/cgi-bin/sncat.php",
-                "alias": "3",
-                "secondary": true
-            },
-            {
-                "name": "IAUC 7061",
-                "url": "http://www.cbat.eps.harvard.edu/iauc/07000/07061.html#Item1",
-                "alias": "4"
-            },
-            {
-                "name": "Latest Supernovae",
-                "url": "http://www.rochesterastronomy.org/snimages/snredshiftall.html",
-                "alias": "5",
-                "secondary": true
-            },
-            {
-                "name": "2012A&A...538A.120L",
-                "url": "http://adsabs.harvard.edu/abs/2012A&A...538A.120L",
-                "bibcode": "2012A&A...538A.120L",
-                "alias": "6"
-            }
-        ],
-        "claimedtype": [
-            {
-                "value": "II",
-                "source": "3,4,5"
-            }
-        ],
-        "discoverday": "22",
-        "discoverer": "Roberto Antezana",
-        "discovermonth": "11",
-        "discoveryear": "1998",
-        "galdec": "-684450",
-        "galra": "204433",
-        "host": [
-            {
-                "value": "NGC 6943",
-                "source": "3,4,5,6"
-            }
-        ],
-        "hvel": [
-            {
-                "value": "3095",
-                "source": "3"
-            }
-        ],
-        "lumdist": [
-            {
-                "value": "30",
-                "source": "6"
-            }
-        ],
-        "maxabsmag": "-20",
-        "maxappmag": "14",
-        "maxday": "23",
-        "maxmonth": "11",
-        "maxyear": "1998",
-        "redshift": [
-            {
-                "value": "0.01",
-                "source": "4,5,6"
-            }
-        ],
-        "sndec": "-68:43:373",
-        "snra": "20:44:32.17",
-        "photometry": [
-            {
-                "timeunit": "MJD",
-                "time": "51139.5",
-                "band": "",
-                "abmag": "14.0",
-                "source": "4,5"
-            },
-            {
-                "timeunit": "MJD",
-                "time": "51140.02",
-                "band": "B",
-                "abmag": "14",
-                "source": "1,2"
-            },
-            {
-                "timeunit": "MJD",
-                "time": "51144.05",
-                "band": "R",
-                "abmag": "14.9",
-                "source": "1,2"
-            },
-            {
-                "timeunit": "MJD",
-                "time": "51144.05",
-                "band": "V",
-                "abmag": "15.2",
-                "source": "1,2"
-            }
-        ]
-    }
+	"SN1998ew":{
+		"name":"SN1998ew",
+		"aliases":[
+			"SN1998ew"
+		],
+		"sources":[
+			{
+				"name":"Sternberg Astronomical Institute Supernova Light Curve Catalogue",
+				"url":"http://dau.itep.ru/sn/node/72",
+				"alias":"1",
+				"secondary":true
+			},
+			{
+				"name":"VSNET 2001",
+				"alias":"2"
+			},
+			{
+				"name":"Asiago Supernova Catalogue",
+				"url":"http://graspa.oapd.inaf.it/cgi-bin/sncat.php",
+				"alias":"3",
+				"secondary":true
+			},
+			{
+				"name":"IAUC 7061",
+				"url":"http://www.cbat.eps.harvard.edu/iauc/07000/07061.html#Item1",
+				"alias":"4"
+			},
+			{
+				"name":"Latest Supernovae",
+				"url":"http://www.rochesterastronomy.org/snimages/snredshiftall.html",
+				"alias":"5",
+				"secondary":true
+			},
+			{
+				"name":"2012A&A...538A.120L",
+				"url":"http://adsabs.harvard.edu/abs/2012A&A...538A.120L",
+				"bibcode":"2012A&A...538A.120L",
+				"alias":"6"
+			}
+		],
+		"claimedtype":[
+			{
+				"value":"II",
+				"source":"3,4,5"
+			}
+		],
+		"discoverday":"22",
+		"discoverer":"Roberto Antezana",
+		"discovermonth":"11",
+		"discoveryear":"1998",
+		"galdec":"-684450",
+		"galra":"204433",
+		"host":[
+			{
+				"value":"NGC 6943",
+				"source":"3,4,5,6"
+			}
+		],
+		"hvel":[
+			{
+				"value":"3095",
+				"source":"3"
+			}
+		],
+		"lumdist":[
+			{
+				"value":"30",
+				"source":"6"
+			}
+		],
+		"maxabsmag":"-20",
+		"maxappmag":"14",
+		"maxday":"23",
+		"maxmonth":"11",
+		"maxyear":"1998",
+		"redshift":[
+			{
+				"value":"0.01",
+				"source":"4,5,6"
+			}
+		],
+		"sndec":"-68:43:373",
+		"snra":"20:44:32.17",
+		"photometry":[
+			{
+				"timeunit":"MJD",
+				"time":"51139.5",
+				"band":"",
+				"abmag":"14.0",
+				"source":"4,5"
+			},
+			{
+				"timeunit":"MJD",
+				"time":"51140.02",
+				"band":"B",
+				"abmag":"14",
+				"source":"1,2"
+			},
+			{
+				"timeunit":"MJD",
+				"time":"51144.05",
+				"band":"R",
+				"abmag":"14.9",
+				"source":"1,2"
+			},
+			{
+				"timeunit":"MJD",
+				"time":"51144.05",
+				"band":"V",
+				"abmag":"15.2",
+				"source":"1,2"
+			}
+		]
+	}
 }

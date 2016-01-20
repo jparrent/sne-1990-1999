@@ -1,85 +1,85 @@
 {
-    "SN1993X": {
-        "name": "SN1993X",
-        "aliases": [
-            "SN1993X"
-        ],
-        "sources": [
-            {
-                "name": "Asiago Supernova Catalogue",
-                "url": "http://graspa.oapd.inaf.it/cgi-bin/sncat.php",
-                "alias": "1",
-                "secondary": true
-            },
-            {
-                "name": "IAUC 5850",
-                "url": "http://www.cbat.eps.harvard.edu/iauc/05800/05850.html",
-                "alias": "2"
-            },
-            {
-                "name": "Latest Supernovae",
-                "url": "http://www.rochesterastronomy.org/snimages/snredshiftall.html",
-                "alias": "3",
-                "secondary": true
-            },
-            {
-                "name": "2012A&A...538A.120L",
-                "url": "http://adsabs.harvard.edu/abs/2012A&A...538A.120L",
-                "bibcode": "2012A&A...538A.120L",
-                "alias": "4"
-            }
-        ],
-        "claimedtype": [
-            {
-                "value": "II",
-                "source": "1,2,3"
-            }
-        ],
-        "discoverday": "21",
-        "discoverer": "Treffers, Filippenko, Leibundgut,",
-        "discovermonth": "8",
-        "discoveryear": "1993",
-        "galdec": "+854520",
-        "galra": "072713",
-        "host": [
-            {
-                "value": "NGC 2276",
-                "source": "1,2,3,4"
-            }
-        ],
-        "hvel": [
-            {
-                "value": "2407",
-                "source": "1"
-            }
-        ],
-        "lumdist": [
-            {
-                "value": "36",
-                "source": "4"
-            }
-        ],
-        "maxabsmag": "-16",
-        "maxappmag": "16.3",
-        "maxday": "21",
-        "maxmonth": "8",
-        "maxyear": "1993",
-        "redshift": [
-            {
-                "value": "0.0081",
-                "source": "4"
-            }
-        ],
-        "sndec": "+85:46:26.2",
-        "snra": "07:27:40.60",
-        "photometry": [
-            {
-                "timeunit": "MJD",
-                "time": "49220.5",
-                "band": "",
-                "abmag": "16.3",
-                "source": "2,3"
-            }
-        ]
-    }
+	"SN1993X":{
+		"name":"SN1993X",
+		"aliases":[
+			"SN1993X"
+		],
+		"sources":[
+			{
+				"name":"Asiago Supernova Catalogue",
+				"url":"http://graspa.oapd.inaf.it/cgi-bin/sncat.php",
+				"alias":"1",
+				"secondary":true
+			},
+			{
+				"name":"IAUC 5850",
+				"url":"http://www.cbat.eps.harvard.edu/iauc/05800/05850.html",
+				"alias":"2"
+			},
+			{
+				"name":"Latest Supernovae",
+				"url":"http://www.rochesterastronomy.org/snimages/snredshiftall.html",
+				"alias":"3",
+				"secondary":true
+			},
+			{
+				"name":"2012A&A...538A.120L",
+				"url":"http://adsabs.harvard.edu/abs/2012A&A...538A.120L",
+				"bibcode":"2012A&A...538A.120L",
+				"alias":"4"
+			}
+		],
+		"claimedtype":[
+			{
+				"value":"II",
+				"source":"1,2,3"
+			}
+		],
+		"discoverday":"21",
+		"discoverer":"Treffers, Filippenko, Leibundgut,",
+		"discovermonth":"8",
+		"discoveryear":"1993",
+		"galdec":"+854520",
+		"galra":"072713",
+		"host":[
+			{
+				"value":"NGC 2276",
+				"source":"1,2,3,4"
+			}
+		],
+		"hvel":[
+			{
+				"value":"2407",
+				"source":"1"
+			}
+		],
+		"lumdist":[
+			{
+				"value":"36",
+				"source":"4"
+			}
+		],
+		"maxabsmag":"-16",
+		"maxappmag":"16.3",
+		"maxday":"21",
+		"maxmonth":"8",
+		"maxyear":"1993",
+		"redshift":[
+			{
+				"value":"0.0081",
+				"source":"4"
+			}
+		],
+		"sndec":"+85:46:26.2",
+		"snra":"07:27:40.60",
+		"photometry":[
+			{
+				"timeunit":"MJD",
+				"time":"49220.5",
+				"band":"",
+				"abmag":"16.3",
+				"source":"2,3"
+			}
+		]
+	}
 }

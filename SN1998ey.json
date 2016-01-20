@@ -1,113 +1,113 @@
 {
-    "SN1998ey": {
-        "name": "SN1998ey",
-        "aliases": [
-            "SN1998ey"
-        ],
-        "sources": [
-            {
-                "name": "Sternberg Astronomical Institute Supernova Light Curve Catalogue",
-                "url": "http://dau.itep.ru/sn/node/72",
-                "alias": "1",
-                "secondary": true
-            },
-            {
-                "name": "VSNET 2001",
-                "alias": "2"
-            },
-            {
-                "name": "Asiago Supernova Catalogue",
-                "url": "http://graspa.oapd.inaf.it/cgi-bin/sncat.php",
-                "alias": "3",
-                "secondary": true
-            },
-            {
-                "name": "IAUC 7065",
-                "url": "http://www.cbat.eps.harvard.edu/iauc/07000/07065.html#Item1",
-                "alias": "4"
-            },
-            {
-                "name": "Latest Supernovae",
-                "url": "http://www.rochesterastronomy.org/snimages/snredshiftall.html",
-                "alias": "5",
-                "secondary": true
-            },
-            {
-                "name": "2012A&A...538A.120L",
-                "url": "http://adsabs.harvard.edu/abs/2012A&A...538A.120L",
-                "bibcode": "2012A&A...538A.120L",
-                "alias": "6"
-            }
-        ],
-        "claimedtype": [
-            {
-                "value": "Ic",
-                "source": "3"
-            },
-            {
-                "value": "Ic P",
-                "source": "4,5"
-            }
-        ],
-        "discoverday": "4",
-        "discoverer": "Ron Arbour",
-        "discovermonth": "12",
-        "discoveryear": "1998",
-        "galdec": "+264305",
-        "galra": "213002",
-        "host": [
-            {
-                "value": "NGC 7080",
-                "source": "3,4,5,6"
-            }
-        ],
-        "hvel": [
-            {
-                "value": "4806",
-                "source": "3"
-            }
-        ],
-        "lumdist": [
-            {
-                "value": "72",
-                "source": "D"
-            }
-        ],
-        "maxabsmag": "-18",
-        "maxappmag": "16.5",
-        "maxday": "8",
-        "maxmonth": "12",
-        "maxyear": "1998",
-        "redshift": [
-            {
-                "value": "0.016",
-                "source": "6"
-            }
-        ],
-        "sndec": "+26:43:21.4",
-        "snra": "21:30:00.67",
-        "photometry": [
-            {
-                "timeunit": "MJD",
-                "time": "51151.65",
-                "band": "C",
-                "abmag": "17.5",
-                "source": "1,2"
-            },
-            {
-                "timeunit": "MJD",
-                "time": "51152.81",
-                "band": "C",
-                "abmag": "17",
-                "source": "1,2"
-            },
-            {
-                "timeunit": "MJD",
-                "time": "51155.1",
-                "band": "C",
-                "abmag": "16.5",
-                "source": "1,2"
-            }
-        ]
-    }
+	"SN1998ey":{
+		"name":"SN1998ey",
+		"aliases":[
+			"SN1998ey"
+		],
+		"sources":[
+			{
+				"name":"Sternberg Astronomical Institute Supernova Light Curve Catalogue",
+				"url":"http://dau.itep.ru/sn/node/72",
+				"alias":"1",
+				"secondary":true
+			},
+			{
+				"name":"VSNET 2001",
+				"alias":"2"
+			},
+			{
+				"name":"Asiago Supernova Catalogue",
+				"url":"http://graspa.oapd.inaf.it/cgi-bin/sncat.php",
+				"alias":"3",
+				"secondary":true
+			},
+			{
+				"name":"IAUC 7065",
+				"url":"http://www.cbat.eps.harvard.edu/iauc/07000/07065.html#Item1",
+				"alias":"4"
+			},
+			{
+				"name":"Latest Supernovae",
+				"url":"http://www.rochesterastronomy.org/snimages/snredshiftall.html",
+				"alias":"5",
+				"secondary":true
+			},
+			{
+				"name":"2012A&A...538A.120L",
+				"url":"http://adsabs.harvard.edu/abs/2012A&A...538A.120L",
+				"bibcode":"2012A&A...538A.120L",
+				"alias":"6"
+			}
+		],
+		"claimedtype":[
+			{
+				"value":"Ic",
+				"source":"3"
+			},
+			{
+				"value":"Ic P",
+				"source":"4,5"
+			}
+		],
+		"discoverday":"4",
+		"discoverer":"Ron Arbour",
+		"discovermonth":"12",
+		"discoveryear":"1998",
+		"galdec":"+264305",
+		"galra":"213002",
+		"host":[
+			{
+				"value":"NGC 7080",
+				"source":"3,4,5,6"
+			}
+		],
+		"hvel":[
+			{
+				"value":"4806",
+				"source":"3"
+			}
+		],
+		"lumdist":[
+			{
+				"value":"72",
+				"source":"D"
+			}
+		],
+		"maxabsmag":"-18",
+		"maxappmag":"16.5",
+		"maxday":"8",
+		"maxmonth":"12",
+		"maxyear":"1998",
+		"redshift":[
+			{
+				"value":"0.016",
+				"source":"6"
+			}
+		],
+		"sndec":"+26:43:21.4",
+		"snra":"21:30:00.67",
+		"photometry":[
+			{
+				"timeunit":"MJD",
+				"time":"51151.65",
+				"band":"C",
+				"abmag":"17.5",
+				"source":"1,2"
+			},
+			{
+				"timeunit":"MJD",
+				"time":"51152.81",
+				"band":"C",
+				"abmag":"17",
+				"source":"1,2"
+			},
+			{
+				"timeunit":"MJD",
+				"time":"51155.1",
+				"band":"C",
+				"abmag":"16.5",
+				"source":"1,2"
+			}
+		]
+	}
 }

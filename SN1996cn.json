@@ -1,120 +1,120 @@
 {
-    "SN1996cn": {
-        "name": "SN1996cn",
-        "aliases": [
-            "SN1996cn"
-        ],
-        "sources": [
-            {
-                "name": "Asiago Supernova Catalogue",
-                "url": "http://graspa.oapd.inaf.it/cgi-bin/sncat.php",
-                "alias": "1",
-                "secondary": true
-            },
-            {
-                "name": "IAUC 6621",
-                "url": "http://www.cbat.eps.harvard.edu/iauc/06600/06621.html",
-                "alias": "2"
-            },
-            {
-                "name": "Latest Supernovae",
-                "url": "http://www.rochesterastronomy.org/snimages/snredshiftall.html",
-                "alias": "3",
-                "secondary": true
-            },
-            {
-                "name": "2012A&A...538A.120L",
-                "url": "http://adsabs.harvard.edu/abs/2012A&A...538A.120L",
-                "bibcode": "2012A&A...538A.120L",
-                "alias": "4"
-            },
-            {
-                "name": "NED-D",
-                "url": "http://ned.ipac.caltech.edu/Library/Distances/",
-                "alias": "5",
-                "secondary": true
-            },
-            {
-                "name": "2010ApJ...716..712A",
-                "url": "http://adsabs.harvard.edu/abs/2010ApJ...716..712A",
-                "bibcode": "2010ApJ...716..712A",
-                "alias": "6"
-            },
-            {
-                "name": "2008ApJ...686..749K",
-                "url": "http://adsabs.harvard.edu/abs/2008ApJ...686..749K",
-                "bibcode": "2008ApJ...686..749K",
-                "alias": "7"
-            },
-            {
-                "name": "2010arXiv1006.2112L",
-                "url": "http://adsabs.harvard.edu/abs/2010arXiv1006.2112L",
-                "bibcode": "2010arXiv1006.2112L",
-                "alias": "8"
-            },
-            {
-                "name": "2009ApJ...700.1097H",
-                "url": "http://adsabs.harvard.edu/abs/2009ApJ...700.1097H",
-                "bibcode": "2009ApJ...700.1097H",
-                "alias": "9"
-            }
-        ],
-        "claimedtype": [
-            {
-                "value": "Ia",
-                "source": "1,2,3"
-            }
-        ],
-        "discoverday": "17",
-        "discoverer": "Supernova Cosmology Project",
-        "discovermonth": "3",
-        "discoveryear": "1996",
-        "galdec": "+022746",
-        "galra": "134827",
-        "host": [
-            {
-                "value": "A134827+0227",
-                "source": "1"
-            }
-        ],
-        "hvel": [
-            {
-                "value": "100000",
-                "source": "D"
-            }
-        ],
-        "lumdist": [
-            {
-                "value": "1140",
-                "error": "400",
-                "source": "6,5"
-            }
-        ],
-        "maxabsmag": "-17.7",
-        "maxappmag": "22.6",
-        "maxday": "17",
-        "maxmonth": "3",
-        "maxyear": "1996",
-        "redshift": [
-            {
-                "value": "0.43",
-                "source": "1,4"
-            },
-            {
-                "value": "0.44",
-                "source": "2,3"
-            }
-        ],
-        "sndec": "+02:27:46.6",
-        "snra": "13:48:27.22",
-        "photometry": [
-            {
-                "timeunit": "MJD",
-                "time": "50159.5",
-                "band": "",
-                "abmag": "22.6",
-                "source": "2,3"
-            }
-        ]
-    }
+	"SN1996cn":{
+		"name":"SN1996cn",
+		"aliases":[
+			"SN1996cn"
+		],
+		"sources":[
+			{
+				"name":"Asiago Supernova Catalogue",
+				"url":"http://graspa.oapd.inaf.it/cgi-bin/sncat.php",
+				"alias":"1",
+				"secondary":true
+			},
+			{
+				"name":"IAUC 6621",
+				"url":"http://www.cbat.eps.harvard.edu/iauc/06600/06621.html",
+				"alias":"2"
+			},
+			{
+				"name":"Latest Supernovae",
+				"url":"http://www.rochesterastronomy.org/snimages/snredshiftall.html",
+				"alias":"3",
+				"secondary":true
+			},
+			{
+				"name":"2012A&A...538A.120L",
+				"url":"http://adsabs.harvard.edu/abs/2012A&A...538A.120L",
+				"bibcode":"2012A&A...538A.120L",
+				"alias":"4"
+			},
+			{
+				"name":"NED-D",
+				"url":"http://ned.ipac.caltech.edu/Library/Distances/",
+				"alias":"5",
+				"secondary":true
+			},
+			{
+				"name":"2010ApJ...716..712A",
+				"url":"http://adsabs.harvard.edu/abs/2010ApJ...716..712A",
+				"bibcode":"2010ApJ...716..712A",
+				"alias":"6"
+			},
+			{
+				"name":"2008ApJ...686..749K",
+				"url":"http://adsabs.harvard.edu/abs/2008ApJ...686..749K",
+				"bibcode":"2008ApJ...686..749K",
+				"alias":"7"
+			},
+			{
+				"name":"2010arXiv1006.2112L",
+				"url":"http://adsabs.harvard.edu/abs/2010arXiv1006.2112L",
+				"bibcode":"2010arXiv1006.2112L",
+				"alias":"8"
+			},
+			{
+				"name":"2009ApJ...700.1097H",
+				"url":"http://adsabs.harvard.edu/abs/2009ApJ...700.1097H",
+				"bibcode":"2009ApJ...700.1097H",
+				"alias":"9"
+			}
+		],
+		"claimedtype":[
+			{
+				"value":"Ia",
+				"source":"1,2,3"
+			}
+		],
+		"discoverday":"17",
+		"discoverer":"Supernova Cosmology Project",
+		"discovermonth":"3",
+		"discoveryear":"1996",
+		"galdec":"+022746",
+		"galra":"134827",
+		"host":[
+			{
+				"value":"A134827+0227",
+				"source":"1"
+			}
+		],
+		"hvel":[
+			{
+				"value":"100000",
+				"source":"D"
+			}
+		],
+		"lumdist":[
+			{
+				"value":"1140",
+				"error":"400",
+				"source":"6,5"
+			}
+		],
+		"maxabsmag":"-17.7",
+		"maxappmag":"22.6",
+		"maxday":"17",
+		"maxmonth":"3",
+		"maxyear":"1996",
+		"redshift":[
+			{
+				"value":"0.43",
+				"source":"1,4"
+			},
+			{
+				"value":"0.44",
+				"source":"2,3"
+			}
+		],
+		"sndec":"+02:27:46.6",
+		"snra":"13:48:27.22",
+		"photometry":[
+			{
+				"timeunit":"MJD",
+				"time":"50159.5",
+				"band":"",
+				"abmag":"22.6",
+				"source":"2,3"
+			}
+		]
+	}
 }

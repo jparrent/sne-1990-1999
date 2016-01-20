@@ -1,70 +1,70 @@
 {
-    "SN1992be": {
-        "name": "SN1992be",
-        "aliases": [
-            "SN1992be"
-        ],
-        "sources": [
-            {
-                "name": "Asiago Supernova Catalogue",
-                "url": "http://graspa.oapd.inaf.it/cgi-bin/sncat.php",
-                "alias": "1",
-                "secondary": true
-            },
-            {
-                "name": "IAUC 5640",
-                "url": "http://www.cbat.eps.harvard.edu/iauc/05600/05640.html",
-                "alias": "2"
-            },
-            {
-                "name": "Latest Supernovae",
-                "url": "http://www.rochesterastronomy.org/snimages/snredshiftall.html",
-                "alias": "3",
-                "secondary": true
-            },
-            {
-                "name": "2012A&A...538A.120L",
-                "url": "http://adsabs.harvard.edu/abs/2012A&A...538A.120L",
-                "bibcode": "2012A&A...538A.120L",
-                "alias": "4"
-            }
-        ],
-        "claimedtype": [
-            {
-                "value": "II",
-                "source": "1,2,3"
-            }
-        ],
-        "discoverday": "29",
-        "discoverer": "Jean Mueller",
-        "discovermonth": "9",
-        "discoveryear": "1992",
-        "galdec": "+274714",
-        "galra": "040232",
-        "host": [
-            {
-                "value": "A040232+2747",
-                "source": "1"
-            },
-            {
-                "value": "(PGC1817897)",
-                "source": "4"
-            }
-        ],
-        "maxappmag": "17",
-        "maxday": "29",
-        "maxmonth": "9",
-        "maxyear": "1992",
-        "sndec": "+27:47:14.4",
-        "snra": "04:02:32.69",
-        "photometry": [
-            {
-                "timeunit": "MJD",
-                "time": "48894.5",
-                "band": "",
-                "abmag": "17.0",
-                "source": "2,3"
-            }
-        ]
-    }
+	"SN1992be":{
+		"name":"SN1992be",
+		"aliases":[
+			"SN1992be"
+		],
+		"sources":[
+			{
+				"name":"Asiago Supernova Catalogue",
+				"url":"http://graspa.oapd.inaf.it/cgi-bin/sncat.php",
+				"alias":"1",
+				"secondary":true
+			},
+			{
+				"name":"IAUC 5640",
+				"url":"http://www.cbat.eps.harvard.edu/iauc/05600/05640.html",
+				"alias":"2"
+			},
+			{
+				"name":"Latest Supernovae",
+				"url":"http://www.rochesterastronomy.org/snimages/snredshiftall.html",
+				"alias":"3",
+				"secondary":true
+			},
+			{
+				"name":"2012A&A...538A.120L",
+				"url":"http://adsabs.harvard.edu/abs/2012A&A...538A.120L",
+				"bibcode":"2012A&A...538A.120L",
+				"alias":"4"
+			}
+		],
+		"claimedtype":[
+			{
+				"value":"II",
+				"source":"1,2,3"
+			}
+		],
+		"discoverday":"29",
+		"discoverer":"Jean Mueller",
+		"discovermonth":"9",
+		"discoveryear":"1992",
+		"galdec":"+274714",
+		"galra":"040232",
+		"host":[
+			{
+				"value":"A040232+2747",
+				"source":"1"
+			},
+			{
+				"value":"(PGC1817897)",
+				"source":"4"
+			}
+		],
+		"maxappmag":"17",
+		"maxday":"29",
+		"maxmonth":"9",
+		"maxyear":"1992",
+		"sndec":"+27:47:14.4",
+		"snra":"04:02:32.69",
+		"photometry":[
+			{
+				"timeunit":"MJD",
+				"time":"48894.5",
+				"band":"",
+				"abmag":"17.0",
+				"source":"2,3"
+			}
+		]
+	}
 }

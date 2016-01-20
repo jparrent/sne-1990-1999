@@ -1,110 +1,110 @@
 {
-    "SN1998et": {
-        "name": "SN1998et",
-        "aliases": [
-            "SN1998et"
-        ],
-        "sources": [
-            {
-                "name": "Sternberg Astronomical Institute Supernova Light Curve Catalogue",
-                "url": "http://dau.itep.ru/sn/node/72",
-                "alias": "1",
-                "secondary": true
-            },
-            {
-                "name": "VSNET 2001",
-                "alias": "2"
-            },
-            {
-                "name": "Asiago Supernova Catalogue",
-                "url": "http://graspa.oapd.inaf.it/cgi-bin/sncat.php",
-                "alias": "3",
-                "secondary": true
-            },
-            {
-                "name": "IAUC 7054",
-                "url": "http://www.cbat.eps.harvard.edu/iauc/07000/07054.html",
-                "alias": "4"
-            },
-            {
-                "name": "Latest Supernovae",
-                "url": "http://www.rochesterastronomy.org/snimages/snredshiftall.html",
-                "alias": "5",
-                "secondary": true
-            },
-            {
-                "name": "2012A&A...538A.120L",
-                "url": "http://adsabs.harvard.edu/abs/2012A&A...538A.120L",
-                "bibcode": "2012A&A...538A.120L",
-                "alias": "6"
-            }
-        ],
-        "claimedtype": [
-            {
-                "value": "IIn",
-                "source": "3"
-            },
-            {
-                "value": "II",
-                "source": "4,5"
-            }
-        ],
-        "discoverday": "16",
-        "discoverer": "Jean Mueller",
-        "discovermonth": "11",
-        "discoveryear": "1998",
-        "galdec": "+574441",
-        "galra": "065918",
-        "host": [
-            {
-                "value": "A065918+5744",
-                "source": "3"
-            },
-            {
-                "value": "(PGC2570576)",
-                "source": "6"
-            }
-        ],
-        "hvel": [
-            {
-                "value": "12100",
-                "source": "3"
-            }
-        ],
-        "lumdist": [
-            {
-                "value": "200",
-                "source": "D"
-            }
-        ],
-        "maxabsmag": "-20",
-        "maxappmag": "18",
-        "maxday": "16",
-        "maxmonth": "11",
-        "maxyear": "1998",
-        "redshift": [
-            {
-                "value": "0.04",
-                "source": "4,5,6"
-            }
-        ],
-        "sndec": "+57:44:41.0",
-        "snra": "06:59:18.70",
-        "photometry": [
-            {
-                "timeunit": "MJD",
-                "time": "51133.5",
-                "band": "",
-                "abmag": "18.0",
-                "source": "4,5"
-            },
-            {
-                "timeunit": "MJD",
-                "time": "51141.16",
-                "band": "C",
-                "abmag": "19",
-                "source": "1,2"
-            }
-        ]
-    }
+	"SN1998et":{
+		"name":"SN1998et",
+		"aliases":[
+			"SN1998et"
+		],
+		"sources":[
+			{
+				"name":"Sternberg Astronomical Institute Supernova Light Curve Catalogue",
+				"url":"http://dau.itep.ru/sn/node/72",
+				"alias":"1",
+				"secondary":true
+			},
+			{
+				"name":"VSNET 2001",
+				"alias":"2"
+			},
+			{
+				"name":"Asiago Supernova Catalogue",
+				"url":"http://graspa.oapd.inaf.it/cgi-bin/sncat.php",
+				"alias":"3",
+				"secondary":true
+			},
+			{
+				"name":"IAUC 7054",
+				"url":"http://www.cbat.eps.harvard.edu/iauc/07000/07054.html",
+				"alias":"4"
+			},
+			{
+				"name":"Latest Supernovae",
+				"url":"http://www.rochesterastronomy.org/snimages/snredshiftall.html",
+				"alias":"5",
+				"secondary":true
+			},
+			{
+				"name":"2012A&A...538A.120L",
+				"url":"http://adsabs.harvard.edu/abs/2012A&A...538A.120L",
+				"bibcode":"2012A&A...538A.120L",
+				"alias":"6"
+			}
+		],
+		"claimedtype":[
+			{
+				"value":"IIn",
+				"source":"3"
+			},
+			{
+				"value":"II",
+				"source":"4,5"
+			}
+		],
+		"discoverday":"16",
+		"discoverer":"Jean Mueller",
+		"discovermonth":"11",
+		"discoveryear":"1998",
+		"galdec":"+574441",
+		"galra":"065918",
+		"host":[
+			{
+				"value":"A065918+5744",
+				"source":"3"
+			},
+			{
+				"value":"(PGC2570576)",
+				"source":"6"
+			}
+		],
+		"hvel":[
+			{
+				"value":"12100",
+				"source":"3"
+			}
+		],
+		"lumdist":[
+			{
+				"value":"200",
+				"source":"D"
+			}
+		],
+		"maxabsmag":"-20",
+		"maxappmag":"18",
+		"maxday":"16",
+		"maxmonth":"11",
+		"maxyear":"1998",
+		"redshift":[
+			{
+				"value":"0.04",
+				"source":"4,5,6"
+			}
+		],
+		"sndec":"+57:44:41.0",
+		"snra":"06:59:18.70",
+		"photometry":[
+			{
+				"timeunit":"MJD",
+				"time":"51133.5",
+				"band":"",
+				"abmag":"18.0",
+				"source":"4,5"
+			},
+			{
+				"timeunit":"MJD",
+				"time":"51141.16",
+				"band":"C",
+				"abmag":"19",
+				"source":"1,2"
+			}
+		]
+	}
 }

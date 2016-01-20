@@ -1,97 +1,97 @@
 {
-    "SN1996cr": {
-        "name": "SN1996cr",
-        "aliases": [
-            "SN1996cr"
-        ],
-        "sources": [
-            {
-                "name": "Asiago Supernova Catalogue",
-                "url": "http://graspa.oapd.inaf.it/cgi-bin/sncat.php",
-                "alias": "1",
-                "secondary": true
-            },
-            {
-                "name": "IAUC 8823",
-                "url": "http://www.cbat.eps.harvard.edu/iauc/08800/08823.html#Item2",
-                "alias": "2"
-            },
-            {
-                "name": "Latest Supernovae",
-                "url": "http://www.rochesterastronomy.org/snimages/snredshiftall.html",
-                "alias": "3",
-                "secondary": true
-            },
-            {
-                "name": "2012A&A...538A.120L",
-                "url": "http://adsabs.harvard.edu/abs/2012A&A...538A.120L",
-                "bibcode": "2012A&A...538A.120L",
-                "alias": "4"
-            }
-        ],
-        "claimedtype": [
-            {
-                "value": "IIn",
-                "source": "1,2,3"
-            }
-        ],
-        "discoverday": "18",
-        "discoverer": "Columbia Astrophysics Laboratory",
-        "discovermonth": "3",
-        "discoveryear": "1996",
-        "galdec": "-652020",
-        "galra": "141310",
-        "host": [
-            {
-                "value": "E097-G13",
-                "source": "1"
-            },
-            {
-                "value": "ESO 97-G13",
-                "source": "2,3"
-            },
-            {
-                "value": "E97-13",
-                "source": "4"
-            }
-        ],
-        "hvel": [
-            {
-                "value": "380",
-                "source": "1"
-            }
-        ],
-        "lumdist": [
-            {
-                "value": "4.2",
-                "source": "4"
-            }
-        ],
-        "maxabsmag": "-12",
-        "maxappmag": "16.6",
-        "maxday": "18",
-        "maxmonth": "3",
-        "maxyear": "1996",
-        "redshift": [
-            {
-                "value": "0.0014",
-                "source": "2,3"
-            },
-            {
-                "value": "0.0015",
-                "source": "4"
-            }
-        ],
-        "sndec": "-65:20:44.4",
-        "snra": "14:13:10.01",
-        "photometry": [
-            {
-                "timeunit": "MJD",
-                "time": "50160.5",
-                "band": "",
-                "abmag": "16.6",
-                "source": "2,3"
-            }
-        ]
-    }
+	"SN1996cr":{
+		"name":"SN1996cr",
+		"aliases":[
+			"SN1996cr"
+		],
+		"sources":[
+			{
+				"name":"Asiago Supernova Catalogue",
+				"url":"http://graspa.oapd.inaf.it/cgi-bin/sncat.php",
+				"alias":"1",
+				"secondary":true
+			},
+			{
+				"name":"IAUC 8823",
+				"url":"http://www.cbat.eps.harvard.edu/iauc/08800/08823.html#Item2",
+				"alias":"2"
+			},
+			{
+				"name":"Latest Supernovae",
+				"url":"http://www.rochesterastronomy.org/snimages/snredshiftall.html",
+				"alias":"3",
+				"secondary":true
+			},
+			{
+				"name":"2012A&A...538A.120L",
+				"url":"http://adsabs.harvard.edu/abs/2012A&A...538A.120L",
+				"bibcode":"2012A&A...538A.120L",
+				"alias":"4"
+			}
+		],
+		"claimedtype":[
+			{
+				"value":"IIn",
+				"source":"1,2,3"
+			}
+		],
+		"discoverday":"18",
+		"discoverer":"Columbia Astrophysics Laboratory",
+		"discovermonth":"3",
+		"discoveryear":"1996",
+		"galdec":"-652020",
+		"galra":"141310",
+		"host":[
+			{
+				"value":"E097-G13",
+				"source":"1"
+			},
+			{
+				"value":"ESO 97-G13",
+				"source":"2,3"
+			},
+			{
+				"value":"E97-13",
+				"source":"4"
+			}
+		],
+		"hvel":[
+			{
+				"value":"380",
+				"source":"1"
+			}
+		],
+		"lumdist":[
+			{
+				"value":"4.2",
+				"source":"4"
+			}
+		],
+		"maxabsmag":"-12",
+		"maxappmag":"16.6",
+		"maxday":"18",
+		"maxmonth":"3",
+		"maxyear":"1996",
+		"redshift":[
+			{
+				"value":"0.0014",
+				"source":"2,3"
+			},
+			{
+				"value":"0.0015",
+				"source":"4"
+			}
+		],
+		"sndec":"-65:20:44.4",
+		"snra":"14:13:10.01",
+		"photometry":[
+			{
+				"timeunit":"MJD",
+				"time":"50160.5",
+				"band":"",
+				"abmag":"16.6",
+				"source":"2,3"
+			}
+		]
+	}
 }

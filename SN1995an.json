@@ -1,89 +1,89 @@
 {
-    "SN1995an": {
-        "name": "SN1995an",
-        "aliases": [
-            "SN1995an"
-        ],
-        "sources": [
-            {
-                "name": "Asiago Supernova Catalogue",
-                "url": "http://graspa.oapd.inaf.it/cgi-bin/sncat.php",
-                "alias": "1",
-                "secondary": true
-            },
-            {
-                "name": "IAUC 6262",
-                "url": "http://www.cbat.eps.harvard.edu/iauc/06200/06262.html",
-                "alias": "2"
-            },
-            {
-                "name": "Latest Supernovae",
-                "url": "http://www.rochesterastronomy.org/snimages/snredshiftall.html",
-                "alias": "3",
-                "secondary": true
-            },
-            {
-                "name": "2012A&A...538A.120L",
-                "url": "http://adsabs.harvard.edu/abs/2012A&A...538A.120L",
-                "bibcode": "2012A&A...538A.120L",
-                "alias": "4"
-            }
-        ],
-        "claimedtype": [
-            {
-                "value": "II",
-                "source": "1,2,3"
-            }
-        ],
-        "discoverday": "26",
-        "discoverer": "Jean Mueller",
-        "discovermonth": "10",
-        "discoveryear": "1995",
-        "galdec": "+085038",
-        "galra": "045149",
-        "host": [
-            {
-                "value": "UGC 3188",
-                "source": "1,2,3,4"
-            }
-        ],
-        "hvel": [
-            {
-                "value": "3521",
-                "source": "1"
-            }
-        ],
-        "lumdist": [
-            {
-                "value": "49",
-                "source": "D"
-            }
-        ],
-        "maxabsmag": "-16",
-        "maxappmag": "17.5",
-        "maxday": "26",
-        "maxmonth": "10",
-        "maxyear": "1995",
-        "redshift": [
-            {
-                "value": "0.011",
-                "source": "2,3"
-            },
-            {
-                "value": "0.012",
-                "source": "4"
-            }
-        ],
-        "sndec": "+08:50:39.7",
-        "snra": "04:51:48.54",
-        "photometry": [
-            {
-                "timeunit": "MJD",
-                "time": "50016.5",
-                "band": "",
-                "abmag": "17.5",
-                "source": "2,3"
-            }
-        ]
-    }
+	"SN1995an":{
+		"name":"SN1995an",
+		"aliases":[
+			"SN1995an"
+		],
+		"sources":[
+			{
+				"name":"Asiago Supernova Catalogue",
+				"url":"http://graspa.oapd.inaf.it/cgi-bin/sncat.php",
+				"alias":"1",
+				"secondary":true
+			},
+			{
+				"name":"IAUC 6262",
+				"url":"http://www.cbat.eps.harvard.edu/iauc/06200/06262.html",
+				"alias":"2"
+			},
+			{
+				"name":"Latest Supernovae",
+				"url":"http://www.rochesterastronomy.org/snimages/snredshiftall.html",
+				"alias":"3",
+				"secondary":true
+			},
+			{
+				"name":"2012A&A...538A.120L",
+				"url":"http://adsabs.harvard.edu/abs/2012A&A...538A.120L",
+				"bibcode":"2012A&A...538A.120L",
+				"alias":"4"
+			}
+		],
+		"claimedtype":[
+			{
+				"value":"II",
+				"source":"1,2,3"
+			}
+		],
+		"discoverday":"26",
+		"discoverer":"Jean Mueller",
+		"discovermonth":"10",
+		"discoveryear":"1995",
+		"galdec":"+085038",
+		"galra":"045149",
+		"host":[
+			{
+				"value":"UGC 3188",
+				"source":"1,2,3,4"
+			}
+		],
+		"hvel":[
+			{
+				"value":"3521",
+				"source":"1"
+			}
+		],
+		"lumdist":[
+			{
+				"value":"49",
+				"source":"D"
+			}
+		],
+		"maxabsmag":"-16",
+		"maxappmag":"17.5",
+		"maxday":"26",
+		"maxmonth":"10",
+		"maxyear":"1995",
+		"redshift":[
+			{
+				"value":"0.011",
+				"source":"2,3"
+			},
+			{
+				"value":"0.012",
+				"source":"4"
+			}
+		],
+		"sndec":"+08:50:39.7",
+		"snra":"04:51:48.54",
+		"photometry":[
+			{
+				"timeunit":"MJD",
+				"time":"50016.5",
+				"band":"",
+				"abmag":"17.5",
+				"source":"2,3"
+			}
+		]
+	}
 }

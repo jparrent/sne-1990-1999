@@ -1,92 +1,92 @@
 {
-    "SN1999E": {
-        "name": "SN1999E",
-        "aliases": [
-            "SN1999E"
-        ],
-        "sources": [
-            {
-                "name": "Asiago Supernova Catalogue",
-                "url": "http://graspa.oapd.inaf.it/cgi-bin/sncat.php",
-                "alias": "1",
-                "secondary": true
-            },
-            {
-                "name": "IAUC 7088",
-                "url": "http://www.cbat.eps.harvard.edu/iauc/07000/07088.html#Item1",
-                "alias": "2"
-            },
-            {
-                "name": "Latest Supernovae",
-                "url": "http://www.rochesterastronomy.org/snimages/snredshiftall.html",
-                "alias": "3",
-                "secondary": true
-            },
-            {
-                "name": "2012A&A...538A.120L",
-                "url": "http://adsabs.harvard.edu/abs/2012A&A...538A.120L",
-                "bibcode": "2012A&A...538A.120L",
-                "alias": "4"
-            }
-        ],
-        "claimedtype": [
-            {
-                "value": "IIn",
-                "source": "1"
-            },
-            {
-                "value": "IIn P",
-                "source": "2,3"
-            }
-        ],
-        "discoverday": "15",
-        "discoverer": "Roberto Antezana",
-        "discovermonth": "1",
-        "discoveryear": "1999",
-        "galdec": "-183313",
-        "galra": "131716",
-        "host": [
-            {
-                "value": "A131716-1833",
-                "source": "1"
-            },
-            {
-                "value": "IRAS 13145-1817",
-                "source": "2,3"
-            },
-            {
-                "value": "(PGC3098299)",
-                "source": "4"
-            }
-        ],
-        "hvel": [
-            {
-                "value": "7800",
-                "source": "1"
-            }
-        ],
-        "lumdist": [
-            {
-                "value": "120",
-                "source": "D"
-            }
-        ],
-        "redshift": [
-            {
-                "value": "0.026",
-                "source": "2,3,4"
-            }
-        ],
-        "sndec": "-18:33:13.4",
-        "snra": "13:17:16.37",
-        "photometry": [
-            {
-                "timeunit": "MJD",
-                "time": "51193.0",
-                "band": "B",
-                "abmag": "18.0",
-                "source": "4"
-            }
-        ]
-    }
+	"SN1999E":{
+		"name":"SN1999E",
+		"aliases":[
+			"SN1999E"
+		],
+		"sources":[
+			{
+				"name":"Asiago Supernova Catalogue",
+				"url":"http://graspa.oapd.inaf.it/cgi-bin/sncat.php",
+				"alias":"1",
+				"secondary":true
+			},
+			{
+				"name":"IAUC 7088",
+				"url":"http://www.cbat.eps.harvard.edu/iauc/07000/07088.html#Item1",
+				"alias":"2"
+			},
+			{
+				"name":"Latest Supernovae",
+				"url":"http://www.rochesterastronomy.org/snimages/snredshiftall.html",
+				"alias":"3",
+				"secondary":true
+			},
+			{
+				"name":"2012A&A...538A.120L",
+				"url":"http://adsabs.harvard.edu/abs/2012A&A...538A.120L",
+				"bibcode":"2012A&A...538A.120L",
+				"alias":"4"
+			}
+		],
+		"claimedtype":[
+			{
+				"value":"IIn",
+				"source":"1"
+			},
+			{
+				"value":"IIn P",
+				"source":"2,3"
+			}
+		],
+		"discoverday":"15",
+		"discoverer":"Roberto Antezana",
+		"discovermonth":"1",
+		"discoveryear":"1999",
+		"galdec":"-183313",
+		"galra":"131716",
+		"host":[
+			{
+				"value":"A131716-1833",
+				"source":"1"
+			},
+			{
+				"value":"IRAS 13145-1817",
+				"source":"2,3"
+			},
+			{
+				"value":"(PGC3098299)",
+				"source":"4"
+			}
+		],
+		"hvel":[
+			{
+				"value":"7800",
+				"source":"1"
+			}
+		],
+		"lumdist":[
+			{
+				"value":"120",
+				"source":"D"
+			}
+		],
+		"redshift":[
+			{
+				"value":"0.026",
+				"source":"2,3,4"
+			}
+		],
+		"sndec":"-18:33:13.4",
+		"snra":"13:17:16.37",
+		"photometry":[
+			{
+				"timeunit":"MJD",
+				"time":"51193.0",
+				"band":"B",
+				"abmag":"18.0",
+				"source":"4"
+			}
+		]
+	}
 }

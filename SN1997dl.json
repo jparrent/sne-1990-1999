@@ -1,93 +1,93 @@
 {
-    "SN1997dl": {
-        "name": "SN1997dl",
-        "aliases": [
-            "SN1997dl"
-        ],
-        "sources": [
-            {
-                "name": "Asiago Supernova Catalogue",
-                "url": "http://graspa.oapd.inaf.it/cgi-bin/sncat.php",
-                "alias": "1",
-                "secondary": true
-            },
-            {
-                "name": "IAUC 6762",
-                "url": "http://www.cbat.eps.harvard.edu/iauc/06700/06762.html",
-                "alias": "2"
-            },
-            {
-                "name": "Latest Supernovae",
-                "url": "http://www.rochesterastronomy.org/snimages/snredshiftall.html",
-                "alias": "3",
-                "secondary": true
-            },
-            {
-                "name": "2012A&A...538A.120L",
-                "url": "http://adsabs.harvard.edu/abs/2012A&A...538A.120L",
-                "bibcode": "2012A&A...538A.120L",
-                "alias": "4"
-            }
-        ],
-        "claimedtype": [
-            {
-                "value": "Ia",
-                "source": "1"
-            }
-        ],
-        "discoverday": "25",
-        "discoverer": "EROS",
-        "discovermonth": "10",
-        "discoveryear": "1997",
-        "galdec": "-411925",
-        "galra": "234338",
-        "host": [
-            {
-                "value": "A234338-4119",
-                "source": "1"
-            },
-            {
-                "value": "ESO 348-G2",
-                "source": "2,3"
-            },
-            {
-                "value": "(PGC95451)",
-                "source": "4"
-            }
-        ],
-        "hvel": [
-            {
-                "value": "15470",
-                "source": "1"
-            }
-        ],
-        "lumdist": [
-            {
-                "value": "240",
-                "source": "D"
-            }
-        ],
-        "maxabsmag": "-17",
-        "maxappmag": "19.5",
-        "maxday": "25",
-        "maxmonth": "10",
-        "maxyear": "1997",
-        "redshift": [
-            {
-                "value": "0.052",
-                "source": "4"
-            }
-        ],
-        "sndec": "-41:19:20.0",
-        "snra": "23:43:38.48",
-        "photometry": [
-            {
-                "timeunit": "MJD",
-                "time": "50746.5",
-                "band": "",
-                "abmag": "19.5",
-                "source": "2,3"
-            }
-        ]
-    }
+	"SN1997dl":{
+		"name":"SN1997dl",
+		"aliases":[
+			"SN1997dl"
+		],
+		"sources":[
+			{
+				"name":"Asiago Supernova Catalogue",
+				"url":"http://graspa.oapd.inaf.it/cgi-bin/sncat.php",
+				"alias":"1",
+				"secondary":true
+			},
+			{
+				"name":"IAUC 6762",
+				"url":"http://www.cbat.eps.harvard.edu/iauc/06700/06762.html",
+				"alias":"2"
+			},
+			{
+				"name":"Latest Supernovae",
+				"url":"http://www.rochesterastronomy.org/snimages/snredshiftall.html",
+				"alias":"3",
+				"secondary":true
+			},
+			{
+				"name":"2012A&A...538A.120L",
+				"url":"http://adsabs.harvard.edu/abs/2012A&A...538A.120L",
+				"bibcode":"2012A&A...538A.120L",
+				"alias":"4"
+			}
+		],
+		"claimedtype":[
+			{
+				"value":"Ia",
+				"source":"1"
+			}
+		],
+		"discoverday":"25",
+		"discoverer":"EROS",
+		"discovermonth":"10",
+		"discoveryear":"1997",
+		"galdec":"-411925",
+		"galra":"234338",
+		"host":[
+			{
+				"value":"A234338-4119",
+				"source":"1"
+			},
+			{
+				"value":"ESO 348-G2",
+				"source":"2,3"
+			},
+			{
+				"value":"(PGC95451)",
+				"source":"4"
+			}
+		],
+		"hvel":[
+			{
+				"value":"15470",
+				"source":"1"
+			}
+		],
+		"lumdist":[
+			{
+				"value":"240",
+				"source":"D"
+			}
+		],
+		"maxabsmag":"-17",
+		"maxappmag":"19.5",
+		"maxday":"25",
+		"maxmonth":"10",
+		"maxyear":"1997",
+		"redshift":[
+			{
+				"value":"0.052",
+				"source":"4"
+			}
+		],
+		"sndec":"-41:19:20.0",
+		"snra":"23:43:38.48",
+		"photometry":[
+			{
+				"timeunit":"MJD",
+				"time":"50746.5",
+				"band":"",
+				"abmag":"19.5",
+				"source":"2,3"
+			}
+		]
+	}
 }

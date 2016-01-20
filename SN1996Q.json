@@ -1,79 +1,79 @@
 {
-    "SN1996Q": {
-        "name": "SN1996Q",
-        "aliases": [
-            "SN1996Q"
-        ],
-        "sources": [
-            {
-                "name": "Asiago Supernova Catalogue",
-                "url": "http://graspa.oapd.inaf.it/cgi-bin/sncat.php",
-                "alias": "1",
-                "secondary": true
-            },
-            {
-                "name": "IAUC 6358",
-                "url": "http://www.cbat.eps.harvard.edu/iauc/06300/06358.html",
-                "alias": "2"
-            },
-            {
-                "name": "Latest Supernovae",
-                "url": "http://www.rochesterastronomy.org/snimages/snredshiftall.html",
-                "alias": "3",
-                "secondary": true
-            },
-            {
-                "name": "2012A&A...538A.120L",
-                "url": "http://adsabs.harvard.edu/abs/2012A&A...538A.120L",
-                "bibcode": "2012A&A...538A.120L",
-                "alias": "4"
-            }
-        ],
-        "discoverday": "14",
-        "discoverer": "High Z Supernova Search",
-        "discovermonth": "3",
-        "discoveryear": "1996",
-        "galdec": "+000653",
-        "galra": "084609",
-        "host": [
-            {
-                "value": "A084609+0006",
-                "source": "1"
-            }
-        ],
-        "hvel": [
-            {
-                "value": "89000",
-                "source": "D"
-            }
-        ],
-        "lumdist": [
-            {
-                "value": "2000",
-                "source": "D"
-            }
-        ],
-        "maxabsmag": "-20",
-        "maxappmag": "21.8",
-        "maxday": "14",
-        "maxmonth": "3",
-        "maxyear": "1996",
-        "redshift": [
-            {
-                "value": "0.36",
-                "source": "1,4"
-            }
-        ],
-        "sndec": "+00:06:53.9",
-        "snra": "08:46:09.18",
-        "photometry": [
-            {
-                "timeunit": "MJD",
-                "time": "50156.5",
-                "band": "",
-                "abmag": "21.8",
-                "source": "2,3"
-            }
-        ]
-    }
+	"SN1996Q":{
+		"name":"SN1996Q",
+		"aliases":[
+			"SN1996Q"
+		],
+		"sources":[
+			{
+				"name":"Asiago Supernova Catalogue",
+				"url":"http://graspa.oapd.inaf.it/cgi-bin/sncat.php",
+				"alias":"1",
+				"secondary":true
+			},
+			{
+				"name":"IAUC 6358",
+				"url":"http://www.cbat.eps.harvard.edu/iauc/06300/06358.html",
+				"alias":"2"
+			},
+			{
+				"name":"Latest Supernovae",
+				"url":"http://www.rochesterastronomy.org/snimages/snredshiftall.html",
+				"alias":"3",
+				"secondary":true
+			},
+			{
+				"name":"2012A&A...538A.120L",
+				"url":"http://adsabs.harvard.edu/abs/2012A&A...538A.120L",
+				"bibcode":"2012A&A...538A.120L",
+				"alias":"4"
+			}
+		],
+		"discoverday":"14",
+		"discoverer":"High Z Supernova Search",
+		"discovermonth":"3",
+		"discoveryear":"1996",
+		"galdec":"+000653",
+		"galra":"084609",
+		"host":[
+			{
+				"value":"A084609+0006",
+				"source":"1"
+			}
+		],
+		"hvel":[
+			{
+				"value":"89000",
+				"source":"D"
+			}
+		],
+		"lumdist":[
+			{
+				"value":"2000",
+				"source":"D"
+			}
+		],
+		"maxabsmag":"-20",
+		"maxappmag":"21.8",
+		"maxday":"14",
+		"maxmonth":"3",
+		"maxyear":"1996",
+		"redshift":[
+			{
+				"value":"0.36",
+				"source":"1,4"
+			}
+		],
+		"sndec":"+00:06:53.9",
+		"snra":"08:46:09.18",
+		"photometry":[
+			{
+				"timeunit":"MJD",
+				"time":"50156.5",
+				"band":"",
+				"abmag":"21.8",
+				"source":"2,3"
+			}
+		]
+	}
 }

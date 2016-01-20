@@ -1,59 +1,59 @@
 {
-    "SN1998ev": {
-        "name": "SN1998ev",
-        "aliases": [
-            "SN1998ev"
-        ],
-        "sources": [
-            {
-                "name": "IAUC 7055",
-                "url": "http://www.cbat.eps.harvard.edu/iauc/07000/07055.html",
-                "alias": "1"
-            },
-            {
-                "name": "Latest Supernovae",
-                "url": "http://www.rochesterastronomy.org/snimages/snredshiftall.html",
-                "alias": "2",
-                "secondary": true
-            }
-        ],
-        "discoverday": "22",
-        "discoverer": "Wise Observatory Optical Transients Search",
-        "discovermonth": "11",
-        "discoveryear": "1998",
-        "hvel": [
-            {
-                "value": "43400",
-                "source": "D"
-            }
-        ],
-        "lumdist": [
-            {
-                "value": "774",
-                "source": "D"
-            }
-        ],
-        "maxabsmag": "-25.4",
-        "maxappmag": "14",
-        "maxday": "22",
-        "maxmonth": "11",
-        "maxyear": "1998",
-        "redshift": [
-            {
-                "value": "0.157",
-                "source": "1,2"
-            }
-        ],
-        "sndec": "+25:00:59.1",
-        "snra": "01:04:12.68",
-        "photometry": [
-            {
-                "timeunit": "MJD",
-                "time": "51139.5",
-                "band": "",
-                "abmag": "14.0",
-                "source": "1,2"
-            }
-        ]
-    }
+	"SN1998ev":{
+		"name":"SN1998ev",
+		"aliases":[
+			"SN1998ev"
+		],
+		"sources":[
+			{
+				"name":"IAUC 7055",
+				"url":"http://www.cbat.eps.harvard.edu/iauc/07000/07055.html",
+				"alias":"1"
+			},
+			{
+				"name":"Latest Supernovae",
+				"url":"http://www.rochesterastronomy.org/snimages/snredshiftall.html",
+				"alias":"2",
+				"secondary":true
+			}
+		],
+		"discoverday":"22",
+		"discoverer":"Wise Observatory Optical Transients Search",
+		"discovermonth":"11",
+		"discoveryear":"1998",
+		"hvel":[
+			{
+				"value":"43400",
+				"source":"D"
+			}
+		],
+		"lumdist":[
+			{
+				"value":"774",
+				"source":"D"
+			}
+		],
+		"maxabsmag":"-25.4",
+		"maxappmag":"14",
+		"maxday":"22",
+		"maxmonth":"11",
+		"maxyear":"1998",
+		"redshift":[
+			{
+				"value":"0.157",
+				"source":"1,2"
+			}
+		],
+		"sndec":"+25:00:59.1",
+		"snra":"01:04:12.68",
+		"photometry":[
+			{
+				"timeunit":"MJD",
+				"time":"51139.5",
+				"band":"",
+				"abmag":"14.0",
+				"source":"1,2"
+			}
+		]
+	}
 }

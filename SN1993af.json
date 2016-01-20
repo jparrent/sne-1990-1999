@@ -1,85 +1,85 @@
 {
-    "SN1993af": {
-        "name": "SN1993af",
-        "aliases": [
-            "SN1993af"
-        ],
-        "sources": [
-            {
-                "name": "Asiago Supernova Catalogue",
-                "url": "http://graspa.oapd.inaf.it/cgi-bin/sncat.php",
-                "alias": "1",
-                "secondary": true
-            },
-            {
-                "name": "IAUC 5895",
-                "url": "http://www.cbat.eps.harvard.edu/iauc/05800/05895.html",
-                "alias": "2"
-            },
-            {
-                "name": "Latest Supernovae",
-                "url": "http://www.rochesterastronomy.org/snimages/snredshiftall.html",
-                "alias": "3",
-                "secondary": true
-            },
-            {
-                "name": "2012A&A...538A.120L",
-                "url": "http://adsabs.harvard.edu/abs/2012A&A...538A.120L",
-                "bibcode": "2012A&A...538A.120L",
-                "alias": "4"
-            }
-        ],
-        "claimedtype": [
-            {
-                "value": "Ia",
-                "source": "1,2,3"
-            }
-        ],
-        "discoverday": "14",
-        "discoverer": "Marina Wischnjewsky",
-        "discovermonth": "11",
-        "discoveryear": "1993",
-        "galdec": "-373051",
-        "galra": "050743",
-        "host": [
-            {
-                "value": "NGC 1808",
-                "source": "1,2,3,4"
-            }
-        ],
-        "hvel": [
-            {
-                "value": "1002",
-                "source": "1"
-            }
-        ],
-        "lumdist": [
-            {
-                "value": "11",
-                "source": "4"
-            }
-        ],
-        "maxabsmag": "-13",
-        "maxappmag": "17",
-        "maxday": "14",
-        "maxmonth": "11",
-        "maxyear": "1993",
-        "redshift": [
-            {
-                "value": "0.0033",
-                "source": "4"
-            }
-        ],
-        "sndec": "-37:29:18.0",
-        "snra": "05:08:00.71",
-        "photometry": [
-            {
-                "timeunit": "MJD",
-                "time": "49305.5",
-                "band": "",
-                "abmag": "17.0",
-                "source": "2,3"
-            }
-        ]
-    }
+	"SN1993af":{
+		"name":"SN1993af",
+		"aliases":[
+			"SN1993af"
+		],
+		"sources":[
+			{
+				"name":"Asiago Supernova Catalogue",
+				"url":"http://graspa.oapd.inaf.it/cgi-bin/sncat.php",
+				"alias":"1",
+				"secondary":true
+			},
+			{
+				"name":"IAUC 5895",
+				"url":"http://www.cbat.eps.harvard.edu/iauc/05800/05895.html",
+				"alias":"2"
+			},
+			{
+				"name":"Latest Supernovae",
+				"url":"http://www.rochesterastronomy.org/snimages/snredshiftall.html",
+				"alias":"3",
+				"secondary":true
+			},
+			{
+				"name":"2012A&A...538A.120L",
+				"url":"http://adsabs.harvard.edu/abs/2012A&A...538A.120L",
+				"bibcode":"2012A&A...538A.120L",
+				"alias":"4"
+			}
+		],
+		"claimedtype":[
+			{
+				"value":"Ia",
+				"source":"1,2,3"
+			}
+		],
+		"discoverday":"14",
+		"discoverer":"Marina Wischnjewsky",
+		"discovermonth":"11",
+		"discoveryear":"1993",
+		"galdec":"-373051",
+		"galra":"050743",
+		"host":[
+			{
+				"value":"NGC 1808",
+				"source":"1,2,3,4"
+			}
+		],
+		"hvel":[
+			{
+				"value":"1002",
+				"source":"1"
+			}
+		],
+		"lumdist":[
+			{
+				"value":"11",
+				"source":"4"
+			}
+		],
+		"maxabsmag":"-13",
+		"maxappmag":"17",
+		"maxday":"14",
+		"maxmonth":"11",
+		"maxyear":"1993",
+		"redshift":[
+			{
+				"value":"0.0033",
+				"source":"4"
+			}
+		],
+		"sndec":"-37:29:18.0",
+		"snra":"05:08:00.71",
+		"photometry":[
+			{
+				"timeunit":"MJD",
+				"time":"49305.5",
+				"band":"",
+				"abmag":"17.0",
+				"source":"2,3"
+			}
+		]
+	}
 }

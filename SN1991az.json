@@ -1,93 +1,93 @@
 {
-    "SN1991az": {
-        "name": "SN1991az",
-        "aliases": [
-            "SN1991az"
-        ],
-        "sources": [
-            {
-                "name": "Asiago Supernova Catalogue",
-                "url": "http://graspa.oapd.inaf.it/cgi-bin/sncat.php",
-                "alias": "1",
-                "secondary": true
-            },
-            {
-                "name": "IAUC 5356",
-                "url": "http://www.cbat.eps.harvard.edu/iauc/05300/05356.html",
-                "alias": "2"
-            },
-            {
-                "name": "Latest Supernovae",
-                "url": "http://www.rochesterastronomy.org/snimages/snredshiftall.html",
-                "alias": "3",
-                "secondary": true
-            },
-            {
-                "name": "2012A&A...538A.120L",
-                "url": "http://adsabs.harvard.edu/abs/2012A&A...538A.120L",
-                "bibcode": "2012A&A...538A.120L",
-                "alias": "4"
-            }
-        ],
-        "claimedtype": [
-            {
-                "value": "II",
-                "source": "1,2,3"
-            }
-        ],
-        "discoverday": "14",
-        "discoverer": "Jean Mueller",
-        "discovermonth": "9",
-        "discoveryear": "1991",
-        "galdec": "+241544",
-        "galra": "022516",
-        "host": [
-            {
-                "value": "M+04-06-29",
-                "source": "1"
-            },
-            {
-                "value": "CGCG 483-35",
-                "source": "2,3"
-            },
-            {
-                "value": "PGC9187",
-                "source": "4"
-            }
-        ],
-        "hvel": [
-            {
-                "value": "9711",
-                "source": "1"
-            }
-        ],
-        "lumdist": [
-            {
-                "value": "150",
-                "source": "D"
-            }
-        ],
-        "maxabsmag": "-18",
-        "maxappmag": "18",
-        "maxday": "14",
-        "maxmonth": "9",
-        "maxyear": "1991",
-        "redshift": [
-            {
-                "value": "0.032",
-                "source": "4"
-            }
-        ],
-        "sndec": "+24:15:27.0",
-        "snra": "02:25:14.5",
-        "photometry": [
-            {
-                "timeunit": "MJD",
-                "time": "48513.5",
-                "band": "",
-                "abmag": "18.0",
-                "source": "2,3"
-            }
-        ]
-    }
+	"SN1991az":{
+		"name":"SN1991az",
+		"aliases":[
+			"SN1991az"
+		],
+		"sources":[
+			{
+				"name":"Asiago Supernova Catalogue",
+				"url":"http://graspa.oapd.inaf.it/cgi-bin/sncat.php",
+				"alias":"1",
+				"secondary":true
+			},
+			{
+				"name":"IAUC 5356",
+				"url":"http://www.cbat.eps.harvard.edu/iauc/05300/05356.html",
+				"alias":"2"
+			},
+			{
+				"name":"Latest Supernovae",
+				"url":"http://www.rochesterastronomy.org/snimages/snredshiftall.html",
+				"alias":"3",
+				"secondary":true
+			},
+			{
+				"name":"2012A&A...538A.120L",
+				"url":"http://adsabs.harvard.edu/abs/2012A&A...538A.120L",
+				"bibcode":"2012A&A...538A.120L",
+				"alias":"4"
+			}
+		],
+		"claimedtype":[
+			{
+				"value":"II",
+				"source":"1,2,3"
+			}
+		],
+		"discoverday":"14",
+		"discoverer":"Jean Mueller",
+		"discovermonth":"9",
+		"discoveryear":"1991",
+		"galdec":"+241544",
+		"galra":"022516",
+		"host":[
+			{
+				"value":"M+04-06-29",
+				"source":"1"
+			},
+			{
+				"value":"CGCG 483-35",
+				"source":"2,3"
+			},
+			{
+				"value":"PGC9187",
+				"source":"4"
+			}
+		],
+		"hvel":[
+			{
+				"value":"9711",
+				"source":"1"
+			}
+		],
+		"lumdist":[
+			{
+				"value":"150",
+				"source":"D"
+			}
+		],
+		"maxabsmag":"-18",
+		"maxappmag":"18",
+		"maxday":"14",
+		"maxmonth":"9",
+		"maxyear":"1991",
+		"redshift":[
+			{
+				"value":"0.032",
+				"source":"4"
+			}
+		],
+		"sndec":"+24:15:27.0",
+		"snra":"02:25:14.5",
+		"photometry":[
+			{
+				"timeunit":"MJD",
+				"time":"48513.5",
+				"band":"",
+				"abmag":"18.0",
+				"source":"2,3"
+			}
+		]
+	}
 }

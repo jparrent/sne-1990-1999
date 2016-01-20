@@ -1,80 +1,80 @@
 {
-    "SN1996B": {
-        "name": "SN1996B",
-        "aliases": [
-            "SN1996B"
-        ],
-        "sources": [
-            {
-                "name": "Asiago Supernova Catalogue",
-                "url": "http://graspa.oapd.inaf.it/cgi-bin/sncat.php",
-                "alias": "1",
-                "secondary": true
-            },
-            {
-                "name": "IAUC 6292",
-                "url": "http://www.cbat.eps.harvard.edu/iauc/06200/06292.html#Item1",
-                "alias": "2"
-            },
-            {
-                "name": "Latest Supernovae",
-                "url": "http://www.rochesterastronomy.org/snimages/snredshiftall.html",
-                "alias": "3",
-                "secondary": true
-            },
-            {
-                "name": "2012A&A...538A.120L",
-                "url": "http://adsabs.harvard.edu/abs/2012A&A...538A.120L",
-                "bibcode": "2012A&A...538A.120L",
-                "alias": "4"
-            }
-        ],
-        "claimedtype": [
-            {
-                "value": "II",
-                "source": "1,2,3"
-            }
-        ],
-        "discoverday": "16",
-        "discoverer": "Alessandro Gabrijelcic",
-        "discovermonth": "1",
-        "discoveryear": "1996",
-        "galdec": "+484646",
-        "galra": "122358",
-        "host": [
-            {
-                "value": "NGC 4357",
-                "source": "1,2,3,4"
-            }
-        ],
-        "hvel": [
-            {
-                "value": "4252",
-                "source": "1"
-            }
-        ],
-        "lumdist": [
-            {
-                "value": "56",
-                "source": "4"
-            }
-        ],
-        "redshift": [
-            {
-                "value": "0.014",
-                "source": "4"
-            }
-        ],
-        "sndec": "+48:46:42.0",
-        "snra": "12:23:56.6",
-        "photometry": [
-            {
-                "timeunit": "MJD",
-                "time": "50098.0",
-                "band": "",
-                "abmag": "18.0",
-                "source": "4"
-            }
-        ]
-    }
+	"SN1996B":{
+		"name":"SN1996B",
+		"aliases":[
+			"SN1996B"
+		],
+		"sources":[
+			{
+				"name":"Asiago Supernova Catalogue",
+				"url":"http://graspa.oapd.inaf.it/cgi-bin/sncat.php",
+				"alias":"1",
+				"secondary":true
+			},
+			{
+				"name":"IAUC 6292",
+				"url":"http://www.cbat.eps.harvard.edu/iauc/06200/06292.html#Item1",
+				"alias":"2"
+			},
+			{
+				"name":"Latest Supernovae",
+				"url":"http://www.rochesterastronomy.org/snimages/snredshiftall.html",
+				"alias":"3",
+				"secondary":true
+			},
+			{
+				"name":"2012A&A...538A.120L",
+				"url":"http://adsabs.harvard.edu/abs/2012A&A...538A.120L",
+				"bibcode":"2012A&A...538A.120L",
+				"alias":"4"
+			}
+		],
+		"claimedtype":[
+			{
+				"value":"II",
+				"source":"1,2,3"
+			}
+		],
+		"discoverday":"16",
+		"discoverer":"Alessandro Gabrijelcic",
+		"discovermonth":"1",
+		"discoveryear":"1996",
+		"galdec":"+484646",
+		"galra":"122358",
+		"host":[
+			{
+				"value":"NGC 4357",
+				"source":"1,2,3,4"
+			}
+		],
+		"hvel":[
+			{
+				"value":"4252",
+				"source":"1"
+			}
+		],
+		"lumdist":[
+			{
+				"value":"56",
+				"source":"4"
+			}
+		],
+		"redshift":[
+			{
+				"value":"0.014",
+				"source":"4"
+			}
+		],
+		"sndec":"+48:46:42.0",
+		"snra":"12:23:56.6",
+		"photometry":[
+			{
+				"timeunit":"MJD",
+				"time":"50098.0",
+				"band":"",
+				"abmag":"18.0",
+				"source":"4"
+			}
+		]
+	}
 }

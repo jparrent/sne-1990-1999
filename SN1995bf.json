@@ -1,79 +1,79 @@
 {
-    "SN1995bf": {
-        "name": "SN1995bf",
-        "aliases": [
-            "SN1995bf"
-        ],
-        "sources": [
-            {
-                "name": "Asiago Supernova Catalogue",
-                "url": "http://graspa.oapd.inaf.it/cgi-bin/sncat.php",
-                "alias": "1",
-                "secondary": true
-            },
-            {
-                "name": "IAUC 7700",
-                "url": "http://www.cbat.eps.harvard.edu/iauc/07700/07700.html",
-                "alias": "2"
-            },
-            {
-                "name": "Latest Supernovae",
-                "url": "http://www.rochesterastronomy.org/snimages/snredshiftall.html",
-                "alias": "3",
-                "secondary": true
-            },
-            {
-                "name": "2012A&A...538A.120L",
-                "url": "http://adsabs.harvard.edu/abs/2012A&A...538A.120L",
-                "bibcode": "2012A&A...538A.120L",
-                "alias": "4"
-            }
-        ],
-        "discoverday": "24",
-        "discoverer": "Gal-Yam, Sharon, Maoz",
-        "discovermonth": "2",
-        "discoveryear": "1995",
-        "galdec": "+430444",
-        "galra": "160420",
-        "host": [
-            {
-                "value": "A160420+4304",
-                "source": "1"
-            }
-        ],
-        "hvel": [
-            {
-                "value": "178000",
-                "source": "D"
-            }
-        ],
-        "lumdist": [
-            {
-                "value": "6670",
-                "source": "D"
-            }
-        ],
-        "maxabsmag": "-17.9",
-        "maxappmag": "26.2",
-        "maxday": "24",
-        "maxmonth": "2",
-        "maxyear": "1995",
-        "redshift": [
-            {
-                "value": "0.985",
-                "source": "1,2,3"
-            }
-        ],
-        "sndec": "+43:04:44.0",
-        "snra": "16:04:20.40",
-        "photometry": [
-            {
-                "timeunit": "MJD",
-                "time": "49772.5",
-                "band": "",
-                "abmag": "26.2",
-                "source": "2,3"
-            }
-        ]
-    }
+	"SN1995bf":{
+		"name":"SN1995bf",
+		"aliases":[
+			"SN1995bf"
+		],
+		"sources":[
+			{
+				"name":"Asiago Supernova Catalogue",
+				"url":"http://graspa.oapd.inaf.it/cgi-bin/sncat.php",
+				"alias":"1",
+				"secondary":true
+			},
+			{
+				"name":"IAUC 7700",
+				"url":"http://www.cbat.eps.harvard.edu/iauc/07700/07700.html",
+				"alias":"2"
+			},
+			{
+				"name":"Latest Supernovae",
+				"url":"http://www.rochesterastronomy.org/snimages/snredshiftall.html",
+				"alias":"3",
+				"secondary":true
+			},
+			{
+				"name":"2012A&A...538A.120L",
+				"url":"http://adsabs.harvard.edu/abs/2012A&A...538A.120L",
+				"bibcode":"2012A&A...538A.120L",
+				"alias":"4"
+			}
+		],
+		"discoverday":"24",
+		"discoverer":"Gal-Yam, Sharon, Maoz",
+		"discovermonth":"2",
+		"discoveryear":"1995",
+		"galdec":"+430444",
+		"galra":"160420",
+		"host":[
+			{
+				"value":"A160420+4304",
+				"source":"1"
+			}
+		],
+		"hvel":[
+			{
+				"value":"178000",
+				"source":"D"
+			}
+		],
+		"lumdist":[
+			{
+				"value":"6670",
+				"source":"D"
+			}
+		],
+		"maxabsmag":"-17.9",
+		"maxappmag":"26.2",
+		"maxday":"24",
+		"maxmonth":"2",
+		"maxyear":"1995",
+		"redshift":[
+			{
+				"value":"0.985",
+				"source":"1,2,3"
+			}
+		],
+		"sndec":"+43:04:44.0",
+		"snra":"16:04:20.40",
+		"photometry":[
+			{
+				"timeunit":"MJD",
+				"time":"49772.5",
+				"band":"",
+				"abmag":"26.2",
+				"source":"2,3"
+			}
+		]
+	}
 }

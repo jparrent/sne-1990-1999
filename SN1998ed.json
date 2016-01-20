@@ -1,64 +1,64 @@
 {
-    "SN1998ed": {
-        "name": "SN1998ed",
-        "aliases": [
-            "SN1998ed"
-        ],
-        "sources": [
-            {
-                "name": "Asiago Supernova Catalogue",
-                "url": "http://graspa.oapd.inaf.it/cgi-bin/sncat.php",
-                "alias": "1",
-                "secondary": true
-            },
-            {
-                "name": "IAUC 7030",
-                "url": "http://www.cbat.eps.harvard.edu/iauc/07000/07030.html",
-                "alias": "2"
-            },
-            {
-                "name": "Latest Supernovae",
-                "url": "http://www.rochesterastronomy.org/snimages/snredshiftall.html",
-                "alias": "3",
-                "secondary": true
-            },
-            {
-                "name": "2012A&A...538A.120L",
-                "url": "http://adsabs.harvard.edu/abs/2012A&A...538A.120L",
-                "bibcode": "2012A&A...538A.120L",
-                "alias": "4"
-            }
-        ],
-        "discoverday": "15",
-        "discoverer": "Jean Mueller",
-        "discovermonth": "9",
-        "discoveryear": "1998",
-        "galdec": "-131358",
-        "galra": "230014",
-        "host": [
-            {
-                "value": "A230014-1313",
-                "source": "1"
-            },
-            {
-                "value": "(PGC940892)",
-                "source": "4"
-            }
-        ],
-        "maxappmag": "18",
-        "maxday": "15",
-        "maxmonth": "9",
-        "maxyear": "1998",
-        "sndec": "-13:13:58.2",
-        "snra": "23:00:14.64",
-        "photometry": [
-            {
-                "timeunit": "MJD",
-                "time": "51071.5",
-                "band": "",
-                "abmag": "18.0",
-                "source": "2,3"
-            }
-        ]
-    }
+	"SN1998ed":{
+		"name":"SN1998ed",
+		"aliases":[
+			"SN1998ed"
+		],
+		"sources":[
+			{
+				"name":"Asiago Supernova Catalogue",
+				"url":"http://graspa.oapd.inaf.it/cgi-bin/sncat.php",
+				"alias":"1",
+				"secondary":true
+			},
+			{
+				"name":"IAUC 7030",
+				"url":"http://www.cbat.eps.harvard.edu/iauc/07000/07030.html",
+				"alias":"2"
+			},
+			{
+				"name":"Latest Supernovae",
+				"url":"http://www.rochesterastronomy.org/snimages/snredshiftall.html",
+				"alias":"3",
+				"secondary":true
+			},
+			{
+				"name":"2012A&A...538A.120L",
+				"url":"http://adsabs.harvard.edu/abs/2012A&A...538A.120L",
+				"bibcode":"2012A&A...538A.120L",
+				"alias":"4"
+			}
+		],
+		"discoverday":"15",
+		"discoverer":"Jean Mueller",
+		"discovermonth":"9",
+		"discoveryear":"1998",
+		"galdec":"-131358",
+		"galra":"230014",
+		"host":[
+			{
+				"value":"A230014-1313",
+				"source":"1"
+			},
+			{
+				"value":"(PGC940892)",
+				"source":"4"
+			}
+		],
+		"maxappmag":"18",
+		"maxday":"15",
+		"maxmonth":"9",
+		"maxyear":"1998",
+		"sndec":"-13:13:58.2",
+		"snra":"23:00:14.64",
+		"photometry":[
+			{
+				"timeunit":"MJD",
+				"time":"51071.5",
+				"band":"",
+				"abmag":"18.0",
+				"source":"2,3"
+			}
+		]
+	}
 }

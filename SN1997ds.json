@@ -1,92 +1,92 @@
 {
-    "SN1997ds": {
-        "name": "SN1997ds",
-        "aliases": [
-            "SN1997ds"
-        ],
-        "sources": [
-            {
-                "name": "Asiago Supernova Catalogue",
-                "url": "http://graspa.oapd.inaf.it/cgi-bin/sncat.php",
-                "alias": "1",
-                "secondary": true
-            },
-            {
-                "name": "IAUC 6773",
-                "url": "http://www.cbat.eps.harvard.edu/iauc/06700/06773.html#Item2",
-                "alias": "2"
-            },
-            {
-                "name": "Latest Supernovae",
-                "url": "http://www.rochesterastronomy.org/snimages/snredshiftall.html",
-                "alias": "3",
-                "secondary": true
-            },
-            {
-                "name": "2012A&A...538A.120L",
-                "url": "http://adsabs.harvard.edu/abs/2012A&A...538A.120L",
-                "bibcode": "2012A&A...538A.120L",
-                "alias": "4"
-            }
-        ],
-        "claimedtype": [
-            {
-                "value": "II",
-                "source": "1,2,3"
-            }
-        ],
-        "discoverday": "19",
-        "discoverer": "BAO Supernova Survey",
-        "discovermonth": "11",
-        "discoveryear": "1997",
-        "galdec": "-032856",
-        "galra": "222412",
-        "host": [
-            {
-                "value": "M-01-57-07",
-                "source": "1"
-            },
-            {
-                "value": "MCG -1-57-7",
-                "source": "2,3"
-            },
-            {
-                "value": "PGC68771",
-                "source": "4"
-            }
-        ],
-        "hvel": [
-            {
-                "value": "2833",
-                "source": "1"
-            }
-        ],
-        "lumdist": [
-            {
-                "value": "25",
-                "source": "D"
-            }
-        ],
-        "redshift": [
-            {
-                "value": "0.0057",
-                "source": "2,3"
-            },
-            {
-                "value": "0.0094",
-                "source": "4"
-            }
-        ],
-        "sndec": "-03:29:10.5",
-        "snra": "22:24:11.51",
-        "photometry": [
-            {
-                "timeunit": "MJD",
-                "time": "50769.0",
-                "band": "",
-                "abmag": "16.2",
-                "source": "4"
-            }
-        ]
-    }
+	"SN1997ds":{
+		"name":"SN1997ds",
+		"aliases":[
+			"SN1997ds"
+		],
+		"sources":[
+			{
+				"name":"Asiago Supernova Catalogue",
+				"url":"http://graspa.oapd.inaf.it/cgi-bin/sncat.php",
+				"alias":"1",
+				"secondary":true
+			},
+			{
+				"name":"IAUC 6773",
+				"url":"http://www.cbat.eps.harvard.edu/iauc/06700/06773.html#Item2",
+				"alias":"2"
+			},
+			{
+				"name":"Latest Supernovae",
+				"url":"http://www.rochesterastronomy.org/snimages/snredshiftall.html",
+				"alias":"3",
+				"secondary":true
+			},
+			{
+				"name":"2012A&A...538A.120L",
+				"url":"http://adsabs.harvard.edu/abs/2012A&A...538A.120L",
+				"bibcode":"2012A&A...538A.120L",
+				"alias":"4"
+			}
+		],
+		"claimedtype":[
+			{
+				"value":"II",
+				"source":"1,2,3"
+			}
+		],
+		"discoverday":"19",
+		"discoverer":"BAO Supernova Survey",
+		"discovermonth":"11",
+		"discoveryear":"1997",
+		"galdec":"-032856",
+		"galra":"222412",
+		"host":[
+			{
+				"value":"M-01-57-07",
+				"source":"1"
+			},
+			{
+				"value":"MCG -1-57-7",
+				"source":"2,3"
+			},
+			{
+				"value":"PGC68771",
+				"source":"4"
+			}
+		],
+		"hvel":[
+			{
+				"value":"2833",
+				"source":"1"
+			}
+		],
+		"lumdist":[
+			{
+				"value":"25",
+				"source":"D"
+			}
+		],
+		"redshift":[
+			{
+				"value":"0.0057",
+				"source":"2,3"
+			},
+			{
+				"value":"0.0094",
+				"source":"4"
+			}
+		],
+		"sndec":"-03:29:10.5",
+		"snra":"22:24:11.51",
+		"photometry":[
+			{
+				"timeunit":"MJD",
+				"time":"50769.0",
+				"band":"",
+				"abmag":"16.2",
+				"source":"4"
+			}
+		]
+	}
 }

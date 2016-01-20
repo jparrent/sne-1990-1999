@@ -1,115 +1,115 @@
 {
-    "SN1995ah": {
-        "name": "SN1995ah",
-        "aliases": [
-            "SN1995ah"
-        ],
-        "sources": [
-            {
-                "name": "Sternberg Astronomical Institute Supernova Light Curve Catalogue",
-                "url": "http://dau.itep.ru/sn/node/72",
-                "alias": "1",
-                "secondary": true
-            },
-            {
-                "name": "1997A&A...326..982P",
-                "url": "http://adsabs.harvard.edu/abs/1997A&A...326..982P",
-                "bibcode": "1997A&A...326..982P",
-                "alias": "2"
-            },
-            {
-                "name": "Asiago Supernova Catalogue",
-                "url": "http://graspa.oapd.inaf.it/cgi-bin/sncat.php",
-                "alias": "3",
-                "secondary": true
-            },
-            {
-                "name": "IAUC 6245",
-                "url": "http://www.cbat.eps.harvard.edu/iauc/06200/06245.html",
-                "alias": "4"
-            },
-            {
-                "name": "Latest Supernovae",
-                "url": "http://www.rochesterastronomy.org/snimages/snredshiftall.html",
-                "alias": "5",
-                "secondary": true
-            },
-            {
-                "name": "2012A&A...538A.120L",
-                "url": "http://adsabs.harvard.edu/abs/2012A&A...538A.120L",
-                "bibcode": "2012A&A...538A.120L",
-                "alias": "6"
-            }
-        ],
-        "claimedtype": [
-            {
-                "value": "II",
-                "source": "3,4,5"
-            }
-        ],
-        "discoverday": "1",
-        "discoverer": "Popescu et al.",
-        "discovermonth": "2",
-        "discoveryear": "1995",
-        "galdec": "+150623",
-        "galra": "001911",
-        "host": [
-            {
-                "value": "A001911+1506",
-                "source": "3"
-            },
-            {
-                "value": "(SDSSJ001911.01+150622.7)",
-                "source": "6"
-            }
-        ],
-        "hvel": [
-            {
-                "value": "4410",
-                "source": "3"
-            }
-        ],
-        "lumdist": [
-            {
-                "value": "65.8",
-                "source": "D"
-            }
-        ],
-        "maxabsmag": "-18.3",
-        "maxappmag": "15.8",
-        "maxday": "2",
-        "maxmonth": "2",
-        "maxyear": "1995",
-        "redshift": [
-            {
-                "value": "0.0147",
-                "source": "4,5"
-            }
-        ],
-        "sndec": "+15:06:00.0",
-        "snra": "00:19:12.00",
-        "photometry": [
-            {
-                "timeunit": "MJD",
-                "time": "49749.5",
-                "band": "",
-                "abmag": "17.6",
-                "source": "4,5"
-            },
-            {
-                "timeunit": "MJD",
-                "time": "49750.79",
-                "band": "R",
-                "abmag": "15.8",
-                "source": "1,2"
-            },
-            {
-                "timeunit": "MJD",
-                "time": "50004.2",
-                "band": "R",
-                "abmag": "20.7",
-                "source": "1,2"
-            }
-        ]
-    }
+	"SN1995ah":{
+		"name":"SN1995ah",
+		"aliases":[
+			"SN1995ah"
+		],
+		"sources":[
+			{
+				"name":"Sternberg Astronomical Institute Supernova Light Curve Catalogue",
+				"url":"http://dau.itep.ru/sn/node/72",
+				"alias":"1",
+				"secondary":true
+			},
+			{
+				"name":"1997A&A...326..982P",
+				"url":"http://adsabs.harvard.edu/abs/1997A&A...326..982P",
+				"bibcode":"1997A&A...326..982P",
+				"alias":"2"
+			},
+			{
+				"name":"Asiago Supernova Catalogue",
+				"url":"http://graspa.oapd.inaf.it/cgi-bin/sncat.php",
+				"alias":"3",
+				"secondary":true
+			},
+			{
+				"name":"IAUC 6245",
+				"url":"http://www.cbat.eps.harvard.edu/iauc/06200/06245.html",
+				"alias":"4"
+			},
+			{
+				"name":"Latest Supernovae",
+				"url":"http://www.rochesterastronomy.org/snimages/snredshiftall.html",
+				"alias":"5",
+				"secondary":true
+			},
+			{
+				"name":"2012A&A...538A.120L",
+				"url":"http://adsabs.harvard.edu/abs/2012A&A...538A.120L",
+				"bibcode":"2012A&A...538A.120L",
+				"alias":"6"
+			}
+		],
+		"claimedtype":[
+			{
+				"value":"II",
+				"source":"3,4,5"
+			}
+		],
+		"discoverday":"1",
+		"discoverer":"Popescu et al.",
+		"discovermonth":"2",
+		"discoveryear":"1995",
+		"galdec":"+150623",
+		"galra":"001911",
+		"host":[
+			{
+				"value":"A001911+1506",
+				"source":"3"
+			},
+			{
+				"value":"(SDSSJ001911.01+150622.7)",
+				"source":"6"
+			}
+		],
+		"hvel":[
+			{
+				"value":"4410",
+				"source":"3"
+			}
+		],
+		"lumdist":[
+			{
+				"value":"65.8",
+				"source":"D"
+			}
+		],
+		"maxabsmag":"-18.3",
+		"maxappmag":"15.8",
+		"maxday":"2",
+		"maxmonth":"2",
+		"maxyear":"1995",
+		"redshift":[
+			{
+				"value":"0.0147",
+				"source":"4,5"
+			}
+		],
+		"sndec":"+15:06:00.0",
+		"snra":"00:19:12.00",
+		"photometry":[
+			{
+				"timeunit":"MJD",
+				"time":"49749.5",
+				"band":"",
+				"abmag":"17.6",
+				"source":"4,5"
+			},
+			{
+				"timeunit":"MJD",
+				"time":"49750.79",
+				"band":"R",
+				"abmag":"15.8",
+				"source":"1,2"
+			},
+			{
+				"timeunit":"MJD",
+				"time":"50004.2",
+				"band":"R",
+				"abmag":"20.7",
+				"source":"1,2"
+			}
+		]
+	}
 }

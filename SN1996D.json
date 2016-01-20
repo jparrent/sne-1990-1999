@@ -1,84 +1,84 @@
 {
-    "SN1996D": {
-        "name": "SN1996D",
-        "aliases": [
-            "SN1996D"
-        ],
-        "sources": [
-            {
-                "name": "Asiago Supernova Catalogue",
-                "url": "http://graspa.oapd.inaf.it/cgi-bin/sncat.php",
-                "alias": "1",
-                "secondary": true
-            },
-            {
-                "name": "IAUC 6317",
-                "url": "http://www.cbat.eps.harvard.edu/iauc/06300/06317.html#Item2",
-                "alias": "2"
-            },
-            {
-                "name": "Latest Supernovae",
-                "url": "http://www.rochesterastronomy.org/snimages/snredshiftall.html",
-                "alias": "3",
-                "secondary": true
-            },
-            {
-                "name": "2012A&A...538A.120L",
-                "url": "http://adsabs.harvard.edu/abs/2012A&A...538A.120L",
-                "bibcode": "2012A&A...538A.120L",
-                "alias": "4"
-            }
-        ],
-        "claimedtype": [
-            {
-                "value": "Ic",
-                "source": "1,2,3"
-            }
-        ],
-        "discoverday": "9",
-        "discoverer": "L. Drissen, C. Robert, Y. Dutil, and J.-R. Roy, Departement de Physique, UniversNGC 1614",
-        "discovermonth": "2",
-        "discoveryear": "1996",
-        "galdec": "-083444",
-        "galra": "043400",
-        "host": [
-            {
-                "value": "NGC 1614",
-                "source": "1,2,3,4"
-            }
-        ],
-        "hvel": [
-            {
-                "value": "4723",
-                "source": "1"
-            }
-        ],
-        "lumdist": [
-            {
-                "value": "67",
-                "source": "D"
-            }
-        ],
-        "redshift": [
-            {
-                "value": "0.015",
-                "source": "2,3"
-            },
-            {
-                "value": "0.016",
-                "source": "4"
-            }
-        ],
-        "sndec": "-08:3444:.0",
-        "snra": "04:34:00.3",
-        "photometry": [
-            {
-                "timeunit": "MJD",
-                "time": "50122.0",
-                "band": "V",
-                "abmag": "18.2",
-                "source": "4"
-            }
-        ]
-    }
+	"SN1996D":{
+		"name":"SN1996D",
+		"aliases":[
+			"SN1996D"
+		],
+		"sources":[
+			{
+				"name":"Asiago Supernova Catalogue",
+				"url":"http://graspa.oapd.inaf.it/cgi-bin/sncat.php",
+				"alias":"1",
+				"secondary":true
+			},
+			{
+				"name":"IAUC 6317",
+				"url":"http://www.cbat.eps.harvard.edu/iauc/06300/06317.html#Item2",
+				"alias":"2"
+			},
+			{
+				"name":"Latest Supernovae",
+				"url":"http://www.rochesterastronomy.org/snimages/snredshiftall.html",
+				"alias":"3",
+				"secondary":true
+			},
+			{
+				"name":"2012A&A...538A.120L",
+				"url":"http://adsabs.harvard.edu/abs/2012A&A...538A.120L",
+				"bibcode":"2012A&A...538A.120L",
+				"alias":"4"
+			}
+		],
+		"claimedtype":[
+			{
+				"value":"Ic",
+				"source":"1,2,3"
+			}
+		],
+		"discoverday":"9",
+		"discoverer":"L. Drissen, C. Robert, Y. Dutil, and J.-R. Roy, Departement de Physique, UniversNGC 1614",
+		"discovermonth":"2",
+		"discoveryear":"1996",
+		"galdec":"-083444",
+		"galra":"043400",
+		"host":[
+			{
+				"value":"NGC 1614",
+				"source":"1,2,3,4"
+			}
+		],
+		"hvel":[
+			{
+				"value":"4723",
+				"source":"1"
+			}
+		],
+		"lumdist":[
+			{
+				"value":"67",
+				"source":"D"
+			}
+		],
+		"redshift":[
+			{
+				"value":"0.015",
+				"source":"2,3"
+			},
+			{
+				"value":"0.016",
+				"source":"4"
+			}
+		],
+		"sndec":"-08:3444:.0",
+		"snra":"04:34:00.3",
+		"photometry":[
+			{
+				"timeunit":"MJD",
+				"time":"50122.0",
+				"band":"V",
+				"abmag":"18.2",
+				"source":"4"
+			}
+		]
+	}
 }

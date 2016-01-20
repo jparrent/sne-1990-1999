@@ -1,70 +1,70 @@
 {
-    "SN1993Q": {
-        "name": "SN1993Q",
-        "aliases": [
-            "SN1993Q"
-        ],
-        "sources": [
-            {
-                "name": "Asiago Supernova Catalogue",
-                "url": "http://graspa.oapd.inaf.it/cgi-bin/sncat.php",
-                "alias": "1",
-                "secondary": true
-            },
-            {
-                "name": "IAUC 5809",
-                "url": "http://www.cbat.eps.harvard.edu/iauc/05800/05809.html",
-                "alias": "2"
-            },
-            {
-                "name": "Latest Supernovae",
-                "url": "http://www.rochesterastronomy.org/snimages/snredshiftall.html",
-                "alias": "3",
-                "secondary": true
-            },
-            {
-                "name": "2012A&A...538A.120L",
-                "url": "http://adsabs.harvard.edu/abs/2012A&A...538A.120L",
-                "bibcode": "2012A&A...538A.120L",
-                "alias": "4"
-            }
-        ],
-        "claimedtype": [
-            {
-                "value": "Ia",
-                "source": "1,2,3"
-            }
-        ],
-        "discoverday": "27",
-        "discoverer": "Robert McNaught",
-        "discovermonth": "5",
-        "discoveryear": "1993",
-        "galdec": "-424733",
-        "galra": "203546",
-        "host": [
-            {
-                "value": "A203546-4247",
-                "source": "1"
-            },
-            {
-                "value": "(PGC557964)",
-                "source": "4"
-            }
-        ],
-        "maxappmag": "19",
-        "maxday": "27",
-        "maxmonth": "5",
-        "maxyear": "1993",
-        "sndec": "-42:47:33.4",
-        "snra": "20:35:46.94",
-        "photometry": [
-            {
-                "timeunit": "MJD",
-                "time": "49134.5",
-                "band": "",
-                "abmag": "19.0",
-                "source": "2,3"
-            }
-        ]
-    }
+	"SN1993Q":{
+		"name":"SN1993Q",
+		"aliases":[
+			"SN1993Q"
+		],
+		"sources":[
+			{
+				"name":"Asiago Supernova Catalogue",
+				"url":"http://graspa.oapd.inaf.it/cgi-bin/sncat.php",
+				"alias":"1",
+				"secondary":true
+			},
+			{
+				"name":"IAUC 5809",
+				"url":"http://www.cbat.eps.harvard.edu/iauc/05800/05809.html",
+				"alias":"2"
+			},
+			{
+				"name":"Latest Supernovae",
+				"url":"http://www.rochesterastronomy.org/snimages/snredshiftall.html",
+				"alias":"3",
+				"secondary":true
+			},
+			{
+				"name":"2012A&A...538A.120L",
+				"url":"http://adsabs.harvard.edu/abs/2012A&A...538A.120L",
+				"bibcode":"2012A&A...538A.120L",
+				"alias":"4"
+			}
+		],
+		"claimedtype":[
+			{
+				"value":"Ia",
+				"source":"1,2,3"
+			}
+		],
+		"discoverday":"27",
+		"discoverer":"Robert McNaught",
+		"discovermonth":"5",
+		"discoveryear":"1993",
+		"galdec":"-424733",
+		"galra":"203546",
+		"host":[
+			{
+				"value":"A203546-4247",
+				"source":"1"
+			},
+			{
+				"value":"(PGC557964)",
+				"source":"4"
+			}
+		],
+		"maxappmag":"19",
+		"maxday":"27",
+		"maxmonth":"5",
+		"maxyear":"1993",
+		"sndec":"-42:47:33.4",
+		"snra":"20:35:46.94",
+		"photometry":[
+			{
+				"timeunit":"MJD",
+				"time":"49134.5",
+				"band":"",
+				"abmag":"19.0",
+				"source":"2,3"
+			}
+		]
+	}
 }

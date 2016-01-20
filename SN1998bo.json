@@ -1,93 +1,93 @@
 {
-    "SN1998bo": {
-        "name": "SN1998bo",
-        "aliases": [
-            "SN1998bo"
-        ],
-        "sources": [
-            {
-                "name": "Asiago Supernova Catalogue",
-                "url": "http://graspa.oapd.inaf.it/cgi-bin/sncat.php",
-                "alias": "1",
-                "secondary": true
-            },
-            {
-                "name": "IAUC 6889",
-                "url": "http://www.cbat.eps.harvard.edu/iauc/06800/06889.html",
-                "alias": "2"
-            },
-            {
-                "name": "Latest Supernovae",
-                "url": "http://www.rochesterastronomy.org/snimages/snredshiftall.html",
-                "alias": "3",
-                "secondary": true
-            },
-            {
-                "name": "2012A&A...538A.120L",
-                "url": "http://adsabs.harvard.edu/abs/2012A&A...538A.120L",
-                "bibcode": "2012A&A...538A.120L",
-                "alias": "4"
-            }
-        ],
-        "claimedtype": [
-            {
-                "value": "Ic",
-                "source": "1,2,3"
-            }
-        ],
-        "discoverday": "21",
-        "discoverer": "Marina Wischnjewsky",
-        "discovermonth": "4",
-        "discoveryear": "1998",
-        "galdec": "-550815",
-        "galra": "195722",
-        "host": [
-            {
-                "value": "E185-G31",
-                "source": "1"
-            },
-            {
-                "value": "ESO 185-G31",
-                "source": "2,3"
-            },
-            {
-                "value": "E185-31",
-                "source": "4"
-            }
-        ],
-        "hvel": [
-            {
-                "value": "4851",
-                "source": "1"
-            }
-        ],
-        "lumdist": [
-            {
-                "value": "63",
-                "source": "4"
-            }
-        ],
-        "maxabsmag": "-16",
-        "maxappmag": "18",
-        "maxday": "21",
-        "maxmonth": "4",
-        "maxyear": "1998",
-        "redshift": [
-            {
-                "value": "0.016",
-                "source": "2,3,4"
-            }
-        ],
-        "sndec": "-55:08:18.4",
-        "snra": "19:57:22.55",
-        "photometry": [
-            {
-                "timeunit": "MJD",
-                "time": "50924.5",
-                "band": "",
-                "abmag": "18.0",
-                "source": "2,3"
-            }
-        ]
-    }
+	"SN1998bo":{
+		"name":"SN1998bo",
+		"aliases":[
+			"SN1998bo"
+		],
+		"sources":[
+			{
+				"name":"Asiago Supernova Catalogue",
+				"url":"http://graspa.oapd.inaf.it/cgi-bin/sncat.php",
+				"alias":"1",
+				"secondary":true
+			},
+			{
+				"name":"IAUC 6889",
+				"url":"http://www.cbat.eps.harvard.edu/iauc/06800/06889.html",
+				"alias":"2"
+			},
+			{
+				"name":"Latest Supernovae",
+				"url":"http://www.rochesterastronomy.org/snimages/snredshiftall.html",
+				"alias":"3",
+				"secondary":true
+			},
+			{
+				"name":"2012A&A...538A.120L",
+				"url":"http://adsabs.harvard.edu/abs/2012A&A...538A.120L",
+				"bibcode":"2012A&A...538A.120L",
+				"alias":"4"
+			}
+		],
+		"claimedtype":[
+			{
+				"value":"Ic",
+				"source":"1,2,3"
+			}
+		],
+		"discoverday":"21",
+		"discoverer":"Marina Wischnjewsky",
+		"discovermonth":"4",
+		"discoveryear":"1998",
+		"galdec":"-550815",
+		"galra":"195722",
+		"host":[
+			{
+				"value":"E185-G31",
+				"source":"1"
+			},
+			{
+				"value":"ESO 185-G31",
+				"source":"2,3"
+			},
+			{
+				"value":"E185-31",
+				"source":"4"
+			}
+		],
+		"hvel":[
+			{
+				"value":"4851",
+				"source":"1"
+			}
+		],
+		"lumdist":[
+			{
+				"value":"63",
+				"source":"4"
+			}
+		],
+		"maxabsmag":"-16",
+		"maxappmag":"18",
+		"maxday":"21",
+		"maxmonth":"4",
+		"maxyear":"1998",
+		"redshift":[
+			{
+				"value":"0.016",
+				"source":"2,3,4"
+			}
+		],
+		"sndec":"-55:08:18.4",
+		"snra":"19:57:22.55",
+		"photometry":[
+			{
+				"timeunit":"MJD",
+				"time":"50924.5",
+				"band":"",
+				"abmag":"18.0",
+				"source":"2,3"
+			}
+		]
+	}
 }

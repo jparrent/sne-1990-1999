@@ -1,85 +1,85 @@
 {
-    "SN1998bk": {
-        "name": "SN1998bk",
-        "aliases": [
-            "SN1998bk"
-        ],
-        "sources": [
-            {
-                "name": "Asiago Supernova Catalogue",
-                "url": "http://graspa.oapd.inaf.it/cgi-bin/sncat.php",
-                "alias": "1",
-                "secondary": true
-            },
-            {
-                "name": "IAUC 6881",
-                "url": "http://www.cbat.eps.harvard.edu/iauc/06800/06881.html",
-                "alias": "2"
-            },
-            {
-                "name": "Latest Supernovae",
-                "url": "http://www.rochesterastronomy.org/snimages/snredshiftall.html",
-                "alias": "3",
-                "secondary": true
-            },
-            {
-                "name": "2012A&A...538A.120L",
-                "url": "http://adsabs.harvard.edu/abs/2012A&A...538A.120L",
-                "bibcode": "2012A&A...538A.120L",
-                "alias": "4"
-            }
-        ],
-        "claimedtype": [
-            {
-                "value": "Ia",
-                "source": "1,2,3"
-            }
-        ],
-        "discoverday": "21",
-        "discoverer": "Supernova Cosmology Project",
-        "discovermonth": "3",
-        "discoveryear": "1998",
-        "galdec": "+025841",
-        "galra": "134848",
-        "host": [
-            {
-                "value": "A134848+0258",
-                "source": "1"
-            }
-        ],
-        "hvel": [
-            {
-                "value": "99000",
-                "source": "D"
-            }
-        ],
-        "lumdist": [
-            {
-                "value": "2300",
-                "source": "D"
-            }
-        ],
-        "maxabsmag": "-19",
-        "maxappmag": "22.5",
-        "maxday": "21",
-        "maxmonth": "3",
-        "maxyear": "1998",
-        "redshift": [
-            {
-                "value": "0.41",
-                "source": "1,2,3,4"
-            }
-        ],
-        "sndec": "+02:58:41.2",
-        "snra": "13:48:48.25",
-        "photometry": [
-            {
-                "timeunit": "MJD",
-                "time": "50893.5",
-                "band": "",
-                "abmag": "22.5",
-                "source": "2,3"
-            }
-        ]
-    }
+	"SN1998bk":{
+		"name":"SN1998bk",
+		"aliases":[
+			"SN1998bk"
+		],
+		"sources":[
+			{
+				"name":"Asiago Supernova Catalogue",
+				"url":"http://graspa.oapd.inaf.it/cgi-bin/sncat.php",
+				"alias":"1",
+				"secondary":true
+			},
+			{
+				"name":"IAUC 6881",
+				"url":"http://www.cbat.eps.harvard.edu/iauc/06800/06881.html",
+				"alias":"2"
+			},
+			{
+				"name":"Latest Supernovae",
+				"url":"http://www.rochesterastronomy.org/snimages/snredshiftall.html",
+				"alias":"3",
+				"secondary":true
+			},
+			{
+				"name":"2012A&A...538A.120L",
+				"url":"http://adsabs.harvard.edu/abs/2012A&A...538A.120L",
+				"bibcode":"2012A&A...538A.120L",
+				"alias":"4"
+			}
+		],
+		"claimedtype":[
+			{
+				"value":"Ia",
+				"source":"1,2,3"
+			}
+		],
+		"discoverday":"21",
+		"discoverer":"Supernova Cosmology Project",
+		"discovermonth":"3",
+		"discoveryear":"1998",
+		"galdec":"+025841",
+		"galra":"134848",
+		"host":[
+			{
+				"value":"A134848+0258",
+				"source":"1"
+			}
+		],
+		"hvel":[
+			{
+				"value":"99000",
+				"source":"D"
+			}
+		],
+		"lumdist":[
+			{
+				"value":"2300",
+				"source":"D"
+			}
+		],
+		"maxabsmag":"-19",
+		"maxappmag":"22.5",
+		"maxday":"21",
+		"maxmonth":"3",
+		"maxyear":"1998",
+		"redshift":[
+			{
+				"value":"0.41",
+				"source":"1,2,3,4"
+			}
+		],
+		"sndec":"+02:58:41.2",
+		"snra":"13:48:48.25",
+		"photometry":[
+			{
+				"timeunit":"MJD",
+				"time":"50893.5",
+				"band":"",
+				"abmag":"22.5",
+				"source":"2,3"
+			}
+		]
+	}
 }

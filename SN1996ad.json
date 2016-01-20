@@ -1,64 +1,64 @@
 {
-    "SN1996ad": {
-        "name": "SN1996ad",
-        "aliases": [
-            "SN1996ad"
-        ],
-        "sources": [
-            {
-                "name": "Asiago Supernova Catalogue",
-                "url": "http://graspa.oapd.inaf.it/cgi-bin/sncat.php",
-                "alias": "1",
-                "secondary": true
-            },
-            {
-                "name": "IAUC 6408",
-                "url": "http://www.cbat.eps.harvard.edu/iauc/06400/06408.html",
-                "alias": "2"
-            },
-            {
-                "name": "Latest Supernovae",
-                "url": "http://www.rochesterastronomy.org/snimages/snredshiftall.html",
-                "alias": "3",
-                "secondary": true
-            },
-            {
-                "name": "2012A&A...538A.120L",
-                "url": "http://adsabs.harvard.edu/abs/2012A&A...538A.120L",
-                "bibcode": "2012A&A...538A.120L",
-                "alias": "4"
-            }
-        ],
-        "discoverday": "8",
-        "discoverer": "Robert Evans",
-        "discovermonth": "5",
-        "discoveryear": "1996",
-        "galdec": "+194808",
-        "galra": "155905",
-        "host": [
-            {
-                "value": "A155905+1948",
-                "source": "1"
-            },
-            {
-                "value": "(2MASXJ15590572+1948063)",
-                "source": "4"
-            }
-        ],
-        "maxappmag": "18.5",
-        "maxday": "8",
-        "maxmonth": "5",
-        "maxyear": "1996",
-        "sndec": "+19:48:08.1",
-        "snra": "15:59:05.91",
-        "photometry": [
-            {
-                "timeunit": "MJD",
-                "time": "50211.5",
-                "band": "",
-                "abmag": "18.5",
-                "source": "2,3"
-            }
-        ]
-    }
+	"SN1996ad":{
+		"name":"SN1996ad",
+		"aliases":[
+			"SN1996ad"
+		],
+		"sources":[
+			{
+				"name":"Asiago Supernova Catalogue",
+				"url":"http://graspa.oapd.inaf.it/cgi-bin/sncat.php",
+				"alias":"1",
+				"secondary":true
+			},
+			{
+				"name":"IAUC 6408",
+				"url":"http://www.cbat.eps.harvard.edu/iauc/06400/06408.html",
+				"alias":"2"
+			},
+			{
+				"name":"Latest Supernovae",
+				"url":"http://www.rochesterastronomy.org/snimages/snredshiftall.html",
+				"alias":"3",
+				"secondary":true
+			},
+			{
+				"name":"2012A&A...538A.120L",
+				"url":"http://adsabs.harvard.edu/abs/2012A&A...538A.120L",
+				"bibcode":"2012A&A...538A.120L",
+				"alias":"4"
+			}
+		],
+		"discoverday":"8",
+		"discoverer":"Robert Evans",
+		"discovermonth":"5",
+		"discoveryear":"1996",
+		"galdec":"+194808",
+		"galra":"155905",
+		"host":[
+			{
+				"value":"A155905+1948",
+				"source":"1"
+			},
+			{
+				"value":"(2MASXJ15590572+1948063)",
+				"source":"4"
+			}
+		],
+		"maxappmag":"18.5",
+		"maxday":"8",
+		"maxmonth":"5",
+		"maxyear":"1996",
+		"sndec":"+19:48:08.1",
+		"snra":"15:59:05.91",
+		"photometry":[
+			{
+				"timeunit":"MJD",
+				"time":"50211.5",
+				"band":"",
+				"abmag":"18.5",
+				"source":"2,3"
+			}
+		]
+	}
 }

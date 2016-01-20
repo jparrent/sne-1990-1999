@@ -1,85 +1,85 @@
 {
-    "SN1997bd": {
-        "name": "SN1997bd",
-        "aliases": [
-            "SN1997bd"
-        ],
-        "sources": [
-            {
-                "name": "Asiago Supernova Catalogue",
-                "url": "http://graspa.oapd.inaf.it/cgi-bin/sncat.php",
-                "alias": "1",
-                "secondary": true
-            },
-            {
-                "name": "IAUC 6602",
-                "url": "http://www.cbat.eps.harvard.edu/iauc/06600/06602.html",
-                "alias": "2"
-            },
-            {
-                "name": "Latest Supernovae",
-                "url": "http://www.rochesterastronomy.org/snimages/snredshiftall.html",
-                "alias": "3",
-                "secondary": true
-            },
-            {
-                "name": "2012A&A...538A.120L",
-                "url": "http://adsabs.harvard.edu/abs/2012A&A...538A.120L",
-                "bibcode": "2012A&A...538A.120L",
-                "alias": "4"
-            }
-        ],
-        "claimedtype": [
-            {
-                "value": "Ia",
-                "source": "1,2,3"
-            }
-        ],
-        "discoverday": "7",
-        "discoverer": "High Z Supernova Search",
-        "discovermonth": "3",
-        "discoveryear": "1997",
-        "galdec": "-000541",
-        "galra": "124028",
-        "host": [
-            {
-                "value": "A124028-0005",
-                "source": "1"
-            }
-        ],
-        "hvel": [
-            {
-                "value": "140000",
-                "source": "D"
-            }
-        ],
-        "lumdist": [
-            {
-                "value": "4200",
-                "source": "D"
-            }
-        ],
-        "maxabsmag": "-20",
-        "maxappmag": "23.1",
-        "maxday": "7",
-        "maxmonth": "3",
-        "maxyear": "1997",
-        "redshift": [
-            {
-                "value": "0.67",
-                "source": "1,4"
-            }
-        ],
-        "sndec": "-00:05:41.8",
-        "snra": "12:40:28.75",
-        "photometry": [
-            {
-                "timeunit": "MJD",
-                "time": "50514.5",
-                "band": "",
-                "abmag": "23.1",
-                "source": "2,3"
-            }
-        ]
-    }
+	"SN1997bd":{
+		"name":"SN1997bd",
+		"aliases":[
+			"SN1997bd"
+		],
+		"sources":[
+			{
+				"name":"Asiago Supernova Catalogue",
+				"url":"http://graspa.oapd.inaf.it/cgi-bin/sncat.php",
+				"alias":"1",
+				"secondary":true
+			},
+			{
+				"name":"IAUC 6602",
+				"url":"http://www.cbat.eps.harvard.edu/iauc/06600/06602.html",
+				"alias":"2"
+			},
+			{
+				"name":"Latest Supernovae",
+				"url":"http://www.rochesterastronomy.org/snimages/snredshiftall.html",
+				"alias":"3",
+				"secondary":true
+			},
+			{
+				"name":"2012A&A...538A.120L",
+				"url":"http://adsabs.harvard.edu/abs/2012A&A...538A.120L",
+				"bibcode":"2012A&A...538A.120L",
+				"alias":"4"
+			}
+		],
+		"claimedtype":[
+			{
+				"value":"Ia",
+				"source":"1,2,3"
+			}
+		],
+		"discoverday":"7",
+		"discoverer":"High Z Supernova Search",
+		"discovermonth":"3",
+		"discoveryear":"1997",
+		"galdec":"-000541",
+		"galra":"124028",
+		"host":[
+			{
+				"value":"A124028-0005",
+				"source":"1"
+			}
+		],
+		"hvel":[
+			{
+				"value":"140000",
+				"source":"D"
+			}
+		],
+		"lumdist":[
+			{
+				"value":"4200",
+				"source":"D"
+			}
+		],
+		"maxabsmag":"-20",
+		"maxappmag":"23.1",
+		"maxday":"7",
+		"maxmonth":"3",
+		"maxyear":"1997",
+		"redshift":[
+			{
+				"value":"0.67",
+				"source":"1,4"
+			}
+		],
+		"sndec":"-00:05:41.8",
+		"snra":"12:40:28.75",
+		"photometry":[
+			{
+				"timeunit":"MJD",
+				"time":"50514.5",
+				"band":"",
+				"abmag":"23.1",
+				"source":"2,3"
+			}
+		]
+	}
 }

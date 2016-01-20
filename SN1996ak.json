@@ -1,80 +1,80 @@
 {
-    "SN1996ak": {
-        "name": "SN1996ak",
-        "aliases": [
-            "SN1996ak"
-        ],
-        "sources": [
-            {
-                "name": "Asiago Supernova Catalogue",
-                "url": "http://graspa.oapd.inaf.it/cgi-bin/sncat.php",
-                "alias": "1",
-                "secondary": true
-            },
-            {
-                "name": "IAUC 6434",
-                "url": "http://www.cbat.eps.harvard.edu/iauc/06400/06434.html#Item1",
-                "alias": "2"
-            },
-            {
-                "name": "Latest Supernovae",
-                "url": "http://www.rochesterastronomy.org/snimages/snredshiftall.html",
-                "alias": "3",
-                "secondary": true
-            },
-            {
-                "name": "2012A&A...538A.120L",
-                "url": "http://adsabs.harvard.edu/abs/2012A&A...538A.120L",
-                "bibcode": "2012A&A...538A.120L",
-                "alias": "4"
-            }
-        ],
-        "claimedtype": [
-            {
-                "value": "II",
-                "source": "1,2,3"
-            }
-        ],
-        "discoverday": "13",
-        "discoverer": "Christian Buil",
-        "discovermonth": "7",
-        "discoveryear": "1996",
-        "galdec": "+461146",
-        "galra": "131206",
-        "host": [
-            {
-                "value": "NGC 5021",
-                "source": "1,2,3,4"
-            }
-        ],
-        "hvel": [
-            {
-                "value": "8250",
-                "source": "1"
-            }
-        ],
-        "lumdist": [
-            {
-                "value": "130",
-                "source": "D"
-            }
-        ],
-        "redshift": [
-            {
-                "value": "0.028",
-                "source": "4"
-            }
-        ],
-        "sndec": "+46:11:38.4",
-        "snra": "13:12:04.42",
-        "photometry": [
-            {
-                "timeunit": "MJD",
-                "time": "50277.0",
-                "band": "",
-                "abmag": "18.0",
-                "source": "4"
-            }
-        ]
-    }
+	"SN1996ak":{
+		"name":"SN1996ak",
+		"aliases":[
+			"SN1996ak"
+		],
+		"sources":[
+			{
+				"name":"Asiago Supernova Catalogue",
+				"url":"http://graspa.oapd.inaf.it/cgi-bin/sncat.php",
+				"alias":"1",
+				"secondary":true
+			},
+			{
+				"name":"IAUC 6434",
+				"url":"http://www.cbat.eps.harvard.edu/iauc/06400/06434.html#Item1",
+				"alias":"2"
+			},
+			{
+				"name":"Latest Supernovae",
+				"url":"http://www.rochesterastronomy.org/snimages/snredshiftall.html",
+				"alias":"3",
+				"secondary":true
+			},
+			{
+				"name":"2012A&A...538A.120L",
+				"url":"http://adsabs.harvard.edu/abs/2012A&A...538A.120L",
+				"bibcode":"2012A&A...538A.120L",
+				"alias":"4"
+			}
+		],
+		"claimedtype":[
+			{
+				"value":"II",
+				"source":"1,2,3"
+			}
+		],
+		"discoverday":"13",
+		"discoverer":"Christian Buil",
+		"discovermonth":"7",
+		"discoveryear":"1996",
+		"galdec":"+461146",
+		"galra":"131206",
+		"host":[
+			{
+				"value":"NGC 5021",
+				"source":"1,2,3,4"
+			}
+		],
+		"hvel":[
+			{
+				"value":"8250",
+				"source":"1"
+			}
+		],
+		"lumdist":[
+			{
+				"value":"130",
+				"source":"D"
+			}
+		],
+		"redshift":[
+			{
+				"value":"0.028",
+				"source":"4"
+			}
+		],
+		"sndec":"+46:11:38.4",
+		"snra":"13:12:04.42",
+		"photometry":[
+			{
+				"timeunit":"MJD",
+				"time":"50277.0",
+				"band":"",
+				"abmag":"18.0",
+				"source":"4"
+			}
+		]
+	}
 }

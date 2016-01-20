@@ -1,123 +1,123 @@
 {
-    "SN1998cc": {
-        "name": "SN1998cc",
-        "aliases": [
-            "SN1998cc"
-        ],
-        "sources": [
-            {
-                "name": "Sternberg Astronomical Institute Supernova Light Curve Catalogue",
-                "url": "http://dau.itep.ru/sn/node/72",
-                "alias": "1",
-                "secondary": true
-            },
-            {
-                "name": "VSNET 2001",
-                "alias": "2"
-            },
-            {
-                "name": "Asiago Supernova Catalogue",
-                "url": "http://graspa.oapd.inaf.it/cgi-bin/sncat.php",
-                "alias": "3",
-                "secondary": true
-            },
-            {
-                "name": "IAUC 6907",
-                "url": "http://www.cbat.eps.harvard.edu/iauc/06900/06907.html#Item1",
-                "alias": "4"
-            },
-            {
-                "name": "Latest Supernovae",
-                "url": "http://www.rochesterastronomy.org/snimages/snredshiftall.html",
-                "alias": "5",
-                "secondary": true
-            },
-            {
-                "name": "2012A&A...538A.120L",
-                "url": "http://adsabs.harvard.edu/abs/2012A&A...538A.120L",
-                "bibcode": "2012A&A...538A.120L",
-                "alias": "6"
-            }
-        ],
-        "claimedtype": [
-            {
-                "value": "Ib",
-                "source": "3,4,5"
-            }
-        ],
-        "discoverday": "15",
-        "discoverer": "LOSS",
-        "discovermonth": "5",
-        "discoveryear": "1998",
-        "galdec": "+170306",
-        "galra": "132919",
-        "host": [
-            {
-                "value": "NGC 5172",
-                "source": "3,4,5,6"
-            }
-        ],
-        "hvel": [
-            {
-                "value": "4337",
-                "source": "3"
-            }
-        ],
-        "lumdist": [
-            {
-                "value": "52",
-                "source": "6"
-            }
-        ],
-        "maxabsmag": "-18",
-        "maxappmag": "15.3",
-        "maxday": "27",
-        "maxmonth": "5",
-        "maxyear": "1998",
-        "redshift": [
-            {
-                "value": "0.0136",
-                "source": "4,5"
-            }
-        ],
-        "sndec": "+17:02:42.4",
-        "snra": "13:29:19.31",
-        "photometry": [
-            {
-                "timeunit": "MJD",
-                "time": "50948.3",
-                "band": "C",
-                "abmag": "18.1",
-                "source": "1,2"
-            },
-            {
-                "timeunit": "MJD",
-                "time": "50949.3",
-                "band": "C",
-                "abmag": "18.1",
-                "source": "1,2"
-            },
-            {
-                "timeunit": "MJD",
-                "time": "50951.91",
-                "band": "C",
-                "abmag": "17.16",
-                "source": "1,2"
-            },
-            {
-                "timeunit": "MJD",
-                "time": "50959.5",
-                "band": "",
-                "abmag": "15.3",
-                "source": "4,5"
-            },
-            {
-                "timeunit": "MJD",
-                "time": "50960.14",
-                "band": "C",
-                "abmag": "15.3",
-                "source": "1,2"
-            }
-        ]
-    }
+	"SN1998cc":{
+		"name":"SN1998cc",
+		"aliases":[
+			"SN1998cc"
+		],
+		"sources":[
+			{
+				"name":"Sternberg Astronomical Institute Supernova Light Curve Catalogue",
+				"url":"http://dau.itep.ru/sn/node/72",
+				"alias":"1",
+				"secondary":true
+			},
+			{
+				"name":"VSNET 2001",
+				"alias":"2"
+			},
+			{
+				"name":"Asiago Supernova Catalogue",
+				"url":"http://graspa.oapd.inaf.it/cgi-bin/sncat.php",
+				"alias":"3",
+				"secondary":true
+			},
+			{
+				"name":"IAUC 6907",
+				"url":"http://www.cbat.eps.harvard.edu/iauc/06900/06907.html#Item1",
+				"alias":"4"
+			},
+			{
+				"name":"Latest Supernovae",
+				"url":"http://www.rochesterastronomy.org/snimages/snredshiftall.html",
+				"alias":"5",
+				"secondary":true
+			},
+			{
+				"name":"2012A&A...538A.120L",
+				"url":"http://adsabs.harvard.edu/abs/2012A&A...538A.120L",
+				"bibcode":"2012A&A...538A.120L",
+				"alias":"6"
+			}
+		],
+		"claimedtype":[
+			{
+				"value":"Ib",
+				"source":"3,4,5"
+			}
+		],
+		"discoverday":"15",
+		"discoverer":"LOSS",
+		"discovermonth":"5",
+		"discoveryear":"1998",
+		"galdec":"+170306",
+		"galra":"132919",
+		"host":[
+			{
+				"value":"NGC 5172",
+				"source":"3,4,5,6"
+			}
+		],
+		"hvel":[
+			{
+				"value":"4337",
+				"source":"3"
+			}
+		],
+		"lumdist":[
+			{
+				"value":"52",
+				"source":"6"
+			}
+		],
+		"maxabsmag":"-18",
+		"maxappmag":"15.3",
+		"maxday":"27",
+		"maxmonth":"5",
+		"maxyear":"1998",
+		"redshift":[
+			{
+				"value":"0.0136",
+				"source":"4,5"
+			}
+		],
+		"sndec":"+17:02:42.4",
+		"snra":"13:29:19.31",
+		"photometry":[
+			{
+				"timeunit":"MJD",
+				"time":"50948.3",
+				"band":"C",
+				"abmag":"18.1",
+				"source":"1,2"
+			},
+			{
+				"timeunit":"MJD",
+				"time":"50949.3",
+				"band":"C",
+				"abmag":"18.1",
+				"source":"1,2"
+			},
+			{
+				"timeunit":"MJD",
+				"time":"50951.91",
+				"band":"C",
+				"abmag":"17.16",
+				"source":"1,2"
+			},
+			{
+				"timeunit":"MJD",
+				"time":"50959.5",
+				"band":"",
+				"abmag":"15.3",
+				"source":"4,5"
+			},
+			{
+				"timeunit":"MJD",
+				"time":"50960.14",
+				"band":"C",
+				"abmag":"15.3",
+				"source":"1,2"
+			}
+		]
+	}
 }

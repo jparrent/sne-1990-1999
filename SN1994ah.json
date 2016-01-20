@@ -1,93 +1,93 @@
 {
-    "SN1994ah": {
-        "name": "SN1994ah",
-        "aliases": [
-            "SN1994ah"
-        ],
-        "sources": [
-            {
-                "name": "Asiago Supernova Catalogue",
-                "url": "http://graspa.oapd.inaf.it/cgi-bin/sncat.php",
-                "alias": "1",
-                "secondary": true
-            },
-            {
-                "name": "IAUC 6114",
-                "url": "http://www.cbat.eps.harvard.edu/iauc/06100/06114.html",
-                "alias": "2"
-            },
-            {
-                "name": "Latest Supernovae",
-                "url": "http://www.rochesterastronomy.org/snimages/snredshiftall.html",
-                "alias": "3",
-                "secondary": true
-            },
-            {
-                "name": "2012A&A...538A.120L",
-                "url": "http://adsabs.harvard.edu/abs/2012A&A...538A.120L",
-                "bibcode": "2012A&A...538A.120L",
-                "alias": "4"
-            }
-        ],
-        "claimedtype": [
-            {
-                "value": "Ia",
-                "source": "1,2,3"
-            }
-        ],
-        "discoverday": "12",
-        "discoverer": "Robert McNaught",
-        "discovermonth": "10",
-        "discoveryear": "1994",
-        "galdec": "-335446",
-        "galra": "025637",
-        "host": [
-            {
-                "value": "E356-G19",
-                "source": "1"
-            },
-            {
-                "value": "ESO 356-G19",
-                "source": "2,3"
-            },
-            {
-                "value": "E356-19",
-                "source": "4"
-            }
-        ],
-        "hvel": [
-            {
-                "value": "6495",
-                "source": "1"
-            }
-        ],
-        "lumdist": [
-            {
-                "value": "99",
-                "source": "D"
-            }
-        ],
-        "maxabsmag": "-17",
-        "maxappmag": "18",
-        "maxday": "12",
-        "maxmonth": "10",
-        "maxyear": "1994",
-        "redshift": [
-            {
-                "value": "0.022",
-                "source": "4"
-            }
-        ],
-        "sndec": "-33:54:43.6",
-        "snra": "02:56:37.75",
-        "photometry": [
-            {
-                "timeunit": "MJD",
-                "time": "49637.5",
-                "band": "",
-                "abmag": "18.0",
-                "source": "2,3"
-            }
-        ]
-    }
+	"SN1994ah":{
+		"name":"SN1994ah",
+		"aliases":[
+			"SN1994ah"
+		],
+		"sources":[
+			{
+				"name":"Asiago Supernova Catalogue",
+				"url":"http://graspa.oapd.inaf.it/cgi-bin/sncat.php",
+				"alias":"1",
+				"secondary":true
+			},
+			{
+				"name":"IAUC 6114",
+				"url":"http://www.cbat.eps.harvard.edu/iauc/06100/06114.html",
+				"alias":"2"
+			},
+			{
+				"name":"Latest Supernovae",
+				"url":"http://www.rochesterastronomy.org/snimages/snredshiftall.html",
+				"alias":"3",
+				"secondary":true
+			},
+			{
+				"name":"2012A&A...538A.120L",
+				"url":"http://adsabs.harvard.edu/abs/2012A&A...538A.120L",
+				"bibcode":"2012A&A...538A.120L",
+				"alias":"4"
+			}
+		],
+		"claimedtype":[
+			{
+				"value":"Ia",
+				"source":"1,2,3"
+			}
+		],
+		"discoverday":"12",
+		"discoverer":"Robert McNaught",
+		"discovermonth":"10",
+		"discoveryear":"1994",
+		"galdec":"-335446",
+		"galra":"025637",
+		"host":[
+			{
+				"value":"E356-G19",
+				"source":"1"
+			},
+			{
+				"value":"ESO 356-G19",
+				"source":"2,3"
+			},
+			{
+				"value":"E356-19",
+				"source":"4"
+			}
+		],
+		"hvel":[
+			{
+				"value":"6495",
+				"source":"1"
+			}
+		],
+		"lumdist":[
+			{
+				"value":"99",
+				"source":"D"
+			}
+		],
+		"maxabsmag":"-17",
+		"maxappmag":"18",
+		"maxday":"12",
+		"maxmonth":"10",
+		"maxyear":"1994",
+		"redshift":[
+			{
+				"value":"0.022",
+				"source":"4"
+			}
+		],
+		"sndec":"-33:54:43.6",
+		"snra":"02:56:37.75",
+		"photometry":[
+			{
+				"timeunit":"MJD",
+				"time":"49637.5",
+				"band":"",
+				"abmag":"18.0",
+				"source":"2,3"
+			}
+		]
+	}
 }

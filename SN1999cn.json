@@ -1,95 +1,95 @@
 {
-    "SN1999cn": {
-        "name": "SN1999cn",
-        "aliases": [
-            "SN1999cn"
-        ],
-        "sources": [
-            {
-                "name": "Asiago Supernova Catalogue",
-                "url": "http://graspa.oapd.inaf.it/cgi-bin/sncat.php",
-                "alias": "1",
-                "secondary": true
-            },
-            {
-                "name": "IAUC 7202",
-                "url": "http://www.cbat.eps.harvard.edu/iauc/07200/07202.html#Item1",
-                "alias": "2"
-            },
-            {
-                "name": "Latest Supernovae",
-                "url": "http://www.rochesterastronomy.org/snimages/snredshiftall.html",
-                "alias": "3",
-                "secondary": true
-            },
-            {
-                "name": "2012A&A...538A.120L",
-                "url": "http://adsabs.harvard.edu/abs/2012A&A...538A.120L",
-                "bibcode": "2012A&A...538A.120L",
-                "alias": "4"
-            }
-        ],
-        "claimedtype": [
-            {
-                "value": "Ic",
-                "source": "1,2,3"
-            }
-        ],
-        "discoverday": "14",
-        "discoverer": "Telescopio Nazionale Galileo",
-        "discovermonth": "6",
-        "discoveryear": "1999",
-        "galdec": "+125101",
-        "galra": "150646",
-        "host": [
-            {
-                "value": "M+02-38-43",
-                "source": "1"
-            },
-            {
-                "value": "MCG +2-38-43",
-                "source": "2,3"
-            },
-            {
-                "value": "PGC53961",
-                "source": "4"
-            }
-        ],
-        "hvel": [
-            {
-                "value": "6678",
-                "source": "1"
-            }
-        ],
-        "lumdist": [
-            {
-                "value": "100",
-                "source": "D"
-            }
-        ],
-        "maxday": "15",
-        "maxmonth": "6",
-        "maxyear": "1999",
-        "redshift": [
-            {
-                "value": "0.023",
-                "source": "2,3"
-            },
-            {
-                "value": "0.022",
-                "source": "4"
-            }
-        ],
-        "sndec": "+12:51:29.0",
-        "snra": "15:06:46.6",
-        "photometry": [
-            {
-                "timeunit": "MJD",
-                "time": "51343.0",
-                "band": "V",
-                "abmag": "17.9",
-                "source": "4"
-            }
-        ]
-    }
+	"SN1999cn":{
+		"name":"SN1999cn",
+		"aliases":[
+			"SN1999cn"
+		],
+		"sources":[
+			{
+				"name":"Asiago Supernova Catalogue",
+				"url":"http://graspa.oapd.inaf.it/cgi-bin/sncat.php",
+				"alias":"1",
+				"secondary":true
+			},
+			{
+				"name":"IAUC 7202",
+				"url":"http://www.cbat.eps.harvard.edu/iauc/07200/07202.html#Item1",
+				"alias":"2"
+			},
+			{
+				"name":"Latest Supernovae",
+				"url":"http://www.rochesterastronomy.org/snimages/snredshiftall.html",
+				"alias":"3",
+				"secondary":true
+			},
+			{
+				"name":"2012A&A...538A.120L",
+				"url":"http://adsabs.harvard.edu/abs/2012A&A...538A.120L",
+				"bibcode":"2012A&A...538A.120L",
+				"alias":"4"
+			}
+		],
+		"claimedtype":[
+			{
+				"value":"Ic",
+				"source":"1,2,3"
+			}
+		],
+		"discoverday":"14",
+		"discoverer":"Telescopio Nazionale Galileo",
+		"discovermonth":"6",
+		"discoveryear":"1999",
+		"galdec":"+125101",
+		"galra":"150646",
+		"host":[
+			{
+				"value":"M+02-38-43",
+				"source":"1"
+			},
+			{
+				"value":"MCG +2-38-43",
+				"source":"2,3"
+			},
+			{
+				"value":"PGC53961",
+				"source":"4"
+			}
+		],
+		"hvel":[
+			{
+				"value":"6678",
+				"source":"1"
+			}
+		],
+		"lumdist":[
+			{
+				"value":"100",
+				"source":"D"
+			}
+		],
+		"maxday":"15",
+		"maxmonth":"6",
+		"maxyear":"1999",
+		"redshift":[
+			{
+				"value":"0.023",
+				"source":"2,3"
+			},
+			{
+				"value":"0.022",
+				"source":"4"
+			}
+		],
+		"sndec":"+12:51:29.0",
+		"snra":"15:06:46.6",
+		"photometry":[
+			{
+				"timeunit":"MJD",
+				"time":"51343.0",
+				"band":"V",
+				"abmag":"17.9",
+				"source":"4"
+			}
+		]
+	}
 }

@@ -1,93 +1,93 @@
 {
-    "SN1999bc": {
-        "name": "SN1999bc",
-        "aliases": [
-            "SN1999bc"
-        ],
-        "sources": [
-            {
-                "name": "Asiago Supernova Catalogue",
-                "url": "http://graspa.oapd.inaf.it/cgi-bin/sncat.php",
-                "alias": "1",
-                "secondary": true
-            },
-            {
-                "name": "IAUC 7134",
-                "url": "http://www.cbat.eps.harvard.edu/iauc/07100/07134.html#Item2",
-                "alias": "2"
-            },
-            {
-                "name": "Latest Supernovae",
-                "url": "http://www.rochesterastronomy.org/snimages/snredshiftall.html",
-                "alias": "3",
-                "secondary": true
-            },
-            {
-                "name": "2012A&A...538A.120L",
-                "url": "http://adsabs.harvard.edu/abs/2012A&A...538A.120L",
-                "bibcode": "2012A&A...538A.120L",
-                "alias": "4"
-            }
-        ],
-        "claimedtype": [
-            {
-                "value": "Ic",
-                "source": "1,2,3"
-            }
-        ],
-        "discoverday": "18",
-        "discoverer": "Supernova Cosmology Project",
-        "discovermonth": "2",
-        "discoveryear": "1999",
-        "galdec": "+172758",
-        "galra": "082831",
-        "host": [
-            {
-                "value": "M+03-22-14",
-                "source": "1"
-            },
-            {
-                "value": "UGC 4433",
-                "source": "2,3,4"
-            }
-        ],
-        "hvel": [
-            {
-                "value": "6299",
-                "source": "1"
-            }
-        ],
-        "lumdist": [
-            {
-                "value": "99",
-                "source": "D"
-            }
-        ],
-        "maxabsmag": "-16",
-        "maxappmag": "18.9",
-        "maxday": "18",
-        "maxmonth": "2",
-        "maxyear": "1999",
-        "redshift": [
-            {
-                "value": "0.022",
-                "source": "2,3"
-            },
-            {
-                "value": "0.021",
-                "source": "4"
-            }
-        ],
-        "sndec": "+17:28:15.4",
-        "snra": "08:28:31.08",
-        "photometry": [
-            {
-                "timeunit": "MJD",
-                "time": "51227.5",
-                "band": "",
-                "abmag": "18.9",
-                "source": "2,3"
-            }
-        ]
-    }
+	"SN1999bc":{
+		"name":"SN1999bc",
+		"aliases":[
+			"SN1999bc"
+		],
+		"sources":[
+			{
+				"name":"Asiago Supernova Catalogue",
+				"url":"http://graspa.oapd.inaf.it/cgi-bin/sncat.php",
+				"alias":"1",
+				"secondary":true
+			},
+			{
+				"name":"IAUC 7134",
+				"url":"http://www.cbat.eps.harvard.edu/iauc/07100/07134.html#Item2",
+				"alias":"2"
+			},
+			{
+				"name":"Latest Supernovae",
+				"url":"http://www.rochesterastronomy.org/snimages/snredshiftall.html",
+				"alias":"3",
+				"secondary":true
+			},
+			{
+				"name":"2012A&A...538A.120L",
+				"url":"http://adsabs.harvard.edu/abs/2012A&A...538A.120L",
+				"bibcode":"2012A&A...538A.120L",
+				"alias":"4"
+			}
+		],
+		"claimedtype":[
+			{
+				"value":"Ic",
+				"source":"1,2,3"
+			}
+		],
+		"discoverday":"18",
+		"discoverer":"Supernova Cosmology Project",
+		"discovermonth":"2",
+		"discoveryear":"1999",
+		"galdec":"+172758",
+		"galra":"082831",
+		"host":[
+			{
+				"value":"M+03-22-14",
+				"source":"1"
+			},
+			{
+				"value":"UGC 4433",
+				"source":"2,3,4"
+			}
+		],
+		"hvel":[
+			{
+				"value":"6299",
+				"source":"1"
+			}
+		],
+		"lumdist":[
+			{
+				"value":"99",
+				"source":"D"
+			}
+		],
+		"maxabsmag":"-16",
+		"maxappmag":"18.9",
+		"maxday":"18",
+		"maxmonth":"2",
+		"maxyear":"1999",
+		"redshift":[
+			{
+				"value":"0.022",
+				"source":"2,3"
+			},
+			{
+				"value":"0.021",
+				"source":"4"
+			}
+		],
+		"sndec":"+17:28:15.4",
+		"snra":"08:28:31.08",
+		"photometry":[
+			{
+				"timeunit":"MJD",
+				"time":"51227.5",
+				"band":"",
+				"abmag":"18.9",
+				"source":"2,3"
+			}
+		]
+	}
 }

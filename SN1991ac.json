@@ -1,83 +1,83 @@
 {
-    "SN1991ac": {
-        "name": "SN1991ac",
-        "aliases": [
-            "SN1991ac"
-        ],
-        "sources": [
-            {
-                "name": "Asiago Supernova Catalogue",
-                "url": "http://graspa.oapd.inaf.it/cgi-bin/sncat.php",
-                "alias": "1",
-                "secondary": true
-            },
-            {
-                "name": "IAUC 5270",
-                "url": "http://www.cbat.eps.harvard.edu/iauc/05200/05270.html",
-                "alias": "2"
-            },
-            {
-                "name": "Latest Supernovae",
-                "url": "http://www.rochesterastronomy.org/snimages/snredshiftall.html",
-                "alias": "3",
-                "secondary": true
-            },
-            {
-                "name": "2012A&A...538A.120L",
-                "url": "http://adsabs.harvard.edu/abs/2012A&A...538A.120L",
-                "bibcode": "2012A&A...538A.120L",
-                "alias": "4"
-            }
-        ],
-        "discoverday": "25",
-        "discoverer": "Christian Pollas",
-        "discovermonth": "1",
-        "discoveryear": "1991",
-        "galdec": "+291059",
-        "galra": "130119",
-        "host": [
-            {
-                "value": "A130119+2910",
-                "source": "1"
-            },
-            {
-                "value": "(PGC3094940)",
-                "source": "4"
-            }
-        ],
-        "hvel": [
-            {
-                "value": "18000",
-                "source": "D"
-            }
-        ],
-        "lumdist": [
-            {
-                "value": "280",
-                "source": "D"
-            }
-        ],
-        "maxabsmag": "-19",
-        "maxappmag": "18.5",
-        "maxday": "25",
-        "maxmonth": "1",
-        "maxyear": "1991",
-        "redshift": [
-            {
-                "value": "0.061",
-                "source": "4"
-            }
-        ],
-        "sndec": "+29:11:00.0",
-        "snra": "13:01:19.24",
-        "photometry": [
-            {
-                "timeunit": "MJD",
-                "time": "48281.5",
-                "band": "",
-                "abmag": "18.5",
-                "source": "2,3"
-            }
-        ]
-    }
+	"SN1991ac":{
+		"name":"SN1991ac",
+		"aliases":[
+			"SN1991ac"
+		],
+		"sources":[
+			{
+				"name":"Asiago Supernova Catalogue",
+				"url":"http://graspa.oapd.inaf.it/cgi-bin/sncat.php",
+				"alias":"1",
+				"secondary":true
+			},
+			{
+				"name":"IAUC 5270",
+				"url":"http://www.cbat.eps.harvard.edu/iauc/05200/05270.html",
+				"alias":"2"
+			},
+			{
+				"name":"Latest Supernovae",
+				"url":"http://www.rochesterastronomy.org/snimages/snredshiftall.html",
+				"alias":"3",
+				"secondary":true
+			},
+			{
+				"name":"2012A&A...538A.120L",
+				"url":"http://adsabs.harvard.edu/abs/2012A&A...538A.120L",
+				"bibcode":"2012A&A...538A.120L",
+				"alias":"4"
+			}
+		],
+		"discoverday":"25",
+		"discoverer":"Christian Pollas",
+		"discovermonth":"1",
+		"discoveryear":"1991",
+		"galdec":"+291059",
+		"galra":"130119",
+		"host":[
+			{
+				"value":"A130119+2910",
+				"source":"1"
+			},
+			{
+				"value":"(PGC3094940)",
+				"source":"4"
+			}
+		],
+		"hvel":[
+			{
+				"value":"18000",
+				"source":"D"
+			}
+		],
+		"lumdist":[
+			{
+				"value":"280",
+				"source":"D"
+			}
+		],
+		"maxabsmag":"-19",
+		"maxappmag":"18.5",
+		"maxday":"25",
+		"maxmonth":"1",
+		"maxyear":"1991",
+		"redshift":[
+			{
+				"value":"0.061",
+				"source":"4"
+			}
+		],
+		"sndec":"+29:11:00.0",
+		"snra":"13:01:19.24",
+		"photometry":[
+			{
+				"timeunit":"MJD",
+				"time":"48281.5",
+				"band":"",
+				"abmag":"18.5",
+				"source":"2,3"
+			}
+		]
+	}
 }

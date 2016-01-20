@@ -1,123 +1,123 @@
 {
-    "SN1999ew": {
-        "name": "SN1999ew",
-        "aliases": [
-            "SN1999ew"
-        ],
-        "sources": [
-            {
-                "name": "Sternberg Astronomical Institute Supernova Light Curve Catalogue",
-                "url": "http://dau.itep.ru/sn/node/72",
-                "alias": "1",
-                "secondary": true
-            },
-            {
-                "name": "VSNET 2001",
-                "alias": "2"
-            },
-            {
-                "name": "Asiago Supernova Catalogue",
-                "url": "http://graspa.oapd.inaf.it/cgi-bin/sncat.php",
-                "alias": "3",
-                "secondary": true
-            },
-            {
-                "name": "IAUC 7309",
-                "url": "http://www.cbat.eps.harvard.edu/iauc/07300/07309.html#Item1",
-                "alias": "4"
-            },
-            {
-                "name": "Latest Supernovae",
-                "url": "http://www.rochesterastronomy.org/snimages/snredshiftall.html",
-                "alias": "5",
-                "secondary": true
-            },
-            {
-                "name": "2012A&A...538A.120L",
-                "url": "http://adsabs.harvard.edu/abs/2012A&A...538A.120L",
-                "bibcode": "2012A&A...538A.120L",
-                "alias": "6"
-            }
-        ],
-        "claimedtype": [
-            {
-                "value": "II",
-                "source": "3,4,5"
-            }
-        ],
-        "discoverday": "13",
-        "discoverer": "LOSS",
-        "discovermonth": "11",
-        "discoveryear": "1999",
-        "galdec": "+465826",
-        "galra": "112617",
-        "host": [
-            {
-                "value": "NGC 3677",
-                "source": "3,4,5,6"
-            }
-        ],
-        "hvel": [
-            {
-                "value": "7475",
-                "source": "3"
-            }
-        ],
-        "lumdist": [
-            {
-                "value": "110",
-                "source": "D"
-            }
-        ],
-        "maxabsmag": "-19",
-        "maxappmag": "16.5",
-        "maxday": "13",
-        "maxmonth": "11",
-        "maxyear": "1999",
-        "redshift": [
-            {
-                "value": "0.025",
-                "source": "4,5,6"
-            }
-        ],
-        "sndec": "+46:58:32.7",
-        "snra": "11:26:17.66",
-        "photometry": [
-            {
-                "timeunit": "MJD",
-                "time": "51495.5",
-                "band": "C",
-                "abmag": "16.5",
-                "source": "1,2"
-            },
-            {
-                "timeunit": "MJD",
-                "time": "51496.5",
-                "band": "C",
-                "abmag": "16.5",
-                "source": "1,2"
-            },
-            {
-                "timeunit": "MJD",
-                "time": "51496.6",
-                "band": "R",
-                "abmag": "16.9",
-                "source": "1,2"
-            },
-            {
-                "timeunit": "MJD",
-                "time": "51496.6",
-                "band": "V",
-                "abmag": "17.2",
-                "source": "1,2"
-            },
-            {
-                "timeunit": "MJD",
-                "time": "51543.17",
-                "band": "R",
-                "abmag": "17.7",
-                "source": "1,2"
-            }
-        ]
-    }
+	"SN1999ew":{
+		"name":"SN1999ew",
+		"aliases":[
+			"SN1999ew"
+		],
+		"sources":[
+			{
+				"name":"Sternberg Astronomical Institute Supernova Light Curve Catalogue",
+				"url":"http://dau.itep.ru/sn/node/72",
+				"alias":"1",
+				"secondary":true
+			},
+			{
+				"name":"VSNET 2001",
+				"alias":"2"
+			},
+			{
+				"name":"Asiago Supernova Catalogue",
+				"url":"http://graspa.oapd.inaf.it/cgi-bin/sncat.php",
+				"alias":"3",
+				"secondary":true
+			},
+			{
+				"name":"IAUC 7309",
+				"url":"http://www.cbat.eps.harvard.edu/iauc/07300/07309.html#Item1",
+				"alias":"4"
+			},
+			{
+				"name":"Latest Supernovae",
+				"url":"http://www.rochesterastronomy.org/snimages/snredshiftall.html",
+				"alias":"5",
+				"secondary":true
+			},
+			{
+				"name":"2012A&A...538A.120L",
+				"url":"http://adsabs.harvard.edu/abs/2012A&A...538A.120L",
+				"bibcode":"2012A&A...538A.120L",
+				"alias":"6"
+			}
+		],
+		"claimedtype":[
+			{
+				"value":"II",
+				"source":"3,4,5"
+			}
+		],
+		"discoverday":"13",
+		"discoverer":"LOSS",
+		"discovermonth":"11",
+		"discoveryear":"1999",
+		"galdec":"+465826",
+		"galra":"112617",
+		"host":[
+			{
+				"value":"NGC 3677",
+				"source":"3,4,5,6"
+			}
+		],
+		"hvel":[
+			{
+				"value":"7475",
+				"source":"3"
+			}
+		],
+		"lumdist":[
+			{
+				"value":"110",
+				"source":"D"
+			}
+		],
+		"maxabsmag":"-19",
+		"maxappmag":"16.5",
+		"maxday":"13",
+		"maxmonth":"11",
+		"maxyear":"1999",
+		"redshift":[
+			{
+				"value":"0.025",
+				"source":"4,5,6"
+			}
+		],
+		"sndec":"+46:58:32.7",
+		"snra":"11:26:17.66",
+		"photometry":[
+			{
+				"timeunit":"MJD",
+				"time":"51495.5",
+				"band":"C",
+				"abmag":"16.5",
+				"source":"1,2"
+			},
+			{
+				"timeunit":"MJD",
+				"time":"51496.5",
+				"band":"C",
+				"abmag":"16.5",
+				"source":"1,2"
+			},
+			{
+				"timeunit":"MJD",
+				"time":"51496.6",
+				"band":"R",
+				"abmag":"16.9",
+				"source":"1,2"
+			},
+			{
+				"timeunit":"MJD",
+				"time":"51496.6",
+				"band":"V",
+				"abmag":"17.2",
+				"source":"1,2"
+			},
+			{
+				"timeunit":"MJD",
+				"time":"51543.17",
+				"band":"R",
+				"abmag":"17.7",
+				"source":"1,2"
+			}
+		]
+	}
 }

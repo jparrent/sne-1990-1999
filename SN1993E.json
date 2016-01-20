@@ -1,89 +1,89 @@
 {
-    "SN1993E": {
-        "name": "SN1993E",
-        "aliases": [
-            "SN1993E"
-        ],
-        "sources": [
-            {
-                "name": "Asiago Supernova Catalogue",
-                "url": "http://graspa.oapd.inaf.it/cgi-bin/sncat.php",
-                "alias": "1",
-                "secondary": true
-            },
-            {
-                "name": "IAUC 5709",
-                "url": "http://www.cbat.eps.harvard.edu/iauc/05700/05709.html",
-                "alias": "2"
-            },
-            {
-                "name": "Latest Supernovae",
-                "url": "http://www.rochesterastronomy.org/snimages/snredshiftall.html",
-                "alias": "3",
-                "secondary": true
-            },
-            {
-                "name": "2012A&A...538A.120L",
-                "url": "http://adsabs.harvard.edu/abs/2012A&A...538A.120L",
-                "bibcode": "2012A&A...538A.120L",
-                "alias": "4"
-            }
-        ],
-        "claimedtype": [
-            {
-                "value": "II",
-                "source": "1,2,3"
-            }
-        ],
-        "discoverday": "26",
-        "discoverer": "Christian Pollas",
-        "discovermonth": "1",
-        "discoveryear": "1993",
-        "galdec": "+491748",
-        "galra": "094345",
-        "host": [
-            {
-                "value": "PGC0027842",
-                "source": "1"
-            },
-            {
-                "value": "PGC27842",
-                "source": "4"
-            }
-        ],
-        "hvel": [
-            {
-                "value": "7400",
-                "source": "D"
-            }
-        ],
-        "lumdist": [
-            {
-                "value": "110",
-                "source": "D"
-            }
-        ],
-        "maxabsmag": "-16",
-        "maxappmag": "19",
-        "maxday": "26",
-        "maxmonth": "1",
-        "maxyear": "1993",
-        "redshift": [
-            {
-                "value": "0.025",
-                "source": "4"
-            }
-        ],
-        "sndec": "+49:17:55.8",
-        "snra": "09:43:44.15",
-        "photometry": [
-            {
-                "timeunit": "MJD",
-                "time": "49013.5",
-                "band": "",
-                "abmag": "19.0",
-                "source": "2,3"
-            }
-        ]
-    }
+	"SN1993E":{
+		"name":"SN1993E",
+		"aliases":[
+			"SN1993E"
+		],
+		"sources":[
+			{
+				"name":"Asiago Supernova Catalogue",
+				"url":"http://graspa.oapd.inaf.it/cgi-bin/sncat.php",
+				"alias":"1",
+				"secondary":true
+			},
+			{
+				"name":"IAUC 5709",
+				"url":"http://www.cbat.eps.harvard.edu/iauc/05700/05709.html",
+				"alias":"2"
+			},
+			{
+				"name":"Latest Supernovae",
+				"url":"http://www.rochesterastronomy.org/snimages/snredshiftall.html",
+				"alias":"3",
+				"secondary":true
+			},
+			{
+				"name":"2012A&A...538A.120L",
+				"url":"http://adsabs.harvard.edu/abs/2012A&A...538A.120L",
+				"bibcode":"2012A&A...538A.120L",
+				"alias":"4"
+			}
+		],
+		"claimedtype":[
+			{
+				"value":"II",
+				"source":"1,2,3"
+			}
+		],
+		"discoverday":"26",
+		"discoverer":"Christian Pollas",
+		"discovermonth":"1",
+		"discoveryear":"1993",
+		"galdec":"+491748",
+		"galra":"094345",
+		"host":[
+			{
+				"value":"PGC0027842",
+				"source":"1"
+			},
+			{
+				"value":"PGC27842",
+				"source":"4"
+			}
+		],
+		"hvel":[
+			{
+				"value":"7400",
+				"source":"D"
+			}
+		],
+		"lumdist":[
+			{
+				"value":"110",
+				"source":"D"
+			}
+		],
+		"maxabsmag":"-16",
+		"maxappmag":"19",
+		"maxday":"26",
+		"maxmonth":"1",
+		"maxyear":"1993",
+		"redshift":[
+			{
+				"value":"0.025",
+				"source":"4"
+			}
+		],
+		"sndec":"+49:17:55.8",
+		"snra":"09:43:44.15",
+		"photometry":[
+			{
+				"timeunit":"MJD",
+				"time":"49013.5",
+				"band":"",
+				"abmag":"19.0",
+				"source":"2,3"
+			}
+		]
+	}
 }

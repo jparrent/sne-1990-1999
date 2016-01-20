@@ -1,80 +1,80 @@
 {
-    "SN1998cj": {
-        "name": "SN1998cj",
-        "aliases": [
-            "SN1998cj"
-        ],
-        "sources": [
-            {
-                "name": "Asiago Supernova Catalogue",
-                "url": "http://graspa.oapd.inaf.it/cgi-bin/sncat.php",
-                "alias": "1",
-                "secondary": true
-            },
-            {
-                "name": "IAUC 6921",
-                "url": "http://www.cbat.eps.harvard.edu/iauc/06900/06921.html#Item1",
-                "alias": "2"
-            },
-            {
-                "name": "Latest Supernovae",
-                "url": "http://www.rochesterastronomy.org/snimages/snredshiftall.html",
-                "alias": "3",
-                "secondary": true
-            },
-            {
-                "name": "2012A&A...538A.120L",
-                "url": "http://adsabs.harvard.edu/abs/2012A&A...538A.120L",
-                "bibcode": "2012A&A...538A.120L",
-                "alias": "4"
-            }
-        ],
-        "claimedtype": [
-            {
-                "value": "II",
-                "source": "1,2,3"
-            }
-        ],
-        "discoverday": "21",
-        "discoverer": "EROS",
-        "discovermonth": "5",
-        "discoveryear": "1998",
-        "galdec": "-121330",
-        "galra": "121942",
-        "host": [
-            {
-                "value": "NGC 4263",
-                "source": "1,2,3,4"
-            }
-        ],
-        "hvel": [
-            {
-                "value": "4234",
-                "source": "1"
-            }
-        ],
-        "lumdist": [
-            {
-                "value": "63",
-                "source": "D"
-            }
-        ],
-        "redshift": [
-            {
-                "value": "0.014",
-                "source": "4"
-            }
-        ],
-        "sndec": "-12:13:41.8",
-        "snra": "12:19:43.30",
-        "photometry": [
-            {
-                "timeunit": "MJD",
-                "time": "50954.0",
-                "band": "V",
-                "abmag": "17.2",
-                "source": "4"
-            }
-        ]
-    }
+	"SN1998cj":{
+		"name":"SN1998cj",
+		"aliases":[
+			"SN1998cj"
+		],
+		"sources":[
+			{
+				"name":"Asiago Supernova Catalogue",
+				"url":"http://graspa.oapd.inaf.it/cgi-bin/sncat.php",
+				"alias":"1",
+				"secondary":true
+			},
+			{
+				"name":"IAUC 6921",
+				"url":"http://www.cbat.eps.harvard.edu/iauc/06900/06921.html#Item1",
+				"alias":"2"
+			},
+			{
+				"name":"Latest Supernovae",
+				"url":"http://www.rochesterastronomy.org/snimages/snredshiftall.html",
+				"alias":"3",
+				"secondary":true
+			},
+			{
+				"name":"2012A&A...538A.120L",
+				"url":"http://adsabs.harvard.edu/abs/2012A&A...538A.120L",
+				"bibcode":"2012A&A...538A.120L",
+				"alias":"4"
+			}
+		],
+		"claimedtype":[
+			{
+				"value":"II",
+				"source":"1,2,3"
+			}
+		],
+		"discoverday":"21",
+		"discoverer":"EROS",
+		"discovermonth":"5",
+		"discoveryear":"1998",
+		"galdec":"-121330",
+		"galra":"121942",
+		"host":[
+			{
+				"value":"NGC 4263",
+				"source":"1,2,3,4"
+			}
+		],
+		"hvel":[
+			{
+				"value":"4234",
+				"source":"1"
+			}
+		],
+		"lumdist":[
+			{
+				"value":"63",
+				"source":"D"
+			}
+		],
+		"redshift":[
+			{
+				"value":"0.014",
+				"source":"4"
+			}
+		],
+		"sndec":"-12:13:41.8",
+		"snra":"12:19:43.30",
+		"photometry":[
+			{
+				"timeunit":"MJD",
+				"time":"50954.0",
+				"band":"V",
+				"abmag":"17.2",
+				"source":"4"
+			}
+		]
+	}
 }

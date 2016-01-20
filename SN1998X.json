@@ -1,80 +1,80 @@
 {
-    "SN1998X": {
-        "name": "SN1998X",
-        "aliases": [
-            "SN1998X"
-        ],
-        "sources": [
-            {
-                "name": "Asiago Supernova Catalogue",
-                "url": "http://graspa.oapd.inaf.it/cgi-bin/sncat.php",
-                "alias": "1",
-                "secondary": true
-            },
-            {
-                "name": "IAUC 6847",
-                "url": "http://www.cbat.eps.harvard.edu/iauc/06800/06847.html#Item1",
-                "alias": "2"
-            },
-            {
-                "name": "Latest Supernovae",
-                "url": "http://www.rochesterastronomy.org/snimages/snredshiftall.html",
-                "alias": "3",
-                "secondary": true
-            },
-            {
-                "name": "2012A&A...538A.120L",
-                "url": "http://adsabs.harvard.edu/abs/2012A&A...538A.120L",
-                "bibcode": "2012A&A...538A.120L",
-                "alias": "4"
-            }
-        ],
-        "claimedtype": [
-            {
-                "value": "II",
-                "source": "1,2,3"
-            }
-        ],
-        "discoverday": "13",
-        "discoverer": "Perth Astronomical Research Group",
-        "discovermonth": "3",
-        "discoveryear": "1998",
-        "galdec": "-503831",
-        "galra": "191125",
-        "host": [
-            {
-                "value": "NGC 6754",
-                "source": "1,2,3,4"
-            }
-        ],
-        "hvel": [
-            {
-                "value": "3252",
-                "source": "1"
-            }
-        ],
-        "lumdist": [
-            {
-                "value": "41",
-                "source": "4"
-            }
-        ],
-        "redshift": [
-            {
-                "value": "0.0104",
-                "source": "2,3"
-            }
-        ],
-        "sndec": "-50:38:34.0",
-        "snra": "19:11:23.2",
-        "photometry": [
-            {
-                "timeunit": "MJD",
-                "time": "50885.0",
-                "band": "R",
-                "abmag": "17.0",
-                "source": "4"
-            }
-        ]
-    }
+	"SN1998X":{
+		"name":"SN1998X",
+		"aliases":[
+			"SN1998X"
+		],
+		"sources":[
+			{
+				"name":"Asiago Supernova Catalogue",
+				"url":"http://graspa.oapd.inaf.it/cgi-bin/sncat.php",
+				"alias":"1",
+				"secondary":true
+			},
+			{
+				"name":"IAUC 6847",
+				"url":"http://www.cbat.eps.harvard.edu/iauc/06800/06847.html#Item1",
+				"alias":"2"
+			},
+			{
+				"name":"Latest Supernovae",
+				"url":"http://www.rochesterastronomy.org/snimages/snredshiftall.html",
+				"alias":"3",
+				"secondary":true
+			},
+			{
+				"name":"2012A&A...538A.120L",
+				"url":"http://adsabs.harvard.edu/abs/2012A&A...538A.120L",
+				"bibcode":"2012A&A...538A.120L",
+				"alias":"4"
+			}
+		],
+		"claimedtype":[
+			{
+				"value":"II",
+				"source":"1,2,3"
+			}
+		],
+		"discoverday":"13",
+		"discoverer":"Perth Astronomical Research Group",
+		"discovermonth":"3",
+		"discoveryear":"1998",
+		"galdec":"-503831",
+		"galra":"191125",
+		"host":[
+			{
+				"value":"NGC 6754",
+				"source":"1,2,3,4"
+			}
+		],
+		"hvel":[
+			{
+				"value":"3252",
+				"source":"1"
+			}
+		],
+		"lumdist":[
+			{
+				"value":"41",
+				"source":"4"
+			}
+		],
+		"redshift":[
+			{
+				"value":"0.0104",
+				"source":"2,3"
+			}
+		],
+		"sndec":"-50:38:34.0",
+		"snra":"19:11:23.2",
+		"photometry":[
+			{
+				"timeunit":"MJD",
+				"time":"50885.0",
+				"band":"R",
+				"abmag":"17.0",
+				"source":"4"
+			}
+		]
+	}
 }
