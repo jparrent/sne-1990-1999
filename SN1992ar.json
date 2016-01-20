@@ -145,17 +145,17 @@
             {
                 "timeunit": "MJD",
                 "time": "48867.05",
-                "band": "V",
-                "abmag": "21.9100",
-                "aberr": "0.0500",
+                "band": "R",
+                "abmag": "21.1400",
+                "aberr": "0.0700",
                 "source": "2,1"
             },
             {
                 "timeunit": "MJD",
                 "time": "48867.05",
-                "band": "R",
-                "abmag": "21.1400",
-                "aberr": "0.0700",
+                "band": "V",
+                "abmag": "21.9100",
+                "aberr": "0.0500",
                 "source": "2,1"
             },
             {

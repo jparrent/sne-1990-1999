@@ -132,6 +132,15 @@
             {
                 "timeunit": "MJD",
                 "time": "51272.21",
+                "band": "B",
+                "abmag": "18.65500",
+                "instrument": "kait2",
+                "aberr": "0.05300",
+                "source": "2"
+            },
+            {
+                "timeunit": "MJD",
+                "time": "51272.21",
                 "band": "I",
                 "abmag": "16.93400",
                 "instrument": "kait2",
@@ -158,11 +167,11 @@
             },
             {
                 "timeunit": "MJD",
-                "time": "51272.21",
+                "time": "51273.26",
                 "band": "B",
-                "abmag": "18.65500",
+                "abmag": "18.68600",
                 "instrument": "kait2",
-                "aberr": "0.05300",
+                "aberr": "0.04000",
                 "source": "2"
             },
             {
@@ -194,11 +203,11 @@
             },
             {
                 "timeunit": "MJD",
-                "time": "51273.26",
+                "time": "51278.26",
                 "band": "B",
-                "abmag": "18.68600",
+                "abmag": "19.21800",
                 "instrument": "kait2",
-                "aberr": "0.04000",
+                "aberr": "0.05200",
                 "source": "2"
             },
             {
@@ -226,15 +235,6 @@
                 "abmag": "18.04300",
                 "instrument": "kait2",
                 "aberr": "0.01900",
-                "source": "2"
-            },
-            {
-                "timeunit": "MJD",
-                "time": "51278.26",
-                "band": "B",
-                "abmag": "19.21800",
-                "instrument": "kait2",
-                "aberr": "0.05200",
                 "source": "2"
             },
             {
@@ -267,6 +267,15 @@
             {
                 "timeunit": "MJD",
                 "time": "51283.25",
+                "band": "B",
+                "abmag": "19.56100",
+                "instrument": "kait2",
+                "aberr": "0.08100",
+                "source": "2"
+            },
+            {
+                "timeunit": "MJD",
+                "time": "51283.25",
                 "band": "I",
                 "abmag": "17.30800",
                 "instrument": "kait2",
@@ -293,11 +302,11 @@
             },
             {
                 "timeunit": "MJD",
-                "time": "51283.25",
+                "time": "51285.25",
                 "band": "B",
-                "abmag": "19.56100",
+                "abmag": "19.72600",
                 "instrument": "kait2",
-                "aberr": "0.08100",
+                "aberr": "0.32100",
                 "source": "2"
             },
             {
@@ -329,11 +338,11 @@
             },
             {
                 "timeunit": "MJD",
-                "time": "51285.25",
+                "time": "51287.25",
                 "band": "B",
-                "abmag": "19.72600",
+                "abmag": "19.86700",
                 "instrument": "kait2",
-                "aberr": "0.32100",
+                "aberr": "0.21100",
                 "source": "2"
             },
             {
@@ -365,11 +374,11 @@
             },
             {
                 "timeunit": "MJD",
-                "time": "51287.25",
+                "time": "51289.23",
                 "band": "B",
-                "abmag": "19.86700",
+                "abmag": "20.28900",
                 "instrument": "kait2",
-                "aberr": "0.21100",
+                "aberr": "0.19600",
                 "source": "2"
             },
             {
@@ -397,15 +406,6 @@
                 "abmag": "18.95400",
                 "instrument": "kait2",
                 "aberr": "0.08200",
-                "source": "2"
-            },
-            {
-                "timeunit": "MJD",
-                "time": "51289.23",
-                "band": "B",
-                "abmag": "20.28900",
-                "instrument": "kait2",
-                "aberr": "0.19600",
                 "source": "2"
             },
             {
