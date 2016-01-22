@@ -161,12 +161,12 @@
 		],
 		"lumdist":[
 			{
-				"value":"433",
-				"error":"20",
-				"source":"10,7"
+				"value":"387",
+				"error":"10",
+				"source":"16,7,17"
 			}
 		],
-		"maxabsmag":"-19.7",
+		"maxabsmag":"-19.4",
 		"maxappmag":"18.5",
 		"maxday":"26",
 		"maxmonth":"12",

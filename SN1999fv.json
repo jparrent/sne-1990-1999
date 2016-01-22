@@ -86,8 +86,8 @@
 		"lumdist":[
 			{
 				"value":"3090",
-				"error":"1600",
-				"source":"6,5,7,5"
+				"error":"1200",
+				"source":"6,5,7"
 			}
 		],
 		"maxabsmag":"-17.9",

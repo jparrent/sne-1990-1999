@@ -146,7 +146,7 @@
 		"claimedtype":[
 			{
 				"value":"Ia",
-				"source":"6,7,8,1,22,1,22,1,22"
+				"source":"6,7,8,1,22"
 			}
 		],
 		"discoverday":"1",
@@ -187,12 +187,12 @@
 		],
 		"lumdist":[
 			{
-				"value":"127",
-				"error":"5",
-				"source":"15,10"
+				"value":"117",
+				"error":"2",
+				"source":"12,10,13"
 			}
 		],
-		"maxabsmag":"-19",
+		"maxabsmag":"-18.8",
 		"maxappmag":"16.5",
 		"maxday":"1",
 		"maxmonth":"6",

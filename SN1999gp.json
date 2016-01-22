@@ -220,8 +220,8 @@
 		"lumdist":[
 			{
 				"value":"126",
-				"error":"2",
-				"source":"28,12,24,12"
+				"error":"0.6",
+				"source":"28,12,24"
 			}
 		],
 		"maxabsmag":"-20.6",
