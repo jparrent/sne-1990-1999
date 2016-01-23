@@ -49,8 +49,18 @@
 		"discoverer":"Perth Astronomical Research Group",
 		"discovermonth":"6",
 		"discoveryear":"1999",
-		"galdec":"-272432",
-		"galra":"131950",
+		"galdec":[
+			{
+				"value":"-27:24:32",
+				"source":"3"
+			}
+		],
+		"galra":[
+			{
+				"value":"13:19:50",
+				"source":"3"
+			}
+		],
 		"host":[
 			{
 				"value":"NGC 5078",
@@ -80,8 +90,18 @@
 				"source":"6"
 			}
 		],
-		"sndec":"-27:24:04.5",
-		"snra":"13:19:48.53",
+		"sndec":[
+			{
+				"value":"-27:24:04.5",
+				"source":"3,4,5"
+			}
+		],
+		"snra":[
+			{
+				"value":"13:19:48.53",
+				"source":"3,4,5"
+			}
+		],
 		"photometry":[
 			{
 				"timeunit":"MJD",

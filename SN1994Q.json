@@ -146,7 +146,7 @@
 		"claimedtype":[
 			{
 				"value":"Ia",
-				"source":"6,7,8,1,22,1,22,1,22"
+				"source":"6,7,8,1,22"
 			}
 		],
 		"discoverday":"1",
@@ -159,8 +159,18 @@
 				"source":"1"
 			}
 		],
-		"galdec":"+402559",
-		"galra":"164951",
+		"galdec":[
+			{
+				"value":"+40:25:59",
+				"source":"6"
+			}
+		],
+		"galra":[
+			{
+				"value":"16:49:51",
+				"source":"6"
+			}
+		],
 		"host":[
 			{
 				"value":"CGCG 224-104",
@@ -187,12 +197,12 @@
 		],
 		"lumdist":[
 			{
-				"value":"127",
-				"error":"5",
-				"source":"15,10"
+				"value":"117",
+				"error":"2",
+				"source":"12,10,13"
 			}
 		],
-		"maxabsmag":"-19",
+		"maxabsmag":"-18.8",
 		"maxappmag":"16.5",
 		"maxday":"1",
 		"maxmonth":"6",
@@ -203,8 +213,26 @@
 				"source":"9"
 			}
 		],
-		"sndec":"+40:25:55.8",
-		"snra":"16:49:51.14",
+		"sndec":[
+			{
+				"value":"+40:25:55.54",
+				"source":"6"
+			},
+			{
+				"value":"+40:25:55.8",
+				"source":"7,8"
+			}
+		],
+		"snra":[
+			{
+				"value":"16:49:51.06",
+				"source":"6"
+			},
+			{
+				"value":"16:49:51.14",
+				"source":"7,8"
+			}
+		],
 		"photometry":[
 			{
 				"timeunit":"MJD",

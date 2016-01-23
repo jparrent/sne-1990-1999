@@ -39,8 +39,18 @@
 		"discoverer":"Wise Observatory Optical Transients Search",
 		"discovermonth":"11",
 		"discoveryear":"1998",
-		"galdec":"+141800",
-		"galra":"005958",
+		"galdec":[
+			{
+				"value":"+14:18:00",
+				"source":"1"
+			}
+		],
+		"galra":[
+			{
+				"value":"00:59:58",
+				"source":"1"
+			}
+		],
 		"host":[
 			{
 				"value":"A005958+1418",
@@ -70,8 +80,18 @@
 				"source":"1,2,3"
 			}
 		],
-		"sndec":"+14:18:00.4",
-		"snra":"00:59:58.66",
+		"sndec":[
+			{
+				"value":"+14:18:00.4",
+				"source":"1,2,3"
+			}
+		],
+		"snra":[
+			{
+				"value":"00:59:58.66",
+				"source":"1,2,3"
+			}
+		],
 		"photometry":[
 			{
 				"timeunit":"MJD",

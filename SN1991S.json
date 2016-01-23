@@ -141,8 +141,18 @@
 				"source":"1"
 			}
 		],
-		"galdec":"+220029",
-		"galra":"102927",
+		"galdec":[
+			{
+				"value":"+22:00:29",
+				"source":"5"
+			}
+		],
+		"galra":[
+			{
+				"value":"10:29:27",
+				"source":"5"
+			}
+		],
 		"host":[
 			{
 				"value":"UGC 5691",
@@ -173,8 +183,18 @@
 				"source":"8"
 			}
 		],
-		"sndec":"+22:00:46.4",
-		"snra":"10:29:27.79",
+		"sndec":[
+			{
+				"value":"+22:00:46.4",
+				"source":"5,6,7"
+			}
+		],
+		"snra":[
+			{
+				"value":"10:29:27.79",
+				"source":"5,6,7"
+			}
+		],
 		"photometry":[
 			{
 				"timeunit":"MJD",

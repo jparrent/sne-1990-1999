@@ -39,8 +39,18 @@
 		"discoverer":"LOSS",
 		"discovermonth":"3",
 		"discoveryear":"1998",
-		"galdec":"+351433",
-		"galra":"073656",
+		"galdec":[
+			{
+				"value":"+35:14:33",
+				"source":"1"
+			}
+		],
+		"galra":[
+			{
+				"value":"07:36:56",
+				"source":"1"
+			}
+		],
 		"host":[
 			{
 				"value":"NGC 2415",
@@ -65,8 +75,26 @@
 				"source":"4"
 			}
 		],
-		"sndec":"+35:14:36.01",
-		"snra":"07:36:56.934",
+		"sndec":[
+			{
+				"value":"+35:14:36.0",
+				"source":"1"
+			},
+			{
+				"value":"+35:14:36.01",
+				"source":"2,3"
+			}
+		],
+		"snra":[
+			{
+				"value":"07:36:56.93",
+				"source":"1"
+			},
+			{
+				"value":"07:36:56.934",
+				"source":"2,3"
+			}
+		],
 		"photometry":[
 			{
 				"timeunit":"MJD",

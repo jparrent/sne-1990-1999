@@ -33,8 +33,18 @@
 		"discoverer":"Mount Stromlo",
 		"discovermonth":"1",
 		"discoveryear":"1998",
-		"galdec":"-313723",
-		"galra":"133246",
+		"galdec":[
+			{
+				"value":"-31:37:23",
+				"source":"1"
+			}
+		],
+		"galra":[
+			{
+				"value":"13:32:46",
+				"source":"1"
+			}
+		],
 		"host":[
 			{
 				"value":"A133246-3137",
@@ -64,8 +74,18 @@
 				"source":"4"
 			}
 		],
-		"sndec":"-31:37:23.5",
-		"snra":"13:32:46.38",
+		"sndec":[
+			{
+				"value":"-31:37:23.5",
+				"source":"1,2,3"
+			}
+		],
+		"snra":[
+			{
+				"value":"13:32:46.38",
+				"source":"1,2,3"
+			}
+		],
 		"photometry":[
 			{
 				"timeunit":"MJD",

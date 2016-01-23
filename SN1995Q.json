@@ -39,8 +39,18 @@
 		"discoverer":"Robert McNaught",
 		"discovermonth":"5",
 		"discoveryear":"1995",
-		"galdec":"-432424",
-		"galra":"201629",
+		"galdec":[
+			{
+				"value":"-43:24:24",
+				"source":"1"
+			}
+		],
+		"galra":[
+			{
+				"value":"20:16:29",
+				"source":"1"
+			}
+		],
 		"host":[
 			{
 				"value":"A201629-4324",
@@ -59,8 +69,18 @@
 		"maxday":"30",
 		"maxmonth":"5",
 		"maxyear":"1995",
-		"sndec":"-43:24:24.6",
-		"snra":"20:16:29.51",
+		"sndec":[
+			{
+				"value":"-43:24:24.6",
+				"source":"1,2,3"
+			}
+		],
+		"snra":[
+			{
+				"value":"20:16:29.51",
+				"source":"1,2,3"
+			}
+		],
 		"photometry":[
 			{
 				"timeunit":"MJD",

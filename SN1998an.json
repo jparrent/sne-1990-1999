@@ -55,8 +55,18 @@
 		"discoverer":"Ron Arbour",
 		"discovermonth":"4",
 		"discoveryear":"1998",
-		"galdec":"+460659",
-		"galra":"070814",
+		"galdec":[
+			{
+				"value":"+46:06:59",
+				"source":"3"
+			}
+		],
+		"galra":[
+			{
+				"value":"07:08:14",
+				"source":"3"
+			}
+		],
 		"host":[
 			{
 				"value":"UGC 3683",
@@ -86,8 +96,22 @@
 				"source":"4,5,6"
 			}
 		],
-		"sndec":"+46:06:54.31",
-		"snra":"07:08:17.13",
+		"sndec":[
+			{
+				"value":"+46:06:54.3",
+				"source":"3"
+			},
+			{
+				"value":"+46:06:54.31",
+				"source":"4,5"
+			}
+		],
+		"snra":[
+			{
+				"value":"07:08:17.13",
+				"source":"3,4,5"
+			}
+		],
 		"photometry":[
 			{
 				"timeunit":"MJD",

@@ -61,8 +61,18 @@
 				"source":"1"
 			}
 		],
-		"galdec":"-385504",
-		"galra":"045958",
+		"galdec":[
+			{
+				"value":"-38:55:04",
+				"source":"2"
+			}
+		],
+		"galra":[
+			{
+				"value":"04:59:58",
+				"source":"2"
+			}
+		],
 		"host":[
 			{
 				"value":"APMUKS(BJ) B045816.80-385931.0",
@@ -100,8 +110,18 @@
 				"source":"5"
 			}
 		],
-		"sndec":"-38:55:04.3",
-		"snra":"04:59:58.81",
+		"sndec":[
+			{
+				"value":"-38:55:04.3",
+				"source":"2,3,4"
+			}
+		],
+		"snra":[
+			{
+				"value":"04:59:58.81",
+				"source":"2,3,4"
+			}
+		],
 		"photometry":[
 			{
 				"timeunit":"MJD",

@@ -51,8 +51,18 @@
 		"discoverer":"Johnson",
 		"discovermonth":"4",
 		"discoveryear":"1995",
-		"galdec":"+635239",
-		"galra":"123233",
+		"galdec":[
+			{
+				"value":"+63:52:39",
+				"source":"3"
+			}
+		],
+		"galra":[
+			{
+				"value":"12:32:33",
+				"source":"3"
+			}
+		],
 		"host":[
 			{
 				"value":"NGC 4512",
@@ -86,8 +96,18 @@
 				"source":"6"
 			}
 		],
-		"sndec":"+63:53:09.2",
-		"snra":"12:32:38.34",
+		"sndec":[
+			{
+				"value":"+63:53:09.2",
+				"source":"3,4,5"
+			}
+		],
+		"snra":[
+			{
+				"value":"12:32:38.34",
+				"source":"3,4,5"
+			}
+		],
 		"photometry":[
 			{
 				"timeunit":"MJD",

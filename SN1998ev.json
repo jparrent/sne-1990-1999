@@ -44,8 +44,18 @@
 				"source":"1,2"
 			}
 		],
-		"sndec":"+25:00:59.1",
-		"snra":"01:04:12.68",
+		"sndec":[
+			{
+				"value":"+25:00:59.1",
+				"source":"1,2"
+			}
+		],
+		"snra":[
+			{
+				"value":"01:04:12.68",
+				"source":"1,2"
+			}
+		],
 		"photometry":[
 			{
 				"timeunit":"MJD",

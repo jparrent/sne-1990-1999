@@ -99,8 +99,18 @@
 		"discoverer":"Wayne Johnson (aka Mr. Galaxy)",
 		"discovermonth":"5",
 		"discoveryear":"1996",
-		"galdec":"-210742",
-		"galra":"093645",
+		"galdec":[
+			{
+				"value":"-21:07:42",
+				"source":"4"
+			}
+		],
+		"galra":[
+			{
+				"value":"09:36:45",
+				"source":"4"
+			}
+		],
 		"host":[
 			{
 				"value":"NGC 2935",
@@ -131,8 +141,18 @@
 				"source":"7"
 			}
 		],
-		"sndec":"-21:08:51.7",
-		"snra":"09:36:44.82",
+		"sndec":[
+			{
+				"value":"-21:08:51.7",
+				"source":"4,5,6"
+			}
+		],
+		"snra":[
+			{
+				"value":"09:36:44.82",
+				"source":"4,5,6"
+			}
+		],
 		"photometry":[
 			{
 				"timeunit":"MJD",

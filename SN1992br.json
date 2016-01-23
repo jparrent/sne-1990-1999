@@ -141,8 +141,18 @@
 		"discoverer":"Marina Wischnjewsky",
 		"discovermonth":"12",
 		"discoveryear":"1992",
-		"galdec":"-560557",
-		"galra":"014544",
+		"galdec":[
+			{
+				"value":"-56:05:57",
+				"source":"3"
+			}
+		],
+		"galra":[
+			{
+				"value":"01:45:44",
+				"source":"3"
+			}
+		],
 		"host":[
 			{
 				"value":"A014544-5605",
@@ -161,12 +171,12 @@
 		],
 		"lumdist":[
 			{
-				"value":"433",
-				"error":"20",
-				"source":"10,7"
+				"value":"387",
+				"error":"10",
+				"source":"16,7,17"
 			}
 		],
-		"maxabsmag":"-19.7",
+		"maxabsmag":"-19.4",
 		"maxappmag":"18.5",
 		"maxday":"26",
 		"maxmonth":"12",
@@ -177,8 +187,18 @@
 				"source":"4,5,6"
 			}
 		],
-		"sndec":"-56:05:57.9",
-		"snra":"01:45:44.83",
+		"sndec":[
+			{
+				"value":"-56:05:57.9",
+				"source":"3,4,5"
+			}
+		],
+		"snra":[
+			{
+				"value":"01:45:44.83",
+				"source":"3,4,5"
+			}
+		],
 		"photometry":[
 			{
 				"timeunit":"MJD",

@@ -49,8 +49,18 @@
 		"discoverer":"Saul Perlmutter",
 		"discovermonth":"4",
 		"discoveryear":"1990",
-		"galdec":"+371927",
-		"galra":"103616",
+		"galdec":[
+			{
+				"value":"+37:19:27",
+				"source":"1"
+			}
+		],
+		"galra":[
+			{
+				"value":"10:36:16",
+				"source":"1"
+			}
+		],
 		"host":[
 			{
 				"value":"NGC 3294",
@@ -80,8 +90,18 @@
 				"source":"4"
 			}
 		],
-		"sndec":"+37:19:27.2",
-		"snra":"10:36:15.08",
+		"sndec":[
+			{
+				"value":"+37:19:27.2",
+				"source":"1,2,3"
+			}
+		],
+		"snra":[
+			{
+				"value":"10:36:15.08",
+				"source":"1,2,3"
+			}
+		],
 		"photometry":[
 			{
 				"timeunit":"MJD",

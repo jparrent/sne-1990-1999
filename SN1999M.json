@@ -50,15 +50,25 @@
 		"claimedtype":[
 			{
 				"value":"Ia",
-				"source":"1,2,3,6,7,6,7"
+				"source":"1,2,3,6,7"
 			}
 		],
 		"discoverday":"12",
 		"discoverer":"High Z Supernova Search",
 		"discovermonth":"1",
 		"discoveryear":"1999",
-		"galdec":"-072731",
-		"galra":"100546",
+		"galdec":[
+			{
+				"value":"-07:27:31",
+				"source":"1"
+			}
+		],
+		"galra":[
+			{
+				"value":"10:05:46",
+				"source":"1"
+			}
+		],
 		"host":[
 			{
 				"value":"A100546-0727",
@@ -89,8 +99,18 @@
 				"source":"1,2,3,4"
 			}
 		],
-		"sndec":"-07:27:31.3",
-		"snra":"10:05:46.60",
+		"sndec":[
+			{
+				"value":"-07:27:31.3",
+				"source":"1,2,3"
+			}
+		],
+		"snra":[
+			{
+				"value":"10:05:46.60",
+				"source":"1,2,3"
+			}
+		],
 		"photometry":[
 			{
 				"timeunit":"MJD",

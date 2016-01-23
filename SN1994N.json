@@ -57,8 +57,18 @@
 		"discoverer":"Turatto",
 		"discovermonth":"5",
 		"discoveryear":"1994",
-		"galdec":"+130104",
-		"galra":"102947",
+		"galdec":[
+			{
+				"value":"+13:01:04",
+				"source":"3"
+			}
+		],
+		"galra":[
+			{
+				"value":"10:29:47",
+				"source":"3"
+			}
+		],
 		"host":[
 			{
 				"value":"UGC 5695",
@@ -88,8 +98,18 @@
 				"source":"6"
 			}
 		],
-		"sndec":"+13:01:00.0",
-		"snra":"10:29:47.100",
+		"sndec":[
+			{
+				"value":"+13:01:00.0",
+				"source":"4,5"
+			}
+		],
+		"snra":[
+			{
+				"value":"10:29:47.100",
+				"source":"4,5"
+			}
+		],
 		"photometry":[
 			{
 				"timeunit":"MJD",

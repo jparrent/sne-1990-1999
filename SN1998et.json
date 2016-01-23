@@ -53,8 +53,18 @@
 		"discoverer":"Jean Mueller",
 		"discovermonth":"11",
 		"discoveryear":"1998",
-		"galdec":"+574441",
-		"galra":"065918",
+		"galdec":[
+			{
+				"value":"+57:44:41",
+				"source":"3"
+			}
+		],
+		"galra":[
+			{
+				"value":"06:59:18",
+				"source":"3"
+			}
+		],
 		"host":[
 			{
 				"value":"A065918+5744",
@@ -88,8 +98,22 @@
 				"source":"4,5,6"
 			}
 		],
-		"sndec":"+57:44:41.0",
-		"snra":"06:59:18.70",
+		"sndec":[
+			{
+				"value":"+57:44:41.0",
+				"source":"3,4,5"
+			}
+		],
+		"snra":[
+			{
+				"value":"06:59:18.74",
+				"source":"3"
+			},
+			{
+				"value":"06:59:18.70",
+				"source":"4,5"
+			}
+		],
 		"photometry":[
 			{
 				"timeunit":"MJD",

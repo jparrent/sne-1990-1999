@@ -33,8 +33,18 @@
 		"discoverer":"Eric Emsellem",
 		"discovermonth":"3",
 		"discoveryear":"1998",
-		"galdec":"+275825",
-		"galra":"110311",
+		"galdec":[
+			{
+				"value":"+27:58:25",
+				"source":"1"
+			}
+		],
+		"galra":[
+			{
+				"value":"11:03:11",
+				"source":"1"
+			}
+		],
 		"host":[
 			{
 				"value":"NGC 3504",
@@ -64,8 +74,18 @@
 				"source":"4"
 			}
 		],
-		"sndec":"+27:58:21.0",
-		"snra":"11:03:11.21",
+		"sndec":[
+			{
+				"value":"+27:58:21.0",
+				"source":"1,2,3"
+			}
+		],
+		"snra":[
+			{
+				"value":"11:03:11.21",
+				"source":"1,2,3"
+			}
+		],
 		"photometry":[
 			{
 				"timeunit":"MJD",

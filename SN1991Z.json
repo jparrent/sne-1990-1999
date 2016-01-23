@@ -33,8 +33,18 @@
 		"discoverer":"Robert McNaught",
 		"discovermonth":"5",
 		"discoveryear":"1991",
-		"galdec":"-041228",
-		"galra":"105440",
+		"galdec":[
+			{
+				"value":"-04:12:28",
+				"source":"1"
+			}
+		],
+		"galra":[
+			{
+				"value":"10:54:40",
+				"source":"1"
+			}
+		],
 		"host":[
 			{
 				"value":"A105440-0412",
@@ -68,8 +78,26 @@
 				"source":"4"
 			}
 		],
-		"sndec":"-04:12:28.8",
-		"snra":"10:54:40.50",
+		"sndec":[
+			{
+				"value":"-04:12:28.7",
+				"source":"1"
+			},
+			{
+				"value":"-04:12:28.8",
+				"source":"2,3"
+			}
+		],
+		"snra":[
+			{
+				"value":"10:54:40.51",
+				"source":"1"
+			},
+			{
+				"value":"10:54:40.50",
+				"source":"2,3"
+			}
+		],
 		"photometry":[
 			{
 				"timeunit":"MJD",

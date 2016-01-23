@@ -67,8 +67,18 @@
 		"discoverer":"Mark Armstrong",
 		"discovermonth":"10",
 		"discoveryear":"1999",
-		"galdec":"+252914",
-		"galra":"025307",
+		"galdec":[
+			{
+				"value":"+25:29:14",
+				"source":"3"
+			}
+		],
+		"galra":[
+			{
+				"value":"02:53:07",
+				"source":"3"
+			}
+		],
 		"host":[
 			{
 				"value":"IC 1861",
@@ -99,8 +109,18 @@
 				"source":"4,5,6"
 			}
 		],
-		"sndec":"+25:29:24.2",
-		"snra":"02:53:08.39",
+		"sndec":[
+			{
+				"value":"+25:29:24.2",
+				"source":"3,4,5"
+			}
+		],
+		"snra":[
+			{
+				"value":"02:53:08.39",
+				"source":"3,4,5"
+			}
+		],
 		"photometry":[
 			{
 				"timeunit":"MJD",

@@ -33,8 +33,18 @@
 		"discoverer":"EROS",
 		"discovermonth":"5",
 		"discoveryear":"1998",
-		"galdec":"-054505",
-		"galra":"140242",
+		"galdec":[
+			{
+				"value":"-05:45:05",
+				"source":"1"
+			}
+		],
+		"galra":[
+			{
+				"value":"14:02:42",
+				"source":"1"
+			}
+		],
 		"host":[
 			{
 				"value":"A140242-0545",
@@ -49,8 +59,18 @@
 		"maxday":"19",
 		"maxmonth":"5",
 		"maxyear":"1998",
-		"sndec":"-05:45:05.7",
-		"snra":"14:02:42.82",
+		"sndec":[
+			{
+				"value":"-05:45:05.7",
+				"source":"1,2,3"
+			}
+		],
+		"snra":[
+			{
+				"value":"14:02:42.82",
+				"source":"1,2,3"
+			}
+		],
 		"photometry":[
 			{
 				"timeunit":"MJD",

@@ -33,8 +33,18 @@
 		"discoverer":"Christian Pollas, Albinese",
 		"discovermonth":"2",
 		"discoveryear":"1992",
-		"galdec":"+563602",
-		"galra":"112523",
+		"galdec":[
+			{
+				"value":"+56:36:02",
+				"source":"1"
+			}
+		],
+		"galra":[
+			{
+				"value":"11:25:23",
+				"source":"1"
+			}
+		],
 		"host":[
 			{
 				"value":"A112523+5636",
@@ -45,8 +55,26 @@
 		"maxday":"1",
 		"maxmonth":"2",
 		"maxyear":"1992",
-		"sndec":"+56:36:03.0",
-		"snra":"11:25:23.90",
+		"sndec":[
+			{
+				"value":"+56:36:02.49",
+				"source":"1"
+			},
+			{
+				"value":"+56:36:03.0",
+				"source":"2,3"
+			}
+		],
+		"snra":[
+			{
+				"value":"11:25:23.88",
+				"source":"1"
+			},
+			{
+				"value":"11:25:23.90",
+				"source":"2,3"
+			}
+		],
 		"photometry":[
 			{
 				"timeunit":"MJD",

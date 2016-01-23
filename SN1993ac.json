@@ -150,7 +150,7 @@
 		"claimedtype":[
 			{
 				"value":"Ia",
-				"source":"6,7,8,1,24,1,24"
+				"source":"6,7,8,1,24"
 			}
 		],
 		"discoverday":"12",
@@ -163,8 +163,18 @@
 				"source":"1"
 			}
 		],
-		"galdec":"+632133",
-		"galra":"054625",
+		"galdec":[
+			{
+				"value":"+63:21:33",
+				"source":"6"
+			}
+		],
+		"galra":[
+			{
+				"value":"05:46:25",
+				"source":"6"
+			}
+		],
 		"host":[
 			{
 				"value":"CGCG 307-023",
@@ -203,8 +213,26 @@
 				"source":"9"
 			}
 		],
-		"sndec":"+63:22:07.0",
-		"snra":"05:46:23.55",
+		"sndec":[
+			{
+				"value":"+63:22:07.09",
+				"source":"6"
+			},
+			{
+				"value":"+63:22:07.0",
+				"source":"7,8"
+			}
+		],
+		"snra":[
+			{
+				"value":"05:46:23.58",
+				"source":"6"
+			},
+			{
+				"value":"05:46:23.55",
+				"source":"7,8"
+			}
+		],
 		"photometry":[
 			{
 				"timeunit":"MJD",

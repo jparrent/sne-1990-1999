@@ -128,15 +128,25 @@
 		"claimedtype":[
 			{
 				"value":"Ia",
-				"source":"5,6,7,19,20,19,20,19,20,19,20,19,20,19,20,19,20,19,20,19,20,19,20,19,20"
+				"source":"5,6,7,19,20"
 			}
 		],
 		"discoverday":"10",
 		"discoverer":"Liller, Brown",
 		"discovermonth":"1",
 		"discoveryear":"1992",
-		"galdec":"-345833",
-		"galra":"033627",
+		"galdec":[
+			{
+				"value":"-34:58:33",
+				"source":"5"
+			}
+		],
+		"galra":[
+			{
+				"value":"03:36:27",
+				"source":"5"
+			}
+		],
 		"host":[
 			{
 				"value":"NGC 1380",
@@ -167,8 +177,26 @@
 				"source":"8"
 			}
 		],
-		"sndec":"-34:57:31.5",
-		"snra":"03:36:27.43",
+		"sndec":[
+			{
+				"value":"-34:57:31.59",
+				"source":"5"
+			},
+			{
+				"value":"-34:57:31.5",
+				"source":"6,7"
+			}
+		],
+		"snra":[
+			{
+				"value":"03:36:27.40",
+				"source":"5"
+			},
+			{
+				"value":"03:36:27.43",
+				"source":"6,7"
+			}
+		],
 		"photometry":[
 			{
 				"timeunit":"MJD",

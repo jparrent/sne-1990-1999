@@ -127,8 +127,18 @@
 				"source":"1"
 			}
 		],
-		"galdec":"-330235",
-		"galra":"033723",
+		"galdec":[
+			{
+				"value":"-33:02:35",
+				"source":"4"
+			}
+		],
+		"galra":[
+			{
+				"value":"03:37:23",
+				"source":"4"
+			}
+		],
 		"host":[
 			{
 				"value":"FCCB 1147",
@@ -167,8 +177,22 @@
 				"source":"7"
 			}
 		],
-		"sndec":"-33:02:33.0",
-		"snra":"03:37:22.64",
+		"sndec":[
+			{
+				"value":"-33:02:40.1",
+				"source":"4"
+			},
+			{
+				"value":"-33:02:33.0",
+				"source":"5,6"
+			}
+		],
+		"snra":[
+			{
+				"value":"03:37:22.64",
+				"source":"4,5,6"
+			}
+		],
 		"photometry":[
 			{
 				"timeunit":"MJD",

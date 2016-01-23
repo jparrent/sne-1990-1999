@@ -159,8 +159,18 @@
 		"discoverer":"L. E. Gonzalez",
 		"discovermonth":"12",
 		"discoveryear":"1992",
-		"galdec":"-371618",
-		"galra":"032927",
+		"galdec":[
+			{
+				"value":"-37:16:18",
+				"source":"3"
+			}
+		],
+		"galra":[
+			{
+				"value":"03:29:27",
+				"source":"3"
+			}
+		],
 		"host":[
 			{
 				"value":"A032927-3716",
@@ -195,8 +205,18 @@
 				"source":"4,5,6"
 			}
 		],
-		"sndec":"-37:16:18.9",
-		"snra":"03:29:27.20",
+		"sndec":[
+			{
+				"value":"-37:16:18.9",
+				"source":"3,4,5"
+			}
+		],
+		"snra":[
+			{
+				"value":"03:29:27.20",
+				"source":"3,4,5"
+			}
+		],
 		"photometry":[
 			{
 				"timeunit":"MJD",

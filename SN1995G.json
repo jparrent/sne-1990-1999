@@ -61,8 +61,18 @@
 		"discoverer":"Robert Evans",
 		"discovermonth":"2",
 		"discoveryear":"1995",
-		"galdec":"-051910",
-		"galra":"044344",
+		"galdec":[
+			{
+				"value":"-05:19:10",
+				"source":"3"
+			}
+		],
+		"galra":[
+			{
+				"value":"04:43:44",
+				"source":"3"
+			}
+		],
 		"host":[
 			{
 				"value":"NGC 1643",
@@ -92,8 +102,18 @@
 				"source":"6"
 			}
 		],
-		"sndec":"-05:18:53.8",
-		"snra":"04:43:44.22",
+		"sndec":[
+			{
+				"value":"-05:18:53.8",
+				"source":"3,4,5"
+			}
+		],
+		"snra":[
+			{
+				"value":"04:43:44.22",
+				"source":"3,4,5"
+			}
+		],
 		"photometry":[
 			{
 				"timeunit":"MJD",

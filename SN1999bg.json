@@ -83,8 +83,18 @@
 				"source":"1"
 			}
 		],
-		"galdec":"+623018",
-		"galra":"120413",
+		"galdec":[
+			{
+				"value":"+62:30:18",
+				"source":"4"
+			}
+		],
+		"galra":[
+			{
+				"value":"12:04:13",
+				"source":"4"
+			}
+		],
 		"host":[
 			{
 				"value":"IC 758",
@@ -123,8 +133,18 @@
 				"source":"7"
 			}
 		],
-		"sndec":"+62:30:01.2",
-		"snra":"12:04:07.30",
+		"sndec":[
+			{
+				"value":"+62:30:01.2",
+				"source":"4,5,6"
+			}
+		],
+		"snra":[
+			{
+				"value":"12:04:07.30",
+				"source":"4,5,6"
+			}
+		],
 		"photometry":[
 			{
 				"timeunit":"MJD",

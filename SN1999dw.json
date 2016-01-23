@@ -43,8 +43,18 @@
 		"discoverer":"European Supernova Cosmology Consortium",
 		"discovermonth":"9",
 		"discoveryear":"1999",
-		"galdec":"-001620",
-		"galra":"012252",
+		"galdec":[
+			{
+				"value":"-00:16:20",
+				"source":"1"
+			}
+		],
+		"galra":[
+			{
+				"value":"01:22:52",
+				"source":"1"
+			}
+		],
 		"host":[
 			{
 				"value":"A012252-0016",
@@ -74,8 +84,18 @@
 				"source":"1,2,3"
 			}
 		],
-		"sndec":"-00:16:20.8",
-		"snra":"01:22:52.80",
+		"sndec":[
+			{
+				"value":"-00:16:20.8",
+				"source":"1,2,3"
+			}
+		],
+		"snra":[
+			{
+				"value":"01:22:52.80",
+				"source":"1,2,3"
+			}
+		],
 		"photometry":[
 			{
 				"timeunit":"MJD",

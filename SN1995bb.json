@@ -67,8 +67,18 @@
 		"discoverer":"Tokarz, Garnavich",
 		"discovermonth":"11",
 		"discoveryear":"1995",
-		"galdec":"+122453",
-		"galra":"001617",
+		"galdec":[
+			{
+				"value":"+12:24:53",
+				"source":"1"
+			}
+		],
+		"galra":[
+			{
+				"value":"00:16:17",
+				"source":"1"
+			}
+		],
 		"host":[
 			{
 				"value":"A001617+1224",
@@ -97,8 +107,18 @@
 				"source":"2,3,4"
 			}
 		],
-		"sndec":"+12:24:53.4",
-		"snra":"00:16:17.64",
+		"sndec":[
+			{
+				"value":"+12:24:53.4",
+				"source":"1,2,3"
+			}
+		],
+		"snra":[
+			{
+				"value":"00:16:17.64",
+				"source":"1,2,3"
+			}
+		],
 		"spectra":[
 			{
 				"deredshifted":true,

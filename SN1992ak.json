@@ -33,8 +33,18 @@
 		"discoverer":"Moraru",
 		"discovermonth":"1",
 		"discoveryear":"1992",
-		"galdec":"+202345",
-		"galra":"072748",
+		"galdec":[
+			{
+				"value":"+20:23:45",
+				"source":"1"
+			}
+		],
+		"galra":[
+			{
+				"value":"07:27:48",
+				"source":"1"
+			}
+		],
 		"host":[
 			{
 				"value":"UGC 3862",
@@ -64,8 +74,26 @@
 				"source":"4"
 			}
 		],
-		"sndec":"+20:23:31.8",
-		"snra":"07:27:47.42",
+		"sndec":[
+			{
+				"value":"+20:23:31.69",
+				"source":"1"
+			},
+			{
+				"value":"+20:23:31.8",
+				"source":"2,3"
+			}
+		],
+		"snra":[
+			{
+				"value":"07:27:47.41",
+				"source":"1"
+			},
+			{
+				"value":"07:27:47.42",
+				"source":"2,3"
+			}
+		],
 		"photometry":[
 			{
 				"timeunit":"MJD",

@@ -85,8 +85,18 @@
 		"discoverer":"Roberto Antezana",
 		"discovermonth":"3",
 		"discoveryear":"1999",
-		"galdec":"-200854",
-		"galra":"132018",
+		"galdec":[
+			{
+				"value":"-20:08:54",
+				"source":"3"
+			}
+		],
+		"galra":[
+			{
+				"value":"13:20:18",
+				"source":"3"
+			}
+		],
 		"host":[
 			{
 				"value":"E576-G34",
@@ -129,8 +139,18 @@
 				"source":"6"
 			}
 		],
-		"sndec":"-20:08:50.5",
-		"snra":"13:20:18.30",
+		"sndec":[
+			{
+				"value":"-20:08:50.5",
+				"source":"3,4,5"
+			}
+		],
+		"snra":[
+			{
+				"value":"13:20:18.30",
+				"source":"3,4,5"
+			}
+		],
 		"photometry":[
 			{
 				"timeunit":"MJD",

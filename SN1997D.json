@@ -57,8 +57,18 @@
 		"discoverer":"Duilia de Mello",
 		"discovermonth":"1",
 		"discoveryear":"1997",
-		"galdec":"-562913",
-		"galra":"041101",
+		"galdec":[
+			{
+				"value":"-56:29:13",
+				"source":"3"
+			}
+		],
+		"galra":[
+			{
+				"value":"04:11:01",
+				"source":"3"
+			}
+		],
 		"host":[
 			{
 				"value":"NGC 1536",
@@ -88,8 +98,22 @@
 				"source":"6"
 			}
 		],
-		"sndec":"-56:29:56.0",
-		"snra":"04:11:01.00",
+		"sndec":[
+			{
+				"value":"-56:29:56.00",
+				"source":"3"
+			},
+			{
+				"value":"-56:29:56.0",
+				"source":"4,5"
+			}
+		],
+		"snra":[
+			{
+				"value":"04:11:01.00",
+				"source":"3,4,5"
+			}
+		],
 		"photometry":[
 			{
 				"timeunit":"MJD",

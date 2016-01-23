@@ -33,8 +33,18 @@
 		"discoverer":"TNG",
 		"discovermonth":"12",
 		"discoveryear":"1999",
-		"galdec":"+441955",
-		"galra":"091555",
+		"galdec":[
+			{
+				"value":"+44:19:55",
+				"source":"1"
+			}
+		],
+		"galra":[
+			{
+				"value":"09:15:55",
+				"source":"1"
+			}
+		],
 		"host":[
 			{
 				"value":"UGC 4881",
@@ -68,8 +78,18 @@
 				"source":"4"
 			}
 		],
-		"sndec":"+44:19:55",
-		"snra":"09:15:54.7",
+		"sndec":[
+			{
+				"value":"+44:19:55",
+				"source":"1,2,3"
+			}
+		],
+		"snra":[
+			{
+				"value":"09:15:54.7",
+				"source":"1,2,3"
+			}
+		],
 		"photometry":[
 			{
 				"timeunit":"MJD",

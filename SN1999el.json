@@ -55,8 +55,18 @@
 		"discoverer":"BAO",
 		"discovermonth":"10",
 		"discoveryear":"1999",
-		"galdec":"+660620",
-		"galra":"203714",
+		"galdec":[
+			{
+				"value":"+66:06:20",
+				"source":"4"
+			}
+		],
+		"galra":[
+			{
+				"value":"20:37:14",
+				"source":"4"
+			}
+		],
 		"host":[
 			{
 				"value":"NGC 6951",
@@ -86,8 +96,18 @@
 				"source":"7"
 			}
 		],
-		"sndec":"+66:06:11.5",
-		"snra":"20:37:17.72",
+		"sndec":[
+			{
+				"value":"+66:06:11.5",
+				"source":"4,5,6"
+			}
+		],
+		"snra":[
+			{
+				"value":"20:37:17.72",
+				"source":"4,5,6"
+			}
+		],
 		"photometry":[
 			{
 				"timeunit":"MJD",

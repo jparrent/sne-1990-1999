@@ -87,8 +87,18 @@
 		"discoverer":"High Z Supernova Search",
 		"discovermonth":"11",
 		"discoveryear":"1999",
-		"galdec":"+003909",
-		"galra":"022823",
+		"galdec":[
+			{
+				"value":"+00:39:09",
+				"source":"1"
+			}
+		],
+		"galra":[
+			{
+				"value":"02:28:23",
+				"source":"1"
+			}
+		],
 		"host":[
 			{
 				"value":"A022823+0039",
@@ -119,8 +129,18 @@
 				"source":"1,2,3,4"
 			}
 		],
-		"sndec":"+00:39:09.6",
-		"snra":"02:28:23.72",
+		"sndec":[
+			{
+				"value":"+00:39:09.6",
+				"source":"1,2,3"
+			}
+		],
+		"snra":[
+			{
+				"value":"02:28:23.72",
+				"source":"1,2,3"
+			}
+		],
 		"photometry":[
 			{
 				"timeunit":"MJD",

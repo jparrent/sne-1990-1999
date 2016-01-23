@@ -115,8 +115,18 @@
 		"discoverer":"Stephen Laurie",
 		"discovermonth":"4",
 		"discoveryear":"1997",
-		"galdec":"+732404",
-		"galra":"101653",
+		"galdec":[
+			{
+				"value":"+73:24:04",
+				"source":"6"
+			}
+		],
+		"galra":[
+			{
+				"value":"10:16:53",
+				"source":"6"
+			}
+		],
 		"host":[
 			{
 				"value":"NGC 3147",
@@ -147,8 +157,18 @@
 				"source":"9"
 			}
 		],
-		"sndec":"+73:23:02.1",
-		"snra":"10:17:05.33",
+		"sndec":[
+			{
+				"value":"+73:23:02.1",
+				"source":"6,7,8"
+			}
+		],
+		"snra":[
+			{
+				"value":"10:17:05.33",
+				"source":"6,7,8"
+			}
+		],
 		"photometry":[
 			{
 				"timeunit":"MJD",

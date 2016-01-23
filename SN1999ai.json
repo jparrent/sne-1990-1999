@@ -39,8 +39,18 @@
 		"discoverer":"EROS collaboration",
 		"discovermonth":"2",
 		"discoveryear":"1999",
-		"galdec":"-053543",
-		"galra":"131410",
+		"galdec":[
+			{
+				"value":"-05:35:43",
+				"source":"1"
+			}
+		],
+		"galra":[
+			{
+				"value":"13:14:10",
+				"source":"1"
+			}
+		],
 		"host":[
 			{
 				"value":"A131410-0535",
@@ -74,8 +84,18 @@
 				"source":"2,3,4"
 			}
 		],
-		"sndec":"-05:35:43.7",
-		"snra":"13:14:10.57",
+		"sndec":[
+			{
+				"value":"-05:35:43.7",
+				"source":"1,2,3"
+			}
+		],
+		"snra":[
+			{
+				"value":"13:14:10.57",
+				"source":"1,2,3"
+			}
+		],
 		"photometry":[
 			{
 				"timeunit":"MJD",

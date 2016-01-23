@@ -114,7 +114,7 @@
 			},
 			{
 				"value":"Ia",
-				"source":"7,8,1,17,1,17"
+				"source":"7,8,1,17"
 			}
 		],
 		"discoverday":"13",
@@ -127,8 +127,18 @@
 				"source":"1"
 			}
 		],
-		"galdec":"+125306",
-		"galra":"002517",
+		"galdec":[
+			{
+				"value":"+12:53:06",
+				"source":"6"
+			}
+		],
+		"galra":[
+			{
+				"value":"00:25:17",
+				"source":"6"
+			}
+		],
 		"host":[
 			{
 				"value":"NGC 105",
@@ -163,8 +173,18 @@
 				"source":"9"
 			}
 		],
-		"sndec":"+12:53:06.2",
-		"snra":"00:25:17.27",
+		"sndec":[
+			{
+				"value":"+12:53:06.2",
+				"source":"6,7,8"
+			}
+		],
+		"snra":[
+			{
+				"value":"00:25:17.27",
+				"source":"6,7,8"
+			}
+		],
 		"photometry":[
 			{
 				"timeunit":"MJD",

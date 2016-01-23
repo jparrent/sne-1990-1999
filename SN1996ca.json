@@ -45,8 +45,18 @@
 		"discoverer":"Masakatsu Aoki",
 		"discovermonth":"12",
 		"discoveryear":"1996",
-		"galdec":"-140013",
-		"galra":"223100",
+		"galdec":[
+			{
+				"value":"-14:00:13",
+				"source":"1"
+			}
+		],
+		"galra":[
+			{
+				"value":"22:31:00",
+				"source":"1"
+			}
+		],
 		"host":[
 			{
 				"value":"NGC 7300",
@@ -75,8 +85,18 @@
 				"source":"4"
 			}
 		],
-		"sndec":"-13:59:50.9",
-		"snra":"22:30:59.26",
+		"sndec":[
+			{
+				"value":"-13:59:50.9",
+				"source":"1,2,3"
+			}
+		],
+		"snra":[
+			{
+				"value":"22:30:59.26",
+				"source":"1,2,3"
+			}
+		],
 		"photometry":[
 			{
 				"timeunit":"MJD",

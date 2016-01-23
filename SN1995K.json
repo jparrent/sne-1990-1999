@@ -99,8 +99,18 @@
 		"discoverer":"Schmidt et al.",
 		"discovermonth":"3",
 		"discoveryear":"1995",
-		"galdec":"-091507",
-		"galra":"105047",
+		"galdec":[
+			{
+				"value":"-09:15:07",
+				"source":"1"
+			}
+		],
+		"galra":[
+			{
+				"value":"10:50:47",
+				"source":"1"
+			}
+		],
 		"host":[
 			{
 				"value":"A105047-0915",
@@ -131,8 +141,18 @@
 				"source":"2,3"
 			}
 		],
-		"sndec":"-09:15:07.4",
-		"snra":"10:50:47.00",
+		"sndec":[
+			{
+				"value":"-09:15:07.4",
+				"source":"1,2,3"
+			}
+		],
+		"snra":[
+			{
+				"value":"10:50:47.00",
+				"source":"1,2,3"
+			}
+		],
 		"photometry":[
 			{
 				"timeunit":"MJD",

@@ -39,8 +39,18 @@
 		"discoverer":"University of Texas Observatory Supernova Search Team",
 		"discovermonth":"11",
 		"discoveryear":"1997",
-		"galdec":"+521322",
-		"galra":"074837",
+		"galdec":[
+			{
+				"value":"+52:13:22",
+				"source":"1"
+			}
+		],
+		"galra":[
+			{
+				"value":"07:48:37",
+				"source":"1"
+			}
+		],
 		"host":[
 			{
 				"value":"A074837+5213",
@@ -74,8 +84,18 @@
 				"source":"2,3,4"
 			}
 		],
-		"sndec":"+52:13:22.8",
-		"snra":"07:48:37.70",
+		"sndec":[
+			{
+				"value":"+52:13:22.8",
+				"source":"1,2,3"
+			}
+		],
+		"snra":[
+			{
+				"value":"07:48:37.70",
+				"source":"1,2,3"
+			}
+		],
 		"photometry":[
 			{
 				"timeunit":"MJD",

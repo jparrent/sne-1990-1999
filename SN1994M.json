@@ -189,8 +189,18 @@
 		"discoverer":"Paul Wild",
 		"discovermonth":"4",
 		"discoveryear":"1994",
-		"galdec":"+003648",
-		"galra":"123108",
+		"galdec":[
+			{
+				"value":"+00:36:48",
+				"source":"6"
+			}
+		],
+		"galra":[
+			{
+				"value":"12:31:08",
+				"source":"6"
+			}
+		],
 		"host":[
 			{
 				"value":"NGC 4493",
@@ -221,8 +231,18 @@
 				"source":"9"
 			}
 		],
-		"sndec":"+00:36:19.9",
-		"snra":"12:31:08.61",
+		"sndec":[
+			{
+				"value":"+00:36:19.9",
+				"source":"6,7,8"
+			}
+		],
+		"snra":[
+			{
+				"value":"12:31:08.61",
+				"source":"6,7,8"
+			}
+		],
 		"photometry":[
 			{
 				"timeunit":"MJD",

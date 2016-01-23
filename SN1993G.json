@@ -53,8 +53,18 @@
 		"discoverer":"Treffers, Filippenko, Leibundgut,",
 		"discovermonth":"3",
 		"discoveryear":"1993",
-		"galdec":"+583344",
-		"galra":"112832",
+		"galdec":[
+			{
+				"value":"+58:33:44",
+				"source":"3"
+			}
+		],
+		"galra":[
+			{
+				"value":"11:28:32",
+				"source":"3"
+			}
+		],
 		"host":[
 			{
 				"value":"NGC 3690",
@@ -84,8 +94,26 @@
 				"source":"6"
 			}
 		],
-		"sndec":"+58:33:31.2",
-		"snra":"11:28:33.44",
+		"sndec":[
+			{
+				"value":"+58:33:30.97",
+				"source":"3"
+			},
+			{
+				"value":"+58:33:31.2",
+				"source":"4,5"
+			}
+		],
+		"snra":[
+			{
+				"value":"11:28:33.37",
+				"source":"3"
+			},
+			{
+				"value":"11:28:33.44",
+				"source":"4,5"
+			}
+		],
 		"photometry":[
 			{
 				"timeunit":"MJD",

@@ -70,15 +70,25 @@
 			},
 			{
 				"value":"Ib",
-				"source":"4,5,8,9,8,9,8,9,8,9"
+				"source":"4,5,8,9"
 			}
 		],
 		"discoverday":"7",
 		"discoverer":"Masakatsu Aoki",
 		"discovermonth":"11",
 		"discoveryear":"1997",
-		"galdec":"+112817",
-		"galra":"114059",
+		"galdec":[
+			{
+				"value":"+11:28:17",
+				"source":"3"
+			}
+		],
+		"galra":[
+			{
+				"value":"11:40:59",
+				"source":"3"
+			}
+		],
 		"host":[
 			{
 				"value":"NGC 3810",
@@ -108,8 +118,18 @@
 				"source":"6"
 			}
 		],
-		"sndec":"+11:28:45.7",
-		"snra":"11:40:55.90",
+		"sndec":[
+			{
+				"value":"+11:28:45.7",
+				"source":"3,4,5"
+			}
+		],
+		"snra":[
+			{
+				"value":"11:40:55.90",
+				"source":"3,4,5"
+			}
+		],
 		"photometry":[
 			{
 				"timeunit":"MJD",

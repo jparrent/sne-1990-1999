@@ -39,8 +39,18 @@
 		"discoverer":"Vagnozzi, G. Piermarini, and V. Russo, S. Lucia Observatory",
 		"discovermonth":"5",
 		"discoveryear":"1996",
-		"galdec":"+033240",
-		"galra":"145358",
+		"galdec":[
+			{
+				"value":"+03:32:40",
+				"source":"1"
+			}
+		],
+		"galra":[
+			{
+				"value":"14:53:58",
+				"source":"1"
+			}
+		],
 		"host":[
 			{
 				"value":"NGC 5775",
@@ -65,8 +75,22 @@
 				"source":"4"
 			}
 		],
-		"sndec":"+03:31:46.3",
-		"snra":"14:53:59.81",
+		"sndec":[
+			{
+				"value":"+03:31:46",
+				"source":"1"
+			},
+			{
+				"value":"+03:31:46.3",
+				"source":"2,3"
+			}
+		],
+		"snra":[
+			{
+				"value":"14:53:59.81",
+				"source":"1,2,3"
+			}
+		],
 		"photometry":[
 			{
 				"timeunit":"MJD",

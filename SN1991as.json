@@ -57,8 +57,18 @@
 				"source":"1"
 			}
 		],
-		"galdec":"+0810",
-		"galra":"224842",
+		"galdec":[
+			{
+				"value":"+08:10",
+				"source":"2"
+			}
+		],
+		"galra":[
+			{
+				"value":"22:48:42",
+				"source":"2"
+			}
+		],
 		"host":[
 			{
 				"value":"[M91k] 224610+0754.6",
@@ -73,8 +83,18 @@
 		"maxday":"18",
 		"maxmonth":"8",
 		"maxyear":"1991",
-		"sndec":"+08:10:41.0",
-		"snra":"22:48:41.5",
+		"sndec":[
+			{
+				"value":"+08:10:41.0",
+				"source":"3,4"
+			}
+		],
+		"snra":[
+			{
+				"value":"22:48:41.5",
+				"source":"3,4"
+			}
+		],
 		"photometry":[
 			{
 				"timeunit":"MJD",

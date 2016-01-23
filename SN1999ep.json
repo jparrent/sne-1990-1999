@@ -39,8 +39,18 @@
 		"discoverer":"Nearby Galaxy Supernova Search",
 		"discovermonth":"9",
 		"discoveryear":"1999",
-		"galdec":"-030039",
-		"galra":"044104",
+		"galdec":[
+			{
+				"value":"-03:00:39",
+				"source":"1"
+			}
+		],
+		"galra":[
+			{
+				"value":"04:41:04",
+				"source":"1"
+			}
+		],
 		"host":[
 			{
 				"value":"A044104-0300",
@@ -74,8 +84,18 @@
 				"source":"2,3,4"
 			}
 		],
-		"sndec":"-03:00:39.6",
-		"snra":"04:41:04.76",
+		"sndec":[
+			{
+				"value":"-03:00:39.6",
+				"source":"1,2,3"
+			}
+		],
+		"snra":[
+			{
+				"value":"04:41:04.76",
+				"source":"1,2,3"
+			}
+		],
 		"photometry":[
 			{
 				"timeunit":"MJD",

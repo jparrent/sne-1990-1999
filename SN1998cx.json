@@ -39,8 +39,18 @@
 		"discoverer":"Alexander Wassilieff",
 		"discovermonth":"7",
 		"discoveryear":"1998",
-		"galdec":"-723514",
-		"galra":"165457",
+		"galdec":[
+			{
+				"value":"-72:35:14",
+				"source":"1"
+			}
+		],
+		"galra":[
+			{
+				"value":"16:54:57",
+				"source":"1"
+			}
+		],
 		"host":[
 			{
 				"value":"NGC 6209",
@@ -65,8 +75,18 @@
 				"source":"2,3,4"
 			}
 		],
-		"sndec":"-72:35:24.0",
-		"snra":"16:54:55.31",
+		"sndec":[
+			{
+				"value":"-72:35:24.0",
+				"source":"1,2,3"
+			}
+		],
+		"snra":[
+			{
+				"value":"16:54:55.31",
+				"source":"1,2,3"
+			}
+		],
 		"photometry":[
 			{
 				"timeunit":"MJD",

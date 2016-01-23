@@ -83,8 +83,18 @@
 		"discoverer":"Cortini, Villi",
 		"discovermonth":"7",
 		"discoveryear":"1994",
-		"galdec":"+620814",
-		"galra":"120212",
+		"galdec":[
+			{
+				"value":"+62:08:14",
+				"source":"9"
+			}
+		],
+		"galra":[
+			{
+				"value":"12:02:12",
+				"source":"9"
+			}
+		],
 		"host":[
 			{
 				"value":"NGC 4041",
@@ -114,8 +124,26 @@
 				"source":"12"
 			}
 		],
-		"sndec":"+62:08:32.8",
-		"snra":"12:02:10.93",
+		"sndec":[
+			{
+				"value":"+62:08:32.35",
+				"source":"9"
+			},
+			{
+				"value":"+62:08:32.8",
+				"source":"10,11"
+			}
+		],
+		"snra":[
+			{
+				"value":"12:02:10.89",
+				"source":"9"
+			},
+			{
+				"value":"12:02:10.93",
+				"source":"10,11"
+			}
+		],
 		"photometry":[
 			{
 				"timeunit":"MJD",

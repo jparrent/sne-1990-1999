@@ -60,15 +60,25 @@
 		"claimedtype":[
 			{
 				"value":"Ib",
-				"source":"3,4,5,7,8,7,8"
+				"source":"3,4,5,7,8"
 			}
 		],
 		"discoverday":"4",
 		"discoverer":"BAO Supernova Survey",
 		"discovermonth":"3",
 		"discoveryear":"1998",
-		"galdec":"+583344",
-		"galra":"112832",
+		"galdec":[
+			{
+				"value":"+58:33:44",
+				"source":"3"
+			}
+		],
+		"galra":[
+			{
+				"value":"11:28:32",
+				"source":"3"
+			}
+		],
 		"host":[
 			{
 				"value":"NGC 3690",
@@ -98,8 +108,18 @@
 				"source":"6"
 			}
 		],
-		"sndec":"+58:33:43.7",
-		"snra":"11:28:33.16",
+		"sndec":[
+			{
+				"value":"+58:33:43.7",
+				"source":"3,4,5"
+			}
+		],
+		"snra":[
+			{
+				"value":"11:28:33.16",
+				"source":"3,4,5"
+			}
+		],
 		"photometry":[
 			{
 				"timeunit":"MJD",

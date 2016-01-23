@@ -33,8 +33,18 @@
 		"discoverer":"Supernova Cosmology Project",
 		"discovermonth":"3",
 		"discoveryear":"1998",
-		"galdec":"-041120",
-		"galra":"105607",
+		"galdec":[
+			{
+				"value":"-04:11:20",
+				"source":"1"
+			}
+		],
+		"galra":[
+			{
+				"value":"10:56:07",
+				"source":"1"
+			}
+		],
 		"host":[
 			{
 				"value":"A105607-0411",
@@ -45,8 +55,18 @@
 		"maxday":"21",
 		"maxmonth":"3",
 		"maxyear":"1998",
-		"sndec":"-04:11:20.6",
-		"snra":"10:56:07.98",
+		"sndec":[
+			{
+				"value":"-04:11:20.6",
+				"source":"1,2,3"
+			}
+		],
+		"snra":[
+			{
+				"value":"10:56:07.98",
+				"source":"1,2,3"
+			}
+		],
 		"photometry":[
 			{
 				"timeunit":"MJD",

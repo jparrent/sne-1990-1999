@@ -49,8 +49,18 @@
 		"discoverer":"P. Berlind,",
 		"discovermonth":"12",
 		"discoveryear":"1999",
-		"galdec":"-003340",
-		"galra":"124351",
+		"galdec":[
+			{
+				"value":"-00:33:40",
+				"source":"3"
+			}
+		],
+		"galra":[
+			{
+				"value":"12:43:51",
+				"source":"3"
+			}
+		],
 		"host":[
 			{
 				"value":"NGC 4653",
@@ -84,8 +94,18 @@
 				"source":"6"
 			}
 		],
-		"sndec":"-00:32:55.4",
-		"snra":"12:43:51.91",
+		"sndec":[
+			{
+				"value":"-00:32:55.4",
+				"source":"3,4,5"
+			}
+		],
+		"snra":[
+			{
+				"value":"12:43:51.91",
+				"source":"3,4,5"
+			}
+		],
 		"photometry":[
 			{
 				"timeunit":"MJD",

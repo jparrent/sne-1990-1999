@@ -33,8 +33,18 @@
 		"discoverer":"Gal-Yam, Sharon, Maoz",
 		"discovermonth":"2",
 		"discoveryear":"1995",
-		"galdec":"+430444",
-		"galra":"160420",
+		"galdec":[
+			{
+				"value":"+43:04:44",
+				"source":"1"
+			}
+		],
+		"galra":[
+			{
+				"value":"16:04:20",
+				"source":"1"
+			}
+		],
 		"host":[
 			{
 				"value":"A160420+4304",
@@ -64,8 +74,26 @@
 				"source":"1,2,3"
 			}
 		],
-		"sndec":"+43:04:44.0",
-		"snra":"16:04:20.40",
+		"sndec":[
+			{
+				"value":"+43:04:44",
+				"source":"1"
+			},
+			{
+				"value":"+43:04:44.0",
+				"source":"2,3"
+			}
+		],
+		"snra":[
+			{
+				"value":"16:04:20.4",
+				"source":"1"
+			},
+			{
+				"value":"16:04:20.40",
+				"source":"2,3"
+			}
+		],
 		"photometry":[
 			{
 				"timeunit":"MJD",

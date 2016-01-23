@@ -39,8 +39,18 @@
 		"discoverer":"Alessandro Gabrijelcic",
 		"discovermonth":"1",
 		"discoveryear":"1997",
-		"galdec":"-175237",
-		"galra":"055300",
+		"galdec":[
+			{
+				"value":"-17:52:37",
+				"source":"1"
+			}
+		],
+		"galra":[
+			{
+				"value":"05:53:00",
+				"source":"1"
+			}
+		],
 		"host":[
 			{
 				"value":"IC 438",
@@ -65,8 +75,26 @@
 				"source":"2,3,4"
 			}
 		],
-		"sndec":"-17:51:55.7",
-		"snra":"05:53:01.95",
+		"sndec":[
+			{
+				"value":"-17:52:23.5",
+				"source":"1"
+			},
+			{
+				"value":"-17:51:55.7",
+				"source":"2,3"
+			}
+		],
+		"snra":[
+			{
+				"value":"05:53:02.97",
+				"source":"1"
+			},
+			{
+				"value":"05:53:01.95",
+				"source":"2,3"
+			}
+		],
 		"photometry":[
 			{
 				"timeunit":"MJD",

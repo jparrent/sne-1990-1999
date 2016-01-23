@@ -49,8 +49,18 @@
 		"discoverer":"Tom Boles",
 		"discovermonth":"11",
 		"discoveryear":"1997",
-		"galdec":"+271424",
-		"galra":"105421",
+		"galdec":[
+			{
+				"value":"+27:14:24",
+				"source":"3"
+			}
+		],
+		"galra":[
+			{
+				"value":"10:54:21",
+				"source":"3"
+			}
+		],
 		"host":[
 			{
 				"value":"NGC 3451",
@@ -88,8 +98,18 @@
 				"source":"6"
 			}
 		],
-		"sndec":"+27:14:07.3",
-		"snra":"10:54:18.95",
+		"sndec":[
+			{
+				"value":"+27:14:07.3",
+				"source":"3,4,5"
+			}
+		],
+		"snra":[
+			{
+				"value":"10:54:18.95",
+				"source":"3,4,5"
+			}
+		],
 		"photometry":[
 			{
 				"timeunit":"MJD",

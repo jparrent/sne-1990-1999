@@ -80,15 +80,25 @@
 			},
 			{
 				"value":"Ib/c",
-				"source":"9,10,9,10,9,10,9,10"
+				"source":"9,10"
 			}
 		],
 		"discoverday":"9",
 		"discoverer":"Lane, Gray",
 		"discovermonth":"2",
 		"discoveryear":"1995",
-		"galdec":"+595558",
-		"galra":"090457",
+		"galdec":[
+			{
+				"value":"+59:55:58",
+				"source":"4"
+			}
+		],
+		"galra":[
+			{
+				"value":"09:04:57",
+				"source":"4"
+			}
+		],
 		"host":[
 			{
 				"value":"NGC 2726",
@@ -118,8 +128,18 @@
 				"source":"7"
 			}
 		],
-		"sndec":"+59:55:58.7",
-		"snra":"09:04:57.40",
+		"sndec":[
+			{
+				"value":"+59:55:58.7",
+				"source":"4,5,6"
+			}
+		],
+		"snra":[
+			{
+				"value":"09:04:57.40",
+				"source":"4,5,6"
+			}
+		],
 		"photometry":[
 			{
 				"timeunit":"MJD",

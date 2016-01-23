@@ -39,8 +39,18 @@
 		"discoverer":"Hardin",
 		"discovermonth":"3",
 		"discoveryear":"1997",
-		"galdec":"-113625",
-		"galra":"110615",
+		"galdec":[
+			{
+				"value":"-11:36:25",
+				"source":"1"
+			}
+		],
+		"galra":[
+			{
+				"value":"11:06:15",
+				"source":"1"
+			}
+		],
 		"host":[
 			{
 				"value":"A110615-1136",
@@ -74,8 +84,22 @@
 				"source":"4"
 			}
 		],
-		"sndec":"-11:36:25.0",
-		"snra":"11:06:15.10",
+		"sndec":[
+			{
+				"value":"-11:36:24.70",
+				"source":"1"
+			},
+			{
+				"value":"-11:36:25.0",
+				"source":"2,3"
+			}
+		],
+		"snra":[
+			{
+				"value":"11:06:15.10",
+				"source":"1,2,3"
+			}
+		],
 		"photometry":[
 			{
 				"timeunit":"MJD",

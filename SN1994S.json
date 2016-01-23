@@ -195,8 +195,18 @@
 				"source":"1"
 			}
 		],
-		"galdec":"+290811",
-		"galra":"123123",
+		"galdec":[
+			{
+				"value":"+29:08:11",
+				"source":"5"
+			}
+		],
+		"galra":[
+			{
+				"value":"12:31:23",
+				"source":"5"
+			}
+		],
 		"host":[
 			{
 				"value":"NGC 4495",
@@ -211,12 +221,12 @@
 		],
 		"lumdist":[
 			{
-				"value":"77.2",
-				"error":"1",
-				"source":"25,9"
+				"value":"69.6",
+				"error":"0.3",
+				"source":"20,9,21"
 			}
 		],
-		"maxabsmag":"-19.9",
+		"maxabsmag":"-19.7",
 		"maxappmag":"14.5",
 		"maxday":"3",
 		"maxmonth":"6",
@@ -227,8 +237,26 @@
 				"source":"6,7"
 			}
 		],
-		"sndec":"+29:08:04.2",
-		"snra":"12:31:21.86",
+		"sndec":[
+			{
+				"value":"+29:08:04.19",
+				"source":"5"
+			},
+			{
+				"value":"+29:08:04.2",
+				"source":"6,7"
+			}
+		],
+		"snra":[
+			{
+				"value":"12:31:21.82",
+				"source":"5"
+			},
+			{
+				"value":"12:31:21.86",
+				"source":"6,7"
+			}
+		],
 		"photometry":[
 			{
 				"timeunit":"MJD",

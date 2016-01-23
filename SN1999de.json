@@ -22,8 +22,18 @@
 		"discoverer":"Gal-Yam, Maoz",
 		"discovermonth":7,
 		"discoveryear":"1999",
-		"galdec":"+232356",
-		"galra":"002228",
+		"galdec":[
+			{
+				"value":"+23:23:56",
+				"source":"1"
+			}
+		],
+		"galra":[
+			{
+				"value":"00:22:28",
+				"source":"1"
+			}
+		],
 		"host":[
 			{
 				"value":"A002228+2323",
@@ -48,8 +58,18 @@
 				"source":"2"
 			}
 		],
-		"sndec":"+232356.2",
-		"snra":"002228.20",
+		"sndec":[
+			{
+				"value":"+23:23:56.2",
+				"source":"1"
+			}
+		],
+		"snra":[
+			{
+				"value":"00:22:28.20",
+				"source":"1"
+			}
+		],
 		"photometry":[
 			{
 				"timeunit":"MJD",

@@ -33,8 +33,18 @@
 		"discoverer":"Van Buren, Jarrett, Terebey, Beichman, Shure, Kamins",
 		"discovermonth":"3",
 		"discoveryear":"1992",
-		"galdec":"+583344",
-		"galra":"112832",
+		"galdec":[
+			{
+				"value":"+58:33:44",
+				"source":"1"
+			}
+		],
+		"galra":[
+			{
+				"value":"11:28:32",
+				"source":"1"
+			}
+		],
 		"host":[
 			{
 				"value":"NGC 3690",
@@ -64,8 +74,26 @@
 				"source":"4"
 			}
 		],
-		"sndec":"+58:33:39.0",
-		"snra":"11:28:31.50",
+		"sndec":[
+			{
+				"value":"+58:33:38",
+				"source":"1"
+			},
+			{
+				"value":"+58:33:39.0",
+				"source":"2,3"
+			}
+		],
+		"snra":[
+			{
+				"value":"11:28:31.4",
+				"source":"1"
+			},
+			{
+				"value":"11:28:31.50",
+				"source":"2,3"
+			}
+		],
 		"photometry":[
 			{
 				"timeunit":"MJD",

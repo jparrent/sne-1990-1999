@@ -53,8 +53,18 @@
 		"discoverer":"Italian Supernovae Search Project",
 		"discovermonth":"12",
 		"discoveryear":"1999",
-		"galdec":"+042825",
-		"galra":"122155",
+		"galdec":[
+			{
+				"value":"+04:28:25",
+				"source":"3"
+			}
+		],
+		"galra":[
+			{
+				"value":"12:21:55",
+				"source":"3"
+			}
+		],
 		"host":[
 			{
 				"value":"NGC 4303",
@@ -92,8 +102,18 @@
 				"source":"6"
 			}
 		],
-		"sndec":"+04:27:45.6",
-		"snra":"12:21:57.02",
+		"sndec":[
+			{
+				"value":"+04:27:45.6",
+				"source":"3,4,5"
+			}
+		],
+		"snra":[
+			{
+				"value":"12:21:57.02",
+				"source":"3,4,5"
+			}
+		],
 		"photometry":[
 			{
 				"timeunit":"MJD",

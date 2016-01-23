@@ -45,8 +45,18 @@
 		"discoverer":"Mount Stromlo",
 		"discovermonth":"4",
 		"discoveryear":"1997",
-		"galdec":"-271926",
-		"galra":"132728",
+		"galdec":[
+			{
+				"value":"-27:19:26",
+				"source":"1"
+			}
+		],
+		"galra":[
+			{
+				"value":"13:27:28",
+				"source":"1"
+			}
+		],
 		"host":[
 			{
 				"value":"IC 4252",
@@ -76,8 +86,18 @@
 				"source":"2,3,4"
 			}
 		],
-		"sndec":"-27:19:21.7",
-		"snra":"13:27:27.54",
+		"sndec":[
+			{
+				"value":"-27:19:21.7",
+				"source":"1,2,3"
+			}
+		],
+		"snra":[
+			{
+				"value":"13:27:27.54",
+				"source":"1,2,3"
+			}
+		],
 		"photometry":[
 			{
 				"timeunit":"MJD",

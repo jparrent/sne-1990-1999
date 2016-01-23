@@ -43,8 +43,18 @@
 		"discoverer":"Roberto Antezana",
 		"discovermonth":"7",
 		"discoveryear":"1992",
-		"galdec":"-3041",
-		"galra":"133748",
+		"galdec":[
+			{
+				"value":"-30:41",
+				"source":"1"
+			}
+		],
+		"galra":[
+			{
+				"value":"13:37:48",
+				"source":"1"
+			}
+		],
 		"host":[
 			{
 				"value":"A133748-3041",
@@ -78,8 +88,18 @@
 				"source":"4"
 			}
 		],
-		"sndec":"-30:41:32.0",
-		"snra":"13:37:48.9",
+		"sndec":[
+			{
+				"value":"-30:41:32.0",
+				"source":"2,3"
+			}
+		],
+		"snra":[
+			{
+				"value":"13:37:48.9",
+				"source":"2,3"
+			}
+		],
 		"photometry":[
 			{
 				"timeunit":"MJD",

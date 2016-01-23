@@ -33,8 +33,18 @@
 		"discoverer":"Robert McNaught, McKenzie",
 		"discovermonth":"8",
 		"discoveryear":"1991",
-		"galdec":"-813803",
-		"galra":"015239",
+		"galdec":[
+			{
+				"value":"-81:38:03",
+				"source":"1"
+			}
+		],
+		"galra":[
+			{
+				"value":"01:52:39",
+				"source":"1"
+			}
+		],
 		"host":[
 			{
 				"value":"A015239-8138",
@@ -49,8 +59,26 @@
 		"maxday":"17",
 		"maxmonth":"8",
 		"maxyear":"1991",
-		"sndec":"-81:38:03.4",
-		"snra":"01:52:39.70",
+		"sndec":[
+			{
+				"value":"-81:38:03.42",
+				"source":"1"
+			},
+			{
+				"value":"-81:38:03.4",
+				"source":"2,3"
+			}
+		],
+		"snra":[
+			{
+				"value":"01:52:39.61",
+				"source":"1"
+			},
+			{
+				"value":"01:52:39.70",
+				"source":"2,3"
+			}
+		],
 		"photometry":[
 			{
 				"timeunit":"MJD",

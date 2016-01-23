@@ -31,8 +31,18 @@
 		"maxday":"18",
 		"maxmonth":"6",
 		"maxyear":"1993",
-		"sndec":"+50:27:56.6",
-		"snra":"15:29:32.06",
+		"sndec":[
+			{
+				"value":"+50:27:56.6",
+				"source":"1,2"
+			}
+		],
+		"snra":[
+			{
+				"value":"15:29:32.06",
+				"source":"1,2"
+			}
+		],
 		"photometry":[
 			{
 				"timeunit":"MJD",

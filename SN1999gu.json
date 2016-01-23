@@ -49,8 +49,18 @@
 		"discoverer":"OaPd",
 		"discovermonth":"12",
 		"discoveryear":"1999",
-		"galdec":"-275140",
-		"galra":"033300",
+		"galdec":[
+			{
+				"value":"-27:51:40",
+				"source":"3"
+			}
+		],
+		"galra":[
+			{
+				"value":"03:33:00",
+				"source":"3"
+			}
+		],
 		"host":[
 			{
 				"value":"A033300-2751",
@@ -80,8 +90,18 @@
 				"source":"3,4,5"
 			}
 		],
-		"sndec":"-27:51:40.1",
-		"snra":"03:33:00.15",
+		"sndec":[
+			{
+				"value":"-27:51:40.1",
+				"source":"3,4,5"
+			}
+		],
+		"snra":[
+			{
+				"value":"03:33:00.15",
+				"source":"3,4,5"
+			}
+		],
 		"photometry":[
 			{
 				"timeunit":"MJD",

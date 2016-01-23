@@ -57,8 +57,18 @@
 		"discoverer":"Supernova Cosmology Project",
 		"discovermonth":"2",
 		"discoveryear":"1994",
-		"galdec":"-013714",
-		"galra":"024002",
+		"galdec":[
+			{
+				"value":"-01:37:14",
+				"source":"1"
+			}
+		],
+		"galra":[
+			{
+				"value":"02:40:02",
+				"source":"1"
+			}
+		],
 		"host":[
 			{
 				"value":"A024002-0137",
@@ -89,8 +99,18 @@
 				"source":"1"
 			}
 		],
-		"sndec":"-01:37:14.9",
-		"snra":"02:40:02.06",
+		"sndec":[
+			{
+				"value":"-01:37:14.9",
+				"source":"1,2,3"
+			}
+		],
+		"snra":[
+			{
+				"value":"02:40:02.06",
+				"source":"1,2,3"
+			}
+		],
 		"photometry":[
 			{
 				"timeunit":"MJD",

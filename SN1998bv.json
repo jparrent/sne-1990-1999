@@ -39,8 +39,18 @@
 		"discoverer":"Kniazev et al.",
 		"discovermonth":"4",
 		"discoveryear":"1998",
-		"galdec":"+474236",
-		"galra":"103825",
+		"galdec":[
+			{
+				"value":"+47:42:36",
+				"source":"1"
+			}
+		],
+		"galra":[
+			{
+				"value":"10:38:25",
+				"source":"1"
+			}
+		],
 		"host":[
 			{
 				"value":"HS1035+4758",
@@ -70,8 +80,18 @@
 				"source":"4"
 			}
 		],
-		"sndec":"+47:42:32.8",
-		"snra":"10:38:25.40",
+		"sndec":[
+			{
+				"value":"+47:42:32.8",
+				"source":"1,2,3"
+			}
+		],
+		"snra":[
+			{
+				"value":"10:38:25.40",
+				"source":"1,2,3"
+			}
+		],
 		"photometry":[
 			{
 				"timeunit":"MJD",

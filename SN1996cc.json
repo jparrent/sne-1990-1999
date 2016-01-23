@@ -49,8 +49,18 @@
 		"discoverer":"Shunji Sasaki",
 		"discovermonth":"12",
 		"discoveryear":"1996",
-		"galdec":"+495731",
-		"galra":"143131",
+		"galdec":[
+			{
+				"value":"+49:57:31",
+				"source":"3"
+			}
+		],
+		"galra":[
+			{
+				"value":"14:31:31",
+				"source":"3"
+			}
+		],
 		"host":[
 			{
 				"value":"NGC 5673",
@@ -80,8 +90,18 @@
 				"source":"4,5"
 			}
 		],
-		"sndec":"+49:57:43.8",
-		"snra":"14:31:28.45",
+		"sndec":[
+			{
+				"value":"+49:57:43.8",
+				"source":"3,4,5"
+			}
+		],
+		"snra":[
+			{
+				"value":"14:31:28.45",
+				"source":"3,4,5"
+			}
+		],
 		"photometry":[
 			{
 				"timeunit":"MJD",

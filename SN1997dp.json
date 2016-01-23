@@ -39,8 +39,18 @@
 		"discoverer":"Denis Christen",
 		"discovermonth":"11",
 		"discoveryear":"1997",
-		"galdec":"+325651",
-		"galra":"023408",
+		"galdec":[
+			{
+				"value":"+32:56:51",
+				"source":"1"
+			}
+		],
+		"galra":[
+			{
+				"value":"02:34:08",
+				"source":"1"
+			}
+		],
 		"host":[
 			{
 				"value":"NGC 969",
@@ -65,8 +75,18 @@
 				"source":"2,3,4"
 			}
 		],
-		"sndec":"+32:56:13.4",
-		"snra":"02:34:06.48",
+		"sndec":[
+			{
+				"value":"+32:56:13.4",
+				"source":"1,2,3"
+			}
+		],
+		"snra":[
+			{
+				"value":"02:34:06.48",
+				"source":"1,2,3"
+			}
+		],
 		"photometry":[
 			{
 				"timeunit":"MJD",

@@ -51,8 +51,18 @@
 		"discoverer":"BAO Supernova Survey",
 		"discovermonth":"4",
 		"discoveryear":"1996",
-		"galdec":"-191555",
-		"galra":"115930",
+		"galdec":[
+			{
+				"value":"-19:15:55",
+				"source":"1"
+			}
+		],
+		"galra":[
+			{
+				"value":"11:59:30",
+				"source":"1"
+			}
+		],
 		"host":[
 			{
 				"value":"NGC 4027",
@@ -78,8 +88,26 @@
 				"source":"4"
 			}
 		],
-		"sndec":"-19:15:22.0",
-		"snra":"11:59:29.03",
+		"sndec":[
+			{
+				"value":"-19:15:21.9",
+				"source":"1"
+			},
+			{
+				"value":"-19:15:22.0",
+				"source":"2,3"
+			}
+		],
+		"snra":[
+			{
+				"value":"11:59:28.98",
+				"source":"1"
+			},
+			{
+				"value":"11:59:29.03",
+				"source":"2,3"
+			}
+		],
 		"photometry":[
 			{
 				"timeunit":"MJD",

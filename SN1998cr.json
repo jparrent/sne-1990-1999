@@ -33,8 +33,18 @@
 		"discoverer":"Tim Puckett et al.",
 		"discovermonth":"6",
 		"discoveryear":"1998",
-		"galdec":"+371257",
-		"galra":"162318",
+		"galdec":[
+			{
+				"value":"+37:12:57",
+				"source":"1"
+			}
+		],
+		"galra":[
+			{
+				"value":"16:23:18",
+				"source":"1"
+			}
+		],
 		"host":[
 			{
 				"value":"PGC0057979",
@@ -67,8 +77,18 @@
 				"source":"4"
 			}
 		],
-		"sndec":"+37:12:47.5",
-		"snra":"16:23:17.25",
+		"sndec":[
+			{
+				"value":"+37:12:47.5",
+				"source":"1,2,3"
+			}
+		],
+		"snra":[
+			{
+				"value":"16:23:17.25",
+				"source":"1,2,3"
+			}
+		],
 		"photometry":[
 			{
 				"timeunit":"MJD",

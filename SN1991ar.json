@@ -50,15 +50,25 @@
 		"claimedtype":[
 			{
 				"value":"Ib",
-				"source":"1,2,3,5,6,5,6"
+				"source":"1,2,3,5,6"
 			}
 		],
 		"discoverday":"1",
 		"discoverer":"Robert McNaught, Russell",
 		"discovermonth":"9",
 		"discoveryear":"1991",
-		"galdec":"+015101",
-		"galra":"004356",
+		"galdec":[
+			{
+				"value":"+01:51:01",
+				"source":"1"
+			}
+		],
+		"galra":[
+			{
+				"value":"00:43:56",
+				"source":"1"
+			}
+		],
 		"host":[
 			{
 				"value":"IC 49",
@@ -88,8 +98,26 @@
 				"source":"4"
 			}
 		],
-		"sndec":"+01:51:13.4",
-		"snra":"00:43:56.72",
+		"sndec":[
+			{
+				"value":"+01:51:13.54",
+				"source":"1"
+			},
+			{
+				"value":"+01:51:13.4",
+				"source":"2,3"
+			}
+		],
+		"snra":[
+			{
+				"value":"00:43:56.68",
+				"source":"1"
+			},
+			{
+				"value":"00:43:56.72",
+				"source":"2,3"
+			}
+		],
 		"photometry":[
 			{
 				"timeunit":"MJD",

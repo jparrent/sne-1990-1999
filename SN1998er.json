@@ -22,8 +22,18 @@
 		"discoverer":"MACHO",
 		"discovermonth":11,
 		"discoveryear":"1998",
-		"galdec":"-711418",
-		"galra":"055019",
+		"galdec":[
+			{
+				"value":"-71:14:18",
+				"source":"1"
+			}
+		],
+		"galra":[
+			{
+				"value":"05:50:19",
+				"source":"1"
+			}
+		],
 		"host":[
 			{
 				"value":"GH09-02",
@@ -34,8 +44,18 @@
 				"source":"2"
 			}
 		],
-		"sndec":"-711413.5",
-		"snra":"055016.87",
+		"sndec":[
+			{
+				"value":"-71:14:13.5",
+				"source":"1"
+			}
+		],
+		"snra":[
+			{
+				"value":"05:50:16.87",
+				"source":"1"
+			}
+		],
 		"photometry":[
 			{
 				"timeunit":"MJD",

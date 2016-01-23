@@ -33,16 +33,36 @@
 		"discoverer":"The Mount Stromlo Abell Cluster SN Search",
 		"discovermonth":"1",
 		"discoveryear":"1999",
-		"galdec":"-393304",
-		"galra":"033655",
+		"galdec":[
+			{
+				"value":"-39:33:04",
+				"source":"1"
+			}
+		],
+		"galra":[
+			{
+				"value":"03:36:55",
+				"source":"1"
+			}
+		],
 		"host":[
 			{
 				"value":"A033655-3933",
 				"source":"1"
 			}
 		],
-		"sndec":"-39:33:04.9",
-		"snra":"03:36:55.81",
+		"sndec":[
+			{
+				"value":"-39:33:04.9",
+				"source":"1,2,3"
+			}
+		],
+		"snra":[
+			{
+				"value":"03:36:55.81",
+				"source":"1,2,3"
+			}
+		],
 		"photometry":[
 			{
 				"timeunit":"MJD",

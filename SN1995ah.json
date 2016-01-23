@@ -51,8 +51,18 @@
 		"discoverer":"Popescu et al.",
 		"discovermonth":"2",
 		"discoveryear":"1995",
-		"galdec":"+150623",
-		"galra":"001911",
+		"galdec":[
+			{
+				"value":"+15:06:23",
+				"source":"3"
+			}
+		],
+		"galra":[
+			{
+				"value":"00:19:11",
+				"source":"3"
+			}
+		],
 		"host":[
 			{
 				"value":"A001911+1506",
@@ -86,8 +96,26 @@
 				"source":"4,5"
 			}
 		],
-		"sndec":"+15:06:00.0",
-		"snra":"00:19:12.00",
+		"sndec":[
+			{
+				"value":"+15:06:25.1",
+				"source":"3"
+			},
+			{
+				"value":"+15:06:00.0",
+				"source":"4,5"
+			}
+		],
+		"snra":[
+			{
+				"value":"00:19:11.0",
+				"source":"3"
+			},
+			{
+				"value":"00:19:12.00",
+				"source":"4,5"
+			}
+		],
 		"photometry":[
 			{
 				"timeunit":"MJD",

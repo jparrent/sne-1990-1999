@@ -33,8 +33,18 @@
 		"discoverer":"HST",
 		"discovermonth":"3",
 		"discoveryear":"1999",
-		"galdec":"+661234",
-		"galra":"163602",
+		"galdec":[
+			{
+				"value":"+66:12:34",
+				"source":"1"
+			}
+		],
+		"galra":[
+			{
+				"value":"16:36:02",
+				"source":"1"
+			}
+		],
 		"host":[
 			{
 				"value":"Abell2218-149",
@@ -59,8 +69,26 @@
 				"source":"1,2,3"
 			}
 		],
-		"sndec":"+66:12:34.1",
-		"snra":"16:36:02.15",
+		"sndec":[
+			{
+				"value":"+66:12:33.3",
+				"source":"1"
+			},
+			{
+				"value":"+66:12:34.1",
+				"source":"2,3"
+			}
+		],
+		"snra":[
+			{
+				"value":"16:36:01.69",
+				"source":"1"
+			},
+			{
+				"value":"16:36:02.15",
+				"source":"2,3"
+			}
+		],
 		"photometry":[
 			{
 				"timeunit":"MJD",

@@ -33,8 +33,18 @@
 		"discoverer":"EROS",
 		"discovermonth":"7",
 		"discoveryear":"1998",
-		"galdec":"-443356",
-		"galra":"222016",
+		"galdec":[
+			{
+				"value":"-44:33:56",
+				"source":"1"
+			}
+		],
+		"galra":[
+			{
+				"value":"22:20:16",
+				"source":"1"
+			}
+		],
 		"host":[
 			{
 				"value":"A222016-4433",
@@ -68,8 +78,18 @@
 				"source":"4"
 			}
 		],
-		"sndec":"-44:33:56.1",
-		"snra":"22:20:16.10",
+		"sndec":[
+			{
+				"value":"-44:33:56.1",
+				"source":"1,2,3"
+			}
+		],
+		"snra":[
+			{
+				"value":"22:20:16.10",
+				"source":"1,2,3"
+			}
+		],
 		"photometry":[
 			{
 				"timeunit":"MJD",

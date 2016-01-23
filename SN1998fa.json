@@ -56,7 +56,7 @@
 		"claimedtype":[
 			{
 				"value":"IIb",
-				"source":"1,6,7,6,7,6,7,6,7,6,7,6,7"
+				"source":"1,6,7"
 			},
 			{
 				"value":"IIb P",
@@ -67,8 +67,18 @@
 		"discoverer":"LOSS",
 		"discovermonth":"12",
 		"discoveryear":"1998",
-		"galdec":"+412515",
-		"galra":"064252",
+		"galdec":[
+			{
+				"value":"+41:25:15",
+				"source":"1"
+			}
+		],
+		"galra":[
+			{
+				"value":"06:42:52",
+				"source":"1"
+			}
+		],
 		"host":[
 			{
 				"value":"UGC 3513",
@@ -93,8 +103,18 @@
 				"source":"2,3,4"
 			}
 		],
-		"sndec":"+41:25:18.9",
-		"snra":"06:42:51.51",
+		"sndec":[
+			{
+				"value":"+41:25:18.9",
+				"source":"1,2,3"
+			}
+		],
+		"snra":[
+			{
+				"value":"06:42:51.51",
+				"source":"1,2,3"
+			}
+		],
 		"photometry":[
 			{
 				"timeunit":"MJD",

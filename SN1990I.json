@@ -57,8 +57,18 @@
 		"discoverer":"Pizarro, Miranda, Pasquini, Leibundgut",
 		"discovermonth":"4",
 		"discoveryear":"1990",
-		"galdec":"-404254",
-		"galra":"124450",
+		"galdec":[
+			{
+				"value":"-40:42:54",
+				"source":"3"
+			}
+		],
+		"galra":[
+			{
+				"value":"12:44:50",
+				"source":"3"
+			}
+		],
 		"host":[
 			{
 				"value":"NGC 4650A",
@@ -92,8 +102,26 @@
 				"source":"6"
 			}
 		],
-		"sndec":"-40:43:36.8",
-		"snra":"12:44:50.29",
+		"sndec":[
+			{
+				"value":"-40:43:36.79",
+				"source":"3"
+			},
+			{
+				"value":"-40:43:36.8",
+				"source":"4,5"
+			}
+		],
+		"snra":[
+			{
+				"value":"12:44:50.25",
+				"source":"3"
+			},
+			{
+				"value":"12:44:50.29",
+				"source":"4,5"
+			}
+		],
 		"photometry":[
 			{
 				"timeunit":"MJD",

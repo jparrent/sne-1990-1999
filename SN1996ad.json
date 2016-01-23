@@ -33,8 +33,18 @@
 		"discoverer":"Robert Evans",
 		"discovermonth":"5",
 		"discoveryear":"1996",
-		"galdec":"+194808",
-		"galra":"155905",
+		"galdec":[
+			{
+				"value":"+19:48:08",
+				"source":"1"
+			}
+		],
+		"galra":[
+			{
+				"value":"15:59:05",
+				"source":"1"
+			}
+		],
 		"host":[
 			{
 				"value":"A155905+1948",
@@ -49,8 +59,18 @@
 		"maxday":"8",
 		"maxmonth":"5",
 		"maxyear":"1996",
-		"sndec":"+19:48:08.1",
-		"snra":"15:59:05.91",
+		"sndec":[
+			{
+				"value":"+19:48:08.1",
+				"source":"1,2,3"
+			}
+		],
+		"snra":[
+			{
+				"value":"15:59:05.91",
+				"source":"1,2,3"
+			}
+		],
 		"photometry":[
 			{
 				"timeunit":"MJD",

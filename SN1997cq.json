@@ -39,8 +39,18 @@
 		"discoverer":"McDonald Observatory Supernova Search Team",
 		"discovermonth":"6",
 		"discoveryear":"1997",
-		"galdec":"+394600",
-		"galra":"162951",
+		"galdec":[
+			{
+				"value":"+39:46:00",
+				"source":"1"
+			}
+		],
+		"galra":[
+			{
+				"value":"16:29:51",
+				"source":"1"
+			}
+		],
 		"host":[
 			{
 				"value":"UGC 10420",
@@ -70,8 +80,18 @@
 				"source":"2,3,4"
 			}
 		],
-		"sndec":"+39:45:20.3",
-		"snra":"16:29:50.86",
+		"sndec":[
+			{
+				"value":"+39:45:20.3",
+				"source":"1,2,3"
+			}
+		],
+		"snra":[
+			{
+				"value":"16:29:50.86",
+				"source":"1,2,3"
+			}
+		],
 		"photometry":[
 			{
 				"timeunit":"MJD",

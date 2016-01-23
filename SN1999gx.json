@@ -39,8 +39,18 @@
 		"discoverer":"C. Balland and M. Mouchet",
 		"discovermonth":"9",
 		"discoveryear":"1999",
-		"galdec":"+000426",
-		"galra":"003415",
+		"galdec":[
+			{
+				"value":"+00:04:26",
+				"source":"1"
+			}
+		],
+		"galra":[
+			{
+				"value":"00:34:15",
+				"source":"1"
+			}
+		],
 		"host":[
 			{
 				"value":"A003415+0004",
@@ -65,8 +75,18 @@
 				"source":"1"
 			}
 		],
-		"sndec":"+00:04:26.2",
-		"snra":"00:34:15.47",
+		"sndec":[
+			{
+				"value":"+00:04:26.2",
+				"source":"1,2,3"
+			}
+		],
+		"snra":[
+			{
+				"value":"00:34:15.47",
+				"source":"1,2,3"
+			}
+		],
 		"photometry":[
 			{
 				"timeunit":"MJD",

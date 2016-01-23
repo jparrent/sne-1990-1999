@@ -39,8 +39,18 @@
 		"discoverer":"Christian Buil",
 		"discovermonth":"7",
 		"discoveryear":"1996",
-		"galdec":"+461146",
-		"galra":"131206",
+		"galdec":[
+			{
+				"value":"+46:11:46",
+				"source":"1"
+			}
+		],
+		"galra":[
+			{
+				"value":"13:12:06",
+				"source":"1"
+			}
+		],
 		"host":[
 			{
 				"value":"NGC 5021",
@@ -65,8 +75,18 @@
 				"source":"4"
 			}
 		],
-		"sndec":"+46:11:38.4",
-		"snra":"13:12:04.42",
+		"sndec":[
+			{
+				"value":"+46:11:38.4",
+				"source":"1,2,3"
+			}
+		],
+		"snra":[
+			{
+				"value":"13:12:04.42",
+				"source":"1,2,3"
+			}
+		],
 		"photometry":[
 			{
 				"timeunit":"MJD",

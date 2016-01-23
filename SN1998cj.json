@@ -39,8 +39,18 @@
 		"discoverer":"EROS",
 		"discovermonth":"5",
 		"discoveryear":"1998",
-		"galdec":"-121330",
-		"galra":"121942",
+		"galdec":[
+			{
+				"value":"-12:13:30",
+				"source":"1"
+			}
+		],
+		"galra":[
+			{
+				"value":"12:19:42",
+				"source":"1"
+			}
+		],
 		"host":[
 			{
 				"value":"NGC 4263",
@@ -65,8 +75,18 @@
 				"source":"4"
 			}
 		],
-		"sndec":"-12:13:41.8",
-		"snra":"12:19:43.30",
+		"sndec":[
+			{
+				"value":"-12:13:41.8",
+				"source":"1,2,3"
+			}
+		],
+		"snra":[
+			{
+				"value":"12:19:43.30",
+				"source":"1,2,3"
+			}
+		],
 		"photometry":[
 			{
 				"timeunit":"MJD",

@@ -69,8 +69,18 @@
 		"discoverer":"Marina Wischnjewsky",
 		"discovermonth":"1",
 		"discoveryear":"1993",
-		"galdec":"-6203",
-		"galra":"073918",
+		"galdec":[
+			{
+				"value":"-62:03",
+				"source":"3"
+			}
+		],
+		"galra":[
+			{
+				"value":"07:39:18",
+				"source":"3"
+			}
+		],
 		"host":[
 			{
 				"value":"A073918-6203",
@@ -105,8 +115,18 @@
 				"source":"6"
 			}
 		],
-		"sndec":"-61:56:11.0",
-		"snra":"07:38:38.4",
+		"sndec":[
+			{
+				"value":"-61:56:11.0",
+				"source":"4,5"
+			}
+		],
+		"snra":[
+			{
+				"value":"07:38:38.4",
+				"source":"4,5"
+			}
+		],
 		"photometry":[
 			{
 				"timeunit":"MJD",

@@ -60,15 +60,25 @@
 		"claimedtype":[
 			{
 				"value":"Ib",
-				"source":"3,4,5,7,8,7,8,7,8"
+				"source":"3,4,5,7,8"
 			}
 		],
 		"discoverday":"8",
 		"discoverer":"Tim Puckett et al.",
 		"discovermonth":"8",
 		"discoveryear":"1999",
-		"galdec":"+233840",
-		"galra":"015954",
+		"galdec":[
+			{
+				"value":"+23:38:40",
+				"source":"3"
+			}
+		],
+		"galra":[
+			{
+				"value":"01:59:54",
+				"source":"3"
+			}
+		],
 		"host":[
 			{
 				"value":"NGC 776",
@@ -98,8 +108,18 @@
 				"source":"4,5,6"
 			}
 		],
-		"sndec":"+23:38:22.7",
-		"snra":"01:59:54.86",
+		"sndec":[
+			{
+				"value":"+23:38:22.7",
+				"source":"3,4,5"
+			}
+		],
+		"snra":[
+			{
+				"value":"01:59:54.86",
+				"source":"3,4,5"
+			}
+		],
 		"photometry":[
 			{
 				"timeunit":"MJD",

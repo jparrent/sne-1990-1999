@@ -159,8 +159,18 @@
 		"discoverer":"Christian Pollas",
 		"discovermonth":"10",
 		"discoveryear":"1996",
-		"galdec":"+112340",
-		"galra":"003617",
+		"galdec":[
+			{
+				"value":"+11:23:40",
+				"source":"4"
+			}
+		],
+		"galra":[
+			{
+				"value":"00:36:17",
+				"source":"4"
+			}
+		],
 		"host":[
 			{
 				"value":"A003617+1123",
@@ -195,8 +205,18 @@
 				"source":"7"
 			}
 		],
-		"sndec":"+11:23:40.5",
-		"snra":"00:36:17.97",
+		"sndec":[
+			{
+				"value":"+11:23:40.5",
+				"source":"4,5,6"
+			}
+		],
+		"snra":[
+			{
+				"value":"00:36:17.97",
+				"source":"4,5,6"
+			}
+		],
 		"photometry":[
 			{
 				"timeunit":"MJD",

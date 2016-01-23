@@ -43,8 +43,18 @@
 		"discoverer":"Robert McNaught, Drinkwater",
 		"discovermonth":"1",
 		"discoveryear":"1992",
-		"galdec":"-202208",
-		"galra":"060059",
+		"galdec":[
+			{
+				"value":"-20:22:08",
+				"source":"1"
+			}
+		],
+		"galra":[
+			{
+				"value":"06:00:59",
+				"source":"1"
+			}
+		],
 		"host":[
 			{
 				"value":"A060059-2022",
@@ -78,8 +88,26 @@
 				"source":"2,3,4"
 			}
 		],
-		"sndec":"-20:22:08.8",
-		"snra":"06:00:59.87",
+		"sndec":[
+			{
+				"value":"-20:22:08.86",
+				"source":"1"
+			},
+			{
+				"value":"-20:22:08.8",
+				"source":"2,3"
+			}
+		],
+		"snra":[
+			{
+				"value":"06:00:59.85",
+				"source":"1"
+			},
+			{
+				"value":"06:00:59.87",
+				"source":"2,3"
+			}
+		],
 		"photometry":[
 			{
 				"timeunit":"MJD",

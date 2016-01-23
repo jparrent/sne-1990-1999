@@ -39,8 +39,18 @@
 		"discoverer":"Wise Observatory",
 		"discovermonth":"5",
 		"discoveryear":"1999",
-		"galdec":"+395913",
-		"galra":"165445",
+		"galdec":[
+			{
+				"value":"+39:59:13",
+				"source":"1"
+			}
+		],
+		"galra":[
+			{
+				"value":"16:54:45",
+				"source":"1"
+			}
+		],
 		"host":[
 			{
 				"value":"A165445+3959",
@@ -70,8 +80,18 @@
 				"source":"2,3"
 			}
 		],
-		"sndec":"+39:59:13.9",
-		"snra":"16:54:45.69",
+		"sndec":[
+			{
+				"value":"+39:59:13.9",
+				"source":"1,2,3"
+			}
+		],
+		"snra":[
+			{
+				"value":"16:54:45.69",
+				"source":"1,2,3"
+			}
+		],
 		"photometry":[
 			{
 				"timeunit":"MJD",

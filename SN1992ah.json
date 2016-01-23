@@ -63,8 +63,18 @@
 				"source":"1"
 			}
 		],
-		"galdec":"+1254",
-		"galra":"173742",
+		"galdec":[
+			{
+				"value":"+12:54",
+				"source":"2"
+			}
+		],
+		"galra":[
+			{
+				"value":"17:37:42",
+				"source":"2"
+			}
+		],
 		"host":[
 			{
 				"value":"2MASX J17374476+1254168",
@@ -83,8 +93,18 @@
 		"maxday":"26",
 		"maxmonth":"6",
 		"maxyear":"1992",
-		"sndec":"+12:54:00.0",
-		"snra":"17:37:42.00",
+		"sndec":[
+			{
+				"value":"+12:54:00.0",
+				"source":"3,4"
+			}
+		],
+		"snra":[
+			{
+				"value":"17:37:42.00",
+				"source":"3,4"
+			}
+		],
 		"photometry":[
 			{
 				"timeunit":"MJD",

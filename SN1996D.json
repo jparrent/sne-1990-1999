@@ -39,8 +39,18 @@
 		"discoverer":"L. Drissen, C. Robert, Y. Dutil, and J.-R. Roy, Departement de Physique, UniversNGC 1614",
 		"discovermonth":"2",
 		"discoveryear":"1996",
-		"galdec":"-083444",
-		"galra":"043400",
+		"galdec":[
+			{
+				"value":"-08:34:44",
+				"source":"1"
+			}
+		],
+		"galra":[
+			{
+				"value":"04:34:00",
+				"source":"1"
+			}
+		],
 		"host":[
 			{
 				"value":"NGC 1614",
@@ -69,8 +79,26 @@
 				"source":"4"
 			}
 		],
-		"sndec":"-08:3444:.0",
-		"snra":"04:34:00.3",
+		"sndec":[
+			{
+				"value":"-08:34:43.98",
+				"source":"1"
+			},
+			{
+				"value":"-08:3444:.0",
+				"source":"2,3"
+			}
+		],
+		"snra":[
+			{
+				"value":"04:34:00.30",
+				"source":"1"
+			},
+			{
+				"value":"04:34:00.3",
+				"source":"2,3"
+			}
+		],
 		"photometry":[
 			{
 				"timeunit":"MJD",

@@ -69,8 +69,18 @@
 		"discoverer":"Gilliland, Phillips",
 		"discovermonth":"12",
 		"discoveryear":"1997",
-		"galdec":"+621244",
-		"galra":"123644",
+		"galdec":[
+			{
+				"value":"+62:12:44",
+				"source":"1"
+			}
+		],
+		"galra":[
+			{
+				"value":"12:36:44",
+				"source":"1"
+			}
+		],
 		"host":[
 			{
 				"value":"A123644+6212",
@@ -101,8 +111,26 @@
 				"source":"1"
 			}
 		],
-		"sndec":"+62:12:44.7",
-		"snra":"12:36:44.00",
+		"sndec":[
+			{
+				"value":"+62:12:44.69",
+				"source":"1"
+			},
+			{
+				"value":"+62:12:44.7",
+				"source":"2,3"
+			}
+		],
+		"snra":[
+			{
+				"value":"12:36:44.10",
+				"source":"1"
+			},
+			{
+				"value":"12:36:44.00",
+				"source":"2,3"
+			}
+		],
 		"photometry":[
 			{
 				"timeunit":"MJD",

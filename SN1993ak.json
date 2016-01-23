@@ -33,8 +33,18 @@
 		"discoverer":"Meusinger",
 		"discovermonth":"3",
 		"discoveryear":"1993",
-		"galdec":"+302012",
-		"galra":"134309",
+		"galdec":[
+			{
+				"value":"+30:20:12",
+				"source":"1"
+			}
+		],
+		"galra":[
+			{
+				"value":"13:43:09",
+				"source":"1"
+			}
+		],
 		"host":[
 			{
 				"value":"UGC 8685",
@@ -64,8 +74,26 @@
 				"source":"4"
 			}
 		],
-		"sndec":"+30:20:12.5",
-		"snra":"13:43:10.96",
+		"sndec":[
+			{
+				"value":"+30:20:12.36",
+				"source":"1"
+			},
+			{
+				"value":"+30:20:12.5",
+				"source":"2,3"
+			}
+		],
+		"snra":[
+			{
+				"value":"13:43:10.92",
+				"source":"1"
+			},
+			{
+				"value":"13:43:10.96",
+				"source":"2,3"
+			}
+		],
 		"photometry":[
 			{
 				"timeunit":"MJD",

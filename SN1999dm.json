@@ -33,8 +33,18 @@
 		"discoverer":"Seoul National University, Supernova Search Project",
 		"discovermonth":"6",
 		"discoveryear":"1999",
-		"galdec":"+274249",
-		"galra":"152229",
+		"galdec":[
+			{
+				"value":"+27:42:49",
+				"source":"1"
+			}
+		],
+		"galra":[
+			{
+				"value":"15:22:29",
+				"source":"1"
+			}
+		],
 		"host":[
 			{
 				"value":"M+05-36-22",
@@ -67,8 +77,18 @@
 				"source":"4"
 			}
 		],
-		"sndec":"+27:42:58.0",
-		"snra":"15:22:28.90",
+		"sndec":[
+			{
+				"value":"+27:42:58.0",
+				"source":"1,2,3"
+			}
+		],
+		"snra":[
+			{
+				"value":"15:22:28.90",
+				"source":"1,2,3"
+			}
+		],
 		"photometry":[
 			{
 				"timeunit":"MJD",

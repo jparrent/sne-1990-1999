@@ -39,8 +39,18 @@
 		"discoverer":"Mike Schwartz",
 		"discovermonth":"7",
 		"discoveryear":"1997",
-		"galdec":"+682059",
-		"galra":"161555",
+		"galdec":[
+			{
+				"value":"+68:20:59",
+				"source":"1"
+			}
+		],
+		"galra":[
+			{
+				"value":"16:15:55",
+				"source":"1"
+			}
+		],
 		"host":[
 			{
 				"value":"IC 1216",
@@ -70,8 +80,18 @@
 				"source":"4"
 			}
 		],
-		"sndec":"+68:20:53.3",
-		"snra":"16:15:54.96",
+		"sndec":[
+			{
+				"value":"+68:20:53.3",
+				"source":"1,2,3"
+			}
+		],
+		"snra":[
+			{
+				"value":"16:15:54.96",
+				"source":"1,2,3"
+			}
+		],
 		"photometry":[
 			{
 				"timeunit":"MJD",

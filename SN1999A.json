@@ -49,8 +49,18 @@
 		"discoverer":"LOSS",
 		"discovermonth":"1",
 		"discoveryear":"1999",
-		"galdec":"+544512",
-		"galra":"150752",
+		"galdec":[
+			{
+				"value":"+54:45:12",
+				"source":"3"
+			}
+		],
+		"galra":[
+			{
+				"value":"15:07:52",
+				"source":"3"
+			}
+		],
 		"host":[
 			{
 				"value":"NGC 5874",
@@ -80,8 +90,18 @@
 				"source":"6"
 			}
 		],
-		"sndec":"+54:45:40.0",
-		"snra":"15:07:55.28",
+		"sndec":[
+			{
+				"value":"+54:45:40.0",
+				"source":"3,4,5"
+			}
+		],
+		"snra":[
+			{
+				"value":"15:07:55.28",
+				"source":"3,4,5"
+			}
+		],
 		"photometry":[
 			{
 				"timeunit":"MJD",

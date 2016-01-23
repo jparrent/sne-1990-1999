@@ -39,8 +39,18 @@
 		"discoverer":"CfA Supernova group",
 		"discovermonth":"2",
 		"discoveryear":"1998",
-		"galdec":"+301853",
-		"galra":"111437",
+		"galdec":[
+			{
+				"value":"+30:18:53",
+				"source":"1"
+			}
+		],
+		"galra":[
+			{
+				"value":"11:14:37",
+				"source":"1"
+			}
+		],
 		"host":[
 			{
 				"value":"UGC 6271",
@@ -70,8 +80,18 @@
 				"source":"2,3"
 			}
 		],
-		"sndec":"+30:18:51.7",
-		"snra":"11:14:37.03",
+		"sndec":[
+			{
+				"value":"+30:18:51.7",
+				"source":"1,2,3"
+			}
+		],
+		"snra":[
+			{
+				"value":"11:14:37.03",
+				"source":"1,2,3"
+			}
+		],
 		"photometry":[
 			{
 				"timeunit":"MJD",
