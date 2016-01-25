@@ -1,65 +1,115 @@
 {
-    "SN1998dq": {
-        "name": "SN1998dq",
-        "aliases": [
-            "SN1998dq"
-        ],
-        "sources": [
-            {
-                "name": "<a href='http://dau.itep.ru/sn/node/72'>Sternberg Astronomical Institute Supernova Light Curve Catalogue</a>",
-                "alias": "1",
-                "secondary": true
-            },
-            {
-                "name": "VSNET 2001",
-                "alias": "2"
-            },
-            {
-                "name": "http://graspa.oapd.inaf.it/cgi-bin/sncat.php",
-                "alias": "3",
-                "secondary": true
-            },
-            {
-                "name": "<a href='http://www.rochesterastronomy.org/snimages/snredshiftall.html'>Latest Supernovae</a>",
-                "alias": "4",
-                "secondary": true
-            },
-            {
-                "name": "<a href='http://adsabs.harvard.edu/abs/2012A%26A...538A.120L'>2012A&A...538A.120L</a>",
-                "alias": "5"
-            }
-        ],
-        "claimedtype": [
-            {
-                "type": "Ia",
-                "source": "3,4"
-            }
-        ],
-        "discoverday": "25",
-        "discoverer": "Brett White",
-        "discovermonth": "8",
-        "discoveryear": "1998",
-        "galdec": "-503831",
-        "galra": "191125",
-        "host": "NGC 6754",
-        "hvel": "3252",
-        "lumdist": "48.687",
-        "maxabsmag": "-19.337",
-        "maxappmag": "14.1",
-        "maxday": "25",
-        "maxmonth": "8",
-        "maxyear": "1998",
-        "redshift": "0.01091",
-        "sndec": "-50:38:25.5",
-        "snra": "19:11:23.78",
-        "photometry": [
-            {
-                "timeunit": "MJD",
-                "time": "51050.75",
-                "band": "C",
-                "abmag": "14.1",
-                "source": "1,2"
-            }
-        ]
-    }
+	"SN1998dq":{
+		"name":"SN1998dq",
+		"aliases":[
+			"SN1998dq"
+		],
+		"sources":[
+			{
+				"name":"Sternberg Astronomical Institute Supernova Light Curve Catalogue",
+				"url":"http://dau.itep.ru/sn/node/72",
+				"alias":"1",
+				"secondary":true
+			},
+			{
+				"name":"VSNET 2001",
+				"alias":"2"
+			},
+			{
+				"name":"Asiago Supernova Catalogue",
+				"url":"http://graspa.oapd.inaf.it/cgi-bin/sncat.php",
+				"alias":"3",
+				"secondary":true
+			},
+			{
+				"name":"IAUC 6998",
+				"url":"http://www.cbat.eps.harvard.edu/iauc/06900/06998.html#Item1",
+				"alias":"4"
+			},
+			{
+				"name":"Latest Supernovae",
+				"url":"http://www.rochesterastronomy.org/snimages/snredshiftall.html",
+				"alias":"5",
+				"secondary":true
+			},
+			{
+				"name":"2012A&A...538A.120L",
+				"url":"http://adsabs.harvard.edu/abs/2012A&A...538A.120L",
+				"bibcode":"2012A&A...538A.120L",
+				"alias":"6"
+			}
+		],
+		"claimedtype":[
+			{
+				"value":"Ia",
+				"source":"3,4,5"
+			}
+		],
+		"discoverday":"25",
+		"discoverer":"Brett White",
+		"discovermonth":"8",
+		"discoveryear":"1998",
+		"galdec":[
+			{
+				"value":"-50:38:31",
+				"source":"3"
+			}
+		],
+		"galra":[
+			{
+				"value":"19:11:25",
+				"source":"3"
+			}
+		],
+		"host":[
+			{
+				"value":"NGC 6754",
+				"source":"3,4,5,6"
+			}
+		],
+		"hvel":[
+			{
+				"value":"3252",
+				"source":"3"
+			}
+		],
+		"lumdist":[
+			{
+				"value":"41",
+				"source":"6"
+			}
+		],
+		"maxabsmag":"-19",
+		"maxappmag":"14.1",
+		"maxday":"25",
+		"maxmonth":"8",
+		"maxyear":"1998",
+		"redshift":[
+			{
+				"value":"0.011",
+				"source":"4,5,6"
+			}
+		],
+		"sndec":[
+			{
+				"value":"-50:38:25.5",
+				"source":"3,4,5"
+			}
+		],
+		"snra":[
+			{
+				"value":"19:11:23.78",
+				"source":"3,4,5"
+			}
+		],
+		"photometry":[
+			{
+				"timeunit":"MJD",
+				"time":"51050.75",
+				"band":"C",
+				"abmag":"14.1",
+				"source":"1,2"
+			}
+		]
+	}
 }

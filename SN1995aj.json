@@ -1,56 +1,86 @@
 {
-    "SN1995aj": {
-        "name": "SN1995aj",
-        "aliases": [
-            "SN1995aj"
-        ],
-        "sources": [
-            {
-                "name": "http://graspa.oapd.inaf.it/cgi-bin/sncat.php",
-                "alias": "1",
-                "secondary": true
-            },
-            {
-                "name": "<a href='http://www.rochesterastronomy.org/snimages/snredshiftall.html'>Latest Supernovae</a>",
-                "alias": "2",
-                "secondary": true
-            },
-            {
-                "name": "<a href='http://www.cbat.eps.harvard.edu/iauc/06200/06253.html'>IAUC 6253</a>",
-                "alias": "3"
-            },
-            {
-                "name": "<a href='http://adsabs.harvard.edu/abs/2012A%26A...538A.120L'>2012A&A...538A.120L</a>",
-                "alias": "4"
-            }
-        ],
-        "claimedtype": [
-            {
-                "type": "Ia",
-                "source": "1,2"
-            }
-        ],
-        "discoverday": "28",
-        "discoverer": "Christian Pollas",
-        "discovermonth": "9",
-        "discoveryear": "1995",
-        "galdec": "+415601",
-        "galra": "022836",
-        "host": "A022836+4156",
-        "maxappmag": "20",
-        "maxday": "28",
-        "maxmonth": "9",
-        "maxyear": "1995",
-        "sndec": "+41:56:01.9",
-        "snra": "02:28:36.64",
-        "photometry": [
-            {
-                "timeunit": "MJD",
-                "time": "49988.5",
-                "band": "",
-                "abmag": "20.0",
-                "source": "3,2"
-            }
-        ]
-    }
+	"SN1995aj":{
+		"name":"SN1995aj",
+		"aliases":[
+			"SN1995aj"
+		],
+		"sources":[
+			{
+				"name":"Asiago Supernova Catalogue",
+				"url":"http://graspa.oapd.inaf.it/cgi-bin/sncat.php",
+				"alias":"1",
+				"secondary":true
+			},
+			{
+				"name":"IAUC 6253",
+				"url":"http://www.cbat.eps.harvard.edu/iauc/06200/06253.html",
+				"alias":"2"
+			},
+			{
+				"name":"Latest Supernovae",
+				"url":"http://www.rochesterastronomy.org/snimages/snredshiftall.html",
+				"alias":"3",
+				"secondary":true
+			},
+			{
+				"name":"2012A&A...538A.120L",
+				"url":"http://adsabs.harvard.edu/abs/2012A&A...538A.120L",
+				"bibcode":"2012A&A...538A.120L",
+				"alias":"4"
+			}
+		],
+		"claimedtype":[
+			{
+				"value":"Ia",
+				"source":"1,2,3"
+			}
+		],
+		"discoverday":"28",
+		"discoverer":"Christian Pollas",
+		"discovermonth":"9",
+		"discoveryear":"1995",
+		"galdec":[
+			{
+				"value":"+41:56:01",
+				"source":"1"
+			}
+		],
+		"galra":[
+			{
+				"value":"02:28:36",
+				"source":"1"
+			}
+		],
+		"host":[
+			{
+				"value":"A022836+4156",
+				"source":"1"
+			}
+		],
+		"maxappmag":"20",
+		"maxday":"28",
+		"maxmonth":"9",
+		"maxyear":"1995",
+		"sndec":[
+			{
+				"value":"+41:56:01.9",
+				"source":"1,2,3"
+			}
+		],
+		"snra":[
+			{
+				"value":"02:28:36.64",
+				"source":"1,2,3"
+			}
+		],
+		"photometry":[
+			{
+				"timeunit":"MJD",
+				"time":"49988.5",
+				"band":"",
+				"abmag":"20.0",
+				"source":"2,3"
+			}
+		]
+	}
 }

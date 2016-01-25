@@ -1,60 +1,142 @@
 {
-    "SN1995ba": {
-        "name": "SN1995ba",
-        "aliases": [
-            "SN1995ba"
-        ],
-        "sources": [
-            {
-                "name": "http://graspa.oapd.inaf.it/cgi-bin/sncat.php",
-                "alias": "1",
-                "secondary": true
-            },
-            {
-                "name": "<a href='http://www.rochesterastronomy.org/snimages/snredshiftall.html'>Latest Supernovae</a>",
-                "alias": "2",
-                "secondary": true
-            },
-            {
-                "name": "<a href='http://www.cbat.eps.harvard.edu/iauc/06200/06270.html'>IAUC 6270</a>",
-                "alias": "3"
-            },
-            {
-                "name": "<a href='http://adsabs.harvard.edu/abs/2012A%26A...538A.120L'>2012A&A...538A.120L</a>",
-                "alias": "4"
-            }
-        ],
-        "claimedtype": [
-            {
-                "type": "I",
-                "source": "1,2"
-            }
-        ],
-        "discoverday": "19",
-        "discoverer": "Supernova Cosmology Project",
-        "discovermonth": "11",
-        "discoveryear": "1995",
-        "galdec": "+074321",
-        "galra": "081906",
-        "host": "A081906+0743",
-        "hvel": "94900",
-        "lumdist": "2160",
-        "maxabsmag": "-19.1",
-        "maxappmag": "22.6",
-        "maxday": "19",
-        "maxmonth": "11",
-        "maxyear": "1995",
-        "redshift": "0.388",
-        "sndec": "+07:43:21.2",
-        "snra": "08:19:06.46",
-        "photometry": [
-            {
-                "timeunit": "MJD",
-                "time": "50040.5",
-                "band": "",
-                "abmag": "22.6",
-                "source": "3,2"
-            }
-        ]
-    }
+	"SN1995ba":{
+		"name":"SN1995ba",
+		"aliases":[
+			"SN1995ba"
+		],
+		"sources":[
+			{
+				"name":"Asiago Supernova Catalogue",
+				"url":"http://graspa.oapd.inaf.it/cgi-bin/sncat.php",
+				"alias":"1",
+				"secondary":true
+			},
+			{
+				"name":"IAUC 6270",
+				"url":"http://www.cbat.eps.harvard.edu/iauc/06200/06270.html",
+				"alias":"2"
+			},
+			{
+				"name":"Latest Supernovae",
+				"url":"http://www.rochesterastronomy.org/snimages/snredshiftall.html",
+				"alias":"3",
+				"secondary":true
+			},
+			{
+				"name":"2012A&A...538A.120L",
+				"url":"http://adsabs.harvard.edu/abs/2012A&A...538A.120L",
+				"bibcode":"2012A&A...538A.120L",
+				"alias":"4"
+			},
+			{
+				"name":"NED-D",
+				"url":"http://ned.ipac.caltech.edu/Library/Distances/",
+				"alias":"5",
+				"secondary":true
+			},
+			{
+				"name":"2010arXiv1006.2112L",
+				"url":"http://adsabs.harvard.edu/abs/2010arXiv1006.2112L",
+				"bibcode":"2010arXiv1006.2112L",
+				"alias":"6"
+			},
+			{
+				"name":"2010ApJ...716..712A",
+				"url":"http://adsabs.harvard.edu/abs/2010ApJ...716..712A",
+				"bibcode":"2010ApJ...716..712A",
+				"alias":"7"
+			},
+			{
+				"name":"2004ApJ...607..665R",
+				"url":"http://adsabs.harvard.edu/abs/2004ApJ...607..665R",
+				"bibcode":"2004ApJ...607..665R",
+				"alias":"8"
+			},
+			{
+				"name":"2008ApJ...686..749K",
+				"url":"http://adsabs.harvard.edu/abs/2008ApJ...686..749K",
+				"bibcode":"2008ApJ...686..749K",
+				"alias":"9"
+			},
+			{
+				"name":"2009ApJ...700.1097H",
+				"url":"http://adsabs.harvard.edu/abs/2009ApJ...700.1097H",
+				"bibcode":"2009ApJ...700.1097H",
+				"alias":"10"
+			}
+		],
+		"claimedtype":[
+			{
+				"value":"I",
+				"source":"1,2,3"
+			}
+		],
+		"discoverday":"19",
+		"discoverer":"Supernova Cosmology Project",
+		"discovermonth":"11",
+		"discoveryear":"1995",
+		"galdec":[
+			{
+				"value":"+07:43:21",
+				"source":"1"
+			}
+		],
+		"galra":[
+			{
+				"value":"08:19:06",
+				"source":"1"
+			}
+		],
+		"host":[
+			{
+				"value":"A081906+0743",
+				"source":"1"
+			}
+		],
+		"hvel":[
+			{
+				"value":"94900",
+				"source":"D"
+			}
+		],
+		"lumdist":[
+			{
+				"value":"1870",
+				"error":"240",
+				"source":"8,5"
+			}
+		],
+		"maxabsmag":"-18.8",
+		"maxappmag":"22.6",
+		"maxday":"19",
+		"maxmonth":"11",
+		"maxyear":"1995",
+		"redshift":[
+			{
+				"value":"0.388",
+				"source":"1"
+			}
+		],
+		"sndec":[
+			{
+				"value":"+07:43:21.2",
+				"source":"1,2,3"
+			}
+		],
+		"snra":[
+			{
+				"value":"08:19:06.46",
+				"source":"1,2,3"
+			}
+		],
+		"photometry":[
+			{
+				"timeunit":"MJD",
+				"time":"50040.5",
+				"band":"",
+				"abmag":"22.6",
+				"source":"2,3"
+			}
+		]
+	}
 }

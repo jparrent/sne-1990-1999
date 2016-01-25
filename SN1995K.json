@@ -1,60 +1,166 @@
 {
-    "SN1995K": {
-        "name": "SN1995K",
-        "aliases": [
-            "SN1995K"
-        ],
-        "sources": [
-            {
-                "name": "http://graspa.oapd.inaf.it/cgi-bin/sncat.php",
-                "alias": "1",
-                "secondary": true
-            },
-            {
-                "name": "<a href='http://www.rochesterastronomy.org/snimages/snredshiftall.html'>Latest Supernovae</a>",
-                "alias": "2",
-                "secondary": true
-            },
-            {
-                "name": "<a href='http://www.cbat.eps.harvard.edu/iauc/06100/06160.html'>IAUC 6160</a>",
-                "alias": "3"
-            },
-            {
-                "name": "<a href='http://adsabs.harvard.edu/abs/2012A%26A...538A.120L'>2012A&A...538A.120L</a>",
-                "alias": "4"
-            }
-        ],
-        "claimedtype": [
-            {
-                "type": "Ia",
-                "source": "1,2"
-            }
-        ],
-        "discoverday": "29",
-        "discoverer": "Schmidt et al.",
-        "discovermonth": "3",
-        "discoveryear": "1995",
-        "galdec": "-091507",
-        "galra": "105047",
-        "host": "A105047-0915",
-        "hvel": "112000",
-        "lumdist": "2770",
-        "maxabsmag": "-19.7",
-        "maxappmag": "22.5",
-        "maxday": "29",
-        "maxmonth": "3",
-        "maxyear": "1995",
-        "redshift": "0.478",
-        "sndec": "-09:15:07.4",
-        "snra": "10:50:47.00",
-        "photometry": [
-            {
-                "timeunit": "MJD",
-                "time": "49805.5",
-                "band": "",
-                "abmag": "22.5",
-                "source": "3,2"
-            }
-        ]
-    }
+	"SN1995K":{
+		"name":"SN1995K",
+		"aliases":[
+			"SN1995K"
+		],
+		"sources":[
+			{
+				"name":"Asiago Supernova Catalogue",
+				"url":"http://graspa.oapd.inaf.it/cgi-bin/sncat.php",
+				"alias":"1",
+				"secondary":true
+			},
+			{
+				"name":"IAUC 6160",
+				"url":"http://www.cbat.eps.harvard.edu/iauc/06100/06160.html",
+				"alias":"2"
+			},
+			{
+				"name":"Latest Supernovae",
+				"url":"http://www.rochesterastronomy.org/snimages/snredshiftall.html",
+				"alias":"3",
+				"secondary":true
+			},
+			{
+				"name":"2012A&A...538A.120L",
+				"url":"http://adsabs.harvard.edu/abs/2012A&A...538A.120L",
+				"bibcode":"2012A&A...538A.120L",
+				"alias":"4"
+			},
+			{
+				"name":"NED-D",
+				"url":"http://ned.ipac.caltech.edu/Library/Distances/",
+				"alias":"5",
+				"secondary":true
+			},
+			{
+				"name":"2010arXiv1006.2112L",
+				"url":"http://adsabs.harvard.edu/abs/2010arXiv1006.2112L",
+				"bibcode":"2010arXiv1006.2112L",
+				"alias":"6"
+			},
+			{
+				"name":"1998ApJ...493L..53G",
+				"url":"http://adsabs.harvard.edu/abs/1998ApJ...493L..53G",
+				"bibcode":"1998ApJ...493L..53G",
+				"alias":"7"
+			},
+			{
+				"name":"1998ApJ...507...46S",
+				"url":"http://adsabs.harvard.edu/abs/1998ApJ...507...46S",
+				"bibcode":"1998ApJ...507...46S",
+				"alias":"8"
+			},
+			{
+				"name":"2010ApJ...716..712A",
+				"url":"http://adsabs.harvard.edu/abs/2010ApJ...716..712A",
+				"bibcode":"2010ApJ...716..712A",
+				"alias":"9"
+			},
+			{
+				"name":"2008ApJ...686..749K",
+				"url":"http://adsabs.harvard.edu/abs/2008ApJ...686..749K",
+				"bibcode":"2008ApJ...686..749K",
+				"alias":"10"
+			},
+			{
+				"name":"1998AJ....116.1009R",
+				"url":"http://adsabs.harvard.edu/abs/1998AJ....116.1009R",
+				"bibcode":"1998AJ....116.1009R",
+				"alias":"11"
+			},
+			{
+				"name":"2009ApJ...700.1097H",
+				"url":"http://adsabs.harvard.edu/abs/2009ApJ...700.1097H",
+				"bibcode":"2009ApJ...700.1097H",
+				"alias":"12"
+			},
+			{
+				"name":"2004ApJ...607..665R",
+				"url":"http://adsabs.harvard.edu/abs/2004ApJ...607..665R",
+				"bibcode":"2004ApJ...607..665R",
+				"alias":"13"
+			},
+			{
+				"name":"1998ApJ...504..935R",
+				"url":"http://adsabs.harvard.edu/abs/1998ApJ...504..935R",
+				"bibcode":"1998ApJ...504..935R",
+				"alias":"14"
+			}
+		],
+		"claimedtype":[
+			{
+				"value":"Ia",
+				"source":"1,2,3"
+			}
+		],
+		"discoverday":"29",
+		"discoverer":"Schmidt et al.",
+		"discovermonth":"3",
+		"discoveryear":"1995",
+		"galdec":[
+			{
+				"value":"-09:15:07",
+				"source":"1"
+			}
+		],
+		"galra":[
+			{
+				"value":"10:50:47",
+				"source":"1"
+			}
+		],
+		"host":[
+			{
+				"value":"A105047-0915",
+				"source":"1"
+			}
+		],
+		"hvel":[
+			{
+				"value":"112000",
+				"source":"D"
+			}
+		],
+		"lumdist":[
+			{
+				"value":"1330",
+				"error":"180",
+				"source":"8,5"
+			}
+		],
+		"maxabsmag":"-18.1",
+		"maxappmag":"22.5",
+		"maxday":"29",
+		"maxmonth":"3",
+		"maxyear":"1995",
+		"redshift":[
+			{
+				"value":"0.478",
+				"source":"2,3"
+			}
+		],
+		"sndec":[
+			{
+				"value":"-09:15:07.4",
+				"source":"1,2,3"
+			}
+		],
+		"snra":[
+			{
+				"value":"10:50:47.00",
+				"source":"1,2,3"
+			}
+		],
+		"photometry":[
+			{
+				"timeunit":"MJD",
+				"time":"49805.5",
+				"band":"",
+				"abmag":"22.5",
+				"source":"2,3"
+			}
+		]
+	}
 }

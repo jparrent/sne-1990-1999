@@ -1,50 +1,92 @@
 {
-    "SN1991be": {
-        "name": "SN1991be",
-        "aliases": [
-            "SN1991be"
-        ],
-        "sources": [
-            {
-                "name": "http://graspa.oapd.inaf.it/cgi-bin/sncat.php",
-                "alias": "1",
-                "secondary": true
-            },
-            {
-                "name": "<a href='http://www.rochesterastronomy.org/snimages/snredshiftall.html'>Latest Supernovae</a>",
-                "alias": "2",
-                "secondary": true
-            },
-            {
-                "name": "<a href='http://www.cbat.eps.harvard.edu/iauc/05300/05382.html'>IAUC 5382</a>",
-                "alias": "3"
-            },
-            {
-                "name": "<a href='http://adsabs.harvard.edu/abs/2012A%26A...538A.120L'>2012A&A...538A.120L</a>",
-                "alias": "4"
-            }
-        ],
-        "discoverday": "6",
-        "discoverer": "Robert McNaught",
-        "discovermonth": "11",
-        "discoveryear": "1991",
-        "galdec": "-421245",
-        "galra": "213314",
-        "host": "A213314-4212",
-        "maxappmag": "18.5",
-        "maxday": "6",
-        "maxmonth": "11",
-        "maxyear": "1991",
-        "sndec": "-42:12:45.7",
-        "snra": "21:33:14.38",
-        "photometry": [
-            {
-                "timeunit": "MJD",
-                "time": "48566.5",
-                "band": "",
-                "abmag": "18.5",
-                "source": "3,2"
-            }
-        ]
-    }
+	"SN1991be":{
+		"name":"SN1991be",
+		"aliases":[
+			"SN1991be"
+		],
+		"sources":[
+			{
+				"name":"Asiago Supernova Catalogue",
+				"url":"http://graspa.oapd.inaf.it/cgi-bin/sncat.php",
+				"alias":"1",
+				"secondary":true
+			},
+			{
+				"name":"IAUC 5382",
+				"url":"http://www.cbat.eps.harvard.edu/iauc/05300/05382.html",
+				"alias":"2"
+			},
+			{
+				"name":"Latest Supernovae",
+				"url":"http://www.rochesterastronomy.org/snimages/snredshiftall.html",
+				"alias":"3",
+				"secondary":true
+			},
+			{
+				"name":"2012A&A...538A.120L",
+				"url":"http://adsabs.harvard.edu/abs/2012A&A...538A.120L",
+				"bibcode":"2012A&A...538A.120L",
+				"alias":"4"
+			}
+		],
+		"discoverday":"6",
+		"discoverer":"Robert McNaught",
+		"discovermonth":"11",
+		"discoveryear":"1991",
+		"galdec":[
+			{
+				"value":"-42:12:45",
+				"source":"1"
+			}
+		],
+		"galra":[
+			{
+				"value":"21:33:14",
+				"source":"1"
+			}
+		],
+		"host":[
+			{
+				"value":"A213314-4212",
+				"source":"1"
+			},
+			{
+				"value":"(PGC566831)",
+				"source":"4"
+			}
+		],
+		"maxappmag":"18.5",
+		"maxday":"6",
+		"maxmonth":"11",
+		"maxyear":"1991",
+		"sndec":[
+			{
+				"value":"-42:12:45.78",
+				"source":"1"
+			},
+			{
+				"value":"-42:12:45.7",
+				"source":"2,3"
+			}
+		],
+		"snra":[
+			{
+				"value":"21:33:14.32",
+				"source":"1"
+			},
+			{
+				"value":"21:33:14.38",
+				"source":"2,3"
+			}
+		],
+		"photometry":[
+			{
+				"timeunit":"MJD",
+				"time":"48566.5",
+				"band":"",
+				"abmag":"18.5",
+				"source":"2,3"
+			}
+		]
+	}
 }

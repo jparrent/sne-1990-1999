@@ -1,50 +1,80 @@
 {
-    "SN1991Y": {
-        "name": "SN1991Y",
-        "aliases": [
-            "SN1991Y"
-        ],
-        "sources": [
-            {
-                "name": "http://graspa.oapd.inaf.it/cgi-bin/sncat.php",
-                "alias": "1",
-                "secondary": true
-            },
-            {
-                "name": "<a href='http://www.rochesterastronomy.org/snimages/snredshiftall.html'>Latest Supernovae</a>",
-                "alias": "2",
-                "secondary": true
-            },
-            {
-                "name": "<a href='http://www.cbat.eps.harvard.edu/iauc/05200/05259.html'>IAUC 5259</a>",
-                "alias": "3"
-            },
-            {
-                "name": "<a href='http://adsabs.harvard.edu/abs/2012A%26A...538A.120L'>2012A&A...538A.120L</a>",
-                "alias": "4"
-            }
-        ],
-        "discoverday": "16",
-        "discoverer": "Jean Mueller",
-        "discovermonth": "4",
-        "discoveryear": "1991",
-        "galdec": "+5719",
-        "galra": "171436",
-        "host": "A171436+5719",
-        "maxappmag": "19",
-        "maxday": "16",
-        "maxmonth": "4",
-        "maxyear": "1991",
-        "sndec": "+57:18:48.0",
-        "snra": "17:14:33.6",
-        "photometry": [
-            {
-                "timeunit": "MJD",
-                "time": "48362.5",
-                "band": "",
-                "abmag": "19.0",
-                "source": "3,2"
-            }
-        ]
-    }
+	"SN1991Y":{
+		"name":"SN1991Y",
+		"aliases":[
+			"SN1991Y"
+		],
+		"sources":[
+			{
+				"name":"Asiago Supernova Catalogue",
+				"url":"http://graspa.oapd.inaf.it/cgi-bin/sncat.php",
+				"alias":"1",
+				"secondary":true
+			},
+			{
+				"name":"IAUC 5259",
+				"url":"http://www.cbat.eps.harvard.edu/iauc/05200/05259.html",
+				"alias":"2"
+			},
+			{
+				"name":"Latest Supernovae",
+				"url":"http://www.rochesterastronomy.org/snimages/snredshiftall.html",
+				"alias":"3",
+				"secondary":true
+			},
+			{
+				"name":"2012A&A...538A.120L",
+				"url":"http://adsabs.harvard.edu/abs/2012A&A...538A.120L",
+				"bibcode":"2012A&A...538A.120L",
+				"alias":"4"
+			}
+		],
+		"discoverday":"16",
+		"discoverer":"Jean Mueller",
+		"discovermonth":"4",
+		"discoveryear":"1991",
+		"galdec":[
+			{
+				"value":"+57:19",
+				"source":"1"
+			}
+		],
+		"galra":[
+			{
+				"value":"17:14:36",
+				"source":"1"
+			}
+		],
+		"host":[
+			{
+				"value":"A171436+5719",
+				"source":"1"
+			}
+		],
+		"maxappmag":"19",
+		"maxday":"16",
+		"maxmonth":"4",
+		"maxyear":"1991",
+		"sndec":[
+			{
+				"value":"+57:18:48.0",
+				"source":"2,3"
+			}
+		],
+		"snra":[
+			{
+				"value":"17:14:33.6",
+				"source":"2,3"
+			}
+		],
+		"photometry":[
+			{
+				"timeunit":"MJD",
+				"time":"48362.5",
+				"band":"",
+				"abmag":"19.0",
+				"source":"2,3"
+			}
+		]
+	}
 }

@@ -1,50 +1,103 @@
 {
-    "SN1994ag": {
-        "name": "SN1994ag",
-        "aliases": [
-            "SN1994ag"
-        ],
-        "sources": [
-            {
-                "name": "http://graspa.oapd.inaf.it/cgi-bin/sncat.php",
-                "alias": "1",
-                "secondary": true
-            },
-            {
-                "name": "<a href='http://www.rochesterastronomy.org/snimages/snredshiftall.html'>Latest Supernovae</a>",
-                "alias": "2",
-                "secondary": true
-            },
-            {
-                "name": "<a href='http://www.cbat.eps.harvard.edu/iauc/06100/06113.html'>IAUC 6113</a>",
-                "alias": "3"
-            },
-            {
-                "name": "<a href='http://adsabs.harvard.edu/abs/2012A%26A...538A.120L'>2012A&A...538A.120L</a>",
-                "alias": "4"
-            }
-        ],
-        "discoverday": "10",
-        "discoverer": "Robert McNaught",
-        "discovermonth": "11",
-        "discoveryear": "1994",
-        "galdec": "-390027",
-        "galra": "035330",
-        "host": "A035330-3900",
-        "maxappmag": "17.5",
-        "maxday": "10",
-        "maxmonth": "11",
-        "maxyear": "1994",
-        "sndec": "-39:00:27.7",
-        "snra": "03:53:30.54",
-        "photometry": [
-            {
-                "timeunit": "MJD",
-                "time": "49666.5",
-                "band": "",
-                "abmag": "17.5",
-                "source": "3,2"
-            }
-        ]
-    }
+	"SN1994ag":{
+		"name":"SN1994ag",
+		"aliases":[
+			"SN1994ag"
+		],
+		"sources":[
+			{
+				"name":"Asiago Supernova Catalogue",
+				"url":"http://graspa.oapd.inaf.it/cgi-bin/sncat.php",
+				"alias":"1",
+				"secondary":true
+			},
+			{
+				"name":"IAUC 6113",
+				"url":"http://www.cbat.eps.harvard.edu/iauc/06100/06113.html",
+				"alias":"2"
+			},
+			{
+				"name":"Latest Supernovae",
+				"url":"http://www.rochesterastronomy.org/snimages/snredshiftall.html",
+				"alias":"3",
+				"secondary":true
+			},
+			{
+				"name":"2012A&A...538A.120L",
+				"url":"http://adsabs.harvard.edu/abs/2012A&A...538A.120L",
+				"bibcode":"2012A&A...538A.120L",
+				"alias":"4"
+			}
+		],
+		"discoverday":"10",
+		"discoverer":"Robert McNaught",
+		"discovermonth":"11",
+		"discoveryear":"1994",
+		"galdec":[
+			{
+				"value":"-39:00:27",
+				"source":"1"
+			}
+		],
+		"galra":[
+			{
+				"value":"03:53:30",
+				"source":"1"
+			}
+		],
+		"host":[
+			{
+				"value":"A035330-3900",
+				"source":"1"
+			},
+			{
+				"value":"(PGC131242)",
+				"source":"4"
+			}
+		],
+		"hvel":[
+			{
+				"value":"16000",
+				"source":"D"
+			}
+		],
+		"lumdist":[
+			{
+				"value":"250",
+				"source":"D"
+			}
+		],
+		"maxabsmag":"-19",
+		"maxappmag":"17.5",
+		"maxday":"10",
+		"maxmonth":"11",
+		"maxyear":"1994",
+		"redshift":[
+			{
+				"value":"0.054",
+				"source":"4"
+			}
+		],
+		"sndec":[
+			{
+				"value":"-39:00:27.7",
+				"source":"1,2,3"
+			}
+		],
+		"snra":[
+			{
+				"value":"03:53:30.54",
+				"source":"1,2,3"
+			}
+		],
+		"photometry":[
+			{
+				"timeunit":"MJD",
+				"time":"49666.5",
+				"band":"",
+				"abmag":"17.5",
+				"source":"2,3"
+			}
+		]
+	}
 }

@@ -1,51 +1,108 @@
 {
-    "SN1998bm": {
-        "name": "SN1998bm",
-        "aliases": [
-            "SN1998bm"
-        ],
-        "sources": [
-            {
-                "name": "http://graspa.oapd.inaf.it/cgi-bin/sncat.php",
-                "alias": "1",
-                "secondary": true
-            },
-            {
-                "name": "<a href='http://www.rochesterastronomy.org/snimages/snredshiftall.html'>Latest Supernovae</a>",
-                "alias": "2",
-                "secondary": true
-            },
-            {
-                "name": "<a href='http://adsabs.harvard.edu/abs/2012A%26A...538A.120L'>2012A&A...538A.120L</a>",
-                "alias": "3"
-            }
-        ],
-        "claimedtype": [
-            {
-                "type": "II",
-                "source": "1,2"
-            }
-        ],
-        "discoverday": "21",
-        "discoverer": "LOSS",
-        "discovermonth": "4",
-        "discoveryear": "1998",
-        "galdec": "+641419",
-        "galra": "092130",
-        "host": "IC 2458",
-        "hvel": "1448",
-        "lumdist": "21.5085",
-        "redshift": "0.004842",
-        "sndec": "+64:14:25.4",
-        "snra": "09:21:30.498",
-        "photometry": [
-            {
-                "timeunit": "MJD",
-                "time": "50924.0",
-                "band": "",
-                "abmag": "17.6",
-                "source": "3"
-            }
-        ]
-    }
+	"SN1998bm":{
+		"name":"SN1998bm",
+		"aliases":[
+			"SN1998bm"
+		],
+		"sources":[
+			{
+				"name":"Asiago Supernova Catalogue",
+				"url":"http://graspa.oapd.inaf.it/cgi-bin/sncat.php",
+				"alias":"1",
+				"secondary":true
+			},
+			{
+				"name":"IAUC 6882",
+				"url":"http://www.cbat.eps.harvard.edu/iauc/06800/06882.html#Item1",
+				"alias":"2"
+			},
+			{
+				"name":"Latest Supernovae",
+				"url":"http://www.rochesterastronomy.org/snimages/snredshiftall.html",
+				"alias":"3",
+				"secondary":true
+			},
+			{
+				"name":"2012A&A...538A.120L",
+				"url":"http://adsabs.harvard.edu/abs/2012A&A...538A.120L",
+				"bibcode":"2012A&A...538A.120L",
+				"alias":"4"
+			}
+		],
+		"claimedtype":[
+			{
+				"value":"II",
+				"source":"1,2,3"
+			}
+		],
+		"discoverday":"21",
+		"discoverer":"LOSS",
+		"discovermonth":"4",
+		"discoveryear":"1998",
+		"galdec":[
+			{
+				"value":"+64:14:19",
+				"source":"1"
+			}
+		],
+		"galra":[
+			{
+				"value":"09:21:30",
+				"source":"1"
+			}
+		],
+		"host":[
+			{
+				"value":"IC 2458",
+				"source":"1,2,3"
+			},
+			{
+				"value":"NGC 2820A",
+				"source":"4"
+			}
+		],
+		"hvel":[
+			{
+				"value":"1448",
+				"source":"1"
+			}
+		],
+		"lumdist":[
+			{
+				"value":"24",
+				"source":"4"
+			}
+		],
+		"redshift":[
+			{
+				"value":"0.0052",
+				"source":"4"
+			}
+		],
+		"sndec":[
+			{
+				"value":"+64:14:25.4",
+				"source":"1,2,3"
+			}
+		],
+		"snra":[
+			{
+				"value":"09:21:30.49",
+				"source":"1"
+			},
+			{
+				"value":"09:21:30.498",
+				"source":"2,3"
+			}
+		],
+		"photometry":[
+			{
+				"timeunit":"MJD",
+				"time":"50924.0",
+				"band":"",
+				"abmag":"17.6",
+				"source":"4"
+			}
+		]
+	}
 }

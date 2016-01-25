@@ -1,60 +1,121 @@
 {
-    "SN1995am": {
-        "name": "SN1995am",
-        "aliases": [
-            "SN1995am"
-        ],
-        "sources": [
-            {
-                "name": "http://graspa.oapd.inaf.it/cgi-bin/sncat.php",
-                "alias": "1",
-                "secondary": true
-            },
-            {
-                "name": "<a href='http://www.rochesterastronomy.org/snimages/snredshiftall.html'>Latest Supernovae</a>",
-                "alias": "2",
-                "secondary": true
-            },
-            {
-                "name": "<a href='http://www.cbat.eps.harvard.edu/iauc/06200/06262.html'>IAUC 6262</a>",
-                "alias": "3"
-            },
-            {
-                "name": "<a href='http://adsabs.harvard.edu/abs/2012A%26A...538A.120L'>2012A&A...538A.120L</a>",
-                "alias": "4"
-            }
-        ],
-        "claimedtype": [
-            {
-                "type": "Ia",
-                "source": "1,2"
-            }
-        ],
-        "discoverday": "21",
-        "discoverer": "Miklos Lovas",
-        "discovermonth": "10",
-        "discoveryear": "1995",
-        "galdec": "+295733",
-        "galra": "004750",
-        "host": "CGCG 501-16",
-        "hvel": "4995",
-        "lumdist": "75.3",
-        "maxabsmag": "-19.38",
-        "maxappmag": "15",
-        "maxday": "21",
-        "maxmonth": "10",
-        "maxyear": "1995",
-        "redshift": "0.0168",
-        "sndec": "+29:58:00.0",
-        "snra": "00:47:47.100",
-        "photometry": [
-            {
-                "timeunit": "MJD",
-                "time": "50011.5",
-                "band": "",
-                "abmag": "15.0",
-                "source": "3,2"
-            }
-        ]
-    }
+	"SN1995am":{
+		"name":"SN1995am",
+		"aliases":[
+			"SN1995am"
+		],
+		"sources":[
+			{
+				"name":"Asiago Supernova Catalogue",
+				"url":"http://graspa.oapd.inaf.it/cgi-bin/sncat.php",
+				"alias":"1",
+				"secondary":true
+			},
+			{
+				"name":"IAUC 6262",
+				"url":"http://www.cbat.eps.harvard.edu/iauc/06200/06262.html",
+				"alias":"2"
+			},
+			{
+				"name":"Latest Supernovae",
+				"url":"http://www.rochesterastronomy.org/snimages/snredshiftall.html",
+				"alias":"3",
+				"secondary":true
+			},
+			{
+				"name":"2012A&A...538A.120L",
+				"url":"http://adsabs.harvard.edu/abs/2012A&A...538A.120L",
+				"bibcode":"2012A&A...538A.120L",
+				"alias":"4"
+			}
+		],
+		"claimedtype":[
+			{
+				"value":"Ia",
+				"source":"1,2,3"
+			}
+		],
+		"discoverday":"21",
+		"discoverer":"Miklos Lovas",
+		"discovermonth":"10",
+		"discoveryear":"1995",
+		"galdec":[
+			{
+				"value":"+29:57:33",
+				"source":"1"
+			}
+		],
+		"galra":[
+			{
+				"value":"00:47:50",
+				"source":"1"
+			}
+		],
+		"host":[
+			{
+				"value":"PGC0002803",
+				"source":"1"
+			},
+			{
+				"value":"CGCG 501-16",
+				"source":"2,3"
+			},
+			{
+				"value":"PGC2803",
+				"source":"4"
+			}
+		],
+		"hvel":[
+			{
+				"value":"4995",
+				"source":"1"
+			}
+		],
+		"lumdist":[
+			{
+				"value":"76",
+				"source":"D"
+			}
+		],
+		"maxabsmag":"-19",
+		"maxappmag":"15",
+		"maxday":"21",
+		"maxmonth":"10",
+		"maxyear":"1995",
+		"redshift":[
+			{
+				"value":"0.017",
+				"source":"2,3,4"
+			}
+		],
+		"sndec":[
+			{
+				"value":"+29:57:26.80",
+				"source":"1"
+			},
+			{
+				"value":"+29:58:00.0",
+				"source":"2,3"
+			}
+		],
+		"snra":[
+			{
+				"value":"00:47:49.45",
+				"source":"1"
+			},
+			{
+				"value":"00:47:47.100",
+				"source":"2,3"
+			}
+		],
+		"photometry":[
+			{
+				"timeunit":"MJD",
+				"time":"50011.5",
+				"band":"",
+				"abmag":"15.0",
+				"source":"2,3"
+			}
+		]
+	}
 }

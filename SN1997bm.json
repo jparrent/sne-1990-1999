@@ -1,51 +1,100 @@
 {
-    "SN1997bm": {
-        "name": "SN1997bm",
-        "aliases": [
-            "SN1997bm"
-        ],
-        "sources": [
-            {
-                "name": "http://graspa.oapd.inaf.it/cgi-bin/sncat.php",
-                "alias": "1",
-                "secondary": true
-            },
-            {
-                "name": "<a href='http://www.rochesterastronomy.org/snimages/snredshiftall.html'>Latest Supernovae</a>",
-                "alias": "2",
-                "secondary": true
-            },
-            {
-                "name": "<a href='http://adsabs.harvard.edu/abs/2012A%26A...538A.120L'>2012A&A...538A.120L</a>",
-                "alias": "3"
-            }
-        ],
-        "claimedtype": [
-            {
-                "type": "I",
-                "source": "1,2"
-            }
-        ],
-        "discoverday": "18",
-        "discoverer": "Jean Mueller",
-        "discovermonth": "3",
-        "discoveryear": "1997",
-        "galdec": "+501430",
-        "galra": "113256",
-        "host": "IC 705",
-        "hvel": "3017",
-        "lumdist": "45.089",
-        "redshift": "0.01011",
-        "sndec": "+50:14:43.6",
-        "snra": "11:32:57.13",
-        "photometry": [
-            {
-                "timeunit": "MJD",
-                "time": "50525.0",
-                "band": "R",
-                "abmag": "18.1",
-                "source": "3"
-            }
-        ]
-    }
+	"SN1997bm":{
+		"name":"SN1997bm",
+		"aliases":[
+			"SN1997bm"
+		],
+		"sources":[
+			{
+				"name":"Asiago Supernova Catalogue",
+				"url":"http://graspa.oapd.inaf.it/cgi-bin/sncat.php",
+				"alias":"1",
+				"secondary":true
+			},
+			{
+				"name":"IAUC 6609",
+				"url":"http://www.cbat.eps.harvard.edu/iauc/06600/06609.html#Item1",
+				"alias":"2"
+			},
+			{
+				"name":"Latest Supernovae",
+				"url":"http://www.rochesterastronomy.org/snimages/snredshiftall.html",
+				"alias":"3",
+				"secondary":true
+			},
+			{
+				"name":"2012A&A...538A.120L",
+				"url":"http://adsabs.harvard.edu/abs/2012A&A...538A.120L",
+				"bibcode":"2012A&A...538A.120L",
+				"alias":"4"
+			}
+		],
+		"claimedtype":[
+			{
+				"value":"I",
+				"source":"1,2,3"
+			}
+		],
+		"discoverday":"18",
+		"discoverer":"Jean Mueller",
+		"discovermonth":"3",
+		"discoveryear":"1997",
+		"galdec":[
+			{
+				"value":"+50:14:30",
+				"source":"1"
+			}
+		],
+		"galra":[
+			{
+				"value":"11:32:56",
+				"source":"1"
+			}
+		],
+		"host":[
+			{
+				"value":"IC 705",
+				"source":"1,2,3,4"
+			}
+		],
+		"hvel":[
+			{
+				"value":"3017",
+				"source":"1"
+			}
+		],
+		"lumdist":[
+			{
+				"value":"44",
+				"source":"D"
+			}
+		],
+		"redshift":[
+			{
+				"value":"0.0099",
+				"source":"4"
+			}
+		],
+		"sndec":[
+			{
+				"value":"+50:14:43.6",
+				"source":"1,2,3"
+			}
+		],
+		"snra":[
+			{
+				"value":"11:32:57.13",
+				"source":"1,2,3"
+			}
+		],
+		"photometry":[
+			{
+				"timeunit":"MJD",
+				"time":"50525.0",
+				"band":"R",
+				"abmag":"18.1",
+				"source":"4"
+			}
+		]
+	}
 }

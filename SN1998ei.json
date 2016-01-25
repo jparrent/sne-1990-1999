@@ -1,54 +1,103 @@
 {
-    "SN1998ei": {
-        "name": "SN1998ei",
-        "aliases": [
-            "SN1998ei"
-        ],
-        "sources": [
-            {
-                "name": "http://graspa.oapd.inaf.it/cgi-bin/sncat.php",
-                "alias": "1",
-                "secondary": true
-            },
-            {
-                "name": "<a href='http://www.rochesterastronomy.org/snimages/snredshiftall.html'>Latest Supernovae</a>",
-                "alias": "2",
-                "secondary": true
-            },
-            {
-                "name": "<a href='http://www.cbat.eps.harvard.edu/iauc/07000/07034.html'>IAUC 7034</a>",
-                "alias": "3"
-            },
-            {
-                "name": "<a href='http://adsabs.harvard.edu/abs/2012A%26A...538A.120L'>2012A&A...538A.120L</a>",
-                "alias": "4"
-            }
-        ],
-        "discoverday": "14",
-        "discoverer": "Roberto Antezana",
-        "discovermonth": "10",
-        "discoveryear": "1998",
-        "galdec": "-393318",
-        "galra": "233203",
-        "host": "A233203-3933",
-        "hvel": "16400",
-        "lumdist": "259.7",
-        "maxabsmag": "-18.57",
-        "maxappmag": "18.5",
-        "maxday": "14",
-        "maxmonth": "10",
-        "maxyear": "1998",
-        "redshift": "0.0563",
-        "sndec": "-39:33:18.4",
-        "snra": "23:32:03.75",
-        "photometry": [
-            {
-                "timeunit": "MJD",
-                "time": "51100.5",
-                "band": "",
-                "abmag": "18.5",
-                "source": "3,2"
-            }
-        ]
-    }
+	"SN1998ei":{
+		"name":"SN1998ei",
+		"aliases":[
+			"SN1998ei"
+		],
+		"sources":[
+			{
+				"name":"Asiago Supernova Catalogue",
+				"url":"http://graspa.oapd.inaf.it/cgi-bin/sncat.php",
+				"alias":"1",
+				"secondary":true
+			},
+			{
+				"name":"IAUC 7034",
+				"url":"http://www.cbat.eps.harvard.edu/iauc/07000/07034.html",
+				"alias":"2"
+			},
+			{
+				"name":"Latest Supernovae",
+				"url":"http://www.rochesterastronomy.org/snimages/snredshiftall.html",
+				"alias":"3",
+				"secondary":true
+			},
+			{
+				"name":"2012A&A...538A.120L",
+				"url":"http://adsabs.harvard.edu/abs/2012A&A...538A.120L",
+				"bibcode":"2012A&A...538A.120L",
+				"alias":"4"
+			}
+		],
+		"discoverday":"14",
+		"discoverer":"Roberto Antezana",
+		"discovermonth":"10",
+		"discoveryear":"1998",
+		"galdec":[
+			{
+				"value":"-39:33:18",
+				"source":"1"
+			}
+		],
+		"galra":[
+			{
+				"value":"23:32:03",
+				"source":"1"
+			}
+		],
+		"host":[
+			{
+				"value":"A233203-3933",
+				"source":"1"
+			},
+			{
+				"value":"(PGC131771)",
+				"source":"4"
+			}
+		],
+		"hvel":[
+			{
+				"value":"16404",
+				"source":"1"
+			}
+		],
+		"lumdist":[
+			{
+				"value":"250",
+				"source":"D"
+			}
+		],
+		"maxabsmag":"-19",
+		"maxappmag":"18.5",
+		"maxday":"14",
+		"maxmonth":"10",
+		"maxyear":"1998",
+		"redshift":[
+			{
+				"value":"0.055",
+				"source":"4"
+			}
+		],
+		"sndec":[
+			{
+				"value":"-39:33:18.4",
+				"source":"1,2,3"
+			}
+		],
+		"snra":[
+			{
+				"value":"23:32:03.75",
+				"source":"1,2,3"
+			}
+		],
+		"photometry":[
+			{
+				"timeunit":"MJD",
+				"time":"51100.5",
+				"band":"",
+				"abmag":"18.5",
+				"source":"2,3"
+			}
+		]
+	}
 }

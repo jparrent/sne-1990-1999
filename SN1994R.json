@@ -1,60 +1,105 @@
 {
-    "SN1994R": {
-        "name": "SN1994R",
-        "aliases": [
-            "SN1994R"
-        ],
-        "sources": [
-            {
-                "name": "http://graspa.oapd.inaf.it/cgi-bin/sncat.php",
-                "alias": "1",
-                "secondary": true
-            },
-            {
-                "name": "<a href='http://www.rochesterastronomy.org/snimages/snredshiftall.html'>Latest Supernovae</a>",
-                "alias": "2",
-                "secondary": true
-            },
-            {
-                "name": "<a href='http://www.cbat.eps.harvard.edu/iauc/06000/06003.html'>IAUC 6003</a>",
-                "alias": "3"
-            },
-            {
-                "name": "<a href='http://adsabs.harvard.edu/abs/2012A%26A...538A.120L'>2012A&A...538A.120L</a>",
-                "alias": "4"
-            }
-        ],
-        "claimedtype": [
-            {
-                "type": "II",
-                "source": "1,2"
-            }
-        ],
-        "discoverday": "2",
-        "discoverer": "Martin, Williams",
-        "discovermonth": "6",
-        "discoveryear": "1994",
-        "galdec": "-234335",
-        "galra": "110953",
-        "host": "IC 2627",
-        "hvel": "2084",
-        "lumdist": "31.0383",
-        "maxabsmag": "-16.4595",
-        "maxappmag": "16",
-        "maxday": "2",
-        "maxmonth": "6",
-        "maxyear": "1994",
-        "redshift": "0.006976",
-        "sndec": "-23:43:00.0",
-        "snra": "11:10:00.00",
-        "photometry": [
-            {
-                "timeunit": "MJD",
-                "time": "49505.5",
-                "band": "",
-                "abmag": "16.0",
-                "source": "3,2"
-            }
-        ]
-    }
+	"SN1994R":{
+		"name":"SN1994R",
+		"aliases":[
+			"SN1994R"
+		],
+		"sources":[
+			{
+				"name":"Asiago Supernova Catalogue",
+				"url":"http://graspa.oapd.inaf.it/cgi-bin/sncat.php",
+				"alias":"1",
+				"secondary":true
+			},
+			{
+				"name":"IAUC 6003",
+				"url":"http://www.cbat.eps.harvard.edu/iauc/06000/06003.html",
+				"alias":"2"
+			},
+			{
+				"name":"Latest Supernovae",
+				"url":"http://www.rochesterastronomy.org/snimages/snredshiftall.html",
+				"alias":"3",
+				"secondary":true
+			},
+			{
+				"name":"2012A&A...538A.120L",
+				"url":"http://adsabs.harvard.edu/abs/2012A&A...538A.120L",
+				"bibcode":"2012A&A...538A.120L",
+				"alias":"4"
+			}
+		],
+		"claimedtype":[
+			{
+				"value":"II",
+				"source":"1,2,3"
+			}
+		],
+		"discoverday":"2",
+		"discoverer":"Martin, Williams",
+		"discovermonth":"6",
+		"discoveryear":"1994",
+		"galdec":[
+			{
+				"value":"-23:43:35",
+				"source":"1"
+			}
+		],
+		"galra":[
+			{
+				"value":"11:09:53",
+				"source":"1"
+			}
+		],
+		"host":[
+			{
+				"value":"IC 2627",
+				"source":"1,2,3,4"
+			}
+		],
+		"hvel":[
+			{
+				"value":"2084",
+				"source":"1"
+			}
+		],
+		"lumdist":[
+			{
+				"value":"29",
+				"source":"4"
+			}
+		],
+		"maxabsmag":"-16",
+		"maxappmag":"16",
+		"maxday":"2",
+		"maxmonth":"6",
+		"maxyear":"1994",
+		"redshift":[
+			{
+				"value":"0.007",
+				"source":"4"
+			}
+		],
+		"sndec":[
+			{
+				"value":"-23:43:00.0",
+				"source":"2,3"
+			}
+		],
+		"snra":[
+			{
+				"value":"11:10:00.00",
+				"source":"2,3"
+			}
+		],
+		"photometry":[
+			{
+				"timeunit":"MJD",
+				"time":"49505.5",
+				"band":"",
+				"abmag":"16.0",
+				"source":"2,3"
+			}
+		]
+	}
 }

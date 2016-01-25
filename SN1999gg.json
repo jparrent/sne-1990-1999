@@ -1,65 +1,127 @@
 {
-    "SN1999gg": {
-        "name": "SN1999gg",
-        "aliases": [
-            "SN1999gg"
-        ],
-        "sources": [
-            {
-                "name": "<a href='http://dau.itep.ru/sn/node/72'>Sternberg Astronomical Institute Supernova Light Curve Catalogue</a>",
-                "alias": "1",
-                "secondary": true
-            },
-            {
-                "name": "VSNET 2001",
-                "alias": "2"
-            },
-            {
-                "name": "http://graspa.oapd.inaf.it/cgi-bin/sncat.php",
-                "alias": "3",
-                "secondary": true
-            },
-            {
-                "name": "<a href='http://www.rochesterastronomy.org/snimages/snredshiftall.html'>Latest Supernovae</a>",
-                "alias": "4",
-                "secondary": true
-            },
-            {
-                "name": "<a href='http://adsabs.harvard.edu/abs/2012A%26A...538A.120L'>2012A&A...538A.120L</a>",
-                "alias": "5"
-            }
-        ],
-        "claimedtype": [
-            {
-                "type": "II",
-                "source": "3,4"
-            }
-        ],
-        "discoverday": "8",
-        "discoverer": "Tom Boles",
-        "discovermonth": "12",
-        "discoveryear": "1999",
-        "galdec": "+395417",
-        "galra": "032759",
-        "host": "MCG +7-8-11",
-        "hvel": "4282",
-        "lumdist": "64.385",
-        "maxabsmag": "-16.244",
-        "maxappmag": "17.8",
-        "maxday": "8",
-        "maxmonth": "12",
-        "maxyear": "1999",
-        "redshift": "0.01439",
-        "sndec": "+39:54:19.0",
-        "snra": "03:27:58.84",
-        "photometry": [
-            {
-                "timeunit": "MJD",
-                "time": "51520.02",
-                "band": "C",
-                "abmag": "17.8",
-                "source": "1,2"
-            }
-        ]
-    }
+	"SN1999gg":{
+		"name":"SN1999gg",
+		"aliases":[
+			"SN1999gg"
+		],
+		"sources":[
+			{
+				"name":"Sternberg Astronomical Institute Supernova Light Curve Catalogue",
+				"url":"http://dau.itep.ru/sn/node/72",
+				"alias":"1",
+				"secondary":true
+			},
+			{
+				"name":"VSNET 2001",
+				"alias":"2"
+			},
+			{
+				"name":"Asiago Supernova Catalogue",
+				"url":"http://graspa.oapd.inaf.it/cgi-bin/sncat.php",
+				"alias":"3",
+				"secondary":true
+			},
+			{
+				"name":"IAUC 7326",
+				"url":"http://www.cbat.eps.harvard.edu/iauc/07300/07326.html#Item1",
+				"alias":"4"
+			},
+			{
+				"name":"Latest Supernovae",
+				"url":"http://www.rochesterastronomy.org/snimages/snredshiftall.html",
+				"alias":"5",
+				"secondary":true
+			},
+			{
+				"name":"2012A&A...538A.120L",
+				"url":"http://adsabs.harvard.edu/abs/2012A&A...538A.120L",
+				"bibcode":"2012A&A...538A.120L",
+				"alias":"6"
+			}
+		],
+		"claimedtype":[
+			{
+				"value":"II",
+				"source":"3,4,5"
+			}
+		],
+		"discoverday":"8",
+		"discoverer":"Tom Boles",
+		"discovermonth":"12",
+		"discoveryear":"1999",
+		"galdec":[
+			{
+				"value":"+39:54:17",
+				"source":"3"
+			}
+		],
+		"galra":[
+			{
+				"value":"03:27:59",
+				"source":"3"
+			}
+		],
+		"host":[
+			{
+				"value":"M+07-08-11",
+				"source":"3"
+			},
+			{
+				"value":"MCG +7-8-11",
+				"source":"4,5"
+			},
+			{
+				"value":"PGC12912",
+				"source":"6"
+			}
+		],
+		"hvel":[
+			{
+				"value":"4282",
+				"source":"3"
+			}
+		],
+		"lumdist":[
+			{
+				"value":"67",
+				"source":"D"
+			}
+		],
+		"maxabsmag":"-16",
+		"maxappmag":"17.8",
+		"maxday":"8",
+		"maxmonth":"12",
+		"maxyear":"1999",
+		"redshift":[
+			{
+				"value":"0.015",
+				"source":"4,5"
+			},
+			{
+				"value":"0.014",
+				"source":"6"
+			}
+		],
+		"sndec":[
+			{
+				"value":"+39:54:19.0",
+				"source":"3,4,5"
+			}
+		],
+		"snra":[
+			{
+				"value":"03:27:58.84",
+				"source":"3,4,5"
+			}
+		],
+		"photometry":[
+			{
+				"timeunit":"MJD",
+				"time":"51520.02",
+				"band":"C",
+				"abmag":"17.8",
+				"source":"1,2"
+			}
+		]
+	}
 }

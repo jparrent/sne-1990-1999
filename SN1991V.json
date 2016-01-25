@@ -1,54 +1,99 @@
 {
-    "SN1991V": {
-        "name": "SN1991V",
-        "aliases": [
-            "SN1991V"
-        ],
-        "sources": [
-            {
-                "name": "http://graspa.oapd.inaf.it/cgi-bin/sncat.php",
-                "alias": "1",
-                "secondary": true
-            },
-            {
-                "name": "<a href='http://www.rochesterastronomy.org/snimages/snredshiftall.html'>Latest Supernovae</a>",
-                "alias": "2",
-                "secondary": true
-            },
-            {
-                "name": "<a href='http://www.cbat.eps.harvard.edu/iauc/05200/05258.html'>IAUC 5258</a>",
-                "alias": "3"
-            },
-            {
-                "name": "<a href='http://adsabs.harvard.edu/abs/2012A%26A...538A.120L'>2012A&A...538A.120L</a>",
-                "alias": "4"
-            }
-        ],
-        "discoverday": "16",
-        "discoverer": "Jean Mueller",
-        "discovermonth": "4",
-        "discoveryear": "1991",
-        "galdec": "+314554",
-        "galra": "144751",
-        "host": "IC 4508",
-        "hvel": "13420",
-        "lumdist": "209.783",
-        "maxabsmag": "-18.1089",
-        "maxappmag": "18.5",
-        "maxday": "16",
-        "maxmonth": "4",
-        "maxyear": "1991",
-        "redshift": "0.04582",
-        "sndec": "+31:46:19.0",
-        "snra": "14:47:48.1",
-        "photometry": [
-            {
-                "timeunit": "MJD",
-                "time": "48362.5",
-                "band": "",
-                "abmag": "18.5",
-                "source": "3,2"
-            }
-        ]
-    }
+	"SN1991V":{
+		"name":"SN1991V",
+		"aliases":[
+			"SN1991V"
+		],
+		"sources":[
+			{
+				"name":"Asiago Supernova Catalogue",
+				"url":"http://graspa.oapd.inaf.it/cgi-bin/sncat.php",
+				"alias":"1",
+				"secondary":true
+			},
+			{
+				"name":"IAUC 5258",
+				"url":"http://www.cbat.eps.harvard.edu/iauc/05200/05258.html",
+				"alias":"2"
+			},
+			{
+				"name":"Latest Supernovae",
+				"url":"http://www.rochesterastronomy.org/snimages/snredshiftall.html",
+				"alias":"3",
+				"secondary":true
+			},
+			{
+				"name":"2012A&A...538A.120L",
+				"url":"http://adsabs.harvard.edu/abs/2012A&A...538A.120L",
+				"bibcode":"2012A&A...538A.120L",
+				"alias":"4"
+			}
+		],
+		"discoverday":"16",
+		"discoverer":"Jean Mueller",
+		"discovermonth":"4",
+		"discoveryear":"1991",
+		"galdec":[
+			{
+				"value":"+31:45:54",
+				"source":"1"
+			}
+		],
+		"galra":[
+			{
+				"value":"14:47:51",
+				"source":"1"
+			}
+		],
+		"host":[
+			{
+				"value":"IC 4508",
+				"source":"1,2,3,4"
+			}
+		],
+		"hvel":[
+			{
+				"value":"13421",
+				"source":"1"
+			}
+		],
+		"lumdist":[
+			{
+				"value":"210",
+				"source":"D"
+			}
+		],
+		"maxabsmag":"-18",
+		"maxappmag":"18.5",
+		"maxday":"16",
+		"maxmonth":"4",
+		"maxyear":"1991",
+		"redshift":[
+			{
+				"value":"0.045",
+				"source":"4"
+			}
+		],
+		"sndec":[
+			{
+				"value":"+31:46:19.0",
+				"source":"2,3"
+			}
+		],
+		"snra":[
+			{
+				"value":"14:47:48.1",
+				"source":"2,3"
+			}
+		],
+		"photometry":[
+			{
+				"timeunit":"MJD",
+				"time":"48362.5",
+				"band":"",
+				"abmag":"18.5",
+				"source":"2,3"
+			}
+		]
+	}
 }

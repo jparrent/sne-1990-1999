@@ -1,51 +1,104 @@
 {
-    "SN1998C": {
-        "name": "SN1998C",
-        "aliases": [
-            "SN1998C"
-        ],
-        "sources": [
-            {
-                "name": "http://graspa.oapd.inaf.it/cgi-bin/sncat.php",
-                "alias": "1",
-                "secondary": true
-            },
-            {
-                "name": "<a href='http://www.rochesterastronomy.org/snimages/snredshiftall.html'>Latest Supernovae</a>",
-                "alias": "2",
-                "secondary": true
-            },
-            {
-                "name": "<a href='http://adsabs.harvard.edu/abs/2012A%26A...538A.120L'>2012A&A...538A.120L</a>",
-                "alias": "3"
-            }
-        ],
-        "claimedtype": [
-            {
-                "type": "II",
-                "source": "1,2"
-            }
-        ],
-        "discoverday": "21",
-        "discoverer": "BAO Supernova Survey",
-        "discovermonth": "1",
-        "discoveryear": "1998",
-        "galdec": "+412607",
-        "galra": "072333",
-        "host": "UGC 3825",
-        "hvel": "8281",
-        "lumdist": "126.6",
-        "redshift": "0.02801",
-        "sndec": "+41:26:04.2",
-        "snra": "07:23:34.638",
-        "photometry": [
-            {
-                "timeunit": "MJD",
-                "time": "50834.0",
-                "band": "",
-                "abmag": "18.1",
-                "source": "3"
-            }
-        ]
-    }
+	"SN1998C":{
+		"name":"SN1998C",
+		"aliases":[
+			"SN1998C"
+		],
+		"sources":[
+			{
+				"name":"Asiago Supernova Catalogue",
+				"url":"http://graspa.oapd.inaf.it/cgi-bin/sncat.php",
+				"alias":"1",
+				"secondary":true
+			},
+			{
+				"name":"IAUC 6812",
+				"url":"http://www.cbat.eps.harvard.edu/iauc/06800/06812.html#Item1",
+				"alias":"2"
+			},
+			{
+				"name":"Latest Supernovae",
+				"url":"http://www.rochesterastronomy.org/snimages/snredshiftall.html",
+				"alias":"3",
+				"secondary":true
+			},
+			{
+				"name":"2012A&A...538A.120L",
+				"url":"http://adsabs.harvard.edu/abs/2012A&A...538A.120L",
+				"bibcode":"2012A&A...538A.120L",
+				"alias":"4"
+			}
+		],
+		"claimedtype":[
+			{
+				"value":"II",
+				"source":"1,2,3"
+			}
+		],
+		"discoverday":"21",
+		"discoverer":"BAO Supernova Survey",
+		"discovermonth":"1",
+		"discoveryear":"1998",
+		"galdec":[
+			{
+				"value":"+41:26:07",
+				"source":"1"
+			}
+		],
+		"galra":[
+			{
+				"value":"07:23:33",
+				"source":"1"
+			}
+		],
+		"host":[
+			{
+				"value":"UGC 3825",
+				"source":"1,2,3,4"
+			}
+		],
+		"hvel":[
+			{
+				"value":"8281",
+				"source":"1"
+			}
+		],
+		"lumdist":[
+			{
+				"value":"129",
+				"source":"D"
+			}
+		],
+		"redshift":[
+			{
+				"value":"0.0286",
+				"source":"2,3"
+			}
+		],
+		"sndec":[
+			{
+				"value":"+41:26:04.2",
+				"source":"1,2,3"
+			}
+		],
+		"snra":[
+			{
+				"value":"07:23:34.63",
+				"source":"1"
+			},
+			{
+				"value":"07:23:34.638",
+				"source":"2,3"
+			}
+		],
+		"photometry":[
+			{
+				"timeunit":"MJD",
+				"time":"50834.0",
+				"band":"",
+				"abmag":"18.1",
+				"source":"4"
+			}
+		]
+	}
 }

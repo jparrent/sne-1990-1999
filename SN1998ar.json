@@ -1,114 +1,168 @@
 {
-    "SN1998ar": {
-        "name": "SN1998ar",
-        "aliases": [
-            "SN1998ar"
-        ],
-        "sources": [
-            {
-                "name": "<a href='http://dau.itep.ru/sn/node/72'>Sternberg Astronomical Institute Supernova Light Curve Catalogue</a>",
-                "alias": "1",
-                "secondary": true
-            },
-            {
-                "name": "VSNET 2001",
-                "alias": "2"
-            },
-            {
-                "name": "http://graspa.oapd.inaf.it/cgi-bin/sncat.php",
-                "alias": "3",
-                "secondary": true
-            },
-            {
-                "name": "<a href='http://www.rochesterastronomy.org/snimages/snredshiftall.html'>Latest Supernovae</a>",
-                "alias": "4",
-                "secondary": true
-            },
-            {
-                "name": "<a href='http://adsabs.harvard.edu/abs/2012A%26A...538A.120L'>2012A&A...538A.120L</a>",
-                "alias": "5"
-            }
-        ],
-        "claimedtype": [
-            {
-                "type": "II",
-                "source": "3,4"
-            }
-        ],
-        "discoverday": "21",
-        "discoverer": "BAO Supernova Survey",
-        "discovermonth": "4",
-        "discoveryear": "1998",
-        "galdec": "+214219",
-        "galra": "093458",
-        "host": "NGC 2916",
-        "hvel": "3665",
-        "lumdist": "54.95",
-        "maxabsmag": "-18.5",
-        "maxappmag": "15.2",
-        "maxday": "27",
-        "maxmonth": "4",
-        "maxyear": "1998",
-        "redshift": "0.0123",
-        "sndec": "+21:42:57.54",
-        "snra": "09:34:58.86",
-        "photometry": [
-            {
-                "timeunit": "MJD",
-                "time": "50924.3",
-                "band": "C",
-                "abmag": "15.26",
-                "source": "1,2"
-            },
-            {
-                "timeunit": "MJD",
-                "time": "50925.1",
-                "band": "C",
-                "abmag": "15.8",
-                "source": "1,2"
-            },
-            {
-                "timeunit": "MJD",
-                "time": "50926.11",
-                "band": "C",
-                "abmag": "15.84",
-                "source": "1,2"
-            },
-            {
-                "timeunit": "MJD",
-                "time": "50927.1",
-                "band": "C",
-                "abmag": "15.35",
-                "source": "1,2"
-            },
-            {
-                "timeunit": "MJD",
-                "time": "50929.12",
-                "band": "C",
-                "abmag": "15.77",
-                "source": "1,2"
-            },
-            {
-                "timeunit": "MJD",
-                "time": "50930.11",
-                "band": "C",
-                "abmag": "15.2",
-                "source": "1,2"
-            },
-            {
-                "timeunit": "MJD",
-                "time": "50931.11",
-                "band": "C",
-                "abmag": "15.63",
-                "source": "1,2"
-            },
-            {
-                "timeunit": "MJD",
-                "time": "50932.11",
-                "band": "C",
-                "abmag": "15.81",
-                "source": "1,2"
-            }
-        ]
-    }
+	"SN1998ar":{
+		"name":"SN1998ar",
+		"aliases":[
+			"SN1998ar"
+		],
+		"sources":[
+			{
+				"name":"Sternberg Astronomical Institute Supernova Light Curve Catalogue",
+				"url":"http://dau.itep.ru/sn/node/72",
+				"alias":"1",
+				"secondary":true
+			},
+			{
+				"name":"VSNET 2001",
+				"alias":"2"
+			},
+			{
+				"name":"Asiago Supernova Catalogue",
+				"url":"http://graspa.oapd.inaf.it/cgi-bin/sncat.php",
+				"alias":"3",
+				"secondary":true
+			},
+			{
+				"name":"IAUC 6877",
+				"url":"http://www.cbat.eps.harvard.edu/iauc/06800/06877.html#Item1",
+				"alias":"4"
+			},
+			{
+				"name":"Latest Supernovae",
+				"url":"http://www.rochesterastronomy.org/snimages/snredshiftall.html",
+				"alias":"5",
+				"secondary":true
+			},
+			{
+				"name":"2012A&A...538A.120L",
+				"url":"http://adsabs.harvard.edu/abs/2012A&A...538A.120L",
+				"bibcode":"2012A&A...538A.120L",
+				"alias":"6"
+			}
+		],
+		"claimedtype":[
+			{
+				"value":"II",
+				"source":"3,4,5"
+			}
+		],
+		"discoverday":"21",
+		"discoverer":"BAO Supernova Survey",
+		"discovermonth":"4",
+		"discoveryear":"1998",
+		"galdec":[
+			{
+				"value":"+21:42:19",
+				"source":"3"
+			}
+		],
+		"galra":[
+			{
+				"value":"09:34:58",
+				"source":"3"
+			}
+		],
+		"host":[
+			{
+				"value":"NGC 2916",
+				"source":"3,4,5,6"
+			}
+		],
+		"hvel":[
+			{
+				"value":"3665",
+				"source":"3"
+			}
+		],
+		"lumdist":[
+			{
+				"value":"40",
+				"source":"6"
+			}
+		],
+		"maxabsmag":"-20",
+		"maxappmag":"15.2",
+		"maxday":"27",
+		"maxmonth":"4",
+		"maxyear":"1998",
+		"redshift":[
+			{
+				"value":"0.0125",
+				"source":"4,5"
+			}
+		],
+		"sndec":[
+			{
+				"value":"+21:42:57.5",
+				"source":"3"
+			},
+			{
+				"value":"+21:42:57.54",
+				"source":"4,5"
+			}
+		],
+		"snra":[
+			{
+				"value":"09:34:58.86",
+				"source":"3,4,5"
+			}
+		],
+		"photometry":[
+			{
+				"timeunit":"MJD",
+				"time":"50924.3",
+				"band":"C",
+				"abmag":"15.26",
+				"source":"1,2"
+			},
+			{
+				"timeunit":"MJD",
+				"time":"50925.1",
+				"band":"C",
+				"abmag":"15.8",
+				"source":"1,2"
+			},
+			{
+				"timeunit":"MJD",
+				"time":"50926.11",
+				"band":"C",
+				"abmag":"15.84",
+				"source":"1,2"
+			},
+			{
+				"timeunit":"MJD",
+				"time":"50927.1",
+				"band":"C",
+				"abmag":"15.35",
+				"source":"1,2"
+			},
+			{
+				"timeunit":"MJD",
+				"time":"50929.12",
+				"band":"C",
+				"abmag":"15.77",
+				"source":"1,2"
+			},
+			{
+				"timeunit":"MJD",
+				"time":"50930.11",
+				"band":"C",
+				"abmag":"15.2",
+				"source":"1,2"
+			},
+			{
+				"timeunit":"MJD",
+				"time":"50931.11",
+				"band":"C",
+				"abmag":"15.63",
+				"source":"1,2"
+			},
+			{
+				"timeunit":"MJD",
+				"time":"50932.11",
+				"band":"C",
+				"abmag":"15.81",
+				"source":"1,2"
+			}
+		]
+	}
 }

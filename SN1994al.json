@@ -1,64 +1,128 @@
 {
-    "SN1994al": {
-        "name": "SN1994al",
-        "aliases": [
-            "SN1994al"
-        ],
-        "sources": [
-            {
-                "name": "http://graspa.oapd.inaf.it/cgi-bin/sncat.php",
-                "alias": "1",
-                "secondary": true
-            },
-            {
-                "name": "<a href='http://www.rochesterastronomy.org/snimages/snredshiftall.html'>Latest Supernovae</a>",
-                "alias": "2",
-                "secondary": true
-            },
-            {
-                "name": "<a href='http://www.cbat.eps.harvard.edu/iauc/06200/06263.html'>IAUC 6263</a>",
-                "alias": "3"
-            },
-            {
-                "name": "<a href='http://adsabs.harvard.edu/abs/2012A%26A...538A.120L'>2012A&A...538A.120L</a>",
-                "alias": "4"
-            }
-        ],
-        "claimedtype": [
-            {
-                "type": "Ia*",
-                "source": "1"
-            },
-            {
-                "type": "Ia",
-                "source": "2"
-            }
-        ],
-        "discoverday": "7",
-        "discoverer": "Supernova Cosmology Project",
-        "discovermonth": "1",
-        "discoveryear": "1994",
-        "galdec": "+171833",
-        "galra": "030622",
-        "host": "A030622+1718",
-        "hvel": "100000",
-        "lumdist": "2400",
-        "maxabsmag": "-19",
-        "maxappmag": "22.6",
-        "maxday": "7",
-        "maxmonth": "1",
-        "maxyear": "1994",
-        "redshift": "0.42",
-        "sndec": "+17:18:33.7",
-        "snra": "03:06:22.45",
-        "photometry": [
-            {
-                "timeunit": "MJD",
-                "time": "49359.5",
-                "band": "",
-                "abmag": "22.6",
-                "source": "3,2"
-            }
-        ]
-    }
+	"SN1994al":{
+		"name":"SN1994al",
+		"aliases":[
+			"SN1994al"
+		],
+		"sources":[
+			{
+				"name":"Asiago Supernova Catalogue",
+				"url":"http://graspa.oapd.inaf.it/cgi-bin/sncat.php",
+				"alias":"1",
+				"secondary":true
+			},
+			{
+				"name":"IAUC 6263",
+				"url":"http://www.cbat.eps.harvard.edu/iauc/06200/06263.html",
+				"alias":"2"
+			},
+			{
+				"name":"Latest Supernovae",
+				"url":"http://www.rochesterastronomy.org/snimages/snredshiftall.html",
+				"alias":"3",
+				"secondary":true
+			},
+			{
+				"name":"2012A&A...538A.120L",
+				"url":"http://adsabs.harvard.edu/abs/2012A&A...538A.120L",
+				"bibcode":"2012A&A...538A.120L",
+				"alias":"4"
+			},
+			{
+				"name":"NED-D",
+				"url":"http://ned.ipac.caltech.edu/Library/Distances/",
+				"alias":"5",
+				"secondary":true
+			},
+			{
+				"name":"2010ApJ...716..712A",
+				"url":"http://adsabs.harvard.edu/abs/2010ApJ...716..712A",
+				"bibcode":"2010ApJ...716..712A",
+				"alias":"6"
+			},
+			{
+				"name":"2008ApJ...686..749K",
+				"url":"http://adsabs.harvard.edu/abs/2008ApJ...686..749K",
+				"bibcode":"2008ApJ...686..749K",
+				"alias":"7"
+			}
+		],
+		"claimedtype":[
+			{
+				"value":"Ia*",
+				"source":"1"
+			},
+			{
+				"value":"Ia",
+				"source":"2,3"
+			}
+		],
+		"discoverday":"7",
+		"discoverer":"Supernova Cosmology Project",
+		"discovermonth":"1",
+		"discoveryear":"1994",
+		"galdec":[
+			{
+				"value":"+17:18:33",
+				"source":"1"
+			}
+		],
+		"galra":[
+			{
+				"value":"03:06:22",
+				"source":"1"
+			}
+		],
+		"host":[
+			{
+				"value":"A030622+1718",
+				"source":"1"
+			}
+		],
+		"hvel":[
+			{
+				"value":"100000",
+				"source":"D"
+			}
+		],
+		"lumdist":[
+			{
+				"value":"1870",
+				"error":"160",
+				"source":"7,5"
+			}
+		],
+		"maxabsmag":"-18.8",
+		"maxappmag":"22.6",
+		"maxday":"7",
+		"maxmonth":"1",
+		"maxyear":"1994",
+		"redshift":[
+			{
+				"value":"0.42",
+				"source":"1,4"
+			}
+		],
+		"sndec":[
+			{
+				"value":"+17:18:33.7",
+				"source":"1,2,3"
+			}
+		],
+		"snra":[
+			{
+				"value":"03:06:22.45",
+				"source":"1,2,3"
+			}
+		],
+		"photometry":[
+			{
+				"timeunit":"MJD",
+				"time":"49359.5",
+				"band":"",
+				"abmag":"22.6",
+				"source":"2,3"
+			}
+		]
+	}
 }

@@ -1,79 +1,129 @@
 {
-    "SN1999dp": {
-        "name": "SN1999dp",
-        "aliases": [
-            "SN1999dp"
-        ],
-        "sources": [
-            {
-                "name": "<a href='http://dau.itep.ru/sn/node/72'>Sternberg Astronomical Institute Supernova Light Curve Catalogue</a>",
-                "alias": "1",
-                "secondary": true
-            },
-            {
-                "name": "VSNET 2001",
-                "alias": "2"
-            },
-            {
-                "name": "http://graspa.oapd.inaf.it/cgi-bin/sncat.php",
-                "alias": "3",
-                "secondary": true
-            },
-            {
-                "name": "<a href='http://www.rochesterastronomy.org/snimages/snredshiftall.html'>Latest Supernovae</a>",
-                "alias": "4",
-                "secondary": true
-            },
-            {
-                "name": "<a href='http://adsabs.harvard.edu/abs/2012A%26A...538A.120L'>2012A&A...538A.120L</a>",
-                "alias": "5"
-            }
-        ],
-        "claimedtype": [
-            {
-                "type": "II",
-                "source": "3,4"
-            }
-        ],
-        "discoverday": "18",
-        "discoverer": "LOSS",
-        "discovermonth": "8",
-        "discoveryear": "1999",
-        "galdec": "+693154",
-        "galra": "042921",
-        "host": "UGC 3046",
-        "hvel": "4670",
-        "lumdist": "70.32",
-        "maxabsmag": "-16.04",
-        "maxappmag": "18.2",
-        "maxday": "18",
-        "maxmonth": "8",
-        "maxyear": "1999",
-        "redshift": "0.0157",
-        "sndec": "+69:32:00.6",
-        "snra": "04:29:16.66",
-        "photometry": [
-            {
-                "timeunit": "MJD",
-                "time": "51408.5",
-                "band": "C",
-                "abmag": "18.2",
-                "source": "1,2"
-            },
-            {
-                "timeunit": "MJD",
-                "time": "51415.5",
-                "band": "C",
-                "abmag": "18.2",
-                "source": "1,2"
-            },
-            {
-                "timeunit": "MJD",
-                "time": "51418.5",
-                "band": "C",
-                "abmag": "18.2",
-                "source": "1,2"
-            }
-        ]
-    }
+	"SN1999dp":{
+		"name":"SN1999dp",
+		"aliases":[
+			"SN1999dp"
+		],
+		"sources":[
+			{
+				"name":"Sternberg Astronomical Institute Supernova Light Curve Catalogue",
+				"url":"http://dau.itep.ru/sn/node/72",
+				"alias":"1",
+				"secondary":true
+			},
+			{
+				"name":"VSNET 2001",
+				"alias":"2"
+			},
+			{
+				"name":"Asiago Supernova Catalogue",
+				"url":"http://graspa.oapd.inaf.it/cgi-bin/sncat.php",
+				"alias":"3",
+				"secondary":true
+			},
+			{
+				"name":"IAUC 7247",
+				"url":"http://www.cbat.eps.harvard.edu/iauc/07200/07247.html#Item1",
+				"alias":"4"
+			},
+			{
+				"name":"Latest Supernovae",
+				"url":"http://www.rochesterastronomy.org/snimages/snredshiftall.html",
+				"alias":"5",
+				"secondary":true
+			},
+			{
+				"name":"2012A&A...538A.120L",
+				"url":"http://adsabs.harvard.edu/abs/2012A&A...538A.120L",
+				"bibcode":"2012A&A...538A.120L",
+				"alias":"6"
+			}
+		],
+		"claimedtype":[
+			{
+				"value":"II",
+				"source":"3,4,5"
+			}
+		],
+		"discoverday":"18",
+		"discoverer":"LOSS",
+		"discovermonth":"8",
+		"discoveryear":"1999",
+		"galdec":[
+			{
+				"value":"+69:31:54",
+				"source":"3"
+			}
+		],
+		"galra":[
+			{
+				"value":"04:29:21",
+				"source":"3"
+			}
+		],
+		"host":[
+			{
+				"value":"UGC 3046",
+				"source":"3,4,5,6"
+			}
+		],
+		"hvel":[
+			{
+				"value":"4670",
+				"source":"3"
+			}
+		],
+		"lumdist":[
+			{
+				"value":"72",
+				"source":"D"
+			}
+		],
+		"maxabsmag":"-16",
+		"maxappmag":"18.2",
+		"maxday":"18",
+		"maxmonth":"8",
+		"maxyear":"1999",
+		"redshift":[
+			{
+				"value":"0.016",
+				"source":"4,5,6"
+			}
+		],
+		"sndec":[
+			{
+				"value":"+69:32:00.6",
+				"source":"3,4,5"
+			}
+		],
+		"snra":[
+			{
+				"value":"04:29:16.66",
+				"source":"3,4,5"
+			}
+		],
+		"photometry":[
+			{
+				"timeunit":"MJD",
+				"time":"51408.5",
+				"band":"C",
+				"abmag":"18.2",
+				"source":"1,2"
+			},
+			{
+				"timeunit":"MJD",
+				"time":"51415.5",
+				"band":"C",
+				"abmag":"18.2",
+				"source":"1,2"
+			},
+			{
+				"timeunit":"MJD",
+				"time":"51418.5",
+				"band":"C",
+				"abmag":"18.2",
+				"source":"1,2"
+			}
+		]
+	}
 }

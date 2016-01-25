@@ -1,60 +1,121 @@
 {
-    "SN1994ah": {
-        "name": "SN1994ah",
-        "aliases": [
-            "SN1994ah"
-        ],
-        "sources": [
-            {
-                "name": "http://graspa.oapd.inaf.it/cgi-bin/sncat.php",
-                "alias": "1",
-                "secondary": true
-            },
-            {
-                "name": "<a href='http://www.rochesterastronomy.org/snimages/snredshiftall.html'>Latest Supernovae</a>",
-                "alias": "2",
-                "secondary": true
-            },
-            {
-                "name": "<a href='http://www.cbat.eps.harvard.edu/iauc/06100/06114.html'>IAUC 6114</a>",
-                "alias": "3"
-            },
-            {
-                "name": "<a href='http://adsabs.harvard.edu/abs/2012A%26A...538A.120L'>2012A&A...538A.120L</a>",
-                "alias": "4"
-            }
-        ],
-        "claimedtype": [
-            {
-                "type": "Ia",
-                "source": "1,2"
-            }
-        ],
-        "discoverday": "12",
-        "discoverer": "Robert McNaught",
-        "discovermonth": "10",
-        "discoveryear": "1994",
-        "galdec": "-335446",
-        "galra": "025637",
-        "host": "ESO 356-G19",
-        "hvel": "6495",
-        "lumdist": "98.54",
-        "maxabsmag": "-16.97",
-        "maxappmag": "18",
-        "maxday": "12",
-        "maxmonth": "10",
-        "maxyear": "1994",
-        "redshift": "0.0219",
-        "sndec": "-33:54:43.6",
-        "snra": "02:56:37.75",
-        "photometry": [
-            {
-                "timeunit": "MJD",
-                "time": "49637.5",
-                "band": "",
-                "abmag": "18.0",
-                "source": "3,2"
-            }
-        ]
-    }
+	"SN1994ah":{
+		"name":"SN1994ah",
+		"aliases":[
+			"SN1994ah"
+		],
+		"sources":[
+			{
+				"name":"Asiago Supernova Catalogue",
+				"url":"http://graspa.oapd.inaf.it/cgi-bin/sncat.php",
+				"alias":"1",
+				"secondary":true
+			},
+			{
+				"name":"IAUC 6114",
+				"url":"http://www.cbat.eps.harvard.edu/iauc/06100/06114.html",
+				"alias":"2"
+			},
+			{
+				"name":"Latest Supernovae",
+				"url":"http://www.rochesterastronomy.org/snimages/snredshiftall.html",
+				"alias":"3",
+				"secondary":true
+			},
+			{
+				"name":"2012A&A...538A.120L",
+				"url":"http://adsabs.harvard.edu/abs/2012A&A...538A.120L",
+				"bibcode":"2012A&A...538A.120L",
+				"alias":"4"
+			}
+		],
+		"claimedtype":[
+			{
+				"value":"Ia",
+				"source":"1,2,3"
+			}
+		],
+		"discoverday":"12",
+		"discoverer":"Robert McNaught",
+		"discovermonth":"10",
+		"discoveryear":"1994",
+		"galdec":[
+			{
+				"value":"-33:54:46",
+				"source":"1"
+			}
+		],
+		"galra":[
+			{
+				"value":"02:56:37",
+				"source":"1"
+			}
+		],
+		"host":[
+			{
+				"value":"E356-G19",
+				"source":"1"
+			},
+			{
+				"value":"ESO 356-G19",
+				"source":"2,3"
+			},
+			{
+				"value":"E356-19",
+				"source":"4"
+			}
+		],
+		"hvel":[
+			{
+				"value":"6495",
+				"source":"1"
+			}
+		],
+		"lumdist":[
+			{
+				"value":"99",
+				"source":"D"
+			}
+		],
+		"maxabsmag":"-17",
+		"maxappmag":"18",
+		"maxday":"12",
+		"maxmonth":"10",
+		"maxyear":"1994",
+		"redshift":[
+			{
+				"value":"0.022",
+				"source":"4"
+			}
+		],
+		"sndec":[
+			{
+				"value":"-33:54:43.65",
+				"source":"1"
+			},
+			{
+				"value":"-33:54:43.6",
+				"source":"2,3"
+			}
+		],
+		"snra":[
+			{
+				"value":"02:56:37.72",
+				"source":"1"
+			},
+			{
+				"value":"02:56:37.75",
+				"source":"2,3"
+			}
+		],
+		"photometry":[
+			{
+				"timeunit":"MJD",
+				"time":"49637.5",
+				"band":"",
+				"abmag":"18.0",
+				"source":"2,3"
+			}
+		]
+	}
 }

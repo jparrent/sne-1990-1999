@@ -1,104 +1,156 @@
 {
-    "SN1995J": {
-        "name": "SN1995J",
-        "aliases": [
-            "SN1995J"
-        ],
-        "sources": [
-            {
-                "name": "<a href='http://dau.itep.ru/sn/node/72'>Sternberg Astronomical Institute Supernova Light Curve Catalogue</a>",
-                "alias": "1",
-                "secondary": true
-            },
-            {
-                "name": "<a href='http://adsabs.harvard.edu/abs/1997PAZh...23...30T'>1997PAZh...23...30T</a>",
-                "alias": "2"
-            },
-            {
-                "name": "http://graspa.oapd.inaf.it/cgi-bin/sncat.php",
-                "alias": "3",
-                "secondary": true
-            },
-            {
-                "name": "<a href='http://www.rochesterastronomy.org/snimages/snredshiftall.html'>Latest Supernovae</a>",
-                "alias": "4",
-                "secondary": true
-            },
-            {
-                "name": "<a href='http://www.cbat.eps.harvard.edu/iauc/06100/06157.html'>IAUC 6157</a>",
-                "alias": "5"
-            },
-            {
-                "name": "<a href='http://adsabs.harvard.edu/abs/2012A%26A...538A.120L'>2012A&A...538A.120L</a>",
-                "alias": "6"
-            }
-        ],
-        "claimedtype": [
-            {
-                "type": "II",
-                "source": "3,4"
-            }
-        ],
-        "discoverday": "3",
-        "discoverer": "Johnson",
-        "discovermonth": "4",
-        "discoveryear": "1995",
-        "galdec": "+635239",
-        "galra": "123233",
-        "host": "NGC 4512",
-        "hvel": "2972",
-        "lumdist": "44.4289",
-        "maxabsmag": "-16.7383",
-        "maxappmag": "16.5",
-        "maxday": "3",
-        "maxmonth": "4",
-        "maxyear": "1995",
-        "redshift": "0.009963",
-        "sndec": "+63:53:09.2",
-        "snra": "12:32:38.34",
-        "photometry": [
-            {
-                "timeunit": "MJD",
-                "time": "49810.5",
-                "band": "",
-                "abmag": "16.5",
-                "source": "5,4"
-            },
-            {
-                "timeunit": "MJD",
-                "time": "49869.93",
-                "band": "B",
-                "abmag": "17.6",
-                "source": "1,2"
-            },
-            {
-                "timeunit": "MJD",
-                "time": "49872.92",
-                "band": "B",
-                "abmag": "17.7",
-                "source": "1,2"
-            },
-            {
-                "timeunit": "MJD",
-                "time": "49872.98",
-                "band": "B",
-                "abmag": "17.7",
-                "source": "1,2"
-            },
-            {
-                "timeunit": "MJD",
-                "time": "49873.98",
-                "band": "B",
-                "abmag": "17.5",
-                "source": "1,2"
-            },
-            {
-                "timeunit": "MJD",
-                "time": "49876.98",
-                "band": "B",
-                "abmag": "17.5",
-                "source": "1,2"
-            }
-        ]
-    }
+	"SN1995J":{
+		"name":"SN1995J",
+		"aliases":[
+			"SN1995J"
+		],
+		"sources":[
+			{
+				"name":"Sternberg Astronomical Institute Supernova Light Curve Catalogue",
+				"url":"http://dau.itep.ru/sn/node/72",
+				"alias":"1",
+				"secondary":true
+			},
+			{
+				"name":"1997PAZh...23...30T",
+				"url":"http://adsabs.harvard.edu/abs/1997PAZh...23...30T",
+				"bibcode":"1997PAZh...23...30T",
+				"alias":"2"
+			},
+			{
+				"name":"Asiago Supernova Catalogue",
+				"url":"http://graspa.oapd.inaf.it/cgi-bin/sncat.php",
+				"alias":"3",
+				"secondary":true
+			},
+			{
+				"name":"IAUC 6157",
+				"url":"http://www.cbat.eps.harvard.edu/iauc/06100/06157.html",
+				"alias":"4"
+			},
+			{
+				"name":"Latest Supernovae",
+				"url":"http://www.rochesterastronomy.org/snimages/snredshiftall.html",
+				"alias":"5",
+				"secondary":true
+			},
+			{
+				"name":"2012A&A...538A.120L",
+				"url":"http://adsabs.harvard.edu/abs/2012A&A...538A.120L",
+				"bibcode":"2012A&A...538A.120L",
+				"alias":"6"
+			}
+		],
+		"claimedtype":[
+			{
+				"value":"II",
+				"source":"3,4,5"
+			}
+		],
+		"discoverday":"3",
+		"discoverer":"Johnson",
+		"discovermonth":"4",
+		"discoveryear":"1995",
+		"galdec":[
+			{
+				"value":"+63:52:39",
+				"source":"3"
+			}
+		],
+		"galra":[
+			{
+				"value":"12:32:33",
+				"source":"3"
+			}
+		],
+		"host":[
+			{
+				"value":"NGC 4512",
+				"source":"3,4,5"
+			},
+			{
+				"value":"UGC 7700",
+				"source":"6"
+			}
+		],
+		"hvel":[
+			{
+				"value":"2972",
+				"source":"3"
+			}
+		],
+		"lumdist":[
+			{
+				"value":"44",
+				"source":"D"
+			}
+		],
+		"maxabsmag":"-17",
+		"maxappmag":"16.5",
+		"maxday":"3",
+		"maxmonth":"4",
+		"maxyear":"1995",
+		"redshift":[
+			{
+				"value":"0.0099",
+				"source":"6"
+			}
+		],
+		"sndec":[
+			{
+				"value":"+63:53:09.2",
+				"source":"3,4,5"
+			}
+		],
+		"snra":[
+			{
+				"value":"12:32:38.34",
+				"source":"3,4,5"
+			}
+		],
+		"photometry":[
+			{
+				"timeunit":"MJD",
+				"time":"49810.5",
+				"band":"",
+				"abmag":"16.5",
+				"source":"4,5"
+			},
+			{
+				"timeunit":"MJD",
+				"time":"49869.93",
+				"band":"B",
+				"abmag":"17.6",
+				"source":"1,2"
+			},
+			{
+				"timeunit":"MJD",
+				"time":"49872.92",
+				"band":"B",
+				"abmag":"17.7",
+				"source":"1,2"
+			},
+			{
+				"timeunit":"MJD",
+				"time":"49872.98",
+				"band":"B",
+				"abmag":"17.7",
+				"source":"1,2"
+			},
+			{
+				"timeunit":"MJD",
+				"time":"49873.98",
+				"band":"B",
+				"abmag":"17.5",
+				"source":"1,2"
+			},
+			{
+				"timeunit":"MJD",
+				"time":"49876.98",
+				"band":"B",
+				"abmag":"17.5",
+				"source":"1,2"
+			}
+		]
+	}
 }

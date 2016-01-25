@@ -1,150 +1,204 @@
 {
-    "SN1994ak": {
-        "name": "SN1994ak",
-        "aliases": [
-            "SN1994ak"
-        ],
-        "sources": [
-            {
-                "name": "<a href='http://dau.itep.ru/sn/node/72'>Sternberg Astronomical Institute Supernova Light Curve Catalogue</a>",
-                "alias": "1",
-                "secondary": true
-            },
-            {
-                "name": "<a href='http://adsabs.harvard.edu/abs/1989IAUC.6122....1K'>1989IAUC.6122....1K</a>",
-                "alias": "2"
-            },
-            {
-                "name": "<a href='http://adsabs.harvard.edu/abs/1995IAUC.6123....1R'>1995IAUC.6123....1R</a>",
-                "alias": "3"
-            },
-            {
-                "name": "http://graspa.oapd.inaf.it/cgi-bin/sncat.php",
-                "alias": "4",
-                "secondary": true
-            },
-            {
-                "name": "<a href='http://www.rochesterastronomy.org/snimages/snredshiftall.html'>Latest Supernovae</a>",
-                "alias": "5",
-                "secondary": true
-            },
-            {
-                "name": "<a href='http://www.cbat.eps.harvard.edu/iauc/06100/06122.html'>IAUC 6122</a>",
-                "alias": "6"
-            },
-            {
-                "name": "<a href='http://adsabs.harvard.edu/abs/2012A%26A...538A.120L'>2012A&A...538A.120L</a>",
-                "alias": "7"
-            }
-        ],
-        "claimedtype": [
-            {
-                "type": "IIn",
-                "source": "4,5"
-            }
-        ],
-        "discoverday": "17",
-        "discoverer": "Reiki Kushida",
-        "discovermonth": "12",
-        "discoveryear": "1994",
-        "galdec": "+400652",
-        "galra": "091405",
-        "host": "NGC 2782",
-        "hvel": "2560",
-        "lumdist": "38.221",
-        "maxabsmag": "-17.012",
-        "maxappmag": "15.9",
-        "maxday": "25",
-        "maxmonth": "12",
-        "maxyear": "1994",
-        "redshift": "0.00858",
-        "sndec": "+40:06:21.5",
-        "snra": "09:14:01.47",
-        "photometry": [
-            {
-                "timeunit": "MJD",
-                "time": "49703.0",
-                "band": "V",
-                "abmag": "16.4",
-                "source": "1,2"
-            },
-            {
-                "timeunit": "MJD",
-                "time": "49709.5",
-                "band": "",
-                "abmag": "16.3",
-                "source": "6,5"
-            },
-            {
-                "timeunit": "MJD",
-                "time": "49710.86",
-                "band": "V",
-                "abmag": "16.3",
-                "source": "1,2"
-            },
-            {
-                "timeunit": "MJD",
-                "time": "49711.78",
-                "band": "V",
-                "abmag": "15.9",
-                "source": "1,2"
-            },
-            {
-                "timeunit": "MJD",
-                "time": "49713.76",
-                "band": "V",
-                "abmag": "16.1",
-                "source": "1,2"
-            },
-            {
-                "timeunit": "MJD",
-                "time": "49714.59",
-                "band": "V",
-                "abmag": "16",
-                "source": "1,2"
-            },
-            {
-                "timeunit": "MJD",
-                "time": "49715.62",
-                "band": "V",
-                "abmag": "16",
-                "source": "1,2"
-            },
-            {
-                "timeunit": "MJD",
-                "time": "49716.0",
-                "band": "R",
-                "abmag": "17.4",
-                "source": "1,3"
-            },
-            {
-                "timeunit": "MJD",
-                "time": "49717.62",
-                "band": "V",
-                "abmag": "16.1",
-                "source": "1,2"
-            },
-            {
-                "timeunit": "MJD",
-                "time": "49718.64",
-                "band": "V",
-                "abmag": "16.3",
-                "source": "1,2"
-            },
-            {
-                "timeunit": "MJD",
-                "time": "49719.6",
-                "band": "V",
-                "abmag": "16.3",
-                "source": "1,2"
-            },
-            {
-                "timeunit": "MJD",
-                "time": "49720.44",
-                "band": "V",
-                "abmag": "18",
-                "source": "1,2"
-            }
-        ]
-    }
+	"SN1994ak":{
+		"name":"SN1994ak",
+		"aliases":[
+			"SN1994ak"
+		],
+		"sources":[
+			{
+				"name":"Sternberg Astronomical Institute Supernova Light Curve Catalogue",
+				"url":"http://dau.itep.ru/sn/node/72",
+				"alias":"1",
+				"secondary":true
+			},
+			{
+				"name":"1989IAUC.6122....1K",
+				"url":"http://adsabs.harvard.edu/abs/1989IAUC.6122....1K",
+				"bibcode":"1989IAUC.6122....1K",
+				"alias":"2"
+			},
+			{
+				"name":"1995IAUC.6123....1R",
+				"url":"http://adsabs.harvard.edu/abs/1995IAUC.6123....1R",
+				"bibcode":"1995IAUC.6123....1R",
+				"alias":"3"
+			},
+			{
+				"name":"Asiago Supernova Catalogue",
+				"url":"http://graspa.oapd.inaf.it/cgi-bin/sncat.php",
+				"alias":"4",
+				"secondary":true
+			},
+			{
+				"name":"IAUC 6122",
+				"url":"http://www.cbat.eps.harvard.edu/iauc/06100/06122.html",
+				"alias":"5"
+			},
+			{
+				"name":"Latest Supernovae",
+				"url":"http://www.rochesterastronomy.org/snimages/snredshiftall.html",
+				"alias":"6",
+				"secondary":true
+			},
+			{
+				"name":"2012A&A...538A.120L",
+				"url":"http://adsabs.harvard.edu/abs/2012A&A...538A.120L",
+				"bibcode":"2012A&A...538A.120L",
+				"alias":"7"
+			}
+		],
+		"claimedtype":[
+			{
+				"value":"IIn",
+				"source":"4,5,6"
+			}
+		],
+		"discoverday":"17",
+		"discoverer":"Reiki Kushida",
+		"discovermonth":"12",
+		"discoveryear":"1994",
+		"galdec":[
+			{
+				"value":"+40:06:52",
+				"source":"4"
+			}
+		],
+		"galra":[
+			{
+				"value":"09:14:05",
+				"source":"4"
+			}
+		],
+		"host":[
+			{
+				"value":"NGC 2782",
+				"source":"4,5,6,7"
+			}
+		],
+		"hvel":[
+			{
+				"value":"2560",
+				"source":"4"
+			}
+		],
+		"lumdist":[
+			{
+				"value":"37",
+				"source":"7"
+			}
+		],
+		"maxabsmag":"-17",
+		"maxappmag":"15.9",
+		"maxday":"25",
+		"maxmonth":"12",
+		"maxyear":"1994",
+		"redshift":[
+			{
+				"value":"0.0088",
+				"source":"7"
+			}
+		],
+		"sndec":[
+			{
+				"value":"+40:06:21.50",
+				"source":"4"
+			},
+			{
+				"value":"+40:06:21.5",
+				"source":"5,6"
+			}
+		],
+		"snra":[
+			{
+				"value":"09:14:01.47",
+				"source":"4,5,6"
+			}
+		],
+		"photometry":[
+			{
+				"timeunit":"MJD",
+				"time":"49703.0",
+				"band":"V",
+				"abmag":"16.4",
+				"source":"1,2"
+			},
+			{
+				"timeunit":"MJD",
+				"time":"49709.5",
+				"band":"",
+				"abmag":"16.3",
+				"source":"5,6"
+			},
+			{
+				"timeunit":"MJD",
+				"time":"49710.86",
+				"band":"V",
+				"abmag":"16.3",
+				"source":"1,2"
+			},
+			{
+				"timeunit":"MJD",
+				"time":"49711.78",
+				"band":"V",
+				"abmag":"15.9",
+				"source":"1,2"
+			},
+			{
+				"timeunit":"MJD",
+				"time":"49713.76",
+				"band":"V",
+				"abmag":"16.1",
+				"source":"1,2"
+			},
+			{
+				"timeunit":"MJD",
+				"time":"49714.59",
+				"band":"V",
+				"abmag":"16",
+				"source":"1,2"
+			},
+			{
+				"timeunit":"MJD",
+				"time":"49715.62",
+				"band":"V",
+				"abmag":"16",
+				"source":"1,2"
+			},
+			{
+				"timeunit":"MJD",
+				"time":"49716.0",
+				"band":"R",
+				"abmag":"17.4",
+				"source":"1,3"
+			},
+			{
+				"timeunit":"MJD",
+				"time":"49717.62",
+				"band":"V",
+				"abmag":"16.1",
+				"source":"1,2"
+			},
+			{
+				"timeunit":"MJD",
+				"time":"49718.64",
+				"band":"V",
+				"abmag":"16.3",
+				"source":"1,2"
+			},
+			{
+				"timeunit":"MJD",
+				"time":"49719.6",
+				"band":"V",
+				"abmag":"16.3",
+				"source":"1,2"
+			},
+			{
+				"timeunit":"MJD",
+				"time":"49720.44",
+				"band":"V",
+				"abmag":"18",
+				"source":"1,2"
+			}
+		]
+	}
 }

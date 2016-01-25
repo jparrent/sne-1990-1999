@@ -1,54 +1,99 @@
 {
-    "SN1998cf": {
-        "name": "SN1998cf",
-        "aliases": [
-            "SN1998cf"
-        ],
-        "sources": [
-            {
-                "name": "http://graspa.oapd.inaf.it/cgi-bin/sncat.php",
-                "alias": "1",
-                "secondary": true
-            },
-            {
-                "name": "<a href='http://www.rochesterastronomy.org/snimages/snredshiftall.html'>Latest Supernovae</a>",
-                "alias": "2",
-                "secondary": true
-            },
-            {
-                "name": "<a href='http://www.cbat.eps.harvard.edu/iauc/06900/06914.html#Item1'>IAUC 6914</a>",
-                "alias": "3"
-            },
-            {
-                "name": "<a href='http://adsabs.harvard.edu/abs/2012A%26A...538A.120L'>2012A&A...538A.120L</a>",
-                "alias": "4"
-            }
-        ],
-        "discoverday": "30",
-        "discoverer": "Eric Emsellem",
-        "discovermonth": "3",
-        "discoveryear": "1998",
-        "galdec": "+275825",
-        "galra": "110311",
-        "host": "NGC 3504",
-        "hvel": "1518",
-        "lumdist": "22.552",
-        "maxabsmag": "-16.7659",
-        "maxappmag": "15",
-        "maxday": "30",
-        "maxmonth": "3",
-        "maxyear": "1998",
-        "redshift": "0.005076",
-        "sndec": "+27:58:21.0",
-        "snra": "11:03:11.21",
-        "photometry": [
-            {
-                "timeunit": "MJD",
-                "time": "50902.5",
-                "band": "",
-                "abmag": "15.0",
-                "source": "3,2"
-            }
-        ]
-    }
+	"SN1998cf":{
+		"name":"SN1998cf",
+		"aliases":[
+			"SN1998cf"
+		],
+		"sources":[
+			{
+				"name":"Asiago Supernova Catalogue",
+				"url":"http://graspa.oapd.inaf.it/cgi-bin/sncat.php",
+				"alias":"1",
+				"secondary":true
+			},
+			{
+				"name":"IAUC 6914",
+				"url":"http://www.cbat.eps.harvard.edu/iauc/06900/06914.html#Item1",
+				"alias":"2"
+			},
+			{
+				"name":"Latest Supernovae",
+				"url":"http://www.rochesterastronomy.org/snimages/snredshiftall.html",
+				"alias":"3",
+				"secondary":true
+			},
+			{
+				"name":"2012A&A...538A.120L",
+				"url":"http://adsabs.harvard.edu/abs/2012A&A...538A.120L",
+				"bibcode":"2012A&A...538A.120L",
+				"alias":"4"
+			}
+		],
+		"discoverday":"30",
+		"discoverer":"Eric Emsellem",
+		"discovermonth":"3",
+		"discoveryear":"1998",
+		"galdec":[
+			{
+				"value":"+27:58:25",
+				"source":"1"
+			}
+		],
+		"galra":[
+			{
+				"value":"11:03:11",
+				"source":"1"
+			}
+		],
+		"host":[
+			{
+				"value":"NGC 3504",
+				"source":"1,2,3,4"
+			}
+		],
+		"hvel":[
+			{
+				"value":"1518",
+				"source":"1"
+			}
+		],
+		"lumdist":[
+			{
+				"value":"14",
+				"source":"4"
+			}
+		],
+		"maxabsmag":"-16",
+		"maxappmag":"15",
+		"maxday":"30",
+		"maxmonth":"3",
+		"maxyear":"1998",
+		"redshift":[
+			{
+				"value":"0.0051",
+				"source":"4"
+			}
+		],
+		"sndec":[
+			{
+				"value":"+27:58:21.0",
+				"source":"1,2,3"
+			}
+		],
+		"snra":[
+			{
+				"value":"11:03:11.21",
+				"source":"1,2,3"
+			}
+		],
+		"photometry":[
+			{
+				"timeunit":"MJD",
+				"time":"50902.5",
+				"band":"",
+				"abmag":"15.0",
+				"source":"2,3"
+			}
+		]
+	}
 }

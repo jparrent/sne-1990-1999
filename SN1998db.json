@@ -1,50 +1,80 @@
 {
-    "SN1998db": {
-        "name": "SN1998db",
-        "aliases": [
-            "SN1998db"
-        ],
-        "sources": [
-            {
-                "name": "http://graspa.oapd.inaf.it/cgi-bin/sncat.php",
-                "alias": "1",
-                "secondary": true
-            },
-            {
-                "name": "<a href='http://www.rochesterastronomy.org/snimages/snredshiftall.html'>Latest Supernovae</a>",
-                "alias": "2",
-                "secondary": true
-            },
-            {
-                "name": "<a href='http://www.cbat.eps.harvard.edu/iauc/06900/06972.html'>IAUC 6972</a>",
-                "alias": "3"
-            },
-            {
-                "name": "<a href='http://adsabs.harvard.edu/abs/2012A%26A...538A.120L'>2012A&A...538A.120L</a>",
-                "alias": "4"
-            }
-        ],
-        "discoverday": "30",
-        "discoverer": "EROS",
-        "discovermonth": "6",
-        "discoveryear": "1998",
-        "galdec": "-392629",
-        "galra": "225554",
-        "host": "A225554-3926",
-        "maxappmag": "19.4",
-        "maxday": "30",
-        "maxmonth": "6",
-        "maxyear": "1998",
-        "sndec": "-39:26:29.8",
-        "snra": "22:55:54.64",
-        "photometry": [
-            {
-                "timeunit": "MJD",
-                "time": "50994.5",
-                "band": "",
-                "abmag": "19.4",
-                "source": "3,2"
-            }
-        ]
-    }
+	"SN1998db":{
+		"name":"SN1998db",
+		"aliases":[
+			"SN1998db"
+		],
+		"sources":[
+			{
+				"name":"Asiago Supernova Catalogue",
+				"url":"http://graspa.oapd.inaf.it/cgi-bin/sncat.php",
+				"alias":"1",
+				"secondary":true
+			},
+			{
+				"name":"IAUC 6972",
+				"url":"http://www.cbat.eps.harvard.edu/iauc/06900/06972.html",
+				"alias":"2"
+			},
+			{
+				"name":"Latest Supernovae",
+				"url":"http://www.rochesterastronomy.org/snimages/snredshiftall.html",
+				"alias":"3",
+				"secondary":true
+			},
+			{
+				"name":"2012A&A...538A.120L",
+				"url":"http://adsabs.harvard.edu/abs/2012A&A...538A.120L",
+				"bibcode":"2012A&A...538A.120L",
+				"alias":"4"
+			}
+		],
+		"discoverday":"30",
+		"discoverer":"EROS",
+		"discovermonth":"6",
+		"discoveryear":"1998",
+		"galdec":[
+			{
+				"value":"-39:26:29",
+				"source":"1"
+			}
+		],
+		"galra":[
+			{
+				"value":"22:55:54",
+				"source":"1"
+			}
+		],
+		"host":[
+			{
+				"value":"A225554-3926",
+				"source":"1"
+			}
+		],
+		"maxappmag":"19.4",
+		"maxday":"30",
+		"maxmonth":"6",
+		"maxyear":"1998",
+		"sndec":[
+			{
+				"value":"-39:26:29.8",
+				"source":"1,2,3"
+			}
+		],
+		"snra":[
+			{
+				"value":"22:55:54.64",
+				"source":"1,2,3"
+			}
+		],
+		"photometry":[
+			{
+				"timeunit":"MJD",
+				"time":"50994.5",
+				"band":"",
+				"abmag":"19.4",
+				"source":"2,3"
+			}
+		]
+	}
 }

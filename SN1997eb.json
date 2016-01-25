@@ -1,60 +1,109 @@
 {
-    "SN1997eb": {
-        "name": "SN1997eb",
-        "aliases": [
-            "SN1997eb"
-        ],
-        "sources": [
-            {
-                "name": "http://graspa.oapd.inaf.it/cgi-bin/sncat.php",
-                "alias": "1",
-                "secondary": true
-            },
-            {
-                "name": "<a href='http://www.rochesterastronomy.org/snimages/snredshiftall.html'>Latest Supernovae</a>",
-                "alias": "2",
-                "secondary": true
-            },
-            {
-                "name": "<a href='http://www.cbat.eps.harvard.edu/iauc/06700/06782.html'>IAUC 6782</a>",
-                "alias": "3"
-            },
-            {
-                "name": "<a href='http://adsabs.harvard.edu/abs/2012A%26A...538A.120L'>2012A&A...538A.120L</a>",
-                "alias": "4"
-            }
-        ],
-        "claimedtype": [
-            {
-                "type": "II",
-                "source": "1"
-            }
-        ],
-        "discoverday": "18",
-        "discoverer": "EROS",
-        "discovermonth": "11",
-        "discoveryear": "1997",
-        "galdec": "-033638",
-        "galra": "025300",
-        "host": "A025300-0336",
-        "hvel": "25500",
-        "lumdist": "420",
-        "maxabsmag": "-17.1",
-        "maxappmag": "21",
-        "maxday": "18",
-        "maxmonth": "11",
-        "maxyear": "1997",
-        "redshift": "0.089",
-        "sndec": "-03:36:38.1",
-        "snra": "02:53:00.15",
-        "photometry": [
-            {
-                "timeunit": "MJD",
-                "time": "50770.5",
-                "band": "",
-                "abmag": "21.0",
-                "source": "3,2"
-            }
-        ]
-    }
+	"SN1997eb":{
+		"name":"SN1997eb",
+		"aliases":[
+			"SN1997eb"
+		],
+		"sources":[
+			{
+				"name":"Asiago Supernova Catalogue",
+				"url":"http://graspa.oapd.inaf.it/cgi-bin/sncat.php",
+				"alias":"1",
+				"secondary":true
+			},
+			{
+				"name":"IAUC 6782",
+				"url":"http://www.cbat.eps.harvard.edu/iauc/06700/06782.html",
+				"alias":"2"
+			},
+			{
+				"name":"Latest Supernovae",
+				"url":"http://www.rochesterastronomy.org/snimages/snredshiftall.html",
+				"alias":"3",
+				"secondary":true
+			},
+			{
+				"name":"2012A&A...538A.120L",
+				"url":"http://adsabs.harvard.edu/abs/2012A&A...538A.120L",
+				"bibcode":"2012A&A...538A.120L",
+				"alias":"4"
+			}
+		],
+		"claimedtype":[
+			{
+				"value":"II",
+				"source":"1"
+			}
+		],
+		"discoverday":"18",
+		"discoverer":"EROS",
+		"discovermonth":"11",
+		"discoveryear":"1997",
+		"galdec":[
+			{
+				"value":"-03:36:38",
+				"source":"1"
+			}
+		],
+		"galra":[
+			{
+				"value":"02:53:00",
+				"source":"1"
+			}
+		],
+		"host":[
+			{
+				"value":"A025300-0336",
+				"source":"1"
+			},
+			{
+				"value":"(APMUKS(BJ)B025029.52-34853.3)",
+				"source":"4"
+			}
+		],
+		"hvel":[
+			{
+				"value":"25500",
+				"source":"1"
+			}
+		],
+		"lumdist":[
+			{
+				"value":"400",
+				"source":"D"
+			}
+		],
+		"maxabsmag":"-17",
+		"maxappmag":"21",
+		"maxday":"18",
+		"maxmonth":"11",
+		"maxyear":"1997",
+		"redshift":[
+			{
+				"value":"0.085",
+				"source":"4"
+			}
+		],
+		"sndec":[
+			{
+				"value":"-03:36:38.1",
+				"source":"1,2,3"
+			}
+		],
+		"snra":[
+			{
+				"value":"02:53:00.15",
+				"source":"1,2,3"
+			}
+		],
+		"photometry":[
+			{
+				"timeunit":"MJD",
+				"time":"50770.5",
+				"band":"",
+				"abmag":"21.0",
+				"source":"2,3"
+			}
+		]
+	}
 }

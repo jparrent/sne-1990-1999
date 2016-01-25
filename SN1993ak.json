@@ -1,54 +1,107 @@
 {
-    "SN1993ak": {
-        "name": "SN1993ak",
-        "aliases": [
-            "SN1993ak"
-        ],
-        "sources": [
-            {
-                "name": "http://graspa.oapd.inaf.it/cgi-bin/sncat.php",
-                "alias": "1",
-                "secondary": true
-            },
-            {
-                "name": "<a href='http://www.rochesterastronomy.org/snimages/snredshiftall.html'>Latest Supernovae</a>",
-                "alias": "2",
-                "secondary": true
-            },
-            {
-                "name": "<a href='http://www.cbat.eps.harvard.edu/iauc/06000/06000.html'>IAUC 6000</a>",
-                "alias": "3"
-            },
-            {
-                "name": "<a href='http://adsabs.harvard.edu/abs/2012A%26A...538A.120L'>2012A&A...538A.120L</a>",
-                "alias": "4"
-            }
-        ],
-        "discoverday": "29",
-        "discoverer": "Meusinger",
-        "discovermonth": "3",
-        "discoveryear": "1993",
-        "galdec": "+302012",
-        "galra": "134309",
-        "host": "UGC 8685",
-        "hvel": "10420",
-        "lumdist": "160.748",
-        "maxabsmag": "-19.5307",
-        "maxappmag": "16.5",
-        "maxday": "29",
-        "maxmonth": "3",
-        "maxyear": "1993",
-        "redshift": "0.03537",
-        "sndec": "+30:20:12.5",
-        "snra": "13:43:10.96",
-        "photometry": [
-            {
-                "timeunit": "MJD",
-                "time": "49075.5",
-                "band": "",
-                "abmag": "16.5",
-                "source": "3,2"
-            }
-        ]
-    }
+	"SN1993ak":{
+		"name":"SN1993ak",
+		"aliases":[
+			"SN1993ak"
+		],
+		"sources":[
+			{
+				"name":"Asiago Supernova Catalogue",
+				"url":"http://graspa.oapd.inaf.it/cgi-bin/sncat.php",
+				"alias":"1",
+				"secondary":true
+			},
+			{
+				"name":"IAUC 6000",
+				"url":"http://www.cbat.eps.harvard.edu/iauc/06000/06000.html",
+				"alias":"2"
+			},
+			{
+				"name":"Latest Supernovae",
+				"url":"http://www.rochesterastronomy.org/snimages/snredshiftall.html",
+				"alias":"3",
+				"secondary":true
+			},
+			{
+				"name":"2012A&A...538A.120L",
+				"url":"http://adsabs.harvard.edu/abs/2012A&A...538A.120L",
+				"bibcode":"2012A&A...538A.120L",
+				"alias":"4"
+			}
+		],
+		"discoverday":"29",
+		"discoverer":"Meusinger",
+		"discovermonth":"3",
+		"discoveryear":"1993",
+		"galdec":[
+			{
+				"value":"+30:20:12",
+				"source":"1"
+			}
+		],
+		"galra":[
+			{
+				"value":"13:43:09",
+				"source":"1"
+			}
+		],
+		"host":[
+			{
+				"value":"UGC 8685",
+				"source":"1,2,3,4"
+			}
+		],
+		"hvel":[
+			{
+				"value":"10417",
+				"source":"1"
+			}
+		],
+		"lumdist":[
+			{
+				"value":"160",
+				"source":"D"
+			}
+		],
+		"maxabsmag":"-20",
+		"maxappmag":"16.5",
+		"maxday":"29",
+		"maxmonth":"3",
+		"maxyear":"1993",
+		"redshift":[
+			{
+				"value":"0.035",
+				"source":"4"
+			}
+		],
+		"sndec":[
+			{
+				"value":"+30:20:12.36",
+				"source":"1"
+			},
+			{
+				"value":"+30:20:12.5",
+				"source":"2,3"
+			}
+		],
+		"snra":[
+			{
+				"value":"13:43:10.92",
+				"source":"1"
+			},
+			{
+				"value":"13:43:10.96",
+				"source":"2,3"
+			}
+		],
+		"photometry":[
+			{
+				"timeunit":"MJD",
+				"time":"49075.5",
+				"band":"",
+				"abmag":"16.5",
+				"source":"2,3"
+			}
+		]
+	}
 }

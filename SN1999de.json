@@ -1,37 +1,83 @@
 {
-    "SN1999de": {
-        "name": "SN1999de",
-        "aliases": [
-            "SN1999de"
-        ],
-        "sources": [
-            {
-                "name": "http://graspa.oapd.inaf.it/cgi-bin/sncat.php",
-                "alias": "1",
-                "secondary": true
-            },
-            {
-                "name": "<a href='http://adsabs.harvard.edu/abs/2012A%26A...538A.120L'>2012A&A...538A.120L</a>",
-                "alias": "2"
-            }
-        ],
-        "discoverday": "11",
-        "discoverer": "Gal-Yam, Maoz",
-        "discovermonth": 7,
-        "discoveryear": "1999",
-        "galdec": "+232356",
-        "galra": "002228",
-        "host": "A002228+2323",
-        "sndec": "+232356.2",
-        "snra": "002228.20",
-        "photometry": [
-            {
-                "timeunit": "MJD",
-                "time": "51370.0",
-                "band": "R",
-                "abmag": "21.2",
-                "source": "2"
-            }
-        ]
-    }
+	"SN1999de":{
+		"name":"SN1999de",
+		"aliases":[
+			"SN1999de"
+		],
+		"sources":[
+			{
+				"name":"Asiago Supernova Catalogue",
+				"url":"http://graspa.oapd.inaf.it/cgi-bin/sncat.php",
+				"alias":"1",
+				"secondary":true
+			},
+			{
+				"name":"2012A&A...538A.120L",
+				"url":"http://adsabs.harvard.edu/abs/2012A&A...538A.120L",
+				"bibcode":"2012A&A...538A.120L",
+				"alias":"2"
+			}
+		],
+		"discoverday":"11",
+		"discoverer":"Gal-Yam, Maoz",
+		"discovermonth":7,
+		"discoveryear":"1999",
+		"galdec":[
+			{
+				"value":"+23:23:56",
+				"source":"1"
+			}
+		],
+		"galra":[
+			{
+				"value":"00:22:28",
+				"source":"1"
+			}
+		],
+		"host":[
+			{
+				"value":"A002228+2323",
+				"source":"1"
+			}
+		],
+		"hvel":[
+			{
+				"value":"36000",
+				"source":"D"
+			}
+		],
+		"lumdist":[
+			{
+				"value":"630",
+				"source":"D"
+			}
+		],
+		"redshift":[
+			{
+				"value":"0.13",
+				"source":"2"
+			}
+		],
+		"sndec":[
+			{
+				"value":"+23:23:56.2",
+				"source":"1"
+			}
+		],
+		"snra":[
+			{
+				"value":"00:22:28.20",
+				"source":"1"
+			}
+		],
+		"photometry":[
+			{
+				"timeunit":"MJD",
+				"time":"51370.0",
+				"band":"R",
+				"abmag":"21.2",
+				"source":"2"
+			}
+		]
+	}
 }

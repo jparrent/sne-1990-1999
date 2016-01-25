@@ -1,60 +1,100 @@
 {
-    "SN1997cm": {
-        "name": "SN1997cm",
-        "aliases": [
-            "SN1997cm"
-        ],
-        "sources": [
-            {
-                "name": "http://graspa.oapd.inaf.it/cgi-bin/sncat.php",
-                "alias": "1",
-                "secondary": true
-            },
-            {
-                "name": "<a href='http://www.rochesterastronomy.org/snimages/snredshiftall.html'>Latest Supernovae</a>",
-                "alias": "2",
-                "secondary": true
-            },
-            {
-                "name": "<a href='http://www.cbat.eps.harvard.edu/iauc/06600/06654.html'>IAUC 6654</a>",
-                "alias": "3"
-            },
-            {
-                "name": "<a href='http://adsabs.harvard.edu/abs/2012A%26A...538A.120L'>2012A&A...538A.120L</a>",
-                "alias": "4"
-            }
-        ],
-        "claimedtype": [
-            {
-                "type": "?",
-                "source": "1"
-            }
-        ],
-        "discoverday": "5",
-        "discoverer": "Mount Stromlo",
-        "discovermonth": "5",
-        "discoveryear": "1997",
-        "galdec": "-284848",
-        "galra": "125337",
-        "host": "A125337-2848",
-        "hvel": "21000",
-        "lumdist": "341",
-        "maxabsmag": "-17.1",
-        "maxappmag": "20.6",
-        "maxday": "5",
-        "maxmonth": "5",
-        "maxyear": "1997",
-        "redshift": "0.073",
-        "sndec": "-28:48:48.5",
-        "snra": "12:53:37.03",
-        "photometry": [
-            {
-                "timeunit": "MJD",
-                "time": "50573.5",
-                "band": "",
-                "abmag": "20.6",
-                "source": "3,2"
-            }
-        ]
-    }
+	"SN1997cm":{
+		"name":"SN1997cm",
+		"aliases":[
+			"SN1997cm"
+		],
+		"sources":[
+			{
+				"name":"Asiago Supernova Catalogue",
+				"url":"http://graspa.oapd.inaf.it/cgi-bin/sncat.php",
+				"alias":"1",
+				"secondary":true
+			},
+			{
+				"name":"IAUC 6654",
+				"url":"http://www.cbat.eps.harvard.edu/iauc/06600/06654.html",
+				"alias":"2"
+			},
+			{
+				"name":"Latest Supernovae",
+				"url":"http://www.rochesterastronomy.org/snimages/snredshiftall.html",
+				"alias":"3",
+				"secondary":true
+			},
+			{
+				"name":"2012A&A...538A.120L",
+				"url":"http://adsabs.harvard.edu/abs/2012A&A...538A.120L",
+				"bibcode":"2012A&A...538A.120L",
+				"alias":"4"
+			}
+		],
+		"claimedtype":[],
+		"discoverday":"5",
+		"discoverer":"Mount Stromlo",
+		"discovermonth":"5",
+		"discoveryear":"1997",
+		"galdec":[
+			{
+				"value":"-28:48:48",
+				"source":"1"
+			}
+		],
+		"galra":[
+			{
+				"value":"12:53:37",
+				"source":"1"
+			}
+		],
+		"host":[
+			{
+				"value":"A125337-2848",
+				"source":"1"
+			}
+		],
+		"hvel":[
+			{
+				"value":"21000",
+				"source":"1"
+			}
+		],
+		"lumdist":[
+			{
+				"value":"300",
+				"source":"D"
+			}
+		],
+		"maxabsmag":"-20",
+		"maxappmag":"20.6",
+		"maxday":"5",
+		"maxmonth":"5",
+		"maxyear":"1997",
+		"redshift":[
+			{
+				"value":"0.07",
+				"source":"4"
+			}
+		],
+		"sndec":[
+			{
+				"value":"-28:48:48.5",
+				"source":"1,2,3"
+			}
+		],
+		"snra":[
+			{
+				"value":"12:53:37.03",
+				"source":"1,2,3"
+			}
+		],
+		"photometry":[
+			{
+				"timeunit":"MJD",
+				"time":"50573.5",
+				"band":"",
+				"abmag":"20.6",
+				"source":"2,3"
+			}
+		]
+	}
 }

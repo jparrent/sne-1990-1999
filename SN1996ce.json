@@ -1,54 +1,107 @@
 {
-    "SN1996ce": {
-        "name": "SN1996ce",
-        "aliases": [
-            "SN1996ce"
-        ],
-        "sources": [
-            {
-                "name": "http://graspa.oapd.inaf.it/cgi-bin/sncat.php",
-                "alias": "1",
-                "secondary": true
-            },
-            {
-                "name": "<a href='http://www.rochesterastronomy.org/snimages/snredshiftall.html'>Latest Supernovae</a>",
-                "alias": "2",
-                "secondary": true
-            },
-            {
-                "name": "<a href='http://www.cbat.eps.harvard.edu/iauc/06500/06548.html'>IAUC 6548</a>",
-                "alias": "3"
-            },
-            {
-                "name": "<a href='http://adsabs.harvard.edu/abs/2012A%26A...538A.120L'>2012A&A...538A.120L</a>",
-                "alias": "4"
-            }
-        ],
-        "discoverday": "15",
-        "discoverer": "Christian Pollas",
-        "discovermonth": "12",
-        "discoveryear": "1996",
-        "galdec": "+301551",
-        "galra": "131615",
-        "host": "MCG +5-31-167",
-        "hvel": "14640",
-        "lumdist": "230.06",
-        "maxabsmag": "-18.809",
-        "maxappmag": "18",
-        "maxday": "15",
-        "maxmonth": "12",
-        "maxyear": "1996",
-        "redshift": "0.05009",
-        "sndec": "+30:15:52.6",
-        "snra": "13:16:15.47",
-        "photometry": [
-            {
-                "timeunit": "MJD",
-                "time": "50432.5",
-                "band": "",
-                "abmag": "18.0",
-                "source": "3,2"
-            }
-        ]
-    }
+	"SN1996ce":{
+		"name":"SN1996ce",
+		"aliases":[
+			"SN1996ce"
+		],
+		"sources":[
+			{
+				"name":"Asiago Supernova Catalogue",
+				"url":"http://graspa.oapd.inaf.it/cgi-bin/sncat.php",
+				"alias":"1",
+				"secondary":true
+			},
+			{
+				"name":"IAUC 6548",
+				"url":"http://www.cbat.eps.harvard.edu/iauc/06500/06548.html",
+				"alias":"2"
+			},
+			{
+				"name":"Latest Supernovae",
+				"url":"http://www.rochesterastronomy.org/snimages/snredshiftall.html",
+				"alias":"3",
+				"secondary":true
+			},
+			{
+				"name":"2012A&A...538A.120L",
+				"url":"http://adsabs.harvard.edu/abs/2012A&A...538A.120L",
+				"bibcode":"2012A&A...538A.120L",
+				"alias":"4"
+			}
+		],
+		"discoverday":"15",
+		"discoverer":"Christian Pollas",
+		"discovermonth":"12",
+		"discoveryear":"1996",
+		"galdec":[
+			{
+				"value":"+30:15:51",
+				"source":"1"
+			}
+		],
+		"galra":[
+			{
+				"value":"13:16:15",
+				"source":"1"
+			}
+		],
+		"host":[
+			{
+				"value":"Mrk785",
+				"source":"1"
+			},
+			{
+				"value":"MCG +5-31-167",
+				"source":"2,3"
+			},
+			{
+				"value":"PGC46184",
+				"source":"4"
+			}
+		],
+		"hvel":[
+			{
+				"value":"14640",
+				"source":"1"
+			}
+		],
+		"lumdist":[
+			{
+				"value":"220",
+				"source":"D"
+			}
+		],
+		"maxabsmag":"-19",
+		"maxappmag":"18",
+		"maxday":"15",
+		"maxmonth":"12",
+		"maxyear":"1996",
+		"redshift":[
+			{
+				"value":"0.049",
+				"source":"4"
+			}
+		],
+		"sndec":[
+			{
+				"value":"+30:15:52.6",
+				"source":"1,2,3"
+			}
+		],
+		"snra":[
+			{
+				"value":"13:16:15.47",
+				"source":"1,2,3"
+			}
+		],
+		"photometry":[
+			{
+				"timeunit":"MJD",
+				"time":"50432.5",
+				"band":"",
+				"abmag":"18.0",
+				"source":"2,3"
+			}
+		]
+	}
 }

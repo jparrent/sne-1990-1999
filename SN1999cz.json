@@ -1,65 +1,115 @@
 {
-    "SN1999cz": {
-        "name": "SN1999cz",
-        "aliases": [
-            "SN1999cz"
-        ],
-        "sources": [
-            {
-                "name": "<a href='http://dau.itep.ru/sn/node/72'>Sternberg Astronomical Institute Supernova Light Curve Catalogue</a>",
-                "alias": "1",
-                "secondary": true
-            },
-            {
-                "name": "VSNET 2001",
-                "alias": "2"
-            },
-            {
-                "name": "http://graspa.oapd.inaf.it/cgi-bin/sncat.php",
-                "alias": "3",
-                "secondary": true
-            },
-            {
-                "name": "<a href='http://www.rochesterastronomy.org/snimages/snredshiftall.html'>Latest Supernovae</a>",
-                "alias": "4",
-                "secondary": true
-            },
-            {
-                "name": "<a href='http://adsabs.harvard.edu/abs/2012A%26A...538A.120L'>2012A&A...538A.120L</a>",
-                "alias": "5"
-            }
-        ],
-        "claimedtype": [
-            {
-                "type": "Ic",
-                "source": "3,4"
-            }
-        ],
-        "discoverday": "21",
-        "discoverer": "Perth Astronomical Research Group",
-        "discovermonth": "6",
-        "discoveryear": "1999",
-        "galdec": "-272432",
-        "galra": "131950",
-        "host": "NGC 5078",
-        "hvel": "2157",
-        "lumdist": "32.1343",
-        "maxabsmag": "-16.5348",
-        "maxappmag": "16",
-        "maxday": "21",
-        "maxmonth": "6",
-        "maxyear": "1999",
-        "redshift": "0.007221",
-        "sndec": "-27:24:04.5",
-        "snra": "13:19:48.53",
-        "photometry": [
-            {
-                "timeunit": "MJD",
-                "time": "51350.53",
-                "band": "C",
-                "abmag": "16",
-                "source": "1,2"
-            }
-        ]
-    }
+	"SN1999cz":{
+		"name":"SN1999cz",
+		"aliases":[
+			"SN1999cz"
+		],
+		"sources":[
+			{
+				"name":"Sternberg Astronomical Institute Supernova Light Curve Catalogue",
+				"url":"http://dau.itep.ru/sn/node/72",
+				"alias":"1",
+				"secondary":true
+			},
+			{
+				"name":"VSNET 2001",
+				"alias":"2"
+			},
+			{
+				"name":"Asiago Supernova Catalogue",
+				"url":"http://graspa.oapd.inaf.it/cgi-bin/sncat.php",
+				"alias":"3",
+				"secondary":true
+			},
+			{
+				"name":"IAUC 7214",
+				"url":"http://www.cbat.eps.harvard.edu/iauc/07200/07214.html#Item1",
+				"alias":"4"
+			},
+			{
+				"name":"Latest Supernovae",
+				"url":"http://www.rochesterastronomy.org/snimages/snredshiftall.html",
+				"alias":"5",
+				"secondary":true
+			},
+			{
+				"name":"2012A&A...538A.120L",
+				"url":"http://adsabs.harvard.edu/abs/2012A&A...538A.120L",
+				"bibcode":"2012A&A...538A.120L",
+				"alias":"6"
+			}
+		],
+		"claimedtype":[
+			{
+				"value":"Ic",
+				"source":"3,4,5"
+			}
+		],
+		"discoverday":"21",
+		"discoverer":"Perth Astronomical Research Group",
+		"discovermonth":"6",
+		"discoveryear":"1999",
+		"galdec":[
+			{
+				"value":"-27:24:32",
+				"source":"3"
+			}
+		],
+		"galra":[
+			{
+				"value":"13:19:50",
+				"source":"3"
+			}
+		],
+		"host":[
+			{
+				"value":"NGC 5078",
+				"source":"3,4,5,6"
+			}
+		],
+		"hvel":[
+			{
+				"value":"2157",
+				"source":"3"
+			}
+		],
+		"lumdist":[
+			{
+				"value":"32",
+				"source":"D"
+			}
+		],
+		"maxabsmag":"-17",
+		"maxappmag":"16",
+		"maxday":"21",
+		"maxmonth":"6",
+		"maxyear":"1999",
+		"redshift":[
+			{
+				"value":"0.0072",
+				"source":"6"
+			}
+		],
+		"sndec":[
+			{
+				"value":"-27:24:04.5",
+				"source":"3,4,5"
+			}
+		],
+		"snra":[
+			{
+				"value":"13:19:48.53",
+				"source":"3,4,5"
+			}
+		],
+		"photometry":[
+			{
+				"timeunit":"MJD",
+				"time":"51350.53",
+				"band":"C",
+				"abmag":"16",
+				"source":"1,2"
+			}
+		]
+	}
 }
